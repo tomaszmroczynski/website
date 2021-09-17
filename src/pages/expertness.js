@@ -1,0 +1,172 @@
+import React, { useState, useEffect, Component } from "react";
+import { withRouter } from "react-router-dom";
+
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { Trans } from "react-i18next";
+
+import { LinkWrap, Overlay } from "../styles/Work.styles";
+
+class CustomSlide extends Component {
+  render() {
+    const { index, ...props } = this.props;
+    return <div {...props}></div>;
+  }
+}
+const Expertness = ({ history }) => {
+  const [toCase, setCase] = useState("");
+  const [coord, setCoords] = useState();
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    autoPlay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 5000,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+  useEffect(() => {
+    toCase &&
+      setTimeout(() => {
+        history.push(toCase);
+      }, 600);
+  }, [toCase, history]);
+
+  const handleCaseSwap = (e, uri) =>
+    e.x < coord + 15 && e.x > coord - 15 && setCase(uri);
+
+  return (
+    <div className="slick">
+      <Slider {...settings}>
+        <LinkWrap active={toCase === "/detailcase4"}>
+          <Overlay
+            active={!!toCase}
+            onMouseDown={(e) => setCoords(e.nativeEvent.x)}
+            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase4")}
+          >
+            <CustomSlide className="itm" index={1}>
+              <div className="bg">
+                <img
+                  src="./img/feature/img1.jpg"
+                  className="img-fluid"
+                  alt="Imageteam"
+                />
+              </div>
+              <div className="desc">
+                <div className="namet"></div>
+                <div className="content">
+                <span className="namet"><Trans i18nKey="expertness.1800"></Trans></span><Trans i18nKey="expertness.1801"></Trans>
+                </div>
+                <div className="icon">
+                  <span><Trans i18nKey="expertness.1802"></Trans></span>
+                </div>
+              </div>
+            </CustomSlide>
+          </Overlay>
+        </LinkWrap>
+
+        <LinkWrap active={toCase === "/detailcase5"}>
+          <Overlay
+            active={!!toCase}
+            onMouseDown={(e) => setCoords(e.nativeEvent.x)}
+            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase5")}
+          >
+            <CustomSlide className="itm" index={2}>
+              <div className="bg">
+                <img
+                  src="./img/feature/img2.jpg"
+                  className="img-fluid"
+                  alt="Imageteam"
+                />
+              </div>
+              <div className="desc">
+                <div className="namet"></div>
+                <div className="content"><span className="namet"><Trans i18nKey="expertness.1803"></Trans></span><Trans i18nKey="expertness.1804"></Trans>
+                 
+                </div>
+                <div className="icon">
+                  <span><Trans i18nKey="expertness.1805"></Trans></span>
+                </div>
+              </div>
+            </CustomSlide>
+          </Overlay>
+        </LinkWrap>
+
+        <LinkWrap active={toCase === "/detailcase6"}>
+          <Overlay
+            active={!!toCase}
+            onMouseDown={(e) => setCoords(e.nativeEvent.x)}
+            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase6")}
+          >
+            <CustomSlide className="itm" index={3}>
+              <div className="bg">
+                <img
+                  src="./img/feature/img5.jpg"
+                  className="img-fluid"
+                  alt="Imageteam"
+                />
+              </div>
+              <div className="desc">
+                <div className="namet"></div>
+                <div className="content"><span className="namet"><Trans i18nKey="expertness.1806"></Trans></span><Trans i18nKey="expertness.1807"></Trans>
+                  
+                </div>
+                <div className="icon">
+                  <span><Trans i18nKey="expertness.1808"></Trans></span>
+                </div>
+              </div>
+            </CustomSlide>
+          </Overlay>
+        </LinkWrap>
+      </Slider>
+    </div>
+  );
+};
+
+export default withRouter(Expertness);
