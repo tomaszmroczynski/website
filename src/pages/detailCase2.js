@@ -87,9 +87,9 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                  <p className="content"><Trans i18nKey={"detailCase2.2918"}></Trans></p>
-                  <p className="content"><Trans i18nKey={"detailCase2.3405"}></Trans></p>
-                  <p className="content"><Trans i18nKey={"detailCase2.3406"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"detailCase2.2917"}></Trans></span><Trans i18nKey={"detailCase2.2918"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"detailCase2.3404"}></Trans></span><Trans i18nKey={"detailCase2.3405"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"detailCase2.3407"}></Trans></span><Trans i18nKey={"detailCase2.3406"}></Trans></p>
                 </div>
                 <div className="col-md-4 sticky">
                   <ul className="detailproject">
