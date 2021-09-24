@@ -89,6 +89,7 @@ class Case extends Component {
                 <div className="col-md-8">
                   <p className="content"><Trans i18nKey={"detailCase2.2918"}></Trans></p>
                   <p className="content"><Trans i18nKey={"detailCase2.3405"}></Trans></p>
+                  <p className="content"><Trans i18nKey={"detailCase2.3406"}></Trans></p>
                 </div>
                 <div className="col-md-4 sticky">
                   <ul className="detailproject">
