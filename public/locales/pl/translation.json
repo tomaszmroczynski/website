@@ -53,10 +53,13 @@
     "2137": "Powrót",
     "2213": "WNĘTRZE",
     "2260": "Dom prywatny dla 3 osobowej rodziny",
-    "2321": "Przedstawiam projekt totalnej metamorfozy domu z lat '70-tych. Właścicielami jest młode małżeństwo z małym dzieckiem. ",
-    "2918": "SALON: sporą powierzchnię salonu podzielono na strefę wypoczynkową oraz jadalnię.  Wnętrze salonu i jadalni jest nowoczesne, wystrojem nawiązujące jednak do natury:  tapeta z motywem liści, drewniana podłoga i meble,stara cegła przy ścianie z kominkiem, skórzane sofy - sprawiają,że wnętrze jest przytulne i bardzo komfortowe-idealne dla młodej rodziny.",
-    "3405": "SYPIALNIA: ta realizacja projektu przedstawia, jak  niewielki remont może spowodować ogromne zmiany. Z nieestetycznego i niekomfortowego pomieszczenia , stała się idealnym miejscem do odpoczynku i relaksu. Ten projekt jest doskonałym przykładem HOME STAGINGU- gdzie odmalowanie ścian, zawieszenie pięknych zasłon, postawienie nocnych stolików, zamontowanie drewnianego wezgłowia i dodanie dekoracji sprawiają, że sypialnia stała się przytulna, elegancka a przy okazji podnosi wartość nieruchomości. TOALETA. Mała toaleta i ciemny kolor na ścianach? Dlaczego nie?! Tutaj przedstawiam realizaję projektu małej toalety, któa mimo, że jest bardzo mała -przeszła totalną przemianę. Na ścianach zastosowałam płyty OSB 3D. Te białe płyty optycznie poszerzają pomieszczenie. Ciemne ściany i sufit sprawiają, że pomieszczenie wydaje się wyższe niż jest w rzeczywistości. Na podłodze winyl",
-    "3406": "SYPIALNIA: ta realizacja projektu przedstawia, jak  niewielki remont może spowodować ogromne zmiany. Z nieestetycznego i niekomfortowego pomieszczenia , stała się idealnym miejscem do odpoczynku i relaksu. Ten projekt jest doskonałym przykładem HOME STAGINGU- gdzie odmalowanie ścian, zawieszenie pięknych zasłon, postawienie nocnych stolików, zamontowanie drewnianego wezgłowia i dodanie dekoracji sprawiają, że sypialnia stała się przytulna, elegancka a przy okazji podnosi wartość nieruchomości. TOALETA. Mała toaleta i ciemny kolor na ścianach? Dlaczego nie?! Tutaj przedstawiam realizaję projektu małej toalety, któa mimo, że jest bardzo mała -przeszła totalną przemianę. Na ścianach zastosowałam płyty OSB 3D. Te białe płyty optycznie poszerzają pomieszczenie. Ciemne ściany i sufit sprawiają, że pomieszczenie wydaje się wyższe niż jest w rzeczywistości. Na podłodze winyl",
+    "2321": "Przedstawiam realizację projektu totalnej metamorfozy domu z lat '70-tych. Właścicielami jest młode małżeństwo z małym dzieckiem. ",
+    "2917": "SALON:",
+    "2918": "sporą powierzchnię salonu podzielono na strefę wypoczynkową oraz jadalnię.  Wnętrze salonu i jadalni jest nowoczesne, wystrojem nawiązujące jednak do natury:  tapeta z motywem liści, drewniana podłoga i meble,stara cegła przy ścianie z kominkiem, skórzane sofy - sprawiają,że wnętrze jest przytulne i bardzo komfortowe-idealne dla młodej rodziny.",
+    "3404": "SYPIALNIA:",
+    "3405": " ta realizacja projektu przedstawia, jak  niewielki remont może spowodować ogromne zmiany. Z nieestetycznego i niekomfortowego pomieszczenia , stała się idealnym miejscem do odpoczynku i relaksu.Ten projekt jest doskonałym przykładem HOME STAGINGU- drobny remotn i dodanie dekoracji sprawiają, że sypialnia stała się przytulna, elegancka a przy okazji podnosi wartość nieruchomości.",
+    "3407": "TOALETA:",
+    "3406": " mała toaleta i ciemny kolor na ścianach? Dlaczego nie?! Tutaj przedstawiam realizaję projektu małej toalety, któa mimo, że jest bardzo mała -przeszła totalną przemianę. Na ścianach zastosowałam płyty OSB 3D. Te białe płyty optycznie poszerzają pomieszczenie. Ciemne ściany i sufit sprawiają, że pomieszczenie wydaje się wyższe niż jest w rzeczywistości.",
     "3912": "Kategorie:",
     "3960": "Wnętrze ",
     "4076": "Klient:",
@@ -196,7 +199,7 @@
   },
   "Abouthome": {
     "1296": "Kilka słów o mnie",
-    "1297": "Z wysztalcenia jestem magistrem inżynierem architektem, z wyboru architektem wnętrz. Wnętrza pochłaniają wieksza część mojego życia. W Alfa Design Studio do waszej dyspozycji oddaję swoją wyorbaźnię, wiedzę i emocje. Do każdego projektu podchodzę z ogromnym zaangażaowaniem, aby projekt wyprzedzał i kreował Wasze oczekiwania.  Wyspecjalizowałam się w poniższych przestrzeniach",
+    "1297": "Z wysztalcenia jestem magistrem inżynierem architektem, z wyboru architektem wnętrz. Wnętrza pochłaniają wieksza część mojego życia. W Alfa Design Studio do Waszej dyspozycji oddaję swoją wyorbaźnię, wiedzę i emocje. Do każdego projektu podchodzę z ogromnym zaangażaowaniem, aby projekt wyprzedzał i kreował Wasze oczekiwania.  Wyspecjalizowałam się w poniższych przestrzeniach",
     "1298": "Projektowanie wnętrz prywatnych ",
     "1299": "Projektowanie wnętrz publicznych",
     "1822": "Dekoracja wnętrz",
@@ -236,13 +239,13 @@
 },
   "expertness": {
     "1800" : "Architektura wnętrz",
-    "1801" : "Jeśli marzy ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń to polecam projekt wnętrz",
+    "1801" : "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- to polecam projekt wnętrz",
     "1802" : "Click",
     "1803" : "Dekorowanie wnętrz",
-    "1804" : "potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu, który przyniesie wielkie zmiany, kilku dekoracji lub mebli które sprawią, że twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku twojej witryny sklepowej? jest to oferta dla Ciebie. ",
+    "1804" : "Potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu, który przyniesie wielkie zmiany? kilku dekoracji lub mebli które sprawią, że Twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku Twojej witryny sklepowej? jest to oferta dla Ciebie. ",
     "1805" : "Click",
     "1806" : "Home Staging",
-    "1807" : "Planujesz sprzedać mieszkanie, dom, lokal za większe pieniądze? chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby twoi goście wracali tu często ? home staging jest idealnym rozwiązaniem.",
+    "1807" : "Planujesz sprzedać mieszkanie, dom, lokal za większe pieniądze? chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby Twoi goście wracali tu często ? HOME STAGING jest idealnym rozwiązaniem.",
     "1808" : "Click"
 }
 }
