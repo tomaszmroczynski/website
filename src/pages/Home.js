@@ -5,7 +5,7 @@ import Slider from "../components/Sliderhome";
 import Abouthome from "../components/Abouthome";
 import Expertness from "../pages/expertness";
 import Carouselprojects from "../components/Carouselprojects";
-
+import { Trans } from "react-i18next";
 import Footer from "../components/Footer";
 import { Efect, Efect1, Efect2 } from "../styles/effect.styles";
 
