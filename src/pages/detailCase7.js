@@ -60,6 +60,7 @@ class Case extends Component {
         <ScrollTop>
           <CaseWrapper>
             <Reveal effect="fadeIn">
+
               <Hero
                 className="mainhero"
               

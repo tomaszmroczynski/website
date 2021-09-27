@@ -61,6 +61,9 @@ export const Hero = styled.section`
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  @media (max-width: 768px) {
+    height: 70vh;;
+  }
 `;
 
 export const ClientTag = styled.h3`

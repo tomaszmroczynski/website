@@ -235,17 +235,20 @@
   },
   "About": {
     "1795": "O mojej pasji",
-    "1796": "Osoby nie majace wczesniejszej stycznosci z architektem wnętrz  kojażą tą dziedzinę sztuki  głównie z modą i prestiżem, natomiast dopowiednio odpowienio skomponowane wnętrza wpływają na nasze emocje. To nasze emocje przesądzają o tym czy jesteśmy szczęsliwi. We wszelkich zmianach jakosciowych życia warto uwzglednić zmiany w codziennym otoczeniu, gdyż to właśnie w nim sprzedzamy większość naszego czasu i ono może pośrenio podświadomie kształtować nasze postawy."
-},
+    "1796": "Osoby nie majace wczesniejszej stycznosci z architektem wnętrz  kojażą tą dziedzinę sztuki  głównie z modą i prestiżem, natomiast dopowiednio odpowienio skomponowane wnętrza wpływają na nasze emocje. To nasze emocje przesądzają o tym czy jesteśmy szczęsliwi. We wszelkich zmianach jakosciowych życia warto uwzglednić zmiany w codziennym otoczeniu, gdyż to właśnie w nim sprzedzamy większość naszego czasu i ono może pośrenio podświadomie kształtować nasze postawy.",
+    "1797": "Moje projekty " ,
+    "1798": "Moja oferta " 
+   
+  },
   "expertness": {
     "1800" : "Architektura wnętrz",
     "1801" : "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- to polecam projekt wnętrz",
-    "1802" : "Click",
+    "1802" : "",
     "1803" : "Dekorowanie wnętrz",
     "1804" : "Potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu, który przyniesie wielkie zmiany? kilku dekoracji lub mebli które sprawią, że Twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku Twojej witryny sklepowej? jest to oferta dla Ciebie. ",
-    "1805" : "Click",
+    "1805" : "",
     "1806" : "Home Staging",
     "1807" : "Planujesz sprzedać mieszkanie, dom, lokal za większe pieniądze? chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby Twoi goście wracali tu często ? HOME STAGING jest idealnym rozwiązaniem.",
-    "1808" : "Click"
+    "1808" : ""
 }
 }
