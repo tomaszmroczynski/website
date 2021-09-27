@@ -247,18 +247,20 @@
     },
   "About": {
     "1795": "About my passion",
-    "1796": "People who have no previous contact with an interior designer associate this field of art mainly with fashion and prestige, while properly composed interiors influence our emotions. It is our emotions that determine whether we are happy. In any quality changes in life, it is worth taking into account changes in our everyday environment because this is where we sell most of our time and it can indirectly subconsciously shape our attitudes. but for the true beauty of the right rhythm and melody it takes the knowledge and emotion of the composer. " 
+    "1796": "People who have no previous contact with an interior designer associate this field of art mainly with fashion and prestige, while properly composed interiors influence our emotions. It is our emotions that determine whether we are happy. In any quality changes in life, it is worth taking into account changes in our everyday environment because this is where we sell most of our time and it can indirectly subconsciously shape our attitudes. but for the true beauty of the right rhythm and melody it takes the knowledge and emotion of the composer. " ,
+    "1797": "My projects " ,
+    "1798": "My expertness " 
   },
     "expertness": {
       "1800": "Interior architecture",
       "1801": "If you dream of a completely new interior, reconstruction, a different layout of rooms, a comprehensive renovation of the house or selected rooms, I recommend an interior design",
-      "1802": "Click",
+      "1802": "",
       "1803": "Interior decoration",
       "1804": "you need to refresh your home (premises or office), a small renovation that will bring great changes, a few decorations or furniture that will make your interior look modern? Or maybe you need a new look of your shop window? This is an offer for you. ",
-      "1805": "Click",
+      "1805": "",
       "1806": "Home Staging",
       "1807": "Are you planning to sell an apartment, house, premises for more money? Do you want to rent an apartment but would need renovation or refreshment? Do you run a guesthouse, hytte or hotel and want your guests to come back here often? Home staging is the perfect solution.",
-      "1808": "Click"
+      "1808": ""
   
   }
 }

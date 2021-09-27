@@ -59,9 +59,7 @@ class Case extends Component {
         <Efectr2 />
         <ScrollTop>
           <CaseWrapper>
-            <Reveal effect="fadeIn">
-              <Hero className="mainhero">
-                <div className="videocontainer">
+          <div className="videocontainer">
                   <video
                     className="video"
                     autoPlay
@@ -74,7 +72,13 @@ class Case extends Component {
                       type="video/mp4"
                     />
                   </video>
-                </div>
+                  </div>
+            <Reveal effect="fadeIn">
+
+              <Hero className="mainhero">
+              
+            
+                
                 <div className="herocaption">
                   <BackButton
                     className="backdetail"
@@ -91,10 +95,12 @@ class Case extends Component {
                   <Title><Trans i18nKey={"detailCase.2551"}></Trans></Title>
                   <TechniqueTitle><Trans i18nKey={"detailCase.2613"}></Trans></TechniqueTitle>
                 </div>
+                
               </Hero>
             </Reveal>
 
             <section className="container-fluid" id="detailproject">
+  
               <div className="row m-2-hor">
                 <div className="col-md-8">
                   

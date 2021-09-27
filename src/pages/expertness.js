@@ -101,7 +101,7 @@ const Expertness = ({ history }) => {
               <div className="desc">
                 <div className="namet"></div>
                 <div className="content">
-                <span className="namet"><Trans i18nKey="expertness.1800"></Trans></span><Trans i18nKey="expertness.1801"></Trans>
+                <span className="namet"><Trans i18nKey="expertness.1800"></Trans></span>{/* <Trans i18nKey="expertness.1801"></Trans> */}
                 </div>
                 <div className="icon">
                   <span><Trans i18nKey="expertness.1802"></Trans></span>
@@ -127,7 +127,7 @@ const Expertness = ({ history }) => {
               </div>
               <div className="desc">
                 <div className="namet"></div>
-                <div className="content"><span className="namet"><Trans i18nKey="expertness.1803"></Trans></span><Trans i18nKey="expertness.1804"></Trans>
+                <div className="content"><span className="namet"><Trans i18nKey="expertness.1803"></Trans></span>{/* <Trans i18nKey="expertness.1804"></Trans> */}
                  
                 </div>
                 <div className="icon">
@@ -154,7 +154,7 @@ const Expertness = ({ history }) => {
               </div>
               <div className="desc">
                 <div className="namet"></div>
-                <div className="content"><span className="namet"><Trans i18nKey="expertness.1806"></Trans></span><Trans i18nKey="expertness.1807"></Trans>
+                <div className="content"><span className="namet"><Trans i18nKey="expertness.1806"></Trans></span>{/* <Trans i18nKey="expertness.1807"></Trans> */}
                   
                 </div>
                 <div className="icon">

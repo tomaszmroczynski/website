@@ -59,9 +59,7 @@ class Case extends Component {
         <Efectr2 />
         <ScrollTop>
           <CaseWrapper>
-            <Reveal effect="fadeIn">
-              <Hero className="mainhero">
-                <div className="videocontainer">
+          <div className="videocontainer">
                   <video
                     className="video"
                     autoPlay
@@ -75,6 +73,10 @@ class Case extends Component {
                     />
                   </video>
                 </div>
+            <Reveal effect="fadeIn">
+
+              <Hero className="mainhero">
+
                 <div className="herocaption">
                   <BackButton
                     className="backdetail"

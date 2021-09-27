@@ -30,7 +30,7 @@ const Home = ({ history }) => {
         <section className="container-fluid">
           <div className="row m-2-hor">
             <div className="col-12">
-              <div className="heading">My Expertnesses</div>
+              <div className="heading"><Trans i18nKey={"About.1798"}></Trans></div>
             </div>
             <div className="col-12">
               <Expertness />

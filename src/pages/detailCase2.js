@@ -61,11 +61,12 @@ class Case extends Component {
         <ScrollTop>
           <CaseWrapper>
             <Reveal effect="fadeIn">
+            
               <Hero
                 className="mainhero"
                
-              ><Slider />
-                <div className="herocaption">
+                ><Slider />
+                <div className="herocaption" >
                   <BackButton
                     className="backdetail"
                     onClick={() =>
@@ -84,8 +85,8 @@ class Case extends Component {
               </Hero>
             </Reveal>
 
-            <section className="container-fluid" id="detailproject">
-              <div className="row m-2-hor">
+            <section className="container-fluid" id="detailproject" >
+              <div className="row m-2-hor" >
                 <div className="col-md-8">
                   <p className="content"><span className="color"><Trans i18nKey={"detailCase2.2917"}></Trans></span><Trans i18nKey={"detailCase2.2918"}></Trans></p>
                   <p className="content"><span className="color"><Trans i18nKey={"detailCase2.3404"}></Trans></span><Trans i18nKey={"detailCase2.3405"}></Trans></p>

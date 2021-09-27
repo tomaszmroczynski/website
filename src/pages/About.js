@@ -75,8 +75,8 @@ const About = ({ history }) => {
         <section className="container-fluid py-0">
           <div className="row m-2-hor">
             <div className="col-12">
-              <div className="heading" style={{ paddingTop: 30 }}>
-                My Projects
+              <div className="heading" style={{ paddingTop: 30 }}><Trans i18nKey={"About.1797"}></Trans>
+               
               </div>
             </div>
           </div>
