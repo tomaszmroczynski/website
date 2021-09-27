@@ -10,21 +10,28 @@ const SliderHome = () => {
       description:  <Trans i18nKey={"mainpictures.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/1.jpg",
+      image: "./img/front/front.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/2.jpg",
+      image: "./img/front/front1.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/3.jpg",
+      image: "./img/front/front2.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/front/front3.jpg",
     },
   ];
 
