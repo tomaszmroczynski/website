@@ -12,7 +12,7 @@ import {
 
 import Reveal from "react-reveal/Reveal";
 import { withRouter } from "react-router";
-
+import Slider from "../components/Slidercase4";
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
 
@@ -66,6 +66,7 @@ class Case extends Component {
                   backgroundImage: "url('./img/projects/big/img4.jpg')",
                 }}
               >
+                <Slider/>
                 <div className="herocaption">
                   <BackButton
                     className="backdetail"
