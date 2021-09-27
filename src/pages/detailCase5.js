@@ -12,7 +12,7 @@ import {
 
 import Reveal from "react-reveal/Reveal";
 import { withRouter } from "react-router";
-
+import Slider from "../components/Slidercase5";
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
 
@@ -66,6 +66,7 @@ class Case extends Component {
                   backgroundImage: "url('./img/projects/big/img4.jpg')",
                 }}
               >
+                <Slider/>
                 <div className="herocaption">
                   <BackButton
                     className="backdetail"
@@ -92,7 +93,7 @@ class Case extends Component {
                   <p className="content"><Trans i18nKey={"detailCase5.3397"}></Trans></p>
                 </div>
                 <div className="col-md-4 sticky">
-                  <ul className="detailproject">
+                  {/* <ul className="detailproject">
                     <li>
                       <span className="tile"><Trans i18nKey={"detailCase5.3904"}></Trans></span>
                       <span><Trans i18nKey={"detailCase5.3952"}></Trans></span>
@@ -109,16 +110,16 @@ class Case extends Component {
                       <span className="tile"><Trans i18nKey={"detailCase5.4401"}></Trans></span>
                       <span><Trans i18nKey={"detailCase5.4451"}></Trans></span>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div className="col-md-12">
-                  <div className="tags">
+                  {/* <div className="tags">
                     <span className="heading"><Trans i18nKey={"detailCase5.4684"}></Trans></span>
                     <span className="content"><Trans i18nKey={"detailCase5.4745"}></Trans></span>
                     <span className="content"><Trans i18nKey={"detailCase5.4811"}></Trans></span>
                     <span className="content"><Trans i18nKey={"detailCase5.4875"}></Trans></span>
                     <span className="content"><Trans i18nKey={"detailCase5.4938"}></Trans></span>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col-md-12">
                   <div className="share">

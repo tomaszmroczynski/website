@@ -12,7 +12,7 @@ import {
 
 import Reveal from "react-reveal/Reveal";
 import { withRouter } from "react-router";
-
+import Slider from "../components/Slidercase6";
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
 
@@ -62,10 +62,9 @@ class Case extends Component {
             <Reveal effect="fadeIn">
               <Hero
                 className="mainhero"
-                style={{
-                  backgroundImage: "url('./img/projects/big/img5.jpg')",
-                }}
+
               >
+                <Slider/>
                 <div className="herocaption">
                   <BackButton
                     className="backdetail"
@@ -91,7 +90,7 @@ class Case extends Component {
                   <p className="content"><Trans i18nKey={"detailCase6.2910"}></Trans></p>
                   <p className="content"><Trans i18nKey={"detailCase6.3397"}></Trans></p>
                 </div>
-                <div className="col-md-4 sticky">
+                {/* <div className="col-md-4 sticky">
                   <ul className="detailproject">
                     <li>
                       <span className="tile"><Trans i18nKey={"detailCase6.3904"}></Trans></span>
@@ -110,15 +109,15 @@ class Case extends Component {
                       <span><Trans i18nKey={"detailCase6.4451"}></Trans></span>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="col-md-12">
-                  <div className="tags">
+                  {/* <div className="tags">
                     <span className="heading"><Trans i18nKey={"detailCase6.4684"}></Trans></span>
                     <span className="content"><Trans i18nKey={"detailCase6.4745"}></Trans></span>
                     <span className="content"><Trans i18nKey={"detailCase6.4811"}></Trans></span>
                     <span className="content"><Trans i18nKey={"detailCase6.4875"}></Trans></span>
                     <span className="content"><Trans i18nKey={"detailCase6.4938"}></Trans></span>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col-md-12">
                   <div className="share">

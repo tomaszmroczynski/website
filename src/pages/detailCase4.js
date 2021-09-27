@@ -62,9 +62,7 @@ class Case extends Component {
             <Reveal effect="fadeIn">
               <Hero
                 className="mainhero"
-                style={{
-                  backgroundImage: "url('./img/projects/big/img4.jpg')",
-                }}
+
               >
                 <Slider/>
                 <div className="herocaption">
@@ -92,7 +90,7 @@ class Case extends Component {
                   <p className="content"><Trans i18nKey={"detailCase4.2910"}></Trans></p>
                   <p className="content"><Trans i18nKey={"detailCase4.3397"}></Trans></p>
                 </div>
-                <div className="col-md-4 sticky">
+                {/* <div className="col-md-4 sticky">
                   <ul className="detailproject">
                     <li>
                       <span className="tile"><Trans i18nKey={"detailCase4.3904"}></Trans></span>
@@ -111,7 +109,7 @@ class Case extends Component {
                       <span><Trans i18nKey={"detailCase4.4451"}></Trans></span>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="col-md-12">
                   <div className="tags">
                     <span className="heading"><Trans i18nKey={"detailCase4.4684"}></Trans></span>
