@@ -30,7 +30,7 @@ const Home = ({ history }) => {
         <section className="container-fluid">
           <div className="row m-2-hor">
             <div className="col-12">
-              <div className="heading"><Trans i18nKey={"About.1798"}></Trans></div>
+              <div className="heading"><Trans i18nKey={"Home.1798"}></Trans></div>
             </div>
             <div className="col-12">
               <Expertness />
@@ -51,7 +51,7 @@ const Home = ({ history }) => {
         <section className="container-fluid pb-0">
           <div className="row m-2-hor">
             <div className="col-12">
-              <div className="heading">My Projects</div>
+              <div className="heading"><Trans i18nKey={"Home.1799"}></Trans></div>
             </div>
           </div>
           <div className="row">
