@@ -83,7 +83,7 @@ const Carouselprojects = ({ history }) => {
         <CustomSlide className="itm" index={1}>
           <div className="bg">
             <img
-              src="./img/projects/img1.jpg"
+              src="./img/detailcase/front.jpg"
               className="img-fluid"
               alt="Imageteam"
             />
@@ -108,7 +108,7 @@ const Carouselprojects = ({ history }) => {
         <CustomSlide className="itm" index={2}>
           <div className="bg">
             <img
-              src="./img/projects/img2.jpg"
+              src="./img/detailcase1/front1.jpg"
               className="img-fluid"
               alt="Imageteam"
             />
@@ -134,7 +134,7 @@ const Carouselprojects = ({ history }) => {
         <CustomSlide className="itm" index={3}>
           <div className="bg">
             <img
-              src="./img/projects/img3.jpg"
+              src="./img/detailcase2/front2.jpg"
               className="img-fluid"
               alt="Imageteam"
             />
@@ -160,7 +160,7 @@ const Carouselprojects = ({ history }) => {
         <CustomSlide className="itm" index={4}>
           <div className="bg">
             <img
-              src="./img/projects/img4.jpg"
+              src="./img/detailcase3/front3.jpg"
               className="img-fluid"
               alt="Imageteam"
             />

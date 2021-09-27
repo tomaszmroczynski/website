@@ -3,44 +3,58 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
-const Slidercase5 = () => {
+const Slidercase1 = () => {
   const content = [
     {
       title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/1.jpg",
+      image: "./img/detailcase1/1.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/2.jpg",
+      image: "./img/detailcase1/2.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/3.jpg",
+      image: "./img/detailcase1/3.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/4.jpg",
+      image: "./img/detailcase1/4.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/5.jpg",
+      image: "./img/detailcase1/5.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase1/6.jpg",
+    },    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase1/7.jpg",
     },
   ];
+
   useEffect(() => {}, [content]);
 
   return (
@@ -58,4 +72,4 @@ const Slidercase5 = () => {
   );
 };
 
-export default Slidercase5;
+export default Slidercase1;

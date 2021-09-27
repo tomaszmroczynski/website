@@ -59,7 +59,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/projects/img1.jpg"
+                            src="./img/detailcase/front.jpg"
                             className="img-fluid"
                             alt="Imageworks"
                           />
@@ -92,7 +92,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/projects/img2.jpg"
+                            src="./img/detailcase1/front1.jpg"
                             className="img-fluid"
                             alt="Imageworks"
                           />
@@ -125,7 +125,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/projects/img3.jpg"
+                            src="./img/detailcase1/front2.jpg"
                             className="img-fluid"
                             alt="Imageworks"
                           />
@@ -158,7 +158,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/projects/img4.jpg"
+                            src="./img/detailcase1/front3.jpg"
                             className="img-fluid"
                             alt="Imageworks"
                           />
@@ -191,7 +191,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/projects/img1.jpg"
+                            src="./img/detailcase/front.jpg"
                             className="img-fluid"
                             alt="Imageworks"
                           />

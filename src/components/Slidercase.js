@@ -3,44 +3,73 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
-const Slidercase5 = () => {
+const Slidercase = () => {
   const content = [
     {
       title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/1.jpg",
+      image: "./img/detailcase/1.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/2.jpg",
+      image: "./img/detailcase/2.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/3.jpg",
+      image: "./img/detailcase/3.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/4.jpg",
+      image: "./img/detailcase/4.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase5/5.jpg",
+      image: "./img/detailcase/5.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase/6.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase/7.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase/8.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase/9.jpg",
     },
   ];
+
   useEffect(() => {}, [content]);
 
   return (
@@ -58,4 +87,4 @@ const Slidercase5 = () => {
   );
 };
 
-export default Slidercase5;
+export default Slidercase;

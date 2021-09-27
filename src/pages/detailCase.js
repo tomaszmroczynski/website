@@ -15,7 +15,7 @@ import { withRouter } from "react-router";
 
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
-
+import Slider from "../components/Slidercase";
 export const ScrollTop = ({ children, location }) => {
   React.useEffect(() => window.scrollTo(0, 0), [location]);
   return children;
@@ -59,7 +59,8 @@ class Case extends Component {
         <Efectr2 />
         <ScrollTop>
           <CaseWrapper>
-          <div className="videocontainer">
+            
+          {/* <div className="videocontainer">
                   <video
                     className="video"
                     autoPlay
@@ -72,11 +73,11 @@ class Case extends Component {
                       type="video/mp4"
                     />
                   </video>
-                  </div>
+                  </div> */}
             <Reveal effect="fadeIn">
 
               <Hero className="mainhero">
-              
+              <Slider />
             
                 
                 <div className="herocaption">

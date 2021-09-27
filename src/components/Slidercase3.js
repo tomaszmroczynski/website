@@ -3,21 +3,55 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
-const Slidercase2 = () => {
+const Slidercase3 = () => {
   const content = [
-    {
-      title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
-      description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/mick/mick-2.jpg",
-    },
+
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/mick/mick-1.jpg",
+      image: "./img/detailcase3/2.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase3/3.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase3/4.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase3/5.jpg",
+    },
+    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase3/6.jpg",
+    },    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase3/7.jpg",
+    },    {
+      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/detailcase3/8.jpg",
     },
   ];
 
@@ -38,4 +72,4 @@ const Slidercase2 = () => {
   );
 };
 
-export default Slidercase2;
+export default Slidercase3;
