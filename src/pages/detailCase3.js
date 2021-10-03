@@ -89,6 +89,7 @@ class Case extends Component {
                 <div className="col-md-8">
                   <p className="content"><Trans i18nKey={"detailCase3.2914"}></Trans></p>
                   <p className="content"><Trans i18nKey={"detailCase3.3401"}></Trans></p>
+                  <p className="content"><Trans i18nKey={"detailCase3.3402"}></Trans></p>
                 </div>
                 <div className="col-md-4 sticky">
                   <ul className="detailproject">
@@ -104,10 +105,7 @@ class Case extends Component {
                       <span className="tile"><Trans i18nKey={"detailCase3.4238"}></Trans></span>
                       <span><Trans i18nKey={"detailCase3.4285"}></Trans></span>
                     </li>
-                    <li>
-                      <span className="tile"><Trans i18nKey={"detailCase3.4405"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase3.4455"}></Trans></span>
-                    </li>
+
                   </ul>
                 </div>
                 <div className="col-md-12">

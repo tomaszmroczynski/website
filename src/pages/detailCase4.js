@@ -125,8 +125,24 @@ class Case extends Component {
                      
                       <span><Trans i18nKey={"detailCase4.3406"}></Trans></span>
                     </li>
+                    <li>
+                      
+                      <span ><Trans i18nKey={"detailCase4.3407"}></Trans></span>
+                    </li>
+                    <li>
+                      
+                      <span><Trans i18nKey={"detailCase4.3408"}></Trans></span>
+                    </li>
+                    <li>                   
+                      <span><Trans i18nKey={"detailCase4.3409"}></Trans></span>
+                    </li>
+                    <li>
+                     
+                      <span><Trans i18nKey={"detailCase4.3410"}></Trans></span>
+                    </li>
 
                   </ul>
+                  <p className="content"><Trans i18nKey={"detailCase4.3411"}></Trans></p>
                 </div>
                 
            
