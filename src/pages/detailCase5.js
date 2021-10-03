@@ -81,7 +81,7 @@ class Case extends Component {
                   </BackButton>
                   <ClientTag><Trans i18nKey={"detailCase5.2209"}></Trans></ClientTag>
                   <Title><Trans i18nKey={"detailCase5.2256"}></Trans></Title>
-                  <TechniqueTitle><Trans i18nKey={"detailCase5.2313"}></Trans></TechniqueTitle>
+                  <TechniqueTitle></TechniqueTitle>
                 </div>
               </Hero>
             </Reveal>
@@ -89,8 +89,25 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                  <p className="content"><Trans i18nKey={"detailCase5.2910"}></Trans></p>
-                  <p className="content"><Trans i18nKey={"detailCase5.3397"}></Trans></p>
+                <p className="contenttitle"><Trans i18nKey={"detailCase4.2313"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"detailCase5.2910"}></Trans></span></p>
+                  
+                  <ul className="detailproject">
+                  <li>
+                      
+                      <span ><Trans i18nKey={"detailCase5.3397"}></Trans></span>
+                    </li>
+                    <li>
+                      
+                      <span ><Trans i18nKey={"detailCase5.3398"}></Trans></span>
+                    </li>
+                    <li>
+                      
+                      <span><Trans i18nKey={"detailCase5.3399"}></Trans></span>
+                    </li>
+
+
+                  </ul>
                 </div>
                 <div className="col-md-4 sticky">
                   {/* <ul className="detailproject">

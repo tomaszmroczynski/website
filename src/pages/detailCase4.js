@@ -79,7 +79,7 @@ class Case extends Component {
                   </BackButton>
                   <ClientTag><Trans i18nKey={"detailCase4.2209"}></Trans></ClientTag>
                   <Title><Trans i18nKey={"detailCase4.2256"}></Trans></Title>
-                  <TechniqueTitle><Trans i18nKey={"detailCase4.2313"}></Trans></TechniqueTitle>
+                  <TechniqueTitle></TechniqueTitle>
                 </div>
               </Hero>
             </Reveal>
@@ -87,6 +87,7 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
+                <p className="content"><Trans i18nKey={"detailCase4.2313"}></Trans></p>
                   <p className="content"><Trans i18nKey={"detailCase4.2910"}></Trans></p>
                   <p className="color"><Trans i18nKey={"detailCase4.3397"}></Trans></p>
                   <ul className="detailproject">
@@ -103,12 +104,28 @@ class Case extends Component {
                     </li>
                     <li>
                      
-                      <span><Trans i18nKey={"detailCase4.4281"}></Trans></span>
+                      <span><Trans i18nKey={"detailCase4.3401"}></Trans></span>
+                    </li>
+
+                  </ul>
+                  <p className="color"><Trans i18nKey={"detailCase4.3402"}></Trans></p>
+                  <ul className="detailproject">
+                    <li>
+                      
+                      <span ><Trans i18nKey={"detailCase4.3403"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"detailCase4.4451"}></Trans></span>
+                      <span><Trans i18nKey={"detailCase4.3404"}></Trans></span>
                     </li>
+                    <li>                   
+                      <span><Trans i18nKey={"detailCase4.3405"}></Trans></span>
+                    </li>
+                    <li>
+                     
+                      <span><Trans i18nKey={"detailCase4.3406"}></Trans></span>
+                    </li>
+
                   </ul>
                 </div>
                 

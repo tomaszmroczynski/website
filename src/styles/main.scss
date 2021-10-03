@@ -1305,7 +1305,10 @@ footer {
     padding-left: 45px;
     font-size: 1.3rem;
     font-weight: 600;
+    @media (max-width: 768px) {
+      display: none;
   }
+}
 }
 #detailproject {
   margin-top: 15px;
@@ -1316,6 +1319,8 @@ footer {
     padding-bottom: 15px;
     
   }
+
+ 
   .sticky {
     position: sticky;
     top: 0;
@@ -1617,6 +1622,9 @@ footer {
   .herocaption {
     h1 {
       font-size: 2rem !important;
+      @media (max-width: 768px) {
+        font-size: 1.5rem !important;
     }
   }
+}
 }

@@ -12,6 +12,12 @@ export const BackButton = styled.div`
   background-color: rgba(0, 0, 0, 0.6);
   transition: background-color 0.1s ease-in-out, border-radius 0.1s ease-in-out,
     opacity 0.3s ease-in-out;
+    @media (max-width: 768px) {
+      padding: 5px 0px 5px 10px ;
+      height: 40px;
+      width: 40px;
+      
+    }
   ${({ toBack }) =>
     toBack &&
     css`
@@ -44,6 +50,11 @@ export const BackArrow = styled.img`
   max-width: 100%;
   max-height: 100%;
   position: relative;
+  @media (max-width: 768px) {
+    max-width: 60%;
+    max-height: 60%;
+    
+  }
 `;
 
 export const CaseWrapper = styled.main`
@@ -78,11 +89,17 @@ export const Title = styled.h1`
   font-size: 3em;
   max-width: 80vw;
   text-transform: normal;
+  @media (max-width: 768px) {
+    font-size: 2em;
+  }
 `;
 
 export const TechniqueTitle = styled.p`
   color: ${theme.colors.white};
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: normal;
   max-width: 80vw;
+  @media (max-width: 768px) {
+    font-size: 0.8em;
+  }
 `;
