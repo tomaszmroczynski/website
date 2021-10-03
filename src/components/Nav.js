@@ -103,7 +103,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           alt="#"
           style={{ marginLeft: 20 }}
         />
-        <span className="callus"><Trans i18nKey={"Nav.1501"}></Trans>: (+47) 94712654</span>
+        <span className="callus"><Trans i18nKey={"Nav.1501"}></Trans>: (+47) 947 12 654</span>
         <span className="callus">e-mail: studio@alfadesign.no</span>
       </div>
       <Wrapper open={isOn} shouldAnimate={shouldAnimate}>

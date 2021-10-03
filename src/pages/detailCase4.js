@@ -88,28 +88,32 @@ class Case extends Component {
               <div className="row m-2-hor">
                 <div className="col-md-8">
                   <p className="content"><Trans i18nKey={"detailCase4.2910"}></Trans></p>
-                  <p className="content"><Trans i18nKey={"detailCase4.3397"}></Trans></p>
-                </div>
-                {/* <div className="col-md-4 sticky">
+                  <p className="color"><Trans i18nKey={"detailCase4.3397"}></Trans></p>
                   <ul className="detailproject">
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase4.3904"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase4.3952"}></Trans></span>
+                      
+                      <span ><Trans i18nKey={"detailCase4.3398"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase4.4068"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase4.4112"}></Trans></span>
+                      
+                      <span><Trans i18nKey={"detailCase4.3399"}></Trans></span>
+                    </li>
+                    <li>                   
+                      <span><Trans i18nKey={"detailCase4.3400"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase4.4234"}></Trans></span>
+                     
                       <span><Trans i18nKey={"detailCase4.4281"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase4.4401"}></Trans></span>
+                      
                       <span><Trans i18nKey={"detailCase4.4451"}></Trans></span>
                     </li>
                   </ul>
-                </div> */}
+                </div>
+                
+           
+                
                 <div className="col-md-12">
                   <div className="tags">
                     <span className="heading"><Trans i18nKey={"detailCase4.4684"}></Trans></span>
