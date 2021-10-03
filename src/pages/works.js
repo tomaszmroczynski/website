@@ -5,7 +5,7 @@ import Reveal from "react-reveal/Reveal";
 import { LinkWrap, Overlay } from "../styles/Work.styles";
 
 import Footer from "../components/Footer";
-
+import { Trans } from "react-i18next";
 import { Efect, Efect1, Efect2 } from "../styles/effect.styles";
 
 const Works = ({ history }) => {
@@ -65,11 +65,11 @@ const Works = ({ history }) => {
                           />
                         </div>
                         <div className="desc">
-                          <div className="tag">Interior</div>
-                          <div className="name">Entertainment Unit</div>
+                          <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
+                          <div className="name"><Trans i18nKey={"Carouselprojects.1597"}></Trans></div>
                         </div>
                         <div className="icon">
-                          <span>View Project</span>
+                          <span><Trans i18nKey={"Carouselprojects.1595"}></Trans></span>
                         </div>
                       </Overlay>
                     </LinkWrap>
@@ -98,11 +98,11 @@ const Works = ({ history }) => {
                           />
                         </div>
                         <div className="desc">
-                          <div className="tag">Furniture</div>
-                          <div className="name">Mounted Unit</div>
+                          <div className="tag"><Trans i18nKey={"Carouselprojects.1598"}></Trans></div>
+                          <div className="name"><Trans i18nKey={"Carouselprojects.1599"}></Trans></div>
                         </div>
                         <div className="icon">
-                          <span>View Project</span>
+                        <span><Trans i18nKey={"Carouselprojects.1595"}></Trans></span>
                         </div>
                       </Overlay>
                     </LinkWrap>
@@ -125,17 +125,17 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/detailcase1/front2.jpg"
+                            src="./img/detailcase2/front2.jpg"
                             className="img-fluid"
                             alt="Imageworks"
                           />
                         </div>
                         <div className="desc">
-                          <div className="tag">Interior</div>
-                          <div className="name">Contemporary Wall</div>
+                          <div className="tag"><Trans i18nKey={"Carouselprojects.1601"}></Trans></div>
+                          <div className="name"><Trans i18nKey={"Carouselprojects.1602"}></Trans></div>
                         </div>
                         <div className="icon">
-                          <span>View Project</span>
+                          <span><Trans i18nKey={"Carouselprojects.1595"}></Trans></span>
                         </div>
                       </Overlay>
                     </LinkWrap>
@@ -158,7 +158,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/detailcase1/front3.jpg"
+                            src="./img/detailcase3/front3.jpg"
                             className="img-fluid"
                             alt="Imageworks"
                           />
