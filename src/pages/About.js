@@ -44,11 +44,6 @@ const About = ({ history }) => {
         <Abouthome />
       </Reveal>
 
-      <section className="container-fluid bggray mt-5 pb-0">
-        <div className="row m-2-hor">
-          <div className="col-12"></div>
-        </div>
-      </section>
       {/*
 
       <section className="container-fluid bggray">
