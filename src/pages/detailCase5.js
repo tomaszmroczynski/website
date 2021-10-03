@@ -89,7 +89,7 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                <p className="contenttitle"><Trans i18nKey={"detailCase4.2313"}></Trans></p>
+                <p className="contenttitle"><Trans i18nKey={"detailCase5.2313"}></Trans></p>
                   <p className="content"><span className="color"><Trans i18nKey={"detailCase5.2910"}></Trans></span></p>
                   
                   <ul className="detailproject">
