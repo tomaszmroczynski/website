@@ -90,6 +90,39 @@ class Case extends Component {
                 <p className="content"><Trans i18nKey={"detailCase6.2313"}></Trans></p>
                   <p className="content"><Trans i18nKey={"detailCase6.2910"}></Trans></p>
                   <p className="content"><Trans i18nKey={"detailCase6.3397"}></Trans></p>
+                  <ul className="detailproject">
+                    <li>
+                      
+                      <span ><Trans i18nKey={"detailCase6.3403"}></Trans></span>
+                    </li>
+                    <li>
+                      
+                      <span><Trans i18nKey={"detailCase6.3404"}></Trans></span>
+                    </li>
+                    <li>                   
+                      <span><Trans i18nKey={"detailCase6.3405"}></Trans></span>
+                    </li>
+                    <li>
+                     
+                      <span><Trans i18nKey={"detailCase6.3406"}></Trans></span>
+                    </li>
+                    <li>
+                      
+                      <span ><Trans i18nKey={"detailCase6.3407"}></Trans></span>
+                    </li>
+                    <li>
+                      
+                      <span><Trans i18nKey={"detailCase6.3408"}></Trans></span>
+                    </li>
+                    <li>                   
+                      <span><Trans i18nKey={"detailCase6.3409"}></Trans></span>
+                    </li>
+                    <li>
+                     
+                      <span><Trans i18nKey={"detailCase6.3410"}></Trans></span>
+                    </li>
+
+                  </ul>
                 </div>
                 {/* <div className="col-md-4 sticky">
                   <ul className="detailproject">

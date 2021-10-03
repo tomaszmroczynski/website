@@ -142,7 +142,7 @@ class Case extends Component {
                     </li>
 
                   </ul>
-                  <p className="content"><Trans i18nKey={"detailCase4.3411"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"detailCase4.3411"}></Trans></span></p>
                 </div>
                 
            
