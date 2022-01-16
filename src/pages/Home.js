@@ -57,6 +57,8 @@ const Home = ({ history }) => {
           <div className="row">
             <div className="col-12 p-0">
               <Carouselprojects />
+              
+
             </div>
           </div>
         </section>
