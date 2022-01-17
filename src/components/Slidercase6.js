@@ -45,7 +45,7 @@ const Slidercase6 = () => {
   useEffect(() => {}, [content]);
 
   return (
-    <Slider className="slider-wrapper" autoplay={6000}>
+    <Slider className="slider-wrapper" autoplay={1000}>
       {content.map((item, index) => (
         <div
           key={index}
