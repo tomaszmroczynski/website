@@ -155,7 +155,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           <div className="info">
             <span>(+47) 940 38 480</span>
             <span className="link">studio@alfadesign.no</span>
-            <span>Finnestadveien 363 1880 Indre Østfold</span>
+            <span>Finnestadveien 371 1880 Indre Østfold</span>
           </div>
         </Body>
         <SocialContainer className="soc-icon" open={isOn}>
