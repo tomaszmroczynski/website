@@ -26,20 +26,6 @@ const Slidercase6 = () => {
       //link: "/#",
       image: "./img/detailcase6/3.jpg",
     },
-    {
-      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/detailcase6/4.jpg",
-    },
-    {
-      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/detailcase6/5.jpg",
-    },
   ];
 
   useEffect(() => {}, [content]);
