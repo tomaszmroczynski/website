@@ -20,6 +20,7 @@ import Case3 from "./pages/detailCase3";
 import Case4 from "./pages/detailCase4";
 import Case5 from "./pages/detailCase5";
 import Case6 from "./pages/detailCase6";
+import Case7 from "./pages/detailCase7";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -93,10 +94,10 @@ function App() {
               <Case6 setNavBackground={(state) => setNavBack(state)} />
             )}
           />
-                    <Route
+          <Route
             path="/detailcase7"
             component={() => (
-              <Case6 setNavBackground={(state) => setNavBack(state)} />
+              <Case7 setNavBackground={(state) => setNavBack(state)} />
             )}
           />
           <div id="lang">

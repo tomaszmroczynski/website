@@ -199,7 +199,7 @@ const Carouselprojects = ({ history }) => {
           </div>
           <div className="desc">
             <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
-            <div className="name"><Trans i18nKey={"Carouselprojects.1605"}></Trans></div>
+            <div className="name"><Trans i18nKey={"Carouselprojects.1607"}></Trans></div>
           </div>
           <LinkWrap active={toCase === "/detailcase7"}>
             <Overlay
@@ -208,7 +208,7 @@ const Carouselprojects = ({ history }) => {
               onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase7")}
             >
               <div className="icon">
-                <span><Trans i18nKey={"Carouselprojects.1606"}></Trans></span>
+                <span><Trans i18nKey={"Carouselprojects.1608"}></Trans></span>
               </div>
             </Overlay>
           </LinkWrap>

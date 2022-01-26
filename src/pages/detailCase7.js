@@ -76,11 +76,11 @@ class Case extends Component {
                     hasBackground={this.state.hasBackground}
                   >
                     <BackArrow src="./img/back.png" alt="Back to Projects" />
-                    <span><Trans i18nKey={"detailCase7.7137"}></Trans></span>
+                    <span><Trans i18nKey={"detailCase6.2133"}></Trans></span>
                   </BackButton>
-                  <ClientTag><Trans i18nKey={"detailCase7.7213"}></Trans></ClientTag>
-                  <Title><Trans i18nKey={"detailCase7.7260"}></Trans></Title>
-                  <TechniqueTitle><Trans i18nKey={"detailCase7.7317"}></Trans></TechniqueTitle>
+                  <ClientTag><Trans i18nKey={"detailCase6.2209"}></Trans></ClientTag>
+                  <Title><Trans i18nKey={"detailCase6.2256"}></Trans></Title>
+                  <TechniqueTitle></TechniqueTitle>
                 </div>
               </Hero>
             </Reveal>
@@ -88,41 +88,71 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                  <p className="content"><Trans i18nKey={"detailCase7.7914"}></Trans></p>
-                  <p className="content"><Trans i18nKey={"detailCase7.7401"}></Trans></p>
-                </div>
-                <div className="col-md-4 sticky">
+                <p className="content"><Trans i18nKey={"detailCase6.2313"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"detailCase6.2910"}></Trans></span></p>
+                  
                   <ul className="detailproject">
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase7.7908"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase7.7956"}></Trans></span>
+                      
+                      <span ><Trans i18nKey={"detailCase6.3403"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase7.7072"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase7.7116"}></Trans></span>
+                      
+                      <span><Trans i18nKey={"detailCase6.3404"}></Trans></span>
+                    </li>
+                    <li>                   
+                      <span><Trans i18nKey={"detailCase6.3405"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase7.7238"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase7.7285"}></Trans></span>
+                     
+                      <span><Trans i18nKey={"detailCase6.3406"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase7.7405"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase7.7455"}></Trans></span>
+                      
+                      <span ><Trans i18nKey={"detailCase6.3407"}></Trans></span>
+                    </li>
+                    <li>
+                      
+                      <span><Trans i18nKey={"detailCase6.3408"}></Trans></span>
+                    </li>
+                  
+                 
+
+                  </ul>
+                  <p className="content"><span className="color"><Trans i18nKey={"detailCase4.3411"}></Trans></span></p>
+                </div>
+                {/* <div className="col-md-4 sticky">
+                  <ul className="detailproject">
+                    <li>
+                      <span className="tile"><Trans i18nKey={"detailCase6.3904"}></Trans></span>
+                      <span><Trans i18nKey={"detailCase6.3952"}></Trans></span>
+                    </li>
+                    <li>
+                      <span className="tile"><Trans i18nKey={"detailCase6.4068"}></Trans></span>
+                      <span><Trans i18nKey={"detailCase6.4112"}></Trans></span>
+                    </li>
+                    <li>
+                      <span className="tile"><Trans i18nKey={"detailCase6.4234"}></Trans></span>
+                      <span><Trans i18nKey={"detailCase6.4281"}></Trans></span>
+                    </li>
+                    <li>
+                      <span className="tile"><Trans i18nKey={"detailCase6.4401"}></Trans></span>
+                      <span><Trans i18nKey={"detailCase6.4451"}></Trans></span>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="col-md-12">
-                  <div className="tags">
-                    <span className="heading"><Trans i18nKey={"detailCase7.7688"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase7.7749"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase7.7815"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase7.7879"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase7.7942"}></Trans></span>
-                  </div>
+                  {/* <div className="tags">
+                    <span className="heading"><Trans i18nKey={"detailCase6.4684"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"detailCase6.4745"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"detailCase6.4811"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"detailCase6.4875"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"detailCase6.4938"}></Trans></span>
+                  </div> */}
                 </div>
                 <div className="col-md-12">
                   <div className="share">
-                    <span className="heading"><Trans i18nKey={"detailCase7.7142"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"detailCase6.5138"}></Trans></span>
                     <span className="content">
                       <i className="fa fa-facebook-f"></i>
                     </span>
