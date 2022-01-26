@@ -21,8 +21,10 @@ const Carouselprojects = ({ history }) => {
     
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 1,
+    
     slidesToScroll: 1,
+    
     initialSlide: 0,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -39,7 +41,9 @@ const Carouselprojects = ({ history }) => {
       {
         breakpoint: 1600,
         settings: {
-          slidesToShow: 4,
+          
+          rows: 2,
+          slidesPerRow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -212,6 +216,7 @@ const Carouselprojects = ({ history }) => {
 
 
       </Slider>
+     
     </div>
   );
 };
