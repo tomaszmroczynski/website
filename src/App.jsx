@@ -90,6 +90,12 @@ function App() {
               <Case6 setNavBackground={(state) => setNavBack(state)} />
             )}
           />
+                    <Route
+            path="/detailcase7"
+            component={() => (
+              <Case6 setNavBackground={(state) => setNavBack(state)} />
+            )}
+          />
 
           <ScrollToTopBtn />
         </div>

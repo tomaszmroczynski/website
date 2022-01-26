@@ -18,11 +18,14 @@ const Carouselprojects = ({ history }) => {
   const [coord, setCoords] = useState();
   var settings = {
     dots: true,
+    
     infinite: false,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
+    autoplay: false,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 5000,
@@ -181,6 +184,33 @@ const Carouselprojects = ({ history }) => {
             </Overlay>
           </LinkWrap>
         </CustomSlide>
+
+        <CustomSlide className="itm" index={5}>
+          <div className="bg">
+            <img
+              src="./img/detailcase7/front7.jpg"
+              className="img-fluid"
+              alt="Imageteam"
+            />
+          </div>
+          <div className="desc">
+            <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
+            <div className="name"><Trans i18nKey={"Carouselprojects.1605"}></Trans></div>
+          </div>
+          <LinkWrap active={toCase === "/detailcase7"}>
+            <Overlay
+              active={!!toCase}
+              onMouseDown={(e) => setCoords(e.nativeEvent.x)}
+              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase7")}
+            >
+              <div className="icon">
+                <span><Trans i18nKey={"Carouselprojects.1606"}></Trans></span>
+              </div>
+            </Overlay>
+          </LinkWrap>
+        </CustomSlide>
+
+
       </Slider>
     </div>
   );
