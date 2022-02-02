@@ -57,6 +57,10 @@ const Expertness = ({ history }) => {
       {
         breakpoint: 600,
         settings: {
+          infinite: true,
+          autoplay: true,
+          speed: 4000,
+    autoplaySpeed: 4000,
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2,
@@ -65,6 +69,10 @@ const Expertness = ({ history }) => {
       {
         breakpoint: 480,
         settings: {
+          infinite: true,
+          autoplay: true,
+          speed: 4000,
+    autoplaySpeed: 4000,
           slidesToShow: 1,
           slidesToScroll: 1,
         },

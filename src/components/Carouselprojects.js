@@ -32,7 +32,8 @@ const Carouselprojects = ({ history }) => {
       {
         breakpoint: 5000,
         settings: {
-          slidesToShow: 4,
+          rows: 2,
+          slidesPerRow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -52,7 +53,8 @@ const Carouselprojects = ({ history }) => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          rows: 2,
+          slidesPerRow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -64,6 +66,10 @@ const Carouselprojects = ({ history }) => {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2,
+          speed: 3000,
+          infinite: true,
+          autoplay: true,
+    autoplaySpeed: 2000,
         },
       },
       {
@@ -71,6 +77,10 @@ const Carouselprojects = ({ history }) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          speed: 3000,
+          infinite: true,
+          autoplay: true,
+    autoplaySpeed: 2000,
         },
       },
     ],
