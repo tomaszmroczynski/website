@@ -101,7 +101,7 @@ const Expertness = ({ history }) => {
             <CustomSlide className="itm" index={1}>
               <div className="bg">
                 <img
-                  src="./img/feature/img1.jpg"
+                  src="./img/feature/1.jpg"
                   className="img-fluid"
                   alt="Imageteam"
                 />
