@@ -16,11 +16,11 @@ import Expertness from "./pages/expertness";
 import Case from "./pages/detailCase";
 import Case1 from "./pages/detailCase1";
 import Case2 from "./pages/detailCase2";
-import Case3 from "./pages/detailCase3";
+import Case3 from "./pages/flatGorlice";
 import Case4 from "./pages/detailCase4";
 import Case5 from "./pages/detailCase5";
 import Case6 from "./pages/detailCase6";
-import Case7 from "./pages/detailCase7";
+import Case7 from "./pages/salonSandvika";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -71,7 +71,7 @@ function App() {
             )}
           />
           <Route
-            path="/detailcase3"
+            path="/flatGorlice"
             component={() => (
               <Case3 setNavBackground={(state) => setNavBack(state)} />
             )}
@@ -95,7 +95,7 @@ function App() {
             )}
           />
           <Route
-            path="/detailcase7"
+            path="/salonSandvika"
             component={() => (
               <Case7 setNavBackground={(state) => setNavBack(state)} />
             )}

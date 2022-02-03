@@ -177,7 +177,7 @@ const Carouselprojects = ({ history }) => {
         <CustomSlide className="itm" index={4}>
           <div className="bg">
             <img
-              src="./img/detailcase3/front3.jpg"
+              src="./img/flatGorlice/front3.jpg"
               className="img-fluid"
               alt="Imageteam"
             />
@@ -186,11 +186,11 @@ const Carouselprojects = ({ history }) => {
             <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
             <div className="name"><Trans i18nKey={"Carouselprojects.1605"}></Trans></div>
           </div>
-          <LinkWrap active={toCase === "/detailcase3"}>
+          <LinkWrap active={toCase === "/flatGorlice"}>
             <Overlay
               active={!!toCase}
               onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase3")}
+              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/flatGorlice")}
             >
               <div className="icon">
                 <span><Trans i18nKey={"Carouselprojects.1606"}></Trans></span>
@@ -202,7 +202,7 @@ const Carouselprojects = ({ history }) => {
         <CustomSlide className="itm" index={5}>
           <div className="bg">
             <img
-              src="./img/detailcase7/front7.jpg"
+              src="./img/salonSandvika/front7.jpg"
               className="img-fluid"
               alt="Imageteam"
             />
@@ -211,11 +211,11 @@ const Carouselprojects = ({ history }) => {
             <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
             <div className="name"><Trans i18nKey={"Carouselprojects.1607"}></Trans></div>
           </div>
-          <LinkWrap active={toCase === "/detailcase7"}>
+          <LinkWrap active={toCase === "/salonSandvika"}>
             <Overlay
               active={!!toCase}
               onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase7")}
+              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/salonSandvika")}
             >
               <div className="icon">
                 <span><Trans i18nKey={"Carouselprojects.1608"}></Trans></span>
