@@ -121,7 +121,7 @@ class Case extends Component {
                   </ul>
                   <p className="content"><span className="color"><Trans i18nKey={"salonSandvika.3411"}></Trans></span></p>
                 </div>
-                {/* <div className="col-md-4 sticky">
+                 <div className="col-md-4 sticky">
                   <ul className="detailproject">
                     <li>
                       <span className="tile"><Trans i18nKey={"homeStaging.3904"}></Trans></span>
@@ -140,15 +140,15 @@ class Case extends Component {
                       <span><Trans i18nKey={"homeStaging.4451"}></Trans></span>
                     </li>
                   </ul>
-                </div> */}
+                </div> 
                 <div className="col-md-12">
-                  {/* <div className="tags">
+                   <div className="tags">
                     <span className="heading"><Trans i18nKey={"homeStaging.4684"}></Trans></span>
                     <span className="content"><Trans i18nKey={"homeStaging.4745"}></Trans></span>
                     <span className="content"><Trans i18nKey={"homeStaging.4811"}></Trans></span>
                     <span className="content"><Trans i18nKey={"homeStaging.4875"}></Trans></span>
                     <span className="content"><Trans i18nKey={"homeStaging.4938"}></Trans></span>
-                  </div> */}
+                  </div> 
                 </div>
                 <div className="col-md-12">
                   <div className="share">
