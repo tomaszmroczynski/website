@@ -1,15 +1,15 @@
 ﻿{
   "mainpictures": {
     "title1": "Alfa Design Studio",
-         "desc1": "Welcome to my site",
-         "title2": "",
-         "desc2": "I invite you to see my offer",
-         "title3": "",
-         "desc3": ""
+         "desc1": "interior design",
+         "title2": "Alfa Design Studio",
+         "desc2": "interior design",
+         "title3": "Alfa Design Studio",
+         "desc3": "interior design"
   },
   "mainpictures2": {
     "title1": "Alfa Design Studio",
-         "desc1": "Welcome to my site",
+         "desc1": "interior design",
          "title2": "i proudly invite you",
          "desc2": "to familiarize yourself",
          "title3": "with my offer",
@@ -17,14 +17,14 @@
   },
   "mainpictures3": {
     "title1": "Alfa Design Studio",
-         "desc1": "Welcome to my site",
+         "desc1": "interior design",
          "title2": "I am proud to invite you",
          "desc2": "to read",
          "title3": "with my offer",
          "desc3": "interior architecture"
   },
   "detailCase1": {
-    "2467": "Return",
+    "2467": "Back",
     "2543": "INTERIOR",
     "2544": "A small apartment",
     "2679": "Small spaces often significant challenges. It was no different from the project of a small studio for my client. The apartment is located in an old tenement house. Originally it consisted of a bathroom, kitchen and living room. Our task was,above all, to separate a sleeping zone and arrange the space so that it would be functional, comfortable and beautiful. ",
@@ -50,7 +50,7 @@
     "5504": "Share:"
   },
   "detailCase2": {
-    "2137": "Return",
+    "2137": "Back",
     "2213": "INTERIOR",
     "2260": "Private house for a family of three",
     "2321": "I present the project of the total metamorphosis of the house from the 1970s. The owners are a young couple with a small child.",
@@ -102,7 +102,7 @@
     "5438": "Share:"
   },
   "flatGorlice": {
-    "2137": "Return",
+    "2137": "Back",
     "2213": "INTERIOR",
     "2260": "An apartment for a young married couple",
     "2317": "Can an attic apartment become a dream enclave for two? Of course! I present the project of an apartment in the attic",
@@ -217,22 +217,22 @@
 "salonSandvika": {
   "2133": "Back",
   "2209": "",
-  "2256": "HOME STAGING",
-  "2313": "Are you planning to sell an apartment, house or premises for more money? Do you want to rent an apartment, but it could use renovation or refreshment? Do you run a guesthouse, cabin or hotel and often enjoy your guests to come back here? HOME STAGING is the perfect solution!",
-  "3403": "a floor plan with the layout of appliances, furniture, etc.",
-  "3404": "demonstrative visualization of selected rooms OR Mood board (color and material board) are detailing: decorations, furniture, colours, equipment, materials, etc.",
-  "3405": "electrical installation plan with marked lighting points, switches, contacts, etc",
-  "3406": "a list of interior design elements, including prices and addresses of shops/websites",
-  "3407": "3 meetings/consultations, including one with arrival at the client, inventory (dimensioning) and discussion of the project",
-  "3408": "one amendment to the design (each subsequent consultation and/or modification is additionally payable).",
+  "2256": "A livingroom for a couple of travellers",
+  "2313": " The owners of the apartment are a young couple who are passionate about travelling. Where you go back is also essential in long expeditions. In this case, a comfortable and warm living room with a large, comfortable sofa, a bookcase for an extensive collection of books, a sideboard and a comfortable armchair for the host of the house. Despite the dark colours used, the living room is cosy, the interior is consistent and comfortable, and the decorations emphasize the owners' character.",
+  "3403": "",
+  "3404": "",
+  "3405": "",
+  "3406": "",
+  "3407": "",
+  "3408": "",
   "3409": "",
   "3410": "",
   "3904": "Categories:",
   "3952": "Interiors",
   "4068": "Client:",
-  "4112": "Projekt",
+  "4112": "privat",
   "4234": "Completed:",
-  "4281": "September 30, 2020",
+  "4281": "November 30, 2021",
   "4401": "Project type:",
   "4451": "Home decoration",
   "4684": "Tags:",
@@ -273,19 +273,19 @@
     "1501": "Tel"
   },
   "Carouselprojects": {
-    "1595": "See the Project",
+    "1595": "View Project",
     "1596": "Interior",
     "1597": "House 120m2,Drammen Norway",
     "1598": "Interior",
     "1599": "Studio 38m2 Gdynia, Poland",
-    "1600": "See the Project",
+    "1600": "View Project",
     "1601": "Interior and decorations",
     "1602": "House 110m2, Eidsberg, Norway",
     "1603": "View Project",
     "1604": "Interior",
     "1605": "Apartment 68 m2 Gorlice, Poland",
     "1606": "View Project",
-    "1607": "Livingroom Sandvika, Norway",
+    "1607": "Livingroom 32m2 Sandvika, Norway",
     "1608": "View Project"
   },
   "About": {
