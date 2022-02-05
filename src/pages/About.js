@@ -44,26 +44,7 @@ const About = ({ history }) => {
         <Abouthome />
       </Reveal>
 
-      {/*
-
-      <section className="container-fluid bggray">
-        <div className="row m-2-hor">
-          <div className="col-12"></div>
-        </div>
-      </section>
-      <Reveal effect="fadeInUp">
-         <section className='container-fluid'>
-          <div className='row m-2-hor'>
-            <div className='col-12'>
-              <div className='heading'>Our Team</div>
-            </div>
-            <div className='col-12'>
-              
-            </div>
-          </div>
-  </section> 
-      </Reveal>
-*/}
+      
       <Reveal effect="fadeInUp"></Reveal>
 
       <Reveal effect="fadeInUp">

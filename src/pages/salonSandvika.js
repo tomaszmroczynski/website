@@ -76,10 +76,10 @@ class Case extends Component {
                     hasBackground={this.state.hasBackground}
                   >
                     <BackArrow src="./img/back.png" alt="Back to Projects" />
-                    <span><Trans i18nKey={"detailCase6.2133"}></Trans></span>
+                    <span><Trans i18nKey={"salonSandvika.2133"}></Trans></span>
                   </BackButton>
-                  <ClientTag><Trans i18nKey={"detailCase6.2209"}></Trans></ClientTag>
-                  <Title><Trans i18nKey={"detailCase6.2256"}></Trans></Title>
+                  <ClientTag><Trans i18nKey={"salonSandvika.2209"}></Trans></ClientTag>
+                  <Title><Trans i18nKey={"salonSandvika.2256"}></Trans></Title>
                   <TechniqueTitle></TechniqueTitle>
                 </div>
               </Hero>
@@ -88,38 +88,38 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                <p className="content"><Trans i18nKey={"detailCase6.2313"}></Trans></p>
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase6.2910"}></Trans></span></p>
+                <p className="content"><Trans i18nKey={"salonSandvika.2313"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"salonSandvika.2910"}></Trans></span></p>
                   
                   <ul className="detailproject">
                     <li>
                       
-                      <span ><Trans i18nKey={"detailCase6.3403"}></Trans></span>
+                      <span ><Trans i18nKey={"salonSandvika.3403"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"detailCase6.3404"}></Trans></span>
+                      <span><Trans i18nKey={"salonSandvika.3404"}></Trans></span>
                     </li>
                     <li>                   
-                      <span><Trans i18nKey={"detailCase6.3405"}></Trans></span>
+                      <span><Trans i18nKey={"salonSandvika.3405"}></Trans></span>
                     </li>
                     <li>
                      
-                      <span><Trans i18nKey={"detailCase6.3406"}></Trans></span>
+                      <span><Trans i18nKey={"salonSandvika.3406"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span ><Trans i18nKey={"detailCase6.3407"}></Trans></span>
+                      <span ><Trans i18nKey={"salonSandvika.3407"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"detailCase6.3408"}></Trans></span>
+                      <span><Trans i18nKey={"salonSandvika.3408"}></Trans></span>
                     </li>
                   
                  
 
                   </ul>
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase4.3411"}></Trans></span></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"salonSandvika.3411"}></Trans></span></p>
                 </div>
                 {/* <div className="col-md-4 sticky">
                   <ul className="detailproject">
@@ -152,7 +152,7 @@ class Case extends Component {
                 </div>
                 <div className="col-md-12">
                   <div className="share">
-                    <span className="heading"><Trans i18nKey={"detailCase6.5138"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"salonSandvika.5138"}></Trans></span>
                     <span className="content">
                       <i className="fa fa-facebook-f"></i>
                     </span>
