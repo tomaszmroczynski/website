@@ -75,10 +75,10 @@ class Case extends Component {
                     hasBackground={this.state.hasBackground}
                   >
                     <BackArrow src="./img/back.png" alt="Back to Projects" />
-                    <span><Trans i18nKey={"detailCase6.2133"}></Trans></span>
+                    <span><Trans i18nKey={"homeStaging.2133"}></Trans></span>
                   </BackButton>
-                  <ClientTag><Trans i18nKey={"detailCase6.2209"}></Trans></ClientTag>
-                  <Title><Trans i18nKey={"detailCase6.2256"}></Trans></Title>
+                  <ClientTag><Trans i18nKey={"homeStaging.2209"}></Trans></ClientTag>
+                  <Title><Trans i18nKey={"homeStaging.2256"}></Trans></Title>
                   <TechniqueTitle></TechniqueTitle>
                 </div>
               </Hero>
@@ -87,32 +87,32 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                <p className="content"><Trans i18nKey={"detailCase6.2313"}></Trans></p>
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase6.2910"}></Trans></span></p>
+                <p className="content"><Trans i18nKey={"homeStaging.2313"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"homeStaging.2910"}></Trans></span></p>
                   
                   <ul className="detailproject">
                     <li>
                       
-                      <span ><Trans i18nKey={"detailCase6.3403"}></Trans></span>
+                      <span ><Trans i18nKey={"homeStaging.3403"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"detailCase6.3404"}></Trans></span>
+                      <span><Trans i18nKey={"homeStaging.3404"}></Trans></span>
                     </li>
                     <li>                   
-                      <span><Trans i18nKey={"detailCase6.3405"}></Trans></span>
+                      <span><Trans i18nKey={"homeStaging.3405"}></Trans></span>
                     </li>
                     <li>
                      
-                      <span><Trans i18nKey={"detailCase6.3406"}></Trans></span>
+                      <span><Trans i18nKey={"homeStaging.3406"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span ><Trans i18nKey={"detailCase6.3407"}></Trans></span>
+                      <span ><Trans i18nKey={"homeStaging.3407"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"detailCase6.3408"}></Trans></span>
+                      <span><Trans i18nKey={"homeStaging.3408"}></Trans></span>
                     </li>
                   
                  
@@ -123,35 +123,35 @@ class Case extends Component {
                 {/* <div className="col-md-4 sticky">
                   <ul className="detailproject">
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase6.3904"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase6.3952"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"homeStaging.3904"}></Trans></span>
+                      <span><Trans i18nKey={"homeStaging.3952"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase6.4068"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase6.4112"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"homeStaging.4068"}></Trans></span>
+                      <span><Trans i18nKey={"homeStaging.4112"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase6.4234"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase6.4281"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"homeStaging.4234"}></Trans></span>
+                      <span><Trans i18nKey={"homeStaging.4281"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase6.4401"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase6.4451"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"homeStaging.4401"}></Trans></span>
+                      <span><Trans i18nKey={"homeStaging.4451"}></Trans></span>
                     </li>
                   </ul>
                 </div> */}
                 <div className="col-md-12">
                   {/* <div className="tags">
-                    <span className="heading"><Trans i18nKey={"detailCase6.4684"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase6.4745"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase6.4811"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase6.4875"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase6.4938"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"homeStaging.4684"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"homeStaging.4745"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"homeStaging.4811"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"homeStaging.4875"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"homeStaging.4938"}></Trans></span>
                   </div> */}
                 </div>
                 <div className="col-md-12">
                   <div className="share">
-                    <span className="heading"><Trans i18nKey={"detailCase6.5138"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"homeStaging.5138"}></Trans></span>
                     <span className="content">
                       <i className="fa fa-facebook-f"></i>
                     </span>

@@ -18,7 +18,7 @@ import Case2 from "./pages/detailCase2";
 import Case3 from "./pages/flatGorlice";
 import Case4 from "./pages/detailCase4";
 import Case5 from "./pages/detailCase5";
-import Case6 from "./pages/detailCase6";
+import Case6 from "./pages/homeStaging";
 import Case7 from "./pages/salonSandvika";
 
 function App() {
@@ -85,7 +85,7 @@ function App() {
             )}
           />
           <Route
-            path="/detailcase6"
+            path="/homeStaging"
             component={() => (
               <Case6 setNavBackground={(state) => setNavBack(state)} />
             )}
