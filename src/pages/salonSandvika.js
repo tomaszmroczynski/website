@@ -97,27 +97,27 @@ class Case extends Component {
                  <div className="col-md-4 sticky">
                   <ul className="detailproject">
                     <li>
-                      <span className="tile"><Trans i18nKey={"homeStaging.3904"}></Trans></span>
-                      <span><Trans i18nKey={"homeStaging.3952"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"salonSandvika.3904"}></Trans></span>
+                      <span><Trans i18nKey={"salonSandvika.3952"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"homeStaging.4068"}></Trans></span>
-                      <span><Trans i18nKey={"homeStaging.4112"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"salonSandvika.4068"}></Trans></span>
+                      <span><Trans i18nKey={"salonSandvika.4112"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"homeStaging.4234"}></Trans></span>
-                      <span><Trans i18nKey={"homeStaging.4281"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"salonSandvika.4234"}></Trans></span>
+                      <span><Trans i18nKey={"salonSandvika.4281"}></Trans></span>
                     </li>
 
                   </ul>
                 </div> 
                 <div className="col-md-12">
                    <div className="tags">
-                    <span className="heading"><Trans i18nKey={"homeStaging.4684"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"homeStaging.4745"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"homeStaging.4811"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"homeStaging.4875"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"homeStaging.4938"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"salonSandvika.4684"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"salonSandvika.4745"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"salonSandvika.4811"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"salonSandvika.4875"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"salonSandvika.4938"}></Trans></span>
                   </div> 
                 </div>
                 <div className="col-md-12">
