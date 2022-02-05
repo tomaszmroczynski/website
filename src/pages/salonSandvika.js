@@ -91,34 +91,7 @@ class Case extends Component {
                 <p className="content"><Trans i18nKey={"salonSandvika.2313"}></Trans></p>
                   <p className="content"><span className="color"><Trans i18nKey={"salonSandvika.2910"}></Trans></span></p>
                   
-                  <ul className="detailproject">
-                    <li>
-                      
-                      <span ><Trans i18nKey={"salonSandvika.3403"}></Trans></span>
-                    </li>
-                    <li>
-                      
-                      <span><Trans i18nKey={"salonSandvika.3404"}></Trans></span>
-                    </li>
-                    <li>                   
-                      <span><Trans i18nKey={"salonSandvika.3405"}></Trans></span>
-                    </li>
-                    <li>
-                     
-                      <span><Trans i18nKey={"salonSandvika.3406"}></Trans></span>
-                    </li>
-                    <li>
-                      
-                      <span ><Trans i18nKey={"salonSandvika.3407"}></Trans></span>
-                    </li>
-                    <li>
-                      
-                      <span><Trans i18nKey={"salonSandvika.3408"}></Trans></span>
-                    </li>
-                  
-                 
 
-                  </ul>
                   <p className="content"><span className="color"><Trans i18nKey={"salonSandvika.3411"}></Trans></span></p>
                 </div>
                  <div className="col-md-4 sticky">
@@ -135,10 +108,7 @@ class Case extends Component {
                       <span className="tile"><Trans i18nKey={"homeStaging.4234"}></Trans></span>
                       <span><Trans i18nKey={"homeStaging.4281"}></Trans></span>
                     </li>
-                    <li>
-                      <span className="tile"><Trans i18nKey={"homeStaging.4401"}></Trans></span>
-                      <span><Trans i18nKey={"homeStaging.4451"}></Trans></span>
-                    </li>
+
                   </ul>
                 </div> 
                 <div className="col-md-12">
