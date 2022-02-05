@@ -10,21 +10,21 @@ const Slidercase6 = () => {
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase6/1.jpg",
+      image: "./img/homeStaging/1.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase6/2.jpg",
+      image: "./img/homeStaging/2.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/detailcase6/3.jpg",
+      image: "./img/homeStaging/3.jpg",
     },
   ];
 

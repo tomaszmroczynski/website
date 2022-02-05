@@ -146,11 +146,11 @@ const Expertness = ({ history }) => {
           </Overlay>
         </LinkWrap>
 
-        <LinkWrap active={toCase === "/detailcase6"}>
+        <LinkWrap active={toCase === "/homeStaging"}>
           <Overlay
             active={!!toCase}
             onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase6")}
+            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/homeStaging")}
           >
             <CustomSlide className="itm" index={3}>
               <div className="bg">
