@@ -75,10 +75,10 @@ class Case extends Component {
                     hasBackground={this.state.hasBackground}
                   >
                     <BackArrow src="./img/back.png" alt="Back to Projects" />
-                    <span><Trans i18nKey={"detailCase4.2133"}></Trans></span>
+                    <span><Trans i18nKey={"interiorArchitecture.2133"}></Trans></span>
                   </BackButton>
-                  <ClientTag><Trans i18nKey={"detailCase4.2209"}></Trans></ClientTag>
-                  <Title><Trans i18nKey={"detailCase4.2256"}></Trans></Title>
+                  <ClientTag><Trans i18nKey={"interiorArchitecture.2209"}></Trans></ClientTag>
+                  <Title><Trans i18nKey={"interiorArchitecture.2256"}></Trans></Title>
                   <TechniqueTitle></TechniqueTitle>
                 </div>
               </Hero>
@@ -87,78 +87,78 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                <p className="content"><Trans i18nKey={"detailCase4.2313"}></Trans></p>
-                  <p className="content"><Trans i18nKey={"detailCase4.2910"}></Trans></p>
-                  <p className="color"><Trans i18nKey={"detailCase4.3397"}></Trans></p>
+                <p className="content"><Trans i18nKey={"interiorArchitecture.2313"}></Trans></p>
+                  <p className="content"><Trans i18nKey={"interiorArchitecture.2910"}></Trans></p>
+                  <p className="color"><Trans i18nKey={"interiorArchitecture.3397"}></Trans></p>
                   <ul className="detailproject">
                     <li>
                       
-                      <span ><Trans i18nKey={"detailCase4.3398"}></Trans></span>
+                      <span ><Trans i18nKey={"interiorArchitecture.3398"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"detailCase4.3399"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3399"}></Trans></span>
                     </li>
                     <li>                   
-                      <span><Trans i18nKey={"detailCase4.3400"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3400"}></Trans></span>
                     </li>
                     <li>
                      
-                      <span><Trans i18nKey={"detailCase4.3401"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3401"}></Trans></span>
                     </li>
 
                   </ul>
-                  <p className="color"><Trans i18nKey={"detailCase4.3402"}></Trans></p>
+                  <p className="color"><Trans i18nKey={"interiorArchitecture.3402"}></Trans></p>
                   <ul className="detailproject">
                     <li>
                       
-                      <span ><Trans i18nKey={"detailCase4.3403"}></Trans></span>
+                      <span ><Trans i18nKey={"interiorArchitecture.3403"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"detailCase4.3404"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3404"}></Trans></span>
                     </li>
                     <li>                   
-                      <span><Trans i18nKey={"detailCase4.3405"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3405"}></Trans></span>
                     </li>
                     <li>
                      
-                      <span><Trans i18nKey={"detailCase4.3406"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3406"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span ><Trans i18nKey={"detailCase4.3407"}></Trans></span>
+                      <span ><Trans i18nKey={"interiorArchitecture.3407"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"detailCase4.3408"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3408"}></Trans></span>
                     </li>
                     <li>                   
-                      <span><Trans i18nKey={"detailCase4.3409"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3409"}></Trans></span>
                     </li>
                     <li>
                      
-                      <span><Trans i18nKey={"detailCase4.3410"}></Trans></span>
+                      <span><Trans i18nKey={"interiorArchitecture.3410"}></Trans></span>
                     </li>
 
                   </ul>
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase4.3411"}></Trans></span></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"interiorArchitecture.3411"}></Trans></span></p>
                 </div>
                 
            
                 
                 <div className="col-md-12">
                   <div className="tags">
-                    <span className="heading"><Trans i18nKey={"detailCase4.4684"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase4.4745"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase4.4811"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase4.4875"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase4.4938"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"interiorArchitecture.4684"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"interiorArchitecture.4745"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"interiorArchitecture.4811"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"interiorArchitecture.4875"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"interiorArchitecture.4938"}></Trans></span>
                   </div>
                 </div>
                 <div className="col-md-12">
                   <div className="share">
-                    <span className="heading"><Trans i18nKey={"detailCase4.5138"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"interiorArchitecture.5138"}></Trans></span>
                     <span className="content">
                       <i className="fa fa-facebook-f"></i>
                     </span>

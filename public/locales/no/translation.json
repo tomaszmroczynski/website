@@ -126,7 +126,7 @@
     "4942": "Minimum",
     "5142": "Del:"
   },
-"detailCase4": {
+"interiorArchitecture": {
     "2133": "Tilbake",
     "2209": "",
     "2256": "INTERIØR ARKITEKTUR",
@@ -161,7 +161,7 @@
     "4938": "Minimum",
     "5138": "Del:"
   },
-  "detailCase5": {
+  "decoration": {
     "2133": "Tilbake",
     "2209": "",
     "2256": "INNREDNING",

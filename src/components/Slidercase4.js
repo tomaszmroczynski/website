@@ -10,28 +10,28 @@ const Slidercase4 = () => {
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/feature/detailcase4/1.jpg",
+      image: "./img/feature/interiorArchitecture/1.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/feature/detailcase4/2.jpg",
+      image: "./img/feature/interiorArchitecture/2.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/feature/detailcase4/3.jpg",
+      image: "./img/feature/interiorArchitecture/3.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/feature/detailcase4/4.jpg",
+      image: "./img/feature/interiorArchitecture/4.jpg",
     },
  
   ];

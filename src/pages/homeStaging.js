@@ -118,7 +118,7 @@ class Case extends Component {
                  
 
                   </ul>
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase4.3411"}></Trans></span></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"interiorArchitecture.3411"}></Trans></span></p>
                 </div>
                 {/* <div className="col-md-4 sticky">
                   <ul className="detailproject">

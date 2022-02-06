@@ -92,11 +92,11 @@ const Expertness = ({ history }) => {
   return (
     <div className="slick">
       <Slider {...settings}>
-        <LinkWrap active={toCase === "/detailcase4"}>
+        <LinkWrap active={toCase === "/interiorArchitecture"}>
           <Overlay
             active={!!toCase}
             onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase4")}
+            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/interiorArchitecture")}
           >
             <CustomSlide className="itm" index={1}>
               <div className="bg">
@@ -119,11 +119,11 @@ const Expertness = ({ history }) => {
           </Overlay>
         </LinkWrap>
 
-        <LinkWrap active={toCase === "/detailcase5"}>
+        <LinkWrap active={toCase === "/decoration"}>
           <Overlay
             active={!!toCase}
             onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/detailcase5")}
+            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/decoration")}
           >
             <CustomSlide className="itm" index={2}>
               <div className="bg">
