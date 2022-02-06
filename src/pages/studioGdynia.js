@@ -89,11 +89,11 @@ class Case extends Component {
                     hasBackground={this.state.hasBackground}
                   >
                     <BackArrow src="./img/back.png" alt="Back to Projects" />
-                    <span><Trans i18nKey={"detailCase1.2467"}></Trans></span>
+                    <span><Trans i18nKey={"studioGdynia.2467"}></Trans></span>
                   </BackButton>
-                  <ClientTag><Trans i18nKey={"detailCase1.2543"}></Trans></ClientTag>
-                  <Title><Trans i18nKey={"detailCase1.2544"}></Trans></Title>
-                  <TechniqueTitle><Trans i18nKey={"detailCase1.2679"}></Trans></TechniqueTitle>
+                  <ClientTag><Trans i18nKey={"studioGdynia.2543"}></Trans></ClientTag>
+                  <Title><Trans i18nKey={"studioGdynia.2544"}></Trans></Title>
+                  <TechniqueTitle><Trans i18nKey={"studioGdynia.2679"}></Trans></TechniqueTitle>
                 </div>
               </Hero>
             </Reveal>
@@ -102,42 +102,42 @@ class Case extends Component {
               <div className="row m-2-hor">
                 <div className="col-md-8">
     
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase1.2680"}></Trans> </span><Trans i18nKey={"detailCase1.3681"}></Trans></p>
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase1.3682"}></Trans> </span><Trans i18nKey={"detailCase1.3683"}></Trans></p>
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase1.3684"}></Trans> </span><Trans i18nKey={"detailCase1.3685"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"studioGdynia.2680"}></Trans> </span><Trans i18nKey={"studioGdynia.3681"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"studioGdynia.3682"}></Trans> </span><Trans i18nKey={"studioGdynia.3683"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"studioGdynia.3684"}></Trans> </span><Trans i18nKey={"studioGdynia.3685"}></Trans></p>
                 </div>
                 <div className="col-md-4 sticky">
                   <ul className="detailproject">
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase1.4270"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase1.4318"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"studioGdynia.4270"}></Trans></span>
+                      <span><Trans i18nKey={"studioGdynia.4318"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase1.4434"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase1.4478"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"studioGdynia.4434"}></Trans></span>
+                      <span><Trans i18nKey={"studioGdynia.4478"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase1.4600"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase1.4647"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"studioGdynia.4600"}></Trans></span>
+                      <span><Trans i18nKey={"studioGdynia.4647"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"detailCase1.4767"}></Trans></span>
-                      <span><Trans i18nKey={"detailCase1.4817"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"studioGdynia.4767"}></Trans></span>
+                      <span><Trans i18nKey={"studioGdynia.4817"}></Trans></span>
                     </li>
                   </ul>
                 </div>
                 <div className="col-md-12">
                   <div className="tags">
-                    <span className="heading"><Trans i18nKey={"detailCase1.5050"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase1.5111"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase1.5177"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase1.5241"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase1.5304"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"studioGdynia.5050"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"studioGdynia.5111"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"studioGdynia.5177"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"studioGdynia.5241"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"studioGdynia.5304"}></Trans></span>
                   </div>
                 </div>
                 <div className="col-md-12">
                   <div className="share">
-                    <span className="heading"><Trans i18nKey={"detailCase1.5504"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"studioGdynia.5504"}></Trans></span>
                     <span className="content">
                       <i className="fa fa-facebook-f"></i>
                     </span>
