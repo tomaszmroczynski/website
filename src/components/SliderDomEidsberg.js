@@ -3,55 +3,42 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
-const SliderStudioGdynia = () => {
+const SliderDomEidsberg = () => {
   const content = [
     {
       title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/studioGdynia/1.jpg",
+      image: "./img/houseEidsberg/1.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/studioGdynia/2.jpg",
+      image: "./img/houseEidsberg/2.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/studioGdynia/3.jpg",
+      image: "./img/houseEidsberg/3.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/studioGdynia/4.jpg",
+      image: "./img/houseEidsberg/4.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/studioGdynia/5.jpg",
-    },
-    {
-      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/studioGdynia/6.jpg",
-    },    {
-      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/studioGdynia/7.jpg",
+      image: "./img/houseEidsberg/5.jpg",
     },
   ];
 
@@ -72,4 +59,4 @@ const SliderStudioGdynia = () => {
   );
 };
 
-export default SliderStudioGdynia;
+export default SliderDomEidsberg;

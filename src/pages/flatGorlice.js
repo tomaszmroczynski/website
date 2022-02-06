@@ -9,7 +9,7 @@ import {
   BackButton,
   BackArrow,
 } from "../styles/Case.styles";
-import Slider from "../components/Slidercase3";
+import Slider from "../components/SliderflatGorlice";
 import Reveal from "react-reveal/Reveal";
 import { withRouter } from "react-router";
 

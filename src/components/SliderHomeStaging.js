@@ -3,44 +3,31 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
-const Slidercase5 = () => {
+const SliderHomeStaging = () => {
   const content = [
     {
       title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/decoration/1.jpg",
+      image: "./img/homeStaging/1.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/decoration/2.jpg",
+      image: "./img/homeStaging/2.jpg",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/decoration/3.jpg",
-    },
-    {
-      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/decoration/4.jpg",
-    },
-    {
-      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/decoration/5.jpg",
+      image: "./img/homeStaging/3.jpg",
     },
   ];
+
   useEffect(() => {}, [content]);
 
   return (
@@ -58,4 +45,4 @@ const Slidercase5 = () => {
   );
 };
 
-export default Slidercase5;
+export default SliderHomeStaging;

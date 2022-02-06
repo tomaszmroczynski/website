@@ -1,5 +1,5 @@
 import React, { Component, createRef, Fragment } from "react";
-import Slider from "../components/Slidercase2";
+import Slider from "../components/SliderDomEidsberg";
 import { Trans } from "react-i18next";
 import {
   Hero,
