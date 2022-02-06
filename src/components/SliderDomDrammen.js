@@ -3,7 +3,7 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
-const Slidercase = () => {
+const SliderDomDrammen = () => {
   const content = [
     {
       title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
@@ -87,4 +87,4 @@ const Slidercase = () => {
   );
 };
 
-export default Slidercase;
+export default SliderDomDrammen;

@@ -12,7 +12,7 @@ import {
 
 import Reveal from "react-reveal/Reveal";
 import { withRouter } from "react-router";
-import Slider from "../components/Slidercase1";
+import Slider from "../components/SliderStudioGdynia";
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
 

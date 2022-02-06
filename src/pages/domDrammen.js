@@ -15,7 +15,7 @@ import { withRouter } from "react-router";
 
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
-import Slider from "../components/Slidercase";
+import Slider from "../components/SliderDomDrammen";
 export const ScrollTop = ({ children, location }) => {
   React.useEffect(() => window.scrollTo(0, 0), [location]);
   return children;
