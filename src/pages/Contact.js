@@ -105,6 +105,11 @@ const Contact = ({ history }) => {
                   <input type="email" name="user_email" required />
                   <label>Message</label>
                   <textarea name="message" required />
+                  <label>Tel</label>
+                  <input type="tel" 
+            placeholder="Enter phone number" name="telephone" required/>
+                  <label>Promocode</label>
+                  <input type="text" name="promocode" />
                   <div id="success" className="hide">
                     Your message has been sent...
                   </div>
