@@ -3,7 +3,7 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
-const Slidercase1 = () => {
+const SliderStudioGdynia = () => {
   const content = [
     {
       title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
@@ -72,4 +72,4 @@ const Slidercase1 = () => {
   );
 };
 
-export default Slidercase1;
+export default SliderStudioGdynia;
