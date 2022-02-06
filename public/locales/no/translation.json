@@ -23,7 +23,7 @@
          "title3": "med mitt tilbud",
          "desc3": "interiørarkitektur"
   },
-  "detailCase1": {
+  "studioGdynia": {
     "2467": "Return",
     "2543": "INTERIØR",
     "2544": "En liten leilighet",
@@ -49,7 +49,7 @@
     "5304": "Full",
     "5504": "Del:"
   },
-  "detailCase2": {
+  "domEidsberg": {
     "2137": "Return",
     "2213": "INTERIØR",
     "2260": "Privat hus for en familie på tre",
@@ -75,7 +75,7 @@
     "4946": "Minimum",
     "5146": "Del:"
   },
-  "detailCase": {
+  "domDrammen": {
     "2428": "Tilbake",
     "2504": "INTERIØR",
     "2551": "Hus for en familie på 4",
