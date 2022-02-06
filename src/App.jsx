@@ -12,9 +12,9 @@ import About from "./pages/About";
 import Work from "./pages/works";
 import Expertness from "./pages/expertness";
 import Contact from "./pages/Contact";
-import Case from "./pages/detailCase";
-import Case1 from "./pages/detailCase1";
-import Case2 from "./pages/detailCase2";
+import Case from "./pages/domDrammen";
+import Case1 from "./pages/studioGdynia";
+import Case2 from "./pages/houseEidsberg";
 import Case3 from "./pages/flatGorlice";
 import Case4 from "./pages/detailCase4";
 import Case5 from "./pages/detailCase5";
@@ -49,19 +49,19 @@ function App() {
           <Route path="/Contact" exact component={Contact} />
           <Route path="/Expertness" exact component={Expertness} />
           <Route
-            path="/detailcase"
+            path="/domDrammen"
             component={() => (
               <Case setNavBackground={(state) => setNavBack(state)} />
             )}
           />
           <Route
-            path="/detailcase1"
+            path="/studioGdynia"
             component={() => (
               <Case1 setNavBackground={(state) => setNavBack(state)} />
             )}
           />
           <Route
-            path="/detailcase2"
+            path="/houseEidsberg"
             component={() => (
               <Case2 setNavBackground={(state) => setNavBack(state)} />
             )}
