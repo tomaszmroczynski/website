@@ -1,7 +1,7 @@
 import React from "react";
 import { Trans } from "react-i18next";
 
-export default () => (
+const Footer = () => (
   <footer className="container-fluid black_more">
     <div className="bg-footer">
       <img src="./img/footer-img.png" alt="bg-footer" />
@@ -16,6 +16,12 @@ export default () => (
             <p>
             <Trans i18nKey={"Footer.1397"}></Trans>
             </p>
+          </div>
+          <div
+            className="link-call"
+            onClick={() => window.open("tel:+4794712654", "_self")}
+          >
+            +47 947-12-654
           </div>
           <div
             className="link-call"
@@ -97,3 +103,5 @@ export default () => (
     </div>
   </footer>
 );
+
+export default Footer;
