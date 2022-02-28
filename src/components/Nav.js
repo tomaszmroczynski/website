@@ -153,7 +153,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           </div>
 
           <div className="info">
-            <span>(+47) 940 38 480</span>
+            <span>(+47) 947 12 654</span>
             <span className="link">studio@alfadesign.no</span>
             <span>Finnestadveien 371 1880 Indre Østfold</span>
           </div>
