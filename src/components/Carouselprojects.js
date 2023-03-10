@@ -97,7 +97,7 @@ const Carouselprojects = ({ history }) => {
   return (
     <div className="slick slickproject">
       <Slider {...settings}>
-        <CustomSlide className="itm" index={1}>
+        {/* <CustomSlide className="itm" index={1}>
           <div className="bg">
             <img
               src="./img/domDrammen/front.jpg"
@@ -120,7 +120,7 @@ const Carouselprojects = ({ history }) => {
               </div>
             </Overlay>
           </LinkWrap>
-        </CustomSlide>
+        </CustomSlide> */}
 
         <CustomSlide className="itm" index={2}>
           <div className="bg">
