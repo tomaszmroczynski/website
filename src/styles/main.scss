@@ -407,11 +407,11 @@ section {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-shadow: 3px 5px 2px #474747;
-  
+  font-weight: 400;
   
 }
 .slider-content .inner button {
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
   overflow: hidden;
   font-size: 11pt;
@@ -512,13 +512,13 @@ section {
   }
 }
 .slider-content .inner h1 {
-  font-weight: 600;
+  font-weight: 400;
   max-width: 840px;
   color: #fff;
   font-size: 60px;
 }
 .slider-content .inner p {
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
   font-size: 48px;
   line-height: 1.3;

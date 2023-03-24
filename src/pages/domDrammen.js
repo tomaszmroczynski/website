@@ -10,12 +10,15 @@ import {
   BackArrow,
 } from "../styles/Case.styles";
 
+
 import Reveal from "react-reveal/Reveal";
 import { withRouter } from "react-router";
 
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
 import Slider from "../components/SliderDomDrammen";
+
+
 export const ScrollTop = ({ children, location }) => {
   React.useEffect(() => window.scrollTo(0, 0), [location]);
   return children;
@@ -59,7 +62,7 @@ class Case extends Component {
         <Efectr2 />
         <ScrollTop>
           <CaseWrapper>
-            
+
           {/* <div className="videocontainer">
                   <video
                     className="video"
@@ -101,7 +104,7 @@ class Case extends Component {
             </Reveal>
 
             <section className="container-fluid" id="detailproject">
-  
+
               <div className="row m-2-hor">
                 <div className="col-md-8">
                   

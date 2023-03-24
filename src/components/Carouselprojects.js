@@ -97,10 +97,10 @@ const Carouselprojects = ({ history }) => {
   return (
     <div className="slick slickproject">
       <Slider {...settings}>
-        {/* <CustomSlide className="itm" index={1}>
+        <CustomSlide className="itm" index={1}>
           <div className="bg">
             <img
-              src="./img/domDrammen/front.jpg"
+              src="./img/salonGlm/front.jpg"
               className="img-fluid"
               alt="Imageteam"
             />
@@ -109,20 +109,44 @@ const Carouselprojects = ({ history }) => {
             <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
             <div className="name"><Trans i18nKey={"Carouselprojects.1597"}></Trans></div>
           </div>
-          <LinkWrap active={toCase === "/domDrammen"}>
+          <LinkWrap active={toCase === "/salonGlm"}>
             <Overlay
               active={!!toCase}
               onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/domDrammen")}
+              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/salonGlm")}
             >
               <div className="icon">
                 <span><Trans i18nKey={"Carouselprojects.1595"}></Trans></span>
               </div>
             </Overlay>
           </LinkWrap>
-        </CustomSlide> */}
-
+        </CustomSlide>
         <CustomSlide className="itm" index={2}>
+          <div className="bg">
+            <img
+              src="./img/lazMoss/front.jpg"
+              className="img-fluid"
+              alt="Imageteam"
+            />
+          </div>
+          <div className="desc">
+            <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
+            <div className="name"><Trans i18nKey={"Carouselprojects.1597"}></Trans></div>
+          </div>
+          <LinkWrap active={toCase === "/lazMoss"}>
+            <Overlay
+              active={!!toCase}
+              onMouseDown={(e) => setCoords(e.nativeEvent.x)}
+              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/lazMoss")}
+            >
+              <div className="icon">
+                <span><Trans i18nKey={"Carouselprojects.1595"}></Trans></span>
+              </div>
+            </Overlay>
+          </LinkWrap>
+        </CustomSlide>
+
+        <CustomSlide className="itm" index={3}>
           <div className="bg">
             <img
               src="./img/studioGdynia/front1.jpg"
@@ -148,7 +172,7 @@ const Carouselprojects = ({ history }) => {
           </LinkWrap>
         </CustomSlide>
 
-        <CustomSlide className="itm" index={3}>
+        <CustomSlide className="itm" index={4}>
           <div className="bg">
             <img
               src="./img/houseEidsberg/front2.jpg"
@@ -175,7 +199,7 @@ const Carouselprojects = ({ history }) => {
           </LinkWrap>
         </CustomSlide>
 
-        <CustomSlide className="itm" index={4}>
+        <CustomSlide className="itm" index={5}>
           <div className="bg">
             <img
               src="./img/flatGorlice/front3.jpg"
@@ -200,7 +224,7 @@ const Carouselprojects = ({ history }) => {
           </LinkWrap>
         </CustomSlide>
 
-        <CustomSlide className="itm" index={5}>
+        <CustomSlide className="itm" index={6}>
           <div className="bg">
             <img
               src="./img/salonSandvika/front7.jpg"

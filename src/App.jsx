@@ -20,6 +20,8 @@ import Case4 from "./pages/interiorArchitecture";
 import Case5 from "./pages/decoration";
 import Case6 from "./pages/homeStaging";
 import Case7 from "./pages/salonSandvika";
+import Case8 from "./pages/salonGlm";
+import Case9 from "./pages/lazMoss";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -97,6 +99,18 @@ function App() {
             )}
           />
 
+          <Route
+            path="/salonGlm"
+            component={() => (
+              <Case8 setNavBackground={(state) => setNavBack(state)} />
+            )}
+          />
+          <Route
+            path="/lazMoss"
+            component={() => (
+              <Case9 setNavBackground={(state) => setNavBack(state)} />
+            )}
+          />
           <ScrollToTopBtn />
         </div>
       )}

@@ -10,11 +10,14 @@ import {
   BackArrow,
 } from "../styles/Case.styles";
 
+
 import Reveal from "react-reveal/Reveal";
 import { withRouter } from "react-router";
-import Slider from "../components/Slidercase4";
+
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
+import Slider from "../components/SliderSalonGlm";
+
 
 export const ScrollTop = ({ children, location }) => {
   React.useEffect(() => window.scrollTo(0, 0), [location]);
@@ -59,12 +62,27 @@ class Case extends Component {
         <Efectr2 />
         <ScrollTop>
           <CaseWrapper>
-            <Reveal effect="fadeIn">
-              <Hero
-                className="mainhero"
 
-              >
-                <Slider/>
+          {/* <div className="videocontainer">
+                  <video
+                    className="video"
+                    autoPlay
+                    loop
+                    muted
+                    poster={"./img/projects/big/img1.jpg"}
+                  >
+                    <source
+                      src={"./img/projects/big/filmw.mp4"}
+                      type="video/mp4"
+                    />
+                  </video>
+                  </div> */}
+            <Reveal effect="fadeIn">
+
+              <Hero className="mainhero">
+              <Slider />
+            
+                
                 <div className="herocaption">
                   <BackButton
                     className="backdetail"
@@ -75,90 +93,57 @@ class Case extends Component {
                     hasBackground={this.state.hasBackground}
                   >
                     <BackArrow src="./img/back.png" alt="Back to Projects" />
-                    <span><Trans i18nKey={"detailCase4.2133"}></Trans></span>
+                    <span><Trans i18nKey={"domDrammen.2428"}></Trans></span>
                   </BackButton>
-                  <ClientTag><Trans i18nKey={"detailCase4.2209"}></Trans></ClientTag>
-                  <Title><Trans i18nKey={"detailCase4.2256"}></Trans></Title>
-                  <TechniqueTitle></TechniqueTitle>
+                  <ClientTag><Trans i18nKey={"domDrammen.2504"}></Trans></ClientTag>
+                  <Title><Trans i18nKey={"domDrammen.2551"}></Trans></Title>
+                  <TechniqueTitle><Trans i18nKey={"domDrammen.2613"}></Trans></TechniqueTitle>
                 </div>
+                
               </Hero>
             </Reveal>
 
             <section className="container-fluid" id="detailproject">
+
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                <p className="content"><Trans i18nKey={"detailCase4.2313"}></Trans></p>
-                  <p className="content"><Trans i18nKey={"detailCase4.2910"}></Trans></p>
-                  <p className="color"><Trans i18nKey={"detailCase4.3397"}></Trans></p>
-                  <ul className="detailproject">
-                    <li>
-                      
-                      <span ><Trans i18nKey={"detailCase4.3398"}></Trans></span>
-                    </li>
-                    <li>
-                      
-                      <span><Trans i18nKey={"detailCase4.3399"}></Trans></span>
-                    </li>
-                    <li>                   
-                      <span><Trans i18nKey={"detailCase4.3400"}></Trans></span>
-                    </li>
-                    <li>
-                     
-                      <span><Trans i18nKey={"detailCase4.3401"}></Trans></span>
-                    </li>
-
-                  </ul>
-                  <p className="color"><Trans i18nKey={"detailCase4.3402"}></Trans></p>
-                  <ul className="detailproject">
-                    <li>
-                      
-                      <span ><Trans i18nKey={"detailCase4.3403"}></Trans></span>
-                    </li>
-                    <li>
-                      
-                      <span><Trans i18nKey={"detailCase4.3404"}></Trans></span>
-                    </li>
-                    <li>                   
-                      <span><Trans i18nKey={"detailCase4.3405"}></Trans></span>
-                    </li>
-                    <li>
-                     
-                      <span><Trans i18nKey={"detailCase4.3406"}></Trans></span>
-                    </li>
-                    <li>
-                      
-                      <span ><Trans i18nKey={"detailCase4.3407"}></Trans></span>
-                    </li>
-                    <li>
-                      
-                      <span><Trans i18nKey={"detailCase4.3408"}></Trans></span>
-                    </li>
-                    <li>                   
-                      <span><Trans i18nKey={"detailCase4.3409"}></Trans></span>
-                    </li>
-                    <li>
-                     
-                      <span><Trans i18nKey={"detailCase4.3410"}></Trans></span>
-                    </li>
-
-                  </ul>
-                  <p className="content"><span className="color"><Trans i18nKey={"detailCase4.3411"}></Trans></span></p>
+                  
+                  <p className="content"><span className="color"><Trans i18nKey={"domDrammen.3209"}></Trans> </span><Trans i18nKey={"domDrammen.3210"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"domDrammen.3696"}></Trans> </span><Trans i18nKey={"domDrammen.3697"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"domDrammen.3699"}></Trans> </span><Trans i18nKey={"domDrammen.3698"}></Trans></p>
                 </div>
-                
-           
-                
+                <div className="col-md-4 sticky">
+                  <ul className="detailproject">
+                    <li>
+                      <span className="tile"><Trans i18nKey={"domDrammen.4204"}></Trans></span>
+                      <span><Trans i18nKey={"domDrammen.4252"}></Trans></span>
+                    </li>
+                    <li>
+                      <span className="tile"><Trans i18nKey={"domDrammen.4368"}></Trans></span>
+                      <span><Trans i18nKey={"domDrammen.4412"}></Trans></span>
+                    </li>
+                    <li>
+                      <span className="tile"><Trans i18nKey={"domDrammen.4534"}></Trans></span>
+                      <span><Trans i18nKey={"domDrammen.4581"}></Trans></span>
+                    </li>
+                    <li>
+                      <span className="tile"><Trans i18nKey={"domDrammen.4701"}></Trans></span>
+                      <span><Trans i18nKey={"domDrammen.4751"}></Trans></span>
+                    </li>
+                  </ul>
+                </div>
                 <div className="col-md-12">
                   <div className="tags">
-                    <span className="heading"><Trans i18nKey={"detailCase4.4684"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase4.4745"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase4.4811"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase4.4875"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"detailCase4.4938"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"domDrammen.4984"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"domDrammen.5045"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"domDrammen.5111"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"domDrammen.5175"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"domDrammen.5238"}></Trans></span>
                   </div>
                 </div>
                 <div className="col-md-12">
                   <div className="share">
-                    <span className="heading"><Trans i18nKey={"detailCase4.5138"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"domDrammen.5438"}></Trans></span>
                     <span className="content">
                       <i className="fa fa-facebook-f"></i>
                     </span>

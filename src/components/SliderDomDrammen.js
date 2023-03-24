@@ -3,7 +3,9 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
+
 const SliderDomDrammen = () => {
+
   const content = [
     {
       title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
@@ -73,6 +75,7 @@ const SliderDomDrammen = () => {
   useEffect(() => {}, [content]);
 
   return (
+
     <Slider className="slider-wrapper" autoplay={6000}>
       {content.map((item, index) => (
         <div
@@ -84,6 +87,7 @@ const SliderDomDrammen = () => {
         </div>
       ))}
     </Slider>
+    
   );
 };
 
