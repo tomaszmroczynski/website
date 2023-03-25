@@ -107,8 +107,8 @@
     "2504": "WNĘTRZE",
     "2551": "Łazienka w ciepłej, przyjemnej kompozycji",
     "2613": "",
-    "3209": "Nowa , przestronna łazienka była duzym marzeniem 3 osobowej , mlodej rodziny. z polaczenia dwoch niefunkcnoalnych pomieszczen powstala bardzo przestronna łazeinka , ktora laczy elementy natury z minimalustyczna eleganca. zabuodwana szafa kryje w sobie nie tylko urzadzenia agd lecz rowniez jest spora przestrzenia do przechowywania. ",
-    "3210": "    wygodna wanna z prysznicem to idealny kompromis dla tych, ktorzy  wybierają miedzy relaksem a oszczednoscia czasu. ciemny kolor sciany , tapeta z motywem roslinnym i piekne lustro zrobione z kawalka pnia dodają ciepla i naturalnego wygladu",
+    "3209": "",
+    "3210": " Nowa , przestronna łazienka była duzym marzeniem 3 osobowej , mlodej rodziny. z polaczenia dwoch niefunkcnoalnych pomieszczen powstala bardzo przestronna łazeinka , ktora laczy elementy natury z minimalustyczna eleganca. zabuodwana szafa kryje w sobie nie tylko urzadzenia agd lecz rowniez jest spora przestrzenia do przechowywania.    wygodna wanna z prysznicem to idealny kompromis dla tych, ktorzy  wybierają miedzy relaksem a oszczednoscia czasu. ciemny kolor sciany , tapeta z motywem roslinnym i piekne lustro zrobione z kawalka pnia dodają ciepla i naturalnego wygladu",
     "3696": "" ,
     "3697": "",
     "3699": "",
@@ -313,15 +313,16 @@
   },
   "Abouthome": {
     "1296": "Kilka słów o mnie",
-    "1297": "Z wykształcenia jestem magistrem inżynierem architektem, z wyboru architektem wnętrz. Wnętrza pochłaniają wiekszą część mojego życia. W Alfa Design Studio do Waszej dyspozycji oddaję swoją wyorbaźnię, wiedzę i doświadczenie. Do każdego projektu podchodzę z ogromnym zaangażaowaniem, aby projekt spełniał wyprzedzał  ale także kreował Wasze oczekiwania.  Wyspecjalizowałam się w poniższych przestrzeniach",
+    "1297": "Z wykształcenia jestem magistrem inżynierem architektem, z wyboru architektem wnętrz. Wnętrza pochłaniają wiekszą część mojego życia. W Alfa Design Studio do Waszej dyspozycji oddaję swoją wyorbaźnię, wiedzę i doświadczenie. Do każdego projektu podchodzę z ogromnym zaangażaowaniem, aby projekt spełniał wyprzedzał ale także kreował Wasze oczekiwania. Wyspecjalizowałam się w poniższych przestrzeniach",
     "1298": "Projektowanie wnętrz prywatnych ",
     "1299": "Projektowanie wnętrz publicznych",
     "1822": "Dekorowanie wnętrz",
     "1867": "Home Staging"
+   
   },
   "Footer": {
     "1396": "Dziękuję za Twój czas i uwagę",
-    "1397": "Mam nadzieję, że krótka prezentacja mojej osoby oraz oferty zainteresowała Cię i będziesz o mnie pamiętać. W razie jakichkolwiek pytań służę pomocą. ",
+    "1397": "Z przyjemnością przedstawiłam Ci swoją osobę i ofertę. Cieszę się, że zwróciłeś uwagę na to, co mam do zaoferowania. Jeśli masz jakiekolwiek pytania, wątpliwości lub potrzebujesz pomocy w projektowaniu wymarzonego wnętrza, z przyjemnością służę swoją pomocą. Jesteśmy tutaj po to, aby spełnić Twoje oczekiwania i stworzyć dla Ciebie przestrzeń, w której będziesz czuł się szczęśliwy i zrelaksowany. ",
     "1398": " Wejdź na mój profil",
     "1399": " Kontakt ze mną możliwy jest za pośrednictwem popularnych serwisów społecznosciowych."
   },
@@ -336,13 +337,13 @@
   "Carouselprojects": {
     "1595": "Zobacz Projekt",
     "1596": "Wnętrze",
-    "1597": "Dom 120 m2 Drammen, Norwegia",
+    "1594": "Łazienka 15m2 Moss,  Norwegia ",
+    "1597": "Salon 24m2 Kogsberg , Norwegia",
     "1598": "Wnętrze",
     "1599": "Kawalerka 38m2 Gdynia, Polska",
     "1600": "Zobacz Projekt",
     "1601": "Wnętrze i dekoracje",
     "1602": "Dom 110 m2, Eidsberg, Norwegia ",
-    
     "1603": "Zobacz Projekt",
     "1604": "Wnętrze",
     "1605": "Mieszkanie 68 m2 Gorlice, Polska",
@@ -352,13 +353,13 @@
   },
   "About": {
     "1795": "O mojej pasji",
-    "1796": "Osoby nie majace wczesniejszej stycznosci z architektem wnętrz  kojażą tą dziedzinę sztuki  głównie z modą i prestiżem, natomiast dopowiednio odpowienio skomponowane wnętrza wpływają na nasze emocje. To nasze emocje przesądzają o tym czy jesteśmy szczęsliwi. We wszelkich zmianach jakosciowych życia warto uwzglednić zmiany w codziennym otoczeniu, gdyż to właśnie w nim sprzedzamy większość naszego czasu i ono może pośrenio podświadomie kształtować nasze postawy.",
-    "1797": "Moje projekty " ,
+    "1796": "Osoby nie majace wczesniejszej stycznosci z architektem wnętrz  utożsamiają tę  profesję  głównie z modą i prestiżem. Jednakże, poprzez odpowiednie projektowanie wnętrz, można stworzyć przyjemne i komfortowe środowisko, które pozytywnie wpłynie na nasze samopoczucie i emocje. Właściwe ustawienie mebli, dobór kolorów czy oświetlenia, mogą wpłynąć na atmosferę w pomieszczeniu i sprawić, że będziemy czuć się bardziej zrelaksowani i zadowoleni. Tak więc, zmiany w naszych wnętrzach mogą być jednym z czynników wpływających na nasze samopoczucie i warto brać je pod uwagę, gdyż mogą stanowić element poprawy jakości życia.",
+    "1797": "Wybrane projekty " ,
     "1798": "Moja oferta " 
    
   },
   "Home": {
-"1799": "Moje projekty " ,
+"1799": "Wybrane projekty " ,
     "1798": "Moja oferta " 
    
   },

@@ -131,7 +131,7 @@ const Carouselprojects = ({ history }) => {
           </div>
           <div className="desc">
             <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
-            <div className="name"><Trans i18nKey={"Carouselprojects.1597"}></Trans></div>
+            <div className="name"><Trans i18nKey={"Carouselprojects.1594"}></Trans></div>
           </div>
           <LinkWrap active={toCase === "/lazMoss"}>
             <Overlay

@@ -25,7 +25,7 @@ const About = ({ history }) => {
         </section>
       </Reveal>
 
-      <Reveal effect="fadeIn">
+      {/* <Reveal effect="fadeIn">
         <section className="container-fluid pb-0">
           <div className="row m-2-hor">
             <div className="col-md-4">
@@ -38,9 +38,9 @@ const About = ({ history }) => {
             </div>
           </div>
         </section>
-      </Reveal>
+      </Reveal> */}
 
-      <Reveal effect="fadeInUp">
+      <Reveal effect="fadeIn">
         <Abouthome />
       </Reveal>
 
