@@ -1,14 +1,14 @@
 ﻿{
   "mainpictures": {
-    "title1": "Alfa Design Studio",
+    "title1": "Limes Interior",
          "desc1": "interior design",
-         "title2": "Alfa Design Studio",
+         "title2": "Limes Interior",
          "desc2": "interior design",
-         "title3": "Alfa Design Studio",
+         "title3": "Limes Interior",
          "desc3": "interior design"
   },
   "mainpictures2": {
-    "title1": "Alfa Design Studio",
+    "title1": "Limes Interior",
          "desc1": "interior design",
          "title2": "i proudly invite you",
          "desc2": "to familiarize yourself",
@@ -16,7 +16,7 @@
          "desc3": "of interiror design"
   },
   "mainpictures3": {
-    "title1": "Alfa Design Studio",
+    "title1": "Limes Interior",
          "desc1": "interior design",
          "title2": "I am proud to invite you",
          "desc2": "to read",
@@ -127,6 +127,32 @@
     "5238": "Interior Design",
     "5438": "Share:"
     },
+    "mjondalen": {
+      "2428": "Back",
+      "2504": "INTERIOR",
+      "2551": "Apartment design for a couple with a picturesque view.",
+      "2613": "",
+      "3209": "",
+      "3210": "Presenting a modern one-bedroom apartment featuring a spacious living room combined with a kitchen and an elegant bathroom. A carefully chosen color palette and stylish accessories create a cozy atmosphere. The space is designed with functionality in mind – the compact kitchen offers surprisingly ample storage, making the interior not only aesthetically pleasing but also ergonomic. The functional bathroom in soft colors is designed for elegance and convenience. It offers plenty of storage space, as well as room for a washing machine and dryer. Every inch has been optimally utilized to create a harmonious, stylish space that combines aesthetics with comfort.",
+      "3696": "",
+      "3697": "",
+      "3699": "",
+      "3698": "",
+      "4204": "Categories:",
+      "4252": "interior design",
+      "4368": "Client:",
+      "4412": "private",
+      "4534": "Concept:",
+      "4581": "March 2024",
+      "4701": "",
+      "4751": "",
+      "4984": "Tags:",
+      "5045": "Inspiration",
+      "5111": "Decoration",
+      "5175": "Arrangement",
+      "5238": "Interior Design",
+      "5438": "Share:"
+      },
   "domDrammen": {
     "2428": "Back",
     "2504": "INTERIOR",
@@ -308,7 +334,7 @@
   },
   "Abouthome": {
     "1296": "A Few Words About Me",
-    "1297": "I am a Master of Engineering in Architecture by education and an interior designer by choice. Interiors consume a significant portion of my life. At Alfa Design Studio, I offer my imagination, knowledge, and experience to your disposal. I approach every project with great commitment, ensuring that it not only meets but exceeds your expectations. My specialties include the following spaces:",
+    "1297": "I am a Master of Engineering in Architecture by education and an interior designer by choice. Interiors consume a significant portion of my life. At Limes Interior, I offer my imagination, knowledge, and experience to your disposal. I approach every project with great commitment, ensuring that it not only meets but exceeds your expectations. My specialties include the following spaces:",
     "1298": "Private Interior Design",
     "1299": "Public Interior Design",
     "1822": "Interior Decoration",
@@ -329,21 +355,29 @@
     "1501": "Tel"
   },
   "Carouselprojects": {
-    "1595": "View Project",
+    "1595": "See Project",
     "1596": "Interior",
-    "1594": "15m2 Bathroom in Moss, Norway",
-    "1597": "24m2 Living Room in Kogsberg, Norway",
+    "1594": "Bathroom 15m2",
+    "1591": "Moss, Norway",
+    "1590": "Flat  ",
+    "1589": "Mjondalen,  Norway ",
+    "1597": "Living Room 24m2",
+    "15971": "Kogsberg, Norway",
     "1598": "Interior",
-    "1599": "38m2 Studio Apartment in Gdynia, Poland",
-    "1600": "View Project",
-    "1601": "Interior Design and Decorations",
-    "1602": "110m2 House in Eidsberg, Norway",
-    "1603": "View Project",
+    "1599": "Studio Apartment 38m2",
+    "15991": "Gdynia, Poland",
+    "1600": "See Project",
+    "1601": "Interior and Decorations",
+    "1602": "House 110 m2",
+    "16021": "Eidsberg, Norway",
+    "1603": "See Project",
     "1604": "Interior",
-    "1605": "68m2 Apartment in Gorlice, Poland",
-    "1606": "View Project" ,
-    "1607": "32m2 Living Room in Sandvika, Norway",
-    "1608": "View Project"
+    "1605": "Apartment 68m2",
+    "16051": "Gorlice, Poland",
+    "1606": "See Project",
+    "1607": "Living Room 32 m2",
+    "16071": "Sandvika, Norway",
+    "1608": "See Project"
     },
     
   "About": {

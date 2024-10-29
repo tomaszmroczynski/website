@@ -1,14 +1,14 @@
 {
   "mainpictures": {
-    "title1": "Alfa Design Studio",
+    "title1": "Limes Interior",
          "desc1": "interiørdesign",
-         "title2": "Alfa Design Studio",
+         "title2": "Limes Interior",
          "desc2": "interiørdesign",
-         "title3": "Alfa Design Studio",
+         "title3": "Limes Interior",
          "desc3": "interiørdesign"
   },
   "mainpictures2": {
-    "title1": "Alfa Design Studio",
+    "title1": "Limes Interior",
          "desc1": "interiørdesign",
          "title2": "Jeg inviterer deg stolt",
          "desc2": "å gjøre deg kjent",
@@ -16,7 +16,7 @@
          "desc3": "av interiørdesign"
   },
   "mainpictures3": {
-    "title1": "Alfa Design Studio",
+    "title1": "Limes Interior",
          "desc1": "interiørdesign",
          "title2": "Jeg er stolt over å invitere deg",
          "desc2": "å lese",
@@ -127,6 +127,32 @@
     "5238": "Interiørdesign",
     "5438": "Del:"
     },
+    "mjondalen": {
+      "2428": "Tilbake",
+      "2504": "INTERIØR",
+      "2551": "Leilighetsdesign for et par med en pittoresk utsikt.",
+      "2613": "",
+      "3209": "",
+      "3210": "Jeg presenterer en moderne leilighet med ett soverom, en romslig stue kombinert med kjøkken og et elegant bad. Et nøye utvalgt fargepalett og stilige tilbehør skaper en koselig atmosfære. Rommet er designet med tanke på funksjonalitet – det kompakte kjøkkenet tilbyr overraskende mye lagringsplass, noe som gjør interiøret ikke bare estetisk tiltalende, men også ergonomisk. Det funksjonelle badet i myke farger er designet for eleganse og bekvemmelighet. Det tilbyr rikelig med lagringsplass, samt plass til vaskemaskin og tørketrommel. Hver centimeter er optimalt utnyttet for å skape et harmonisk, stilig rom som kombinerer estetikk med komfort..",
+      "3696": "",
+      "3697": "",
+      "3699": "",
+      "3698": "",
+      "4204": "Kategorier:",
+      "4252": "interiørdesign",
+      "4368": "Kunde:",
+      "4412": "privat",
+      "4534": "Konsept:",
+      "4581": "March 2024",
+      "4701": "",
+      "4751": "",
+      "4984": "Tagger:",
+      "5045": "Inspirasjon",
+      "5111": "Dekorasjon",
+      "5175": "Arrangement",
+      "5238": "Interiørdesign",
+      "5438": "Del:"
+      },
   "domDrammen": {
     "2428": "Tilbake",
     "2504": "INTERIØR",
@@ -307,7 +333,7 @@
 
   "Abouthome": {
     "1296": "Noen Ord Om Meg",
-    "1297": "Jeg har en mastergrad i ingeniørfag innen arkitektur og er en interiørdesigner av valg. Interiør tar opp en stor del av livet mitt. Hos Alfa Design Studio tilbyr jeg min fantasi, kunnskap og erfaring til din disposisjon. Jeg tar tak i hvert prosjekt med stor engasjement, slik at det ikke bare oppfyller, men overgår forventningene dine. Mine spesialiteter inkluderer følgende rom:",
+    "1297": "Jeg har en mastergrad i ingeniørfag innen arkitektur og er en interiørdesigner av valg. Interiør tar opp en stor del av livet mitt. Hos Limes Interior tilbyr jeg min fantasi, kunnskap og erfaring til din disposisjon. Jeg tar tak i hvert prosjekt med stor engasjement, slik at det ikke bare oppfyller, men overgår forventningene dine. Mine spesialiteter inkluderer følgende rom:",
     "1298": "Privat Interiørdesign",
     "1299": "Offentlig Interiørdesign",
     "1822": "Interiørdekorasjon",
@@ -328,22 +354,31 @@
     "1501": "Tlf"
   },
   "Carouselprojects": {
-    "1595": "See Project",
-    "1596": "Interior",
-    "1594": "Bathroom 15m2 Moss, Norway",
-    "1597": "Living Room 24m2 Kogsberg, Norway",
-    "1598": "Interior",
-    "1599": "Studio Apartment 38m2 Gdynia, Poland",
-    "1600": "See Project",
-    "1601": "Interior and Decor",
-    "1602": "House 110 m2, Eidsberg, Norway",
-    "1603": "See Project",
-    "1604": "Interior",
-    "1605": "Apartment 68 m2 Gorlice, Poland",
-    "1606": "See Project",
-    "1607": "Living Room 32 m2 Sandvika, Norway",
-    "1608": "See Project"
+    "1595": "Se prosjekt",
+    "1596": "Interiør",
+    "1594": "15 kvm Bad",
+    "1591": "Moss, Norge",
+    "1590": "Lelihet  ",
+    "1589": "Mjondalen,  Norge ",
+    "1597": "24 kvm Stue",
+    "15971": "Kogsberg, Norge",
+    "1598": "Interiør",
+    "1599": "38 kvm Leilighet",
+    "15991": "Gdynia, Polen",
+    "1600": "Se prosjekt",
+    "1601": "Interiør og dekorasjon",
+    "1602": "110 kvm Hus",
+    "16021": "Eidsberg, Norge",
+    "1603": "Se prosjekt",
+    "1604": "Interiør",
+    "1605": "68 kvm Leilighet",
+    "16051": "Gorlice, Polen",
+    "1606": "Se prosjekt",
+    "1607": "32 kvm Stue",
+    "16071": "Sandvika, Norge",
+    "1608": "Se prosjekt"
     },
+ 
   "About": {
     "1795": "Om Min Lidenskap",
     "1796": "Individer som ikke har hatt tidligere erfaring med interiørdesignere assosierer denne profesjonen hovedsakelig med mote og prestisje. Imidlertid kan riktig interiørdesign skape en hyggelig og komfortabel atmosfære som har en positiv innvirkning på humøret og følelsene våre. Riktig plassering av møbler, valg av farger og belysning kan påvirke atmosfæren i et rom og få oss til å føle oss mer avslappet og tilfreds. Derfor kan endringer i vårt interiør være en av faktorene som påvirker vårt velvære, og bør tas i betraktning da de kan være en faktor for å forbedre livskvaliteten.",

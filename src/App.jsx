@@ -22,6 +22,7 @@ import Case6 from "./pages/homeStaging";
 import Case7 from "./pages/salonSandvika";
 import Case8 from "./pages/salonGlm";
 import Case9 from "./pages/lazMoss";
+import Case10 from "./pages/mjondalen";
 
 function App() {
   const [loading, setLoading] = useState(true);

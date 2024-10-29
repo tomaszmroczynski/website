@@ -41,6 +41,13 @@ const SliderHome = () => {
       //link: "/#",
       image: "./img/front/naszsalon.jpg",
     },
+    {
+      title: <Trans i18nKey={"mainpictures.title3"}></Trans>,
+      description: <Trans i18nKey={"mainpictures.desc3"}></Trans>,
+      //button: "More Detail",
+      //link: "/#",
+      image: "./img/front/mjondalen.jpg",
+    },
 
     {
       title: <Trans i18nKey={"mainpictures.title3"}></Trans>,

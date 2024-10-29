@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Component } from "react";
 import { Trans } from "react-i18next";
 import Slider from "react-slick";
-import { withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { LinkWrap, Overlay } from "../styles/Work.styles";
@@ -18,58 +18,62 @@ const Carouselprojects = ({ history }) => {
   const [coord, setCoords] = useState();
   var settings = {
     dots: true,
-    
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
-    
     slidesToScroll: 1,
-    
     initialSlide: 0,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
+    pauseOnHover: false,
+    centerMode: true,
     responsive: [
       {
         breakpoint: 5000,
         settings: {
-          rows: 2,
-          slidesPerRow: 3,
+          rows: 1,
+          slidesPerRow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
+          autoplay: true,
+          autoplaySpeed: 2000,
         },
       },
       {
         breakpoint: 1600,
         settings: {
-          
-          rows: 2,
-          slidesPerRow: 3,
+          rows: 1,
+          slidesPerRow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
+          autoplay: true,
+          autoplaySpeed: 2000,
         },
       },
       {
         breakpoint: 1024,
         settings: {
-          rows: 2,
-          slidesPerRow: 3,
+          rows: 1,
+          slidesPerRow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
+          autoplay: true,
+          autoplaySpeed: 2000,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
           speed: 3000,
           infinite: true,
           autoplay: true,
-    autoplaySpeed: 2000,
+          autoplaySpeed: 2000,
         },
       },
       {
@@ -80,7 +84,7 @@ const Carouselprojects = ({ history }) => {
           speed: 3000,
           infinite: true,
           autoplay: true,
-    autoplaySpeed: 2000,
+          autoplaySpeed: 2000,
         },
       },
     ],
@@ -98,162 +102,129 @@ const Carouselprojects = ({ history }) => {
     <div className="slick slickproject">
       <Slider {...settings}>
         <CustomSlide className="itm" index={1}>
-          <div className="bg">
-            <img
-              src="./img/salonGlm/front.jpg"
-              className="img-fluid"
-              alt="Imageteam"
-            />
-          </div>
-          <div className="desc">
-            <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
-            <div className="name"><Trans i18nKey={"Carouselprojects.1597"}></Trans></div>
-          </div>
-          <LinkWrap active={toCase === "/salonGlm"}>
-            <Overlay
-              active={!!toCase}
-              onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/salonGlm")}
-            >
-              <div className="icon">
-                <span><Trans i18nKey={"Carouselprojects.1595"}></Trans></span>
-              </div>
-            </Overlay>
-          </LinkWrap>
+          <Link to="/salonGlm">
+            <div className="bg">
+              <img
+                src="./img/salonGlm/front.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className="desc">
+              <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1597"}></Trans><br /><Trans i18nKey={"Carouselprojects.15971"}></Trans></div>
+            </div>
+          </Link>
         </CustomSlide>
         <CustomSlide className="itm" index={2}>
-          <div className="bg">
-            <img
-              src="./img/lazMoss/front.jpg"
-              className="img-fluid"
-              alt="Imageteam"
-            />
-          </div>
-          <div className="desc">
-            <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
-            <div className="name"><Trans i18nKey={"Carouselprojects.1594"}></Trans></div>
-          </div>
-          <LinkWrap active={toCase === "/lazMoss"}>
-            <Overlay
-              active={!!toCase}
-              onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/lazMoss")}
-            >
-              <div className="icon">
-                <span><Trans i18nKey={"Carouselprojects.1595"}></Trans></span>
-              </div>
-            </Overlay>
-          </LinkWrap>
+          <Link to="/lazMoss">
+            <div className="bg">
+              <img
+                src="./img/lazMoss/front.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className="desc">
+              <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1594"}></Trans><br /><Trans i18nKey={"Carouselprojects.1591"}></Trans></div>
+            </div>
+          </Link>
         </CustomSlide>
-
         <CustomSlide className="itm" index={3}>
-          <div className="bg">
-            <img
-              src="./img/studioGdynia/front1.jpg"
-              className="img-fluid"
-              alt="Imageteam"
-            />
-          </div>
-          <div className="desc">
-            <div className="tag"><Trans i18nKey={"Carouselprojects.1598"}></Trans></div>
-            <div className="name"><Trans i18nKey={"Carouselprojects.1599"}></Trans></div>
-          </div>
-
-          <LinkWrap active={toCase === "/studioGdynia"}>
-            <Overlay
-              active={!!toCase}
-              onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/studioGdynia")}
-            >
-              <div className="icon">
-                <span><Trans i18nKey={"Carouselprojects.1600"}></Trans></span>
-              </div>
-            </Overlay>
-          </LinkWrap>
+          <Link to="/studioGdynia">
+            <div className="bg">
+              <img
+                src="./img/studioGdynia/front1.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className="desc">
+              <div className="tag"><Trans i18nKey={"Carouselprojects.1598"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1599"}></Trans><br /><Trans i18nKey={"Carouselprojects.15991"}></Trans></div>
+            </div>
+          </Link>
         </CustomSlide>
-
         <CustomSlide className="itm" index={4}>
-          <div className="bg">
-            <img
-              src="./img/houseEidsberg/front2.jpg"
-              className="img-fluid"
-              alt="Imageteam"
-            />
-          </div>
-          <div className="desc">
-            <div className="tag"><Trans i18nKey={"Carouselprojects.1601"}></Trans></div>
-            <div className="name"><Trans i18nKey={"Carouselprojects.1602"}></Trans></div>
-            
-          </div>
-
-          <LinkWrap active={toCase === "/houseEidsberg"}>
-            <Overlay
-              active={!!toCase}
-              onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/houseEidsberg")}
-            >
-              <div className="icon">
-                <span><Trans i18nKey={"Carouselprojects.1603"}></Trans></span>
-              </div>
-            </Overlay>
-          </LinkWrap>
+          <Link to="/houseEidsberg">
+            <div className="bg">
+              <img
+                src="./img/houseEidsberg/front2.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className="desc">
+              <div className="tag"><Trans i18nKey={"Carouselprojects.1601"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1602"}></Trans><br /><Trans i18nKey={"Carouselprojects.16021"}></Trans></div>
+            </div>
+          </Link>
         </CustomSlide>
-
         <CustomSlide className="itm" index={5}>
-          <div className="bg">
-            <img
-              src="./img/flatGorlice/front3.jpg"
-              className="img-fluid"
-              alt="Imageteam"
-            />
-          </div>
-          <div className="desc">
-            <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
-            <div className="name"><Trans i18nKey={"Carouselprojects.1605"}></Trans></div>
-          </div>
-          <LinkWrap active={toCase === "/flatGorlice"}>
-            <Overlay
-              active={!!toCase}
-              onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/flatGorlice")}
-            >
-              <div className="icon">
-                <span><Trans i18nKey={"Carouselprojects.1606"}></Trans></span>
-              </div>
-            </Overlay>
-          </LinkWrap>
+          <Link to="/flatGorlice">
+            <div className="bg">
+              <img
+                src="./img/flatGorlice/front.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className="desc">
+              <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1605"}></Trans><br /><Trans i18nKey={"Carouselprojects.16051"}></Trans></div>
+            </div>
+          </Link>
         </CustomSlide>
-
         <CustomSlide className="itm" index={6}>
-          <div className="bg">
-            <img
-              src="./img/salonSandvika/front7.jpg"
-              className="img-fluid"
-              alt="Imageteam"
-            />
-          </div>
-          <div className="desc">
-            <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
-            <div className="name"><Trans i18nKey={"Carouselprojects.1607"}></Trans></div>
-          </div>
-          <LinkWrap active={toCase === "/salonSandvika"}>
-            <Overlay
-              active={!!toCase}
-              onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-              onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/salonSandvika")}
-            >
-              <div className="icon">
-                <span><Trans i18nKey={"Carouselprojects.1608"}></Trans></span>
-              </div>
-            </Overlay>
-          </LinkWrap>
+          <Link to="/salonSandvika">
+            <div className="bg">
+              <img
+                src="./img/salonSandvika/front7.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className="desc">
+              <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1607"}></Trans><br /><Trans i18nKey={"Carouselprojects.16071"}></Trans></div>
+            </div>
+          </Link>
         </CustomSlide>
-
-
+        <CustomSlide className="itm" index={7}>
+          <Link to="/mjondalen">
+            <div className="bg">
+              <img
+                src="./img/mjondalen/front.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className="desc">
+              <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1594"}></Trans><br /><Trans i18nKey={"Carouselprojects.1591"}></Trans></div>
+            </div>
+          </Link>
+        </CustomSlide>
+        <CustomSlide className="itm" index={8}>
+          <Link to="/salonSandvika">
+            <div className="bg">
+              <img
+                src="./img/salonSandvika/front7.jpg"
+                className="img-fluid"
+                alt="Imageteam"
+              />
+            </div>
+            <div className="desc">
+              <div className="tag"><Trans i18nKey={"Carouselprojects.1604"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1607"}></Trans><br /><Trans i18nKey={"Carouselprojects.16071"}></Trans></div>
+            </div>
+          </Link>
+        </CustomSlide>
       </Slider>
-     
     </div>
   );
 };
 
-export default withRouter(Carouselprojects);
+export default Carouselprojects;
+

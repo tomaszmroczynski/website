@@ -23,6 +23,7 @@ import Case6 from "./pages/homeStaging";
 import Case7 from "./pages/salonSandvika";
 import Case8 from "./pages/salonGlm";
 import Case9 from "./pages/lazMoss";
+import Case10 from "./pages/mjondalen";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -108,10 +109,16 @@ function App() {
               <Case7 setNavBackground={(state) => setNavBack(state)} />
             )}
           />
-                   <Route
+           <Route
             path="/lazMoss"
             component={() => (
               <Case9 setNavBackground={(state) => setNavBack(state)} />
+            )}
+          />
+            <Route
+            path="/mjondalen"
+            component={() => (
+              <Case10 setNavBackground={(state) => setNavBack(state)} />
             )}
           />
           <div id="lang">
