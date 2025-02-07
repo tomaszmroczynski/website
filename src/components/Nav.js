@@ -106,7 +106,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
 <span className="book">
   <a href="https://buy.stripe.com/test_fZe7tg9724up4hidQQ" target="_blank" rel="noopener noreferrer">
     <button className="payment-button">
-      test
+      
       <span><Trans i18nKey={"Nav.1502"}></Trans></span>
     </button>
   </a>
