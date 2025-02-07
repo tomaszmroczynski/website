@@ -37,9 +37,11 @@ export default () => (
                 <li><Trans i18nKey={"Abouthome.1299"}></Trans></li>
                 <li><Trans i18nKey={"Abouthome.1822"}></Trans></li>
                 <li><Trans i18nKey={"Abouthome.1867"}></Trans></li>
+
               </ul>
 
             </div>
+      
           </div>
         </div>
       </div>

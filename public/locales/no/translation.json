@@ -1,11 +1,11 @@
 {
   "mainpictures": {
     "title1": "Limes Interior",
-         "desc1": "interiørdesign",
+         "desc1": "interiørdesign & dekorasjon",
          "title2": "Limes Interior",
-         "desc2": "interiørdesign",
+         "desc2": "interiørdesign & dekorasjon",
          "title3": "Limes Interior",
-         "desc3": "interiørdesign"
+         "desc3": "interiørdesign & dekorasjon"
   },
   "mainpictures2": {
     "title1": "Limes Interior",
@@ -351,7 +351,8 @@
     "1498": "Prosjekter",
     "1499": "Kontakt",
     "1500": "Besøk min profil:",
-    "1501": "Tlf"
+    "1501": "Tlf",
+    "1502": "Bestill en konsultasjon test"
   },
   "Carouselprojects": {
     "1595": "Se prosjekt",

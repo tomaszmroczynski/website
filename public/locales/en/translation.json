@@ -1,11 +1,11 @@
 ﻿{
   "mainpictures": {
     "title1": "Limes Interior",
-         "desc1": "interior design",
+         "desc1": "interior design & decoration",
          "title2": "Limes Interior",
-         "desc2": "interior design",
+         "desc2": "interior design & decoration",
          "title3": "Limes Interior",
-         "desc3": "interior design"
+         "desc3": "interior design & decoration"
   },
   "mainpictures2": {
     "title1": "Limes Interior",
@@ -352,7 +352,8 @@
     "1498": "Projects",
     "1499": "Contact",
     "1500": "Visit my profile:",
-    "1501": "Tel"
+    "1501": "Tel",
+    "1502": "Book consultation test"
   },
   "Carouselprojects": {
     "1595": "See Project",

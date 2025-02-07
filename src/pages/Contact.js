@@ -81,11 +81,11 @@ const Contact = ({ history }) => {
                   <div className="list">
                     <i className="fa fa-envelope-o"></i>
                     <a
-                      href="mailto:studio@alfadesign.no"
+                      href="mailto:studio@limes-interior.no"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      studio@alfadesign.no
+                      studio@limes-interior.no
                     </a>
                   </div>
                   <div className="list">

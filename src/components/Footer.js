@@ -25,9 +25,9 @@ const Footer = () => (
           </div>
           <div
             className="link-call"
-            onClick={() => window.open("mailto:studio@alfadesign.no", "_self")}
+            onClick={() => window.open("mailto:studio@limes-interior.no", "_self")}
           >
-            studio@alfadesign.no
+            studio@limes-interior.no
           </div>
         </div>
       </div>

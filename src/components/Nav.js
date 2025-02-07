@@ -99,12 +99,22 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
 
         <img
           src="./img/logowhite3.png"
-          className="img-fluid"
+          className="podpis"
           alt="#"
-          style={{ marginLeft: 20 }}
+         
         />
+<span className="book">
+  <a href="https://buy.stripe.com/test_fZe7tg9724up4hidQQ" target="_blank" rel="noopener noreferrer">
+    <button className="payment-button">
+      test
+      <span><Trans i18nKey={"Nav.1502"}></Trans></span>
+    </button>
+  </a>
+</span>
+
         <span className="callus"><Trans i18nKey={"Nav.1501"}></Trans>: (+47) 947 12 654</span>
-        <span className="callus">e-mail: studio@alfadesign.no</span>
+        <span className="callus">e-mail: studio@limes-interior.no</span>
+
       </div>
       <Wrapper open={isOn} shouldAnimate={shouldAnimate}>
         <Overlaybg
@@ -154,7 +164,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
 
           <div className="info">
             <span>(+47) 947 12 654</span>
-            <span className="link">studio@alfadesign.no</span>
+            <span className="link">studio@limes-interior.no</span>
             <span>Finnestadveien 371 1880 Indre Østfold</span>
           </div>
         </Body>

@@ -238,10 +238,12 @@ section {
 
 .logo {
   position: fixed;
-  top: 0 px;
+  top: 0px;
   left: 30px;
   z-index: 99;
-
+.podpis{
+  margin-left: 10px;
+}
   .callus {
     position: relative;
     top: 4px;
@@ -253,12 +255,66 @@ section {
     margin-left: 45px;
     border-left: 3px solid rgba(255, 255, 255, 0.8);
   }
+  .book {
+    position: relative;
+    top: 4px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: $white;
+   
+    margin-left: 1px;
+   
+  }
+
+  button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+    margin-left: 20px;
+
+    &:hover {
+      background-color: #ffb41d;
+    }
+
+    .shine {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: white;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+  }
 }
+
+// Ukrywanie na małych ekranach
 @media (max-width: 640px) {
   .callus {
     display: none;
+  }  
+  
+  
+
+}
+@media (max-width: 768px) {
+  .podpis {
+    width: 30%; /* Zmniejszenie obrazu do 80% szerokości rodzica */
   }
 }
+
+@media (max-width: 480px) {
+  .podpis {
+    width: 20%; /* Jeszcze mniejszy na telefonach */
+  }
+}
+
 .mainBtn {
   font-size: 1.8rem;
   font-weight: 600;
@@ -322,7 +378,7 @@ section {
   }
 }
 
-/* slider */
+/* react animated slider */
 .jumbomain {
   position: relative;
   padding: 0;

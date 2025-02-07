@@ -1,11 +1,11 @@
 {
   "mainpictures": {
     "title1": "Limes Interior",
-         "desc1": "projektowanie wnętrz",
+         "desc1": "projektowanie i dekorowanie wnętrz",
          "title2": " Limes Interior ",
-         "desc2": " projektowanie wnętrz",
+         "desc2": " projektowanie i dekorowanie wnętrz",
          "title3": "Limes Interior",
-         "desc3": "projektowanie wnętrz" 
+         "desc3": "projektowanie i dekorowanie wnętrz" 
   },
   "mainpictures2": {
     "title1": "Limes Interior",
@@ -359,7 +359,8 @@
     "1498": "Projekty",
     "1499": "Kontakt",
     "1500": "Wejdź na mój profil:",
-    "1501": "Tel"
+    "1501": "Tel",
+    "1502": "Umow Konsultację test"
   },
   "Carouselprojects": {
     "1595": "Zobacz Projekt",
