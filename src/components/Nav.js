@@ -103,14 +103,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           alt="#"
          
         />
-<span className="book">
-  <a href="https://buy.stripe.com/test_fZe7tg9724up4hidQQ" target="_blank" rel="noopener noreferrer">
-    <button className="payment-button">
-      
-      <span><Trans i18nKey={"Nav.1502"}></Trans></span>
-    </button>
-  </a>
-</span>
+
 
         <span className="callus"><Trans i18nKey={"Nav.1501"}></Trans>: (+47) 947 12 654</span>
         <span className="callus">e-mail: studio@limes-interior.no</span>

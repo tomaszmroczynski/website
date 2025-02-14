@@ -332,14 +332,14 @@
     "1822": "Contact details",
     "1867": ""
   },
-  "Abouthome": {
-    "1296": "A Few Words About Me",
-    "1297": "I am a Master of Engineering in Architecture by education and an interior designer by choice. Interiors consume a significant portion of my life. At Limes Interior, I offer my imagination, knowledge, and experience to your disposal. I approach every project with great commitment, ensuring that it not only meets but exceeds your expectations. My specialties include the following spaces:",
-    "1298": "Private Interior Design",
-    "1299": "Public Interior Design",
-    "1822": "Interior Decoration",
-    "1867": "Home Staging"
-    },
+"Abouthome": {
+    "1296": "A few words about me",
+    "1297": "I hold a Master of Architecture degree, but my true passion lies in interior design. For me, creating spaces is more than just a profession – it is an art where every line, color, and detail matters. Interiors are not just a backdrop for our lives but an integral part of them, influencing our emotions, well-being, and daily experiences. At Limes Interior, I offer not only my knowledge and experience but also my artistic sensitivity and imagination. I approach every project as a unique work of art that not only meets but also shapes and inspires expectations. I specialize in:",
+    "1298": "Private interior design – I create spaces that reflect the personality and lifestyle of their residents, building an atmosphere full of warmth and emotions.",
+    "1299": "Interior decoration – the art of selecting details, fabrics, lighting, and composition is my way of expressing creativity and giving spaces soul and character.",
+    "1822": "Home Staging – I transform interiors to make an immediate impression and evoke positive emotions, turning them into dream living spaces.",
+    "1867": "Public interior design – I create places that are not only functional but also engage the senses and leave a lasting aesthetic impression."
+},
     "Footer": {
       "1396": "Thank you for your time and attention",
       "1397": "I am glad to have presented myself and my offer to you. I am happy that you have noticed what I have to offer. If you have any questions, doubts or need help in designing your dream interior, I am happy to assist you. We are here to meet your expectations and create a space in which you will feel happy and relaxed.",
@@ -383,7 +383,7 @@
     
   "About": {
     "1795": "About My Passion",
-    "1796": "Individuals who have had no previous experience with interior designers tend to associate this profession mainly with fashion and prestige. However, through proper interior design, we can create a pleasant and comfortable environment that positively affects our mood and emotions. The proper arrangement of furniture, choice of colors, and lighting can impact the atmosphere in a room and make us feel more relaxed and satisfied. Therefore, changes in our interiors can be one of the factors that influence our well-being and should be taken into account as they can be an element of improving the quality of life.",
+    "1796": "People who have never worked with an interior architect often associate this profession mainly with fashion and prestige. However, designing and decorating spaces is an art that not only shapes the surroundings but also influences emotions and well-being. The ability to choose the right colors, furniture, lighting, and decorative details is more than just a skill – it is a form of artistic expression through which I share a part of myself with my clients. Every interior I create reflects my passion, sensitivity, and attention to harmony. A well-designed space can not only impress but also enhance the quality of life, which is why it is worth consciously shaping one’s surroundings.",
     "1797": "Selected Projects",
     "1798": "My Offer"
     },
