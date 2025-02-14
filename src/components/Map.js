@@ -15,7 +15,7 @@ class SimpleMap extends Component {
   render() {
     return (
       <div className="map" style={{ height: "400px", width: "100%" }}>
-        <img src="./img/contact.jpg" className="img-fluid" alt="Imageworks" />
+        <img src="./img/contact.webp" className="img-fluid" alt="Imageworks" />
         {/*<GoogleMapReact
           bootstrapURLKeys={{ key: "" }}
           defaultCenter={this.props.center}

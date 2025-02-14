@@ -11,42 +11,42 @@ const SliderHome = () => {
       description:  <Trans i18nKey={"mainpictures.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/sandvika.jpg",
+      image: "./img/front/sandvika.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures.title1"}></Trans>,
       description:  <Trans i18nKey={"mainpictures.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/lazMoss.jpg",
+      image: "./img/front/lazMoss.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures.title1"}></Trans>,
       description:  <Trans i18nKey={"mainpictures.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/salonGlm.jpg",
+      image: "./img/front/salonGlm.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/gorlice.jpg",
+      image: "./img/front/gorlice.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/naszsalon.jpg",
+      image: "./img/front/naszsalon.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/mjondalen.jpg",
+      image: "./img/front/mjondalen.webp",
     },
 
     {
@@ -54,14 +54,14 @@ const SliderHome = () => {
       description: <Trans i18nKey={"mainpictures.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/aleksandra.jpg",
+      image: "./img/front/aleksandra.webp",
     },
   ];
 
   useEffect(() => {}, [content]);
 
   return (
-    <Slider className="slider-wrapper" autoplay={2000}>
+    <Slider className="slider-wrapper" autoplay={2000} buttonsDisabled={true}>
       {content.map((item, index) => (
         <div
           key={index}

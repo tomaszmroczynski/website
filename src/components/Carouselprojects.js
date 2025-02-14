@@ -105,7 +105,7 @@ const Carouselprojects = ({ history }) => {
           <Link to="/salonGlm">
             <div className="bg">
               <img
-                src="./img/salonGlm/front.jpg"
+                src="./img/salonGlm/front.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />
@@ -120,7 +120,7 @@ const Carouselprojects = ({ history }) => {
           <Link to="/lazMoss">
             <div className="bg">
               <img
-                src="./img/lazMoss/front.jpg"
+                src="./img/lazMoss/front.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />
@@ -135,7 +135,7 @@ const Carouselprojects = ({ history }) => {
           <Link to="/studioGdynia">
             <div className="bg">
               <img
-                src="./img/studioGdynia/front1.jpg"
+                src="./img/studioGdynia/front1.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />
@@ -150,7 +150,7 @@ const Carouselprojects = ({ history }) => {
           <Link to="/houseEidsberg">
             <div className="bg">
               <img
-                src="./img/houseEidsberg/front2.jpg"
+                src="./img/houseEidsberg/front2.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />
@@ -165,7 +165,7 @@ const Carouselprojects = ({ history }) => {
           <Link to="/flatGorlice">
             <div className="bg">
               <img
-                src="./img/flatGorlice/front.jpg"
+                src="./img/flatGorlice/front.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />
@@ -180,7 +180,7 @@ const Carouselprojects = ({ history }) => {
           <Link to="/salonSandvika">
             <div className="bg">
               <img
-                src="./img/salonSandvika/front7.jpg"
+                src="./img/salonSandvika/front7.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />
@@ -195,14 +195,14 @@ const Carouselprojects = ({ history }) => {
           <Link to="/mjondalen">
             <div className="bg">
               <img
-                src="./img/mjondalen/front.jpg"
+                src="./img/mjondalen/front.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />
             </div>
             <div className="desc">
               <div className="tag"><Trans i18nKey={"Carouselprojects.1596"}></Trans></div>
-              <div className="name"><Trans i18nKey={"Carouselprojects.1594"}></Trans><br /><Trans i18nKey={"Carouselprojects.1591"}></Trans></div>
+              <div className="name"><Trans i18nKey={"Carouselprojects.1590"}></Trans><br /><Trans i18nKey={"Carouselprojects.1589"}></Trans></div>
             </div>
           </Link>
         </CustomSlide>
@@ -210,7 +210,7 @@ const Carouselprojects = ({ history }) => {
           <Link to="/salonSandvika">
             <div className="bg">
               <img
-                src="./img/salonSandvika/front7.jpg"
+                src="./img/salonSandvika/front7.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />

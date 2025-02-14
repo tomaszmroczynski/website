@@ -235,7 +235,11 @@ section {
     border: 0;
   }
 }
-
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 .logo {
   position: fixed;
   top: 0px;
@@ -243,6 +247,8 @@ section {
   z-index: 99;
 .podpis{
   margin-left: 10px;
+  width: 200px; /* dostosuj do swoich potrzeb */
+    height: auto;
 }
   .callus {
     position: relative;
@@ -366,9 +372,12 @@ section {
   overflow: hidden;
   .previousButton,
   .nextButton {
-    opacity: 0.5;
-    text-decoration: none;
-    transition: all 0.3s ease;
+    // opacity: 0.5;
+    // text-decoration: none;
+    // transition: all 0.3s ease;
+    display: none !important;
+    visibility: hidden;
+    pointer-events: none;
   }
   &:hover {
     .previousButton,

@@ -12,42 +12,42 @@ const Slidermjondalen = () => {
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/mjondalen/mjondalen1.jpg",
+      image: "./img/mjondalen/mjondalen1.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/mjondalen/mjondalen2.jpg",
+      image: "./img/mjondalen/mjondalen2.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/mjondalen/mjondalen3.jpg",
+      image: "./img/mjondalen/mjondalen3.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/mjondalen/mjondalen4.jpg",
+      image: "./img/mjondalen/mjondalen4.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/mjondalen/mjondalen5.jpg",
+      image: "./img/mjondalen/mjondalen5.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/mjondalen/mjondalen1.jpg",
+      image: "./img/mjondalen/mjondalen1.webp",
     },
   ];
 
@@ -55,7 +55,7 @@ const Slidermjondalen = () => {
 
   return (
 
-    <Slider className="slider-wrapper" autoplay={6000}>
+    <Slider className="slider-wrapper" autoplay={2000}>
       {content.map((item, index) => (
         <div
           key={index}

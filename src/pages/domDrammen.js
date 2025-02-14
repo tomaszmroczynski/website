@@ -69,7 +69,7 @@ class Case extends Component {
                     autoPlay
                     loop
                     muted
-                    poster={"./img/projects/big/img1.jpg"}
+                    poster={"./img/projects/big/img1.webp"}
                   >
                     <source
                       src={"./img/projects/big/filmw.mp4"}

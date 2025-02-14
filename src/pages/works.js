@@ -59,7 +59,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/salonGlm/front.jpg"
+                            src="./img/salonGlm/front.webp"
                             className="img-fluid"
                             alt="Imageworks"
                           />
@@ -92,7 +92,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/studioGdynia/front1.jpg"
+                            src="./img/studioGdynia/front1.webp"
                             className="img-fluid"
                             alt="Imageworks"
                           />
@@ -125,7 +125,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/houseEidsberg/front2.jpg"
+                            src="./img/houseEidsberg/front2.webp"
                             className="img-fluid"
                             alt="Imageworks"
                           />
@@ -158,7 +158,7 @@ const Works = ({ history }) => {
                       >
                         <div className="bg">
                           <img
-                            src="./img/flatGorlice/front3.jpg"
+                            src="./img/flatGorlice/front3.webp"
                             className="img-fluid"
                             alt="Imageworks"
                           />

@@ -101,7 +101,7 @@ const Expertness = ({ history }) => {
             <CustomSlide className="itm" index={1}>
               <div className="bg">
                 <img
-                  src="./img/feature/1.jpg"
+                  src="./img/feature/1.webp"
                   className="img-fluid"
                   alt="Imageteam"
                 />
@@ -128,7 +128,7 @@ const Expertness = ({ history }) => {
             <CustomSlide className="itm" index={2}>
               <div className="bg">
                 <img
-                  src="./img/feature/img2.jpg"
+                  src="./img/feature/img2.webp"
                   className="img-fluid"
                   alt="Imageteam"
                 />
@@ -155,7 +155,7 @@ const Expertness = ({ history }) => {
             <CustomSlide className="itm" index={3}>
               <div className="bg">
                 <img
-                  src="./img/feature/img5.jpg"
+                  src="./img/feature/img5.webp"
                   className="img-fluid"
                   alt="Imageteam"
                 />

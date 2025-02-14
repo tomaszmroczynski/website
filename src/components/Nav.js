@@ -92,15 +92,15 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
       <div className="logo">
         <img
           src="./img/logowhite.png"
-          className="img-fluid"
-          alt="#"
+          className="portret"
+          alt="obrazek rzedstawia portret architekta"
           //style={{ borderRadius: "10%" }}
         />
 
         <img
           src="./img/logowhite3.png"
           className="podpis"
-          alt="#"
+          alt="podpis"
          
         />
 

@@ -12,63 +12,63 @@ const SliderDomDrammen = () => {
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/1.jpg",
+      image: "./img/domDrammen/1.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/2.jpg",
+      image: "./img/domDrammen/2.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/3.jpg",
+      image: "./img/domDrammen/3.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/4.jpg",
+      image: "./img/domDrammen/4.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/5.jpg",
+      image: "./img/domDrammen/5.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/6.jpg",
+      image: "./img/domDrammen/6.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/7.jpg",
+      image: "./img/domDrammen/7.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/8.jpg",
+      image: "./img/domDrammen/8.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/domDrammen/9.jpg",
+      image: "./img/domDrammen/9.webp",
     },
   ];
 
@@ -76,7 +76,7 @@ const SliderDomDrammen = () => {
 
   return (
 
-    <Slider className="slider-wrapper" autoplay={6000}>
+    <Slider className="slider-wrapper" autoplay={2000}>
       {content.map((item, index) => (
         <div
           key={index}

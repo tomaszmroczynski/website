@@ -10,28 +10,28 @@ const SliderSalonSandvika = () => {
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/salonSandvika/1.jpg",
+      image: "./img/salonSandvika/1.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/salonSandvika/2.jpg",
+      image: "./img/salonSandvika/2.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/salonSandvika/3.jpg",
+      image: "./img/salonSandvika/3.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/salonSandvika/4.jpg",
+      image: "./img/salonSandvika/4.webp",
     },
   ];
 

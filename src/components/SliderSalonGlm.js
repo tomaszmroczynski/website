@@ -12,28 +12,28 @@ const SliderSalonGlm = () => {
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/salonGlm/sofaoknotv.jpg",
+      image: "./img/salonGlm/sofaoknotv.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/salonGlm/jadalnia.jpg",
+      image: "./img/salonGlm/jadalnia.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/salonGlm/salonsofaokno.jpg",
+      image: "./img/salonGlm/salonsofaokno.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/salonGlm/salontv.jpg",
+      image: "./img/salonGlm/salontv.webp",
     }
 
   ];
@@ -42,7 +42,7 @@ const SliderSalonGlm = () => {
 
   return (
 
-    <Slider className="slider-wrapper" autoplay={6000}>
+    <Slider className="slider-wrapper" autoplay={2000}>
       {content.map((item, index) => (
         <div
           key={index}

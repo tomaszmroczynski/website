@@ -63,7 +63,7 @@ class Case extends Component {
               <Hero
                 className="mainhero"
                 style={{
-                  backgroundImage: "url('./img/projects/big/img4.jpg')",
+                  backgroundImage: "url('./img/projects/big/img4.webp')",
                 }}
               >
                 <Slider/>
