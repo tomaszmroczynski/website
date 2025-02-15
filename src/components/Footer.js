@@ -22,7 +22,19 @@ const Footer = () => (
             className="link-call"
             
           >
-            Limes Interiør Anna Rasinska
+            Limes Interiør - Anna Rasinska
+          </div>
+          <div
+            className="link-call"
+            
+          >
+             Finnestadveien 371 - 1880 Eidsberg
+          </div>
+          <div
+            className="link-call"
+            
+          >
+            Org nr 925 621 102
           </div>
           <div
             className="link-call"
@@ -72,7 +84,7 @@ const Footer = () => (
         <div className="footer-col">
         <picture>
 
-<img src="/logo_LIMES INTERIOR_Anna_Rasinska.webp" alt="Logo studia architektury wnętrz i dekoracji Limes Interior Anna Rasinska" width="600" height="auto"/>
+<img src="/logo_LIMES INTERIOR_Anna_Rasinska.webp" alt="Logo studia architektury wnętrz i dekoracji Limes Interior Anna Rasinska" width="100%" height="auto"/>
 </picture>
           <div className="heading"><Trans i18nKey={"Footer.1398"}></Trans></div>
 
