@@ -37,6 +37,29 @@ class Case extends Component {
     };
   }
 
+ 
+  shareOnFacebook = () => {
+    const url = encodeURIComponent(window.location.href);
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, "_blank");
+  };
+
+  shareOnX = () => {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent("Sprawdź tę dekorację!");
+    window.open(`https://x.com/intent/tweet?url=${url}&text=${text}`, "_blank");
+  };
+
+  shareOnPinterest = () => {
+    const url = encodeURIComponent(window.location.href);
+    const media = encodeURIComponent("https://yourwebsite.com/path-to-image.jpg"); // Podmień na poprawny URL obrazka
+    const description = encodeURIComponent("Zobacz tę dekorację!");
+    window.open(`https://pinterest.com/pin/create/button/?url=${url}&media=${media}&description=${description}`, "_blank");
+  };
+
+  shareOnInstagram = () => {
+    alert("Instagram nie obsługuje bezpośredniego udostępniania linków. Dodaj post ręcznie.");
+  };
+
   componentDidUpdate() {
     if (this.state.toBack) {
       setTimeout(() => {
@@ -47,7 +70,6 @@ class Case extends Component {
     if (this.state.animateCase) {
       setTimeout(() => {
         this.props.setNavBackground(false);
-
         this.props.history.push(this.state.animateCase);
         window.scrollTo(0, 0);
       }, 400);
@@ -144,15 +166,21 @@ class Case extends Component {
                 <div className="col-md-12">
                   <div className="share">
                     <span className="heading"><Trans i18nKey={"mjondalen.5438"}></Trans></span>
-                    <span className="content">
-                      <i className="fa fa-facebook-f"></i>
-                    </span>
-                    <span className="content">
-                      <i className="fa fa-twitter"></i>
-                    </span>
-                    <span className="content">
-                      <i className="fa  fa-instagram"></i>
-                    </span>
+          <span className="content" onClick={this.shareOnFacebook} style={{ cursor: "pointer" }}>
+            <i className="fa fa-facebook-f"></i>
+          </span>
+
+          <span className="content" onClick={this.shareOnX} style={{ cursor: "pointer" }}>
+            <i className="fa-brands fa-x-twitter"></i>
+          </span>
+
+          <span className="content" onClick={this.shareOnPinterest} style={{ cursor: "pointer" }}>
+            <i className="fa fa-pinterest"></i>
+          </span>
+
+          <span className="content" onClick={this.shareOnInstagram} style={{ cursor: "pointer" }}>
+            <i className="fa fa-instagram"></i>
+          </span>
                   </div>
                 </div>
               </div>
