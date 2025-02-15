@@ -148,17 +148,17 @@ const Works = ({ history }) => {
               <div className="slick-slide d-block">
                 <div>
                   <div className="itm">
-                    <LinkWrap active={toCase === "/flatGorlice"}>
+                    <LinkWrap active={toCase === "/flat-gorlice-poland"}>
                       <Overlay
                         active={!!toCase}
                         onMouseDown={(e) => setCoords(e.nativeEvent.x)}
                         onMouseUp={(e) =>
-                          handleCaseSwap(e.nativeEvent, "/flatGorlice")
+                          handleCaseSwap(e.nativeEvent, "/flat-gorlice-poland")
                         }
                       >
                         <div className="bg">
                           <img
-                            src="./img/flatGorlice/front3.webp"
+                            src="./img/flat-gorlice-poland/front3.webp"
                             className="img-fluid"
                             alt="Imageworks"
                           />

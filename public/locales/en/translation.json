@@ -1,23 +1,23 @@
 ﻿{
   "mainpictures": {
-    "title1": "Limes Interior",
+    "title1": "Limes Interior Anna Rasinska",
          "desc1": "interior design & decoration",
-         "title2": "Limes Interior",
+         "title2": "Limes Interior Anna Rasinska",
          "desc2": "interior design & decoration",
-         "title3": "Limes Interior",
+         "title3": "Limes Interior Anna Rasinska",
          "desc3": "interior design & decoration"
   },
   "mainpictures2": {
-    "title1": "Limes Interior",
-         "desc1": "interior design",
+    "title1": "Limes Interior Anna Rasinska",
+         "desc1": "interior design & decoration",
          "title2": "i proudly invite you",
          "desc2": "to familiarize yourself",
          "title3": "with my offer",
          "desc3": "of interiror design"
   },
   "mainpictures3": {
-    "title1": "Limes Interior",
-         "desc1": "interior design",
+    "title1": "Limes Interior Anna Rasinska",
+         "desc1": "interior design & decoration",
          "title2": "I am proud to invite you",
          "desc2": "to read",
          "title3": "with my offer",
@@ -179,7 +179,7 @@
     "5238": "Interior architecture",
     "5438": "Share:"
   },
-  "flatGorlice": {
+  "flat-gorlice-poland": {
     "2137": "Back",
     "2213": "INTERIOR",
     "2260": "An apartment for a young married couple",
@@ -264,7 +264,7 @@
     "4938": "Minimum",
     "5138": "Share:"
   },
-  "homeStaging": {
+  "home-staging": {
     "2133": "Back",
     "2209": "",
     "2256": "HOME STAGING",
@@ -294,6 +294,36 @@
     "4938": "Minimalist",
     "5138": "Share:"
     },
+    "dekorasjon-av-arrangementer": {
+      "2133": "Back",
+      "2209": "",
+      "2256": "Decoration of Events",
+      "2313": "I specialize in the design and execution of exclusive events, including private parties, weddings, and corporate galas. With my own materials and expertise, I ensure a unique and atmospheric setting that reflects your vision. Each project is tailored with carefully selected elements such as lighting, floral decorations, and other decorative details.",
+      "2910": "This project will include:",
+      "3397": "",
+      "3403": "A detailed plan for the placement of decorative elements and lighting.",
+      "3404": "A visual presentation of the decoration concept OR a plan with colors, materials, and decorative details.",
+      "3405": "A lighting plan to create the right atmosphere.",
+      "3406": "A list of specially selected decorative elements with prices and suppliers.",
+      "3407": "Three meetings/consultations, including one visit to the event venue to discuss the concept and material selection.",
+      "3408": "One revision of the design (each additional revision is an extra service).",
+      "3409": "",
+      "3410": "Additional services can be customized to meet individual needs.",
+      "3904": "Categories:",
+      "3952": "Events",
+      "4068": "Client:",
+      "4112": "Project",
+      "4234": "Completed:",
+      "4281": "30.09.2020",
+      "4401": "Project Type:",
+      "4451": "Event Decoration",
+      "4684": "Tags:",
+      "4745": "Inspiration",
+      "4811": "Decoration",
+      "4875": "Events",
+      "4938": "Exclusive",
+      "5138": "Share:"
+},
 "salonSandvika": {
   "2133": "Back",
   "2209": "",
@@ -401,6 +431,7 @@
     "1805": "",
     "1806": "Home Staging",
     "1807": "Are you planning to sell an apartment, house or premises for more money? Do you want to rent an apartment but would need renovation or refreshment? Do you run a guesthouse, hytte or hotel and want your guests to come back here often? HOME STAGING is the perfect solution.",
-    "1808": ""
-}
+    "1808": "",
+    "1809": "Event decoration",
+    "1810": "Are you planning a wedding, anniversary, or corporate event and want to create a unique atmosphere? Do you want to provide your guests with an unforgettable experience? Do you need customized decorations for a special occasion? Professional event decoration gives your event an exclusive touch."}
 }

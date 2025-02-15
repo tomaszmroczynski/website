@@ -15,10 +15,10 @@ import Contact from "./pages/Contact";
 import Case from "./pages/domDrammen";
 import Case1 from "./pages/studioGdynia";
 import Case2 from "./pages/houseEidsberg";
-import Case3 from "./pages/flatGorlice";
+import Case3 from "./pages/flat-gorlice-poland";
 import Case4 from "./pages/interiorArchitecture";
 import Case5 from "./pages/decoration";
-import Case6 from "./pages/homeStaging";
+import Case6 from "./pages/home-staging";
 import Case7 from "./pages/salonSandvika";
 import Case8 from "./pages/salonGlm";
 import Case9 from "./pages/lazMoss";
@@ -70,7 +70,7 @@ function App() {
             )}
           />
           <Route
-            path="/flatGorlice"
+            path="/flat-gorlice-poland"
             component={() => (
               <Case3 setNavBackground={(state) => setNavBack(state)} />
             )}
@@ -88,7 +88,7 @@ function App() {
             )}
           />
           <Route
-            path="/homeStaging"
+            path="/home-staging"
             component={() => (
               <Case6 setNavBackground={(state) => setNavBack(state)} />
             )}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Trans } from "react-i18next";
 
+
 const Footer = () => (
   <footer className="container-fluid black_more">
     <div className="bg-footer">
@@ -16,6 +17,12 @@ const Footer = () => (
             <p>
             <Trans i18nKey={"Footer.1397"}></Trans>
             </p>
+          </div>
+          <div
+            className="link-call"
+            
+          >
+            Limes Interiør Anna Rasinska
           </div>
           <div
             className="link-call"
@@ -63,8 +70,15 @@ const Footer = () => (
       </div>
       <div className="col-md-4">
         <div className="footer-col">
+        <picture>
+
+<img src="/logo_LIMES INTERIOR_Anna_Rasinska.webp" alt="Logo studia architektury wnętrz i dekoracji Limes Interior Anna Rasinska" width="600" height="auto"/>
+</picture>
           <div className="heading"><Trans i18nKey={"Footer.1398"}></Trans></div>
+
           <div className="content">
+
+
             <p><Trans i18nKey={"Footer.1399"}></Trans>
              
             </p>

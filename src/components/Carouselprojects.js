@@ -162,10 +162,10 @@ const Carouselprojects = ({ history }) => {
           </Link>
         </CustomSlide>
         <CustomSlide className="itm" index={5}>
-          <Link to="/flatGorlice">
+          <Link to="/flat-gorlice-poland">
             <div className="bg">
               <img
-                src="./img/flatGorlice/front.webp"
+                src="./img/flat-gorlice-poland/front.webp"
                 className="img-fluid"
                 alt="Imageteam"
               />

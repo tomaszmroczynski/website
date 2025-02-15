@@ -3,29 +3,16 @@ import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
 
-const SliderHomeStaging = () => {
+const SliderDekorasjonAvArrangementer = () => {
   const content = [
     {
       title: <Trans i18nKey={"mainpictures2.title1"}></Trans>,
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/home-staging/1.webp",
+      image: "./img/feature/decorasjon-av-arrangmenter/bryllupsdekor.webp",
     },
-    {
-      title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/home-staging/2.webp",
-    },
-    {
-      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/home-staging/3.webp",
-    },
+
   ];
 
   useEffect(() => {}, [content]);
@@ -45,4 +32,4 @@ const SliderHomeStaging = () => {
   );
 };
 
-export default SliderHomeStaging;
+export default SliderDekorasjonAvArrangementer;

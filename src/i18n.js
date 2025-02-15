@@ -29,7 +29,7 @@ i18n.on("languageChanged", (lng) => {
   if (metaDescription) {
     const descriptions = {
       en: "Limes Interior - Interior architect for private and public spaces, home staging, and decoration.",
-      no: "Limes Interior - Interiørarkitekt for private og offentlige rom, home staging og innredning.",
+      no: "Limes Interiør - Interiørarkitekt for private og offentlige rom, home staging og innredning.",
       pl: "Limes Interior - Architekt wnętrz, projektowanie, dekorowanie i home staging."
     };
     metaDescription.setAttribute("content", descriptions[lng] || descriptions["en"]);

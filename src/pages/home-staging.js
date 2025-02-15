@@ -12,7 +12,7 @@ import {
 
 import Reveal from "react-reveal/Reveal";
 import { withRouter } from "react-router";
-import Slider from "../components/SliderDecoration";
+import Slider from "../components/SliderHomeStaging";
 import Footer from "../components/Footer";
 import { Efectr, Efectr1, Efectr2 } from "../styles/effect.styles";
 
@@ -75,10 +75,10 @@ class Case extends Component {
                     hasBackground={this.state.hasBackground}
                   >
                     <BackArrow src="./img/back.png" alt="Back to Projects" />
-                    <span><Trans i18nKey={"decoration.2133"}></Trans></span>
+                    <span><Trans i18nKey={"home-staging.2133"}></Trans></span>
                   </BackButton>
-                  <ClientTag><Trans i18nKey={"decoration.2209"}></Trans></ClientTag>
-                  <Title><Trans i18nKey={"decoration.2256"}></Trans></Title>
+                  <ClientTag><Trans i18nKey={"home-staging.2209"}></Trans></ClientTag>
+                  <Title><Trans i18nKey={"home-staging.2256"}></Trans></Title>
                   <TechniqueTitle></TechniqueTitle>
                 </div>
               </Hero>
@@ -87,60 +87,71 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                <p className="content"><Trans i18nKey={"decoration.2313"}></Trans></p>
-                  <p className="content"><span className="color"><Trans i18nKey={"decoration.2910"}></Trans></span></p>
+                <p className="content"><Trans i18nKey={"home-staging.2313"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"home-staging.2910"}></Trans></span></p>
                   
                   <ul className="detailproject">
-                  <li>
+                    <li>
                       
-                      <span ><Trans i18nKey={"decoration.3397"}></Trans></span>
+                      <span ><Trans i18nKey={"home-staging.3403"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span ><Trans i18nKey={"decoration.3398"}></Trans></span>
+                      <span><Trans i18nKey={"home-staging.3404"}></Trans></span>
+                    </li>
+                    <li>                   
+                      <span><Trans i18nKey={"home-staging.3405"}></Trans></span>
+                    </li>
+                    <li>
+                     
+                      <span><Trans i18nKey={"home-staging.3406"}></Trans></span>
                     </li>
                     <li>
                       
-                      <span><Trans i18nKey={"decoration.3399"}></Trans></span>
+                      <span ><Trans i18nKey={"home-staging.3407"}></Trans></span>
                     </li>
-
+                    <li>
+                      
+                      <span><Trans i18nKey={"home-staging.3408"}></Trans></span>
+                    </li>
+                  
+                 
 
                   </ul>
-                  <p className="content"><span className="color"><Trans i18nKey={"decoration.3400"}></Trans></span></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"interiorArchitecture.3411"}></Trans></span></p>
                 </div>
-                
-                <div className="col-md-4 sticky">
-                  {/* <ul className="detailproject">
+                {/* <div className="col-md-4 sticky">
+                  <ul className="detailproject">
                     <li>
-                      <span className="tile"><Trans i18nKey={"decoration.3904"}></Trans></span>
-                      <span><Trans i18nKey={"decoration.3952"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"home-staging.3904"}></Trans></span>
+                      <span><Trans i18nKey={"home-staging.3952"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"decoration.4068"}></Trans></span>
-                      <span><Trans i18nKey={"decoration.4112"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"home-staging.4068"}></Trans></span>
+                      <span><Trans i18nKey={"home-staging.4112"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"decoration.4234"}></Trans></span>
-                      <span><Trans i18nKey={"decoration.4281"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"home-staging.4234"}></Trans></span>
+                      <span><Trans i18nKey={"home-staging.4281"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"decoration.4401"}></Trans></span>
-                      <span><Trans i18nKey={"decoration.4451"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"home-staging.4401"}></Trans></span>
+                      <span><Trans i18nKey={"home-staging.4451"}></Trans></span>
                     </li>
-                  </ul> */}
-                </div>
+                  </ul>
+                </div> */}
                 <div className="col-md-12">
                   {/* <div className="tags">
-                    <span className="heading"><Trans i18nKey={"decoration.4684"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"decoration.4745"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"decoration.4811"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"decoration.4875"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"decoration.4938"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"home-staging.4684"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"home-staging.4745"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"home-staging.4811"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"home-staging.4875"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"home-staging.4938"}></Trans></span>
                   </div> */}
                 </div>
                 <div className="col-md-12">
                   <div className="share">
-                    <span className="heading"><Trans i18nKey={"decoration.5138"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"home-staging.5138"}></Trans></span>
                     <span className="content">
                       <i className="fa fa-facebook-f"></i>
                     </span>

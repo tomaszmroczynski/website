@@ -10,36 +10,30 @@ const SliderDecoration = () => {
       description:  <Trans i18nKey={"mainpictures2.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/decoration/1.webp",
+      image: "./img/feature/decoration/DekorElementer.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title2"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc2"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/decoration/2.webp",
+      image: "./img/feature/decoration/FargeOgMaterialer.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/decoration/3.webp",
+      image: "./img/feature/decoration/InteriørDekorasjon.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
       description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/decoration/4.webp",
+      image: "./img/feature/decoration/RomStyling.webp",
     },
-    {
-      title: <Trans i18nKey={"mainpictures2.title3"}></Trans>,
-      description: <Trans i18nKey={"mainpictures2.desc3"}></Trans>,
-      //button: "More Detail",
-      //link: "/#",
-      image: "./img/decoration/5.webp",
-    },
+
   ];
   useEffect(() => {}, [content]);
 

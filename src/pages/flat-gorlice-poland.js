@@ -75,11 +75,11 @@ class Case extends Component {
                     hasBackground={this.state.hasBackground}
                   >
                     <BackArrow src="./img/back.png" alt="Back to Projects" />
-                    <span><Trans i18nKey={"flatGorlice.2137"}></Trans></span>
+                    <span><Trans i18nKey={"flat-gorlice-poland.2137"}></Trans></span>
                   </BackButton>
-                  <ClientTag><Trans i18nKey={"flatGorlice.2213"}></Trans></ClientTag>
-                  <Title><Trans i18nKey={"flatGorlice.2260"}></Trans></Title>
-                  <TechniqueTitle><Trans i18nKey={"flatGorlice.2317"}></Trans></TechniqueTitle>
+                  <ClientTag><Trans i18nKey={"flat-gorlice-poland.2213"}></Trans></ClientTag>
+                  <Title><Trans i18nKey={"flat-gorlice-poland.2260"}></Trans></Title>
+                  <TechniqueTitle><Trans i18nKey={"flat-gorlice-poland.2317"}></Trans></TechniqueTitle>
                 </div>
               </Hero>
             </Reveal>
@@ -87,39 +87,39 @@ class Case extends Component {
             <section className="container-fluid" id="detailproject">
               <div className="row m-2-hor">
                 <div className="col-md-8">
-                  <p className="content"><Trans i18nKey={"flatGorlice.2914"}></Trans></p>
-                  <p className="content"><span className="color"><Trans i18nKey={"flatGorlice.3400"}></Trans></span><Trans i18nKey={"flatGorlice.3401"}></Trans></p>
-                  <p className="content"><span className="color"><Trans i18nKey={"flatGorlice.3403"}></Trans></span><Trans i18nKey={"flatGorlice.3402"}></Trans></p>
+                  <p className="content"><Trans i18nKey={"flat-gorlice-poland.2914"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"flat-gorlice-poland.3400"}></Trans></span><Trans i18nKey={"flat-gorlice-poland.3401"}></Trans></p>
+                  <p className="content"><span className="color"><Trans i18nKey={"flat-gorlice-poland.3403"}></Trans></span><Trans i18nKey={"flat-gorlice-poland.3402"}></Trans></p>
                 </div>
                 <div className="col-md-4 sticky">
                   <ul className="detailproject">
                     <li>
-                      <span className="tile"><Trans i18nKey={"flatGorlice.3908"}></Trans></span>
-                      <span><Trans i18nKey={"flatGorlice.3956"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"flat-gorlice-poland.3908"}></Trans></span>
+                      <span><Trans i18nKey={"flat-gorlice-poland.3956"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"flatGorlice.4072"}></Trans></span>
-                      <span><Trans i18nKey={"flatGorlice.4116"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"flat-gorlice-poland.4072"}></Trans></span>
+                      <span><Trans i18nKey={"flat-gorlice-poland.4116"}></Trans></span>
                     </li>
                     <li>
-                      <span className="tile"><Trans i18nKey={"flatGorlice.4238"}></Trans></span>
-                      <span><Trans i18nKey={"flatGorlice.4285"}></Trans></span>
+                      <span className="tile"><Trans i18nKey={"flat-gorlice-poland.4238"}></Trans></span>
+                      <span><Trans i18nKey={"flat-gorlice-poland.4285"}></Trans></span>
                     </li>
 
                   </ul>
                 </div>
                 <div className="col-md-12">
                   <div className="tags">
-                    <span className="heading"><Trans i18nKey={"flatGorlice.4688"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"flatGorlice.4749"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"flatGorlice.4815"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"flatGorlice.4879"}></Trans></span>
-                    <span className="content"><Trans i18nKey={"flatGorlice.4942"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"flat-gorlice-poland.4688"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"flat-gorlice-poland.4749"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"flat-gorlice-poland.4815"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"flat-gorlice-poland.4879"}></Trans></span>
+                    <span className="content"><Trans i18nKey={"flat-gorlice-poland.4942"}></Trans></span>
                   </div>
                 </div>
                 <div className="col-md-12">
                   <div className="share">
-                    <span className="heading"><Trans i18nKey={"flatGorlice.5142"}></Trans></span>
+                    <span className="heading"><Trans i18nKey={"flat-gorlice-poland.5142"}></Trans></span>
                     <span className="content">
                       <i className="fa fa-facebook-f"></i>
                     </span>

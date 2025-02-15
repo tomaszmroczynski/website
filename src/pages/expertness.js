@@ -118,6 +118,32 @@ const Expertness = ({ history }) => {
             </CustomSlide>
           </Overlay>
         </LinkWrap>
+        <LinkWrap active={toCase === "/dekorasjon-av-arrangementer"}>
+          <Overlay
+            active={!!toCase}
+            onMouseDown={(e) => setCoords(e.nativeEvent.x)}
+            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/dekorasjon-av-arrangementer")}
+          >
+            <CustomSlide className="itm" index={2}>
+              <div className="bg">
+                <img
+                  src="./img/feature/dekorasjon-av-arrangementer.webp"
+                  className="img-fluid"
+                  alt="Imageteam"
+                />
+              </div>
+              <div className="desc">
+                <div className="namet"></div>
+                <div className="content"><span className="namet"><Trans i18nKey="expertness.1809"></Trans></span>{/* <Trans i18nKey="expertness.1807"></Trans> */}
+                  
+                </div>
+                <div className="icon">
+                  <span><Trans i18nKey="expertness.1808"></Trans></span>
+                </div>
+              </div>
+            </CustomSlide>
+          </Overlay>
+        </LinkWrap>
 
         <LinkWrap active={toCase === "/decoration"}>
           <Overlay
@@ -125,7 +151,7 @@ const Expertness = ({ history }) => {
             onMouseDown={(e) => setCoords(e.nativeEvent.x)}
             onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/decoration")}
           >
-            <CustomSlide className="itm" index={2}>
+            <CustomSlide className="itm" index={3}>
               <div className="bg">
                 <img
                   src="./img/feature/img2.webp"
@@ -146,13 +172,13 @@ const Expertness = ({ history }) => {
           </Overlay>
         </LinkWrap>
 
-        <LinkWrap active={toCase === "/homeStaging"}>
+        <LinkWrap active={toCase === "/home-staging"}>
           <Overlay
             active={!!toCase}
             onMouseDown={(e) => setCoords(e.nativeEvent.x)}
-            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/homeStaging")}
+            onMouseUp={(e) => handleCaseSwap(e.nativeEvent, "/home-staging")}
           >
-            <CustomSlide className="itm" index={3}>
+            <CustomSlide className="itm" index={4}>
               <div className="bg">
                 <img
                   src="./img/feature/img5.webp"
@@ -172,6 +198,7 @@ const Expertness = ({ history }) => {
             </CustomSlide>
           </Overlay>
         </LinkWrap>
+
       </Slider>
     </div>
   );
