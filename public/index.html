@@ -1,64 +1,97 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="no"> <!-- Domyślnie norweski -->
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-        <!-- Meta tagi Open Graph dla Facebooka, X (Twitter), LinkedIn, Pinterest -->
-        <meta property="og:title" content="Limes Interior - Profesjonalne projektowanie wnętrz" />
-        <meta property="og:description" content="Tworzymy unikalne i funkcjonalne wnętrza dopasowane do Twoich potrzeb." />
-        <meta property="og:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        
-        <meta property="og:url" content="https://limes-interior.no" />
-        <meta property="og:type" content="website" />
-        <meta property="og:locale" content="no_NO" />
-        
-        <!-- Meta tagi dla X (dawny Twitter) -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Limes Interior - Profesjonalne projektowanie wnętrz" />
-        <meta name="twitter:description" content="Tworzymy unikalne i funkcjonalne wnętrza dopasowane do Twoich potrzeb." />
-        <meta property="twitter:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 
-    
-        <!-- Meta tagi dla Pinterest -->
-        <meta name="pinterest-rich-pin" content="true" />
-        <meta property="pinterest:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
+    <!-- 🌍 Dynamiczny język ustawiany przez i18n -->
+    <script>
+      document.documentElement.lang = localStorage.getItem("i18nextLng") || "no";
+    </script>
 
-    
-    
-    />
+<!-- 🔹 Meta Description -->
+<!-- Norweski (domyślny) -->
+<meta name="description" content="Limes Interiør Anna Rasinska er et profesjonelt interiørdesignstudio som spesialiserer seg på boligstyling, eventdekorasjon og skreddersydde interiørløsninger for private og offentlige miljøer." />
+
+<!-- Angielski -->
+<meta name="description" lang="en" content="Limes Interior by Anna Rasinska is a professional interior design studio specializing in home staging, event decoration, and tailored interior solutions for private and commercial spaces." />
+
+<!-- Polski -->
+<meta name="description" lang="pl" content="Limes Interior Anna Rasińska to profesjonalne studio projektowania wnętrz, specjalizujące się w home stagingu, dekoracji eventów oraz aranżacji wnętrz dla klientów indywidualnych i firm." />
+
+<!-- 🔹 Open Graph (Facebook, LinkedIn) -->
+<!-- Norweski (domyślny) -->
+<meta property="og:title" content="Limes Interiør Anna Rasinska - Interiørdesign, boligstyling og eventdekorasjon i Norge" />
+<meta property="og:description" content="Vi skaper unike og funksjonelle rom for private og offentlige miljøer, inkludert boligstyling og eventdekorasjon." />
+<meta property="og:locale" content="no_NO" />
+
+<!-- Angielski -->
+<meta property="og:title" lang="en" content="Limes Interior by Anna Rasinska - Interior Design, Home Staging & Event Decoration in Norway" />
+<meta property="og:description" lang="en" content="We create unique and functional spaces for private and commercial environments, including home staging and event decoration." />
+<meta property="og:locale" content="en_US" />
+
+<!-- Polski -->
+<meta property="og:title" lang="pl" content="Limes Interior Anna Rasińska - Aranżacja wnętrz, home staging i dekoracja eventów w Norwegii" />
+<meta property="og:description" lang="pl" content="Tworzymy unikalne i funkcjonalne przestrzenie dla klientów prywatnych i biznesowych, oferując aranżację wnętrz, home staging oraz dekorację eventów." />
+<meta property="og:locale" content="pl_PL" />
+
+<!-- 🔹 Open Graph Image -->
+<meta property="og:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://limes-interior.no" />
+<meta property="og:type" content="website" />
+
+    <!-- 🔹 Meta tagi dla Twitter (X) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Limes Interiør Anna Rasinska - Interiørdesign, boligstyling og eventdekorasjon i Norge" />
+    <meta name="twitter:description" content="Limes Interiør Anna Rasinska er et profesjonelt interiørdesignstudio som spesialiserer seg på boligstyling, eventdekorasjon og skreddersydde interiørløsninger for private og offentlige miljøer." />
+    <meta name="twitter:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
+
+    <!-- 🔹 Meta tagi dla Pinterest -->
+    <meta name="pinterest-rich-pin" content="true" />
+    <meta property="pinterest:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
+
+    <!-- 🔹 Dynamic Keywords -->
+    <meta name="keywords" content="Anna Rasinska interiørdesign, interiørarkitekt, boligstyling, eventdekorasjon, moderne interiør, hjemmedekor, luksuriøse interiører, design" />
+
+    <!-- 🌎 Dynamic SEO Meta Tags (z i18n.js) -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const lang = localStorage.getItem("i18nextLng") || "no";
+        document.documentElement.lang = lang;
+
+        const descriptions = {
+          en: "Limes Interior Anna Rasinska is a professional interior design studio specializing in creating unique and functional spaces. We offer home staging, event decoration, and stylish interior solutions.",
+          no: "Limes Interiør Anna Rasinska er et profesjonelt interiørdesignstudio som spesialiserer seg på boligstyling, eventdekorasjon og unike interiørløsninger.",
+          pl: "Limes Interior Anna Rasinska to profesjonalne studio projektowania wnętrz oferujące home staging, dekorację eventów i aranżację wnętrz."
+        };
+        document.querySelector('meta[name="description"]').setAttribute("content", descriptions[lang] || descriptions["no"]);
+
+        const keywordsList = {
+          en: "Anna Rasinska, interior architect, interior design, home staging, event decoration, party styling, event planning, luxury interiors, home decor",
+          no: "Anna Rasinska, interiørarkitekt, interiørdesign, boligstyling, eventdekorasjon, festdekor, eventplanlegging, hjemmedekor, luksuriøse interiører",
+          pl: "Anna Rasinska, architekt wnętrz, projektowanie wnętrz, aranżacja wnętrz, dekoracja wnętrz, home staging, dekoracja eventów, organizacja eventów"
+        };
+        document.querySelector('meta[name="keywords"]').setAttribute("content", keywordsList[lang] || keywordsList["no"]);
+
+        const locales = { en: "en_US", no: "no_NO", pl: "pl_PL" };
+        document.querySelector('meta[property="og:locale"]').setAttribute("content", locales[lang] || locales["no_NO"]);
+      });
+    </script>
+
+    <!-- 📱 Apple Touch Icon -->
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    
+    <!-- 📜 Web App Manifest -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Limes Interior</title>
+    <title>Limes Interiør Anna Rasinska</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>Du må aktivere JavaScript for å bruke denne appen.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
