@@ -103,7 +103,7 @@ const Expertness = ({ history }) => {
                 <img
                   src="./img/feature/1.webp"
                   className="img-fluid"
-                  alt="Imageteam"
+                  alt="Interior Architecture"
                 />
               </div>
               <div className="desc">
@@ -129,7 +129,7 @@ const Expertness = ({ history }) => {
                 <img
                   src="./img/feature/dekorasjon-av-arrangementer.webp"
                   className="img-fluid"
-                  alt="Imageteam"
+                  alt="dekorasjon-av-arrangementer"
                 />
               </div>
               <div className="desc">
@@ -156,7 +156,7 @@ const Expertness = ({ history }) => {
                 <img
                   src="./img/feature/img2.webp"
                   className="img-fluid"
-                  alt="Imageteam"
+                  alt="decoration"
                 />
               </div>
               <div className="desc">
@@ -183,7 +183,7 @@ const Expertness = ({ history }) => {
                 <img
                   src="./img/feature/img5.webp"
                   className="img-fluid"
-                  alt="Imageteam"
+                  alt="home-staging"
                 />
               </div>
               <div className="desc">

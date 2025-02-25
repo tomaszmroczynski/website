@@ -107,7 +107,7 @@ const Carouselprojects = ({ history }) => {
               <img
                 src="./img/salonGlm/front.webp"
                 className="img-fluid"
-                alt="Imageteam"
+                alt="project visualization"
               />
             </div>
             <div className="desc">
@@ -122,7 +122,7 @@ const Carouselprojects = ({ history }) => {
               <img
                 src="./img/lazMoss/front.webp"
                 className="img-fluid"
-                alt="Imageteam"
+                alt="project visualization"
               />
             </div>
             <div className="desc">
@@ -137,7 +137,7 @@ const Carouselprojects = ({ history }) => {
               <img
                 src="./img/studioGdynia/front1.webp"
                 className="img-fluid"
-                alt="Imageteam"
+                alt="project visualization"
               />
             </div>
             <div className="desc">
@@ -152,7 +152,7 @@ const Carouselprojects = ({ history }) => {
               <img
                 src="./img/houseEidsberg/front2.webp"
                 className="img-fluid"
-                alt="Imageteam"
+                alt="project visualization"
               />
             </div>
             <div className="desc">
@@ -167,7 +167,7 @@ const Carouselprojects = ({ history }) => {
               <img
                 src="./img/flat-gorlice-poland/front.webp"
                 className="img-fluid"
-                alt="Imageteam"
+                alt="project visualization"
               />
             </div>
             <div className="desc">
@@ -182,7 +182,7 @@ const Carouselprojects = ({ history }) => {
               <img
                 src="./img/salonSandvika/front7.webp"
                 className="img-fluid"
-                alt="Imageteam"
+                alt="project visualization"
               />
             </div>
             <div className="desc">
@@ -197,7 +197,7 @@ const Carouselprojects = ({ history }) => {
               <img
                 src="./img/mjondalen/front.webp"
                 className="img-fluid"
-                alt="Imageteam"
+                alt="project visualization"
               />
             </div>
             <div className="desc">
@@ -212,7 +212,7 @@ const Carouselprojects = ({ history }) => {
               <img
                 src="./img/salonSandvika/front7.webp"
                 className="img-fluid"
-                alt="Imageteam"
+                alt="project visualization"
               />
             </div>
             <div className="desc">
