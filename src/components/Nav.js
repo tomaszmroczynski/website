@@ -93,7 +93,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
         <img
           src="./img/logowhite.png"
           className="portret"
-          alt="obrazek rzedstawia portret architekta"
+          alt="obrazek przedstawia portret architekta"
           //style={{ borderRadius: "10%" }}
         />
 
