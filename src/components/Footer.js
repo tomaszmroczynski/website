@@ -18,20 +18,21 @@ const Footer = () => (
             <Trans i18nKey={"Footer.1397"}></Trans>
             </p>
           </div>
+
           <div
-            className="link-call"
+            className="address"
             
           >
             Limes Interiør - Anna Rasinska
           </div>
           <div
-            className="link-call"
+            className="address"
             
           >
              Finnestadveien 371 - 1880 Eidsberg
           </div>
           <div
-            className="link-call"
+            className="address"
             
           >
             Org nr 925 621 102
@@ -40,13 +41,13 @@ const Footer = () => (
             className="link-call"
             onClick={() => window.open("tel:+4794712654", "_self")}
           >
-            +47 947-12-654
+           <i className="fa fa-phone"></i> +47 947-12-654
           </div>
           <div
             className="link-call"
             onClick={() => window.open("mailto:studio@limes-interior.no", "_self")}
-          >
-            studio@limes-interior.no
+          ><i className="fa fa-envelope"></i>
+             studio@limes-interior.no
           </div>
         </div>
       </div>

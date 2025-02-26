@@ -1238,16 +1238,34 @@ footer {
         }
       }
     }
+    
     .link-call {
       font-weight: 300;
       display: block;
       color: $color;
-      font-size: 1.6rem;
-      width: max-content;
+      font-size: 1.2rem;
+      width: 100%t;
       letter-spacing: 1px;
       padding: 0 0 5px;
       cursor: pointer;
       transition: all 0.3s ease;
+      &:hover {
+        opacity: 0.6;
+        transition: all 0.3s ease;
+      }
+      i{
+        margin-right: 5px;
+      }
+    }
+    .address {
+      font-weight: 300;
+      display: block;
+      color: $color;
+      font-size: 1.2rem;
+      width: 100%t;
+      letter-spacing: 1px;
+      padding: 0 0 5px;
+
       &:hover {
         opacity: 0.6;
         transition: all 0.3s ease;

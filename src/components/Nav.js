@@ -155,10 +155,13 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
             </Page>
           </div>
 
-          <div className="info">
+          <div className="info"> 
+            <span>Limes Interiør - Anna Rasinska</span>
+            <span>Finnestadveien 371 1880 Indre Østfold</span>
             <span>(+47) 947 12 654</span>
             <span className="link">studio@limes-interior.no</span>
-            <span>Finnestadveien 371 1880 Indre Østfold</span>
+            <span >Org nr 925 621 102</span>
+            
           </div>
         </Body>
         <SocialContainer className="soc-icon" open={isOn}>

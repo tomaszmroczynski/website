@@ -73,7 +73,7 @@ const Contact = ({ history }) => {
 
                 </p>
                 <div className="address">
-                  <div className="heading">Limes Interior</div>
+                  <div className="heading">Limes Interiør - Anna Rasinska </div>
                   <div className="list">
                     <i className="fa fa-map-marker"></i>
                     Finnestadveien, 1880, Indre Østfold
