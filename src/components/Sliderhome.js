@@ -18,7 +18,7 @@ const SliderHome = () => {
       description:  <Trans i18nKey={"mainpictures.desc1"}></Trans>,
       //button: "More Detail",
       //link: "/#",
-      image: "./img/front/lazMoss.webp",
+      image: "./img/front/front.webp",
     },
     {
       title: <Trans i18nKey={"mainpictures.title1"}></Trans>,

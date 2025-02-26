@@ -89,7 +89,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
   return (
     <header>
       <div id="header"></div>
-      <div className="logo">
+      <div className="logo" onClick={() => setLinkHandler("home")}>
         <img
           src="./img/logowhite.png"
           className="portret"
@@ -105,8 +105,8 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
         />
 
 
-        <span className="callus"><Trans i18nKey={"Nav.1501"}></Trans>: (+47) 947 12 654</span>
-        <span className="callus">e-mail: studio@limes-interior.no</span>
+        <span className="callus" onClick={() => window.open("tel:+4794712654", "_self")}><Trans i18nKey={"Nav.1501"}></Trans>: (+47) 947 12 654</span>
+        <span className="callus" onClick={() => window.open("mailto:studio@limes-interior.no", "_self")}>e-mail: studio@limes-interior.no</span>
 
       </div>
       <Wrapper open={isOn} shouldAnimate={shouldAnimate}>
