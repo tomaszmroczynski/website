@@ -1,35 +1,21 @@
-import React, { Component } from "react";
-//import GoogleMapReact from "google-map-react";
+import React from "react";
 
-//const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const MAP_EMBED_URL =
+  "https://maps.google.com/maps?q=Finnestadveien+371,+1880+Eidsberg,+Norway&hl=no&z=14&output=embed";
 
-class SimpleMap extends Component {
-  static defaultProps = {
-    center: {
-      lat: 59.511735085083856,
-      lng: 11.31041404063722,
-    },
-    zoom: 11,
-  };
-
-  render() {
-    return (
-      <div className="map" style={{ height: "400px", width: "100%" }}>
-        <img src="./img/contact.webp" className="img-fluid" alt="Imageworks" />
-        {/*<GoogleMapReact
-          bootstrapURLKeys={{ key: "" }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
-        >
-          <AnyReactComponent
-            lat={59.511735085083856}
-            lng={11.31041404063722}
-            text="My Marker"
-          />
-</GoogleMapReact>*/}
-      </div>
-    );
-  }
-}
+const SimpleMap = () => (
+  <div className="map" style={{ height: "400px", width: "100%" }}>
+    <iframe
+      title="Limes Interiør – Finnestadveien 371, 1880 Eidsberg"
+      src={MAP_EMBED_URL}
+      width="100%"
+      height="400"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    />
+  </div>
+);
 
 export default SimpleMap;

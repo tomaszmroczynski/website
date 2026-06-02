@@ -21,7 +21,13 @@ const About = ({ history }) => {
 
       <Reveal effect="fadeIn">
         <section className="jumbotron imgtop">
-          <img src="./img/imgabout.webp" className="img-fluid" alt="#" />
+          <img
+            src="./img/imgabout.webp"
+            className="img-fluid"
+            alt=""
+            loading="lazy"
+            aria-hidden="true"
+          />
         </section>
       </Reveal>
 
@@ -41,7 +47,7 @@ const About = ({ history }) => {
       </Reveal> */}
 
       <Reveal effect="fadeIn">
-        <Abouthome />
+        <Abouthome pageTitle />
       </Reveal>
 
       

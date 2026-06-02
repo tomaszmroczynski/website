@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Icon from './Icon';
 
 export default class ScrollToTop extends Component {
 
@@ -40,7 +41,7 @@ export default class ScrollToTop extends Component {
       <div id='scroll-to-top' className='init'>
         {is_visible && (
           <div onClick={() => this.scrollToTop()}>
-            <i className="fa fa-chevron-up"></i>
+            <Icon name="chevronUp" />
           </div>
         )}
       </div>

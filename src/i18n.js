@@ -3,14 +3,25 @@ import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
+const publicUrl = process.env.PUBLIC_URL || "";
+const loadPath =
+  publicUrl && publicUrl.startsWith("http")
+    ? `${publicUrl}/locales/{{lng}}/{{ns}}.json`
+    : `${publicUrl}/locales/{{lng}}/{{ns}}.json`.replace(/\/+/g, "/");
+
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     fallbackLng: "no",
-    supportedLngs: ["en", "no", "pl"],
+    supportedLngs: ["en", "no", "nb", "pl"],
+    nonExplicitSupportedLngs: true,
+    load: "languageOnly",
     debug: process.env.NODE_ENV === "development",
+    backend: {
+      loadPath,
+    },
     detection: {
       order: ["queryString", "localStorage", "cookie", "navigator"],
       caches: ["localStorage", "cookie"],
@@ -18,26 +29,32 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    react: {
+      useSuspense: false,
+      bindI18n: "languageChanged loaded",
+    },
   });
 
-i18n.on("languageChanged", (lng) => {
-  document.documentElement.lang = lng;
+const normalizeLang = (lng) => {
+  const base = (lng || "no").split("-")[0];
+  return base === "nb" ? "no" : base;
+};
 
-  // 🔹 Dynamiczny meta description
+i18n.on("languageChanged", (lng) => {
+  const lang = normalizeLang(lng);
+  document.documentElement.lang = lang === "no" ? "nb-NO" : lang;
+
   const descriptions = {
-    en: "Limes Interior is a professional interior design studio specializing in creating unique and functional spaces. We offer services for private and public interiors, including home staging, event decoration, and personalized styling solutions. Whether you're looking to refresh your home, design a modern office, or plan a stylish event, we provide creative and customized solutions that reflect your vision and personality.",
-    
-    no: "Limes Interiør er et profesjonelt interiørdesignstudio som spesialiserer seg på å skape unike og funksjonelle rom. Vi tilbyr tjenester for både private og offentlige interiører, inkludert boligstyling, eventdekorasjon og skreddersydde stylingløsninger. Enten du ønsker å fornye hjemmet ditt, designe et moderne kontor eller planlegge et stilfullt arrangement, leverer vi kreative og tilpassede løsninger som gjenspeiler din visjon og personlighet.",
-    
-    pl: "Limes Interior to profesjonalne studio projektowania wnętrz, które specjalizuje się w tworzeniu unikalnych i funkcjonalnych przestrzeni. Oferujemy usługi dla wnętrz prywatnych i publicznych, w tym home staging, dekorację eventów oraz indywidualne rozwiązania aranżacyjne. Niezależnie od tego, czy chcesz odświeżyć swoje mieszkanie, zaprojektować nowoczesne biuro, czy zorganizować eleganckie wydarzenie, zapewniamy kreatywne i dopasowane do Twojej wizji rozwiązania."
+    en: "Limes Interior is a professional interior design studio in Eidsberg, Akershus. We offer interior architecture, home staging and event decoration in Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm and Oslo.",
+    no: "Limes Interiør er et profesjonelt interiørdesignstudio i Eidsberg, Akershus. Vi tilbyr interiørarkitektur, boligstyling og eventdekorasjon i Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm og Oslo.",
+    pl: "Limes Interior to profesjonalne studio projektowania wnętrz w Eidsberg, Akershus. Oferujemy usługi w Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm i Oslo.",
   };
-  
+
   const metaDescription = document.querySelector('meta[name="description"]');
   if (metaDescription) {
-    metaDescription.setAttribute("content", descriptions[lng] || descriptions["en"]);
+    metaDescription.setAttribute("content", descriptions[lang] || descriptions.no);
   }
 
-  // 🔹 Dynamiczne słowa kluczowe (meta keywords)
   let metaKeywords = document.querySelector('meta[name="keywords"]');
   if (!metaKeywords) {
     metaKeywords = document.createElement("meta");
@@ -45,21 +62,16 @@ i18n.on("languageChanged", (lng) => {
     document.head.appendChild(metaKeywords);
   }
   const keywordsList = {
-    en: "interior architect, interior design, home staging, event decoration, party styling, event planning, modern interiors, luxury interiors, home decor",
-    no: "interiørarkitekt, interiørdesign, boligstyling, eventdekorasjon, festdekor, eventplanlegging, moderne interiør, luksuriøse interiører, hjemmedekor",
-    pl: "architekt wnętrz, projektowanie wnętrz, aranżacja wnętrz, dekorowanie wnętrz, home staging, nowoczesne wnętrza, luksusowe wnętrza, design wnętrz, dekoracja eventów, dekoracja imprez okolicznościowych, organizacja eventów"
+    en: "interior architect Eidsberg, interior architect Oslo, interior design Akershus, Sarpsborg, Halden, Ski, Lillestrøm, home staging, Anna Rasinska",
+    no: "interiørarkitekt Eidsberg, interiørarkitekt Askim, interiørarkitekt Akershus, interiørarkitekt Oslo, Sarpsborg, Halden, Ski, Lillestrøm, boligstyling, Anna Rasinska",
+    pl: "architekt wnętrz Eidsberg, architekt wnętrz Oslo, Sarpsborg, Halden, Ski, Lillestrøm, Anna Rasinska",
   };
-  metaKeywords.setAttribute("content", keywordsList[lng] || keywordsList["en"]);
+  metaKeywords.setAttribute("content", keywordsList[lang] || keywordsList.no);
 
-  // 🔹 Dynamiczne ustawienie Open Graph locale
   const metaOgLocale = document.querySelector('meta[property="og:locale"]');
   if (metaOgLocale) {
-    const locales = {
-      en: "en_US",
-      no: "no_NO",
-      pl: "pl_PL",
-    };
-    metaOgLocale.setAttribute("content", locales[lng] || locales["en"]);
+    const locales = { en: "en_US", no: "no_NO", pl: "pl_PL" };
+    metaOgLocale.setAttribute("content", locales[lang] || locales.no);
   }
 });
 

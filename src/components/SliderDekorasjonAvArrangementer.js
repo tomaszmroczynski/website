@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
+import AnimatedSliderSlide from "./AnimatedSliderSlide";
 
 const SliderDekorasjonAvArrangementer = () => {
   const content = [
@@ -20,13 +21,7 @@ const SliderDekorasjonAvArrangementer = () => {
   return (
     <Slider className="slider-wrapper" autoplay={1000}>
       {content.map((item, index) => (
-        <div
-          key={index}
-          className="slider-content"
-          style={{ background: `url('${item.image}') no-repeat center center` }}
-        >
-
-        </div>
+        <AnimatedSliderSlide key={index} image={item.image} index={index} />
       ))}
     </Slider>
   );

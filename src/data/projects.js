@@ -1,0 +1,68 @@
+const projects = [
+  {
+    path: "/salonGlm",
+    image: "./img/salonGlm/front.webp",
+    tagKey: "Carouselprojects.1596",
+    nameKey: "Carouselprojects.1597",
+    locationKey: "Carouselprojects.15971",
+    altKey: "Work.alt_salonGlm",
+  },
+  {
+    path: "/lazMoss",
+    image: "./img/lazMoss/front.webp",
+    tagKey: "Carouselprojects.1596",
+    nameKey: "Carouselprojects.1594",
+    locationKey: "Carouselprojects.1591",
+    altKey: "Work.alt_lazMoss",
+  },
+  {
+    path: "/studioGdynia",
+    image: "./img/studioGdynia/front1.webp",
+    tagKey: "Carouselprojects.1598",
+    nameKey: "Carouselprojects.1599",
+    locationKey: "Carouselprojects.15991",
+    altKey: "Work.alt_studioGdynia",
+  },
+  {
+    path: "/houseEidsberg",
+    image: "./img/houseEidsberg/front2.webp",
+    tagKey: "Carouselprojects.1601",
+    nameKey: "Carouselprojects.1602",
+    locationKey: "Carouselprojects.16021",
+    altKey: "Work.alt_houseEidsberg",
+  },
+  {
+    path: "/flat-gorlice-poland",
+    image: "./img/flat-gorlice-poland/front.webp",
+    tagKey: "Carouselprojects.1604",
+    nameKey: "Carouselprojects.1605",
+    locationKey: "Carouselprojects.16051",
+    altKey: "Work.alt_gorlice",
+  },
+  {
+    path: "/salonSandvika",
+    image: "./img/salonSandvika/front7.webp",
+    tagKey: "Carouselprojects.1604",
+    nameKey: "Carouselprojects.1607",
+    locationKey: "Carouselprojects.16071",
+    altKey: "Work.alt_salonSandvika",
+  },
+  {
+    path: "/mjondalen",
+    image: "./img/mjondalen/front.webp",
+    tagKey: "Carouselprojects.1596",
+    nameKey: "Carouselprojects.1590",
+    locationKey: "Carouselprojects.1589",
+    altKey: "Work.alt_mjondalen",
+  },
+  {
+    path: "/domDrammen",
+    image: "./img/domDrammen/1.webp",
+    tagKey: "domDrammen.2504",
+    nameKey: "domDrammen.2551",
+    locationKey: "Work.location_domDrammen",
+    altKey: "Work.alt_domDrammen",
+  },
+];
+
+export default projects;

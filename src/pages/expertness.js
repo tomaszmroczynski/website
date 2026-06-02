@@ -104,12 +104,13 @@ const Expertness = ({ history }) => {
                   src="./img/feature/1.webp"
                   className="img-fluid"
                   alt="Interior Architecture"
+                  loading="lazy"
                 />
               </div>
               <div className="desc">
                 <div className="namet"></div>
                 <div className="content">
-                <span className="namet"><Trans i18nKey="expertness.1800"></Trans></span>{/* <Trans i18nKey="expertness.1801"></Trans> */}
+                <h3 className="namet"><Trans i18nKey="expertness.1800"></Trans></h3>
                 </div>
                 <div className="icon">
                   <span><Trans i18nKey="expertness.1802"></Trans></span>
@@ -130,11 +131,12 @@ const Expertness = ({ history }) => {
                   src="./img/feature/dekorasjon-av-arrangementer.webp"
                   className="img-fluid"
                   alt="dekorasjon-av-arrangementer"
+                  loading="lazy"
                 />
               </div>
               <div className="desc">
                 <div className="namet"></div>
-                <div className="content"><span className="namet"><Trans i18nKey="expertness.1809"></Trans></span>{/* <Trans i18nKey="expertness.1807"></Trans> */}
+                <div className="content"><h3 className="namet"><Trans i18nKey="expertness.1809"></Trans></h3>
                   
                 </div>
                 <div className="icon">
@@ -157,11 +159,12 @@ const Expertness = ({ history }) => {
                   src="./img/feature/img2.webp"
                   className="img-fluid"
                   alt="decoration"
+                  loading="lazy"
                 />
               </div>
               <div className="desc">
                 <div className="namet"></div>
-                <div className="content"><span className="namet"><Trans i18nKey="expertness.1803"></Trans></span>{/* <Trans i18nKey="expertness.1804"></Trans> */}
+                <div className="content"><h3 className="namet"><Trans i18nKey="expertness.1803"></Trans></h3>
                  
                 </div>
                 <div className="icon">
@@ -184,11 +187,12 @@ const Expertness = ({ history }) => {
                   src="./img/feature/img5.webp"
                   className="img-fluid"
                   alt="home-staging"
+                  loading="lazy"
                 />
               </div>
               <div className="desc">
                 <div className="namet"></div>
-                <div className="content"><span className="namet"><Trans i18nKey="expertness.1806"></Trans></span>{/* <Trans i18nKey="expertness.1807"></Trans> */}
+                <div className="content"><h3 className="namet"><Trans i18nKey="expertness.1806"></Trans></h3>
                   
                 </div>
                 <div className="icon">

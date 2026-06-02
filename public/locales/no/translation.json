@@ -358,7 +358,42 @@
     "1298": "drømmehjem",
     "1299": ", dekorasjon eller interiør.",
     "1822": "Kontaktdetaljer",
-    "1867": ""
+    "1867": "Ta gjerne kontakt for en uforpliktende samtale om interiørprosjektet ditt.",
+    "form_name": "Navn",
+    "form_email": "E-post",
+    "form_message": "Melding",
+    "form_tel": "Telefon",
+    "form_send": "Send",
+    "form_success": "Meldingen din er sendt.",
+    "form_failed": "Kunne ikke sende meldingen. Prøv igjen."
+  },
+  "Omrader": {
+    "title": "Områder vi dekker",
+    "intro": "Limes Interiør holder til i Eidsberg og tar oppdrag i Eidsberg, Akershus og Oslo.",
+    "body": "Som interiørarkitekt i Eidsberg hjelper jeg kunder i Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm og Oslo. Ta kontakt for en uforpliktende samtale.",
+    "eidsberg": "Eidsberg",
+    "askim": "Askim",
+    "moss": "Moss",
+    "fredrikstad": "Fredrikstad",
+    "sarpsborg": "Sarpsborg",
+    "halden": "Halden",
+    "ski": "Ski",
+    "lillestrom": "Lillestrøm",
+    "oslo": "Oslo",
+    "akershus": "Akershus"
+  },
+  "Faq": {
+    "title": "Ofte stilte spørsmål",
+    "q1": "Tilbyr du interiørdesign i Eidsberg og Askim?",
+    "a1": "Ja, jeg tar oppdrag i Eidsberg, Askim og omegn.",
+    "q2": "Jobber du i Akershus og Oslo?",
+    "a2": "Ja, jeg tar oppdrag i Akershus og Oslo, blant annet Ski, Lillestrøm, Moss, Fredrikstad, Sarpsborg og Halden.",
+    "q3": "Kan du hjelpe med kjøkken og bad?",
+    "a3": "Ja, planlegging og styling av kjøkken og bad er en del av tilbudet mitt.",
+    "q4": "Tilbyr du hjelp til private hjem og næringslokaler?",
+    "a4": "Ja, jeg designer både private boliger og kommersielle lokaler som kontorer, butikker og restauranter.",
+    "q5": "Hvordan foregår et interiørprosjekt?",
+    "a5": "Vi starter med en uforpliktende samtale, deretter utarbeider vi konsept, materialvalg og gjennomføring etter avtale."
   },
 
  "Abouthome": {
@@ -373,7 +408,19 @@
   "1396": "Takk for din tid og oppmerksomhet",
   "1397": "Jeg er glad for å kunne presentere meg og tilbudet mitt for deg. Jeg er glad for at du har lagt merke til hva jeg har å tilby. Hvis du har spørsmål, bekymringer eller trenger hjelp til å designe ditt drømmehjem, så er jeg mer enn gjerne tilgjengelig for å hjelpe deg. Vi er her for å oppfylle dine forventninger og skape et rom der du vil føle deg lykkelig og avslappet. ",
   "1398": " Besøk profilen min",
-  "1399": " Du kan kontakte meg via populære sosiale medier."
+  "1399": " Du kan kontakte meg via populære sosiale medier.",
+  "1400": "Områder",
+  "1401": "Eidsberg",
+  "1402": "Askim",
+  "1403": "Moss",
+  "1404": "Fredrikstad",
+  "1405": "Sarpsborg",
+  "1406": "Halden",
+  "1407": "Ski",
+  "1408": "Lillestrøm",
+  "1409": "Oslo",
+  "1410": "Akershus",
+  "privacy": "Personvern"
 },
 "Nav": {
   "1496": "Hjemmeside",
@@ -417,7 +464,8 @@
     },
   "Home": {
 "1799": "Mine prosjekter",
-    "1798": "Mitt tilbud"
+    "1798": "Mitt tilbud",
+    "pageTitle": "Limes Interiør Anna Rasinska – interiørarkitekt i Eidsberg, Akershus og Oslo"
    
   },
   "expertness": {
@@ -433,5 +481,125 @@
     "1809": "Dekorasjon av arrangementer",
     "1810": "Planlegger du et bryllup, jubileum eller firmafest og ønsker en unik atmosfære? Vil du skape en uforglemmelig stemning for gjestene dine? Trenger du spesialtilpasset dekorasjon for en spesiell anledning? Profesjonell eventdekorasjon gir arrangementet ditt et eksklusivt preg.",
     "1811": ""
+  },
+  "Work": {
+    "heading": "Utvalgte prosjekter",
+    "location_domDrammen": "Drammen, Norge",
+    "alt_salonGlm": "Stue i moderne stil – interiørprosjekt Limes Interiør",
+    "alt_lazMoss": "Bad i Moss – interiørprosjekt Limes Interiør",
+    "alt_studioGdynia": "Liten leilighet Gdynia – interiørprosjekt",
+    "alt_houseEidsberg": "Privat hus Eidsberg – interiørprosjekt",
+    "alt_gorlice": "Leilighet Gorlice – interiørprosjekt",
+    "alt_salonSandvika": "Stue Sandvika – interiørprosjekt",
+    "alt_mjondalen": "Leilighet Mjøndalen – interiørprosjekt",
+    "alt_domDrammen": "Hus Drammen – interiørprosjekt Limes Interiør"
+  },
+  "Seo": {
+    "home": {
+      "title": "Limes Interiør Anna Rasinska – interiørarkitekt Eidsberg, Akershus og Oslo",
+      "description": "Profesjonelt interiørdesignstudio i Eidsberg. Interiørarkitektur, boligstyling og dekorasjon i Askim, Moss, Ski, Lillestrøm, Oslo og Akershus."
+    },
+    "about": {
+      "title": "Om meg – Limes Interiør Anna Rasinska",
+      "description": "Anna Rasinska, interiørarkitekt i Eidsberg. Lidenskap for private og offentlige interiører, home staging og dekorasjon."
+    },
+    "work": {
+      "title": "Prosjekter – Limes Interiør Anna Rasinska",
+      "description": "Se utvalgte interiørprosjekter fra Limes Interiør: boliger, bad, stuer og hjem i Eidsberg, Akershus og Oslo."
+    },
+    "contact": {
+      "title": "Kontakt – Limes Interiør Anna Rasinska",
+      "description": "Kontakt interiørarkitekt Anna Rasinska i Eidsberg. Finnestadveien 371, 1880 Eidsberg. Telefon +47 947 12 654."
+    },
+    "expertness": {
+      "title": "Tjenester – Limes Interiør Anna Rasinska",
+      "description": "Interiørarkitektur, interiørdekorasjon, home staging og eventdekorasjon i Eidsberg, Akershus og Oslo."
+    },
+    "studioGdynia": {
+      "title": "Liten leilighet Gdynia – Limes Interiør",
+      "description": "Interiørprosjekt for liten leilighet i Gdynia. Funksjonell og vakker bolig styling av Anna Rasinska."
+    },
+    "houseEidsberg": {
+      "title": "Privat hus Eidsberg – Limes Interiør",
+      "description": "Total metamorfose av hus i Eidsberg. Interiør- og dekorasjonsprosjekt av Limes Interiør Anna Rasinska."
+    },
+    "gorlice": {
+      "title": "Leilighet Gorlice – Limes Interiør",
+      "description": "Interiørprosjekt for leilighet i Gorlice, Polen. Design og dekorasjon av Anna Rasinska."
+    },
+    "salonGlm": {
+      "title": "Stue moderne stil – Limes Interiør",
+      "description": "Stueprosjekt i moderne stil med glamourøse elementer. Interiør av Limes Interiør Anna Rasinska."
+    },
+    "salonSandvika": {
+      "title": "Stue Sandvika – Limes Interiør",
+      "description": "Interiørprosjekt stue i Sandvika. Profesjonell interiørarkitektur av Anna Rasinska."
+    },
+    "lazMoss": {
+      "title": "Bad Moss – Limes Interiør",
+      "description": "Romslig bad i Moss med naturlige elementer og minimalistisk eleganse. Limes Interiør Anna Rasinska."
+    },
+    "mjondalen": {
+      "title": "Leilighet Mjøndalen – Limes Interiør",
+      "description": "Interiørprosjekt leilighet i Mjøndalen. Design og dekorasjon av Anna Rasinska."
+    },
+    "domDrammen": {
+      "title": "Hus Drammen – Limes Interiør",
+      "description": "Husprosjekt i Drammen med separate soner for kjøkken, stue og spisestue. Limes Interiør Anna Rasinska."
+    },
+    "interiorArchitecture": {
+      "title": "Interiørarkitektur – Limes Interiør Anna Rasinska",
+      "description": "Skreddersydd interiørarkitektur for boliger og næringslokaler i Eidsberg, Akershus og Oslo."
+    },
+    "decoration": {
+      "title": "Interiørdekorasjon – Limes Interiør Anna Rasinska",
+      "description": "Profesjonell interiørdekorasjon for hjem, kontor og butikker i Eidsberg og Akershus."
+    },
+    "homeStaging": {
+      "title": "Home staging – Limes Interiør Anna Rasinska",
+      "description": "Boligstyling for salg og utleie i Eidsberg, Akershus og Oslo. Øk verdien på boligen din."
+    },
+    "eventDecoration": {
+      "title": "Dekorasjon av arrangementer – Limes Interiør",
+      "description": "Profesjonell eventdekorasjon for bryllup, jubileum og firmaarrangementer i Akershus og Oslo."
+    },
+    "personvern": {
+      "title": "Personvern – Limes Interiør Anna Rasinska",
+      "description": "Personvernerklæring for Limes Interiør Anna Rasinska. Informasjon om behandling av personopplysninger og cookies."
+    }
+  },
+  "Lang": {
+    "switcher_label": "Velg språk",
+    "en": "Bytt til engelsk",
+    "no": "Bytt til norsk",
+    "pl": "Bytt til polsk"
+  },
+  "Reviews": {
+    "title": "Det sier kundene",
+    "stars_label": "5 av 5 stjerner",
+    "review1_text": "Anna forvandlet stuen vår til et rom vi elsker å være i. Profesjonell, kreativ og lett å samarbeide med.",
+    "review1_author": "Privatkunde, Askim",
+    "review2_text": "Fantastisk hjelp med kjøkken og bad. Gode løsninger som passet både budsjett og stil.",
+    "review2_author": "Privatkunde, Eidsberg",
+    "review3_text": "Home staging gjorde at leiligheten ble solgt raskere. Anbefales varmt!",
+    "review3_author": "Privatkunde, Moss"
+  },
+  "NotFound": {
+    "title": "404 – Siden finnes ikke",
+    "message": "Beklager, siden du leter etter finnes ikke eller er flyttet.",
+    "home": "Til forsiden",
+    "contact": "Kontakt oss"
+  },
+  "Personvern": {
+    "title": "Personvernerklæring",
+    "intro": "Limes Interiør Anna Rasinska tar personvern på alvor. Denne erklæringen forklarer hvordan vi behandler personopplysninger når du besøker nettsiden eller kontakter oss.",
+    "data_title": "Behandling av personopplysninger",
+    "data_text": "Når du sender oss en henvendelse via kontaktskjema, e-post eller telefon, behandler vi opplysninger som navn, e-post, telefonnummer og melding for å kunne svare på forespørselen din. Behandlingen skjer på grunnlag av berettiget interesse og/eller avtaleforhold.",
+    "cookies_title": "Informasjonskapsler (cookies)",
+    "cookies_text": "Nettsiden kan bruke nødvendige cookies og lokal lagring for språkvalg (i18next). Vi bruker ikke cookies til markedsføring uten ditt samtykke.",
+    "rights_title": "Dine rettigheter",
+    "rights_text": "Du har rett til innsyn, retting, sletting og begrensning av behandlingen av dine personopplysninger. Kontakt oss dersom du ønsker å benytte dine rettigheter.",
+    "contact_title": "Kontakt",
+    "contact_text": "Limes Interiør Anna Rasinska, Finnestadveien 371, 1880 Eidsberg. E-post: studio@limes-interior.no. Telefon: +47 947 12 654."
   }
 }

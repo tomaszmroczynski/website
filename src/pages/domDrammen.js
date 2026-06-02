@@ -1,4 +1,5 @@
 import React, { Component, createRef, Fragment } from "react";
+import Icon from "../components/Icon";
 import { Trans } from "react-i18next";
 import {
   Hero,
@@ -167,19 +168,19 @@ class Case extends Component {
                   <div className="share">
                     <span className="heading"><Trans i18nKey={"domDrammen.5438"}></Trans></span>
           <span className="content" onClick={this.shareOnFacebook} style={{ cursor: "pointer" }}>
-            <i className="fa fa-facebook-f"></i>
+            <Icon name="facebook" />
           </span>
 
           <span className="content" onClick={this.shareOnX} style={{ cursor: "pointer" }}>
-            <i className="fa-brands fa-x-twitter"></i>
+            <Icon name="x" />
           </span>
 
           <span className="content" onClick={this.shareOnPinterest} style={{ cursor: "pointer" }}>
-            <i className="fa fa-pinterest"></i>
+            <Icon name="pinterest" />
           </span>
 
           <span className="content" onClick={this.shareOnInstagram} style={{ cursor: "pointer" }}>
-            <i className="fa fa-instagram"></i>
+            <Icon name="instagram" />
           </span>
                   </div>
                 </div>

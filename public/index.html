@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+    <link rel="preload" as="image" href="%PUBLIC_URL%/img/front/sandvika.webp" fetchpriority="high" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="alternate" hreflang="x-default" href="https://limes-interior.no/" />
 
     <!-- 🌍 Dynamiczny język ustawiany przez i18n -->
     <script>
@@ -55,7 +60,7 @@
     <meta property="pinterest:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
 
     <!-- 🔹 Dynamic Keywords -->
-    <meta name="keywords" content="Anna Rasinska interiørdesign, interiørarkitekt, boligstyling, eventdekorasjon, moderne interiør, hjemmedekor, luksuriøse interiører, design" />
+    <meta name="keywords" content="interiørarkitekt Eidsberg, interiørarkitekt Askim, interiørarkitekt Akershus, interiørarkitekt Oslo, Sarpsborg, Halden, Ski, Lillestrøm, Anna Rasinska, interiørdesign, boligstyling" />
 
     <!-- 🌎 Dynamic SEO Meta Tags (z i18n.js) -->
     <script>
@@ -71,9 +76,9 @@
         document.querySelector('meta[name="description"]').setAttribute("content", descriptions[lang] || descriptions["no"]);
 
         const keywordsList = {
-          en: "Anna Rasinska, interior architect, interior design, home staging, event decoration, party styling, event planning, luxury interiors, home decor",
-          no: "Anna Rasinska, interiørarkitekt, interiørdesign, boligstyling, eventdekorasjon, festdekor, eventplanlegging, hjemmedekor, luksuriøse interiører",
-          pl: "Anna Rasinska, architekt wnętrz, projektowanie wnętrz, aranżacja wnętrz, dekoracja wnętrz, home staging, dekoracja eventów, organizacja eventów"
+          en: "interior architect Eidsberg, interior architect Oslo, Sarpsborg, Halden, Ski, Lillestrøm, interior design Akershus, Anna Rasinska",
+          no: "interiørarkitekt Eidsberg, interiørarkitekt Askim, interiørarkitekt Akershus, interiørarkitekt Oslo, Sarpsborg, Halden, Ski, Lillestrøm, boligstyling, Anna Rasinska",
+          pl: "architekt wnętrz Eidsberg, architekt wnętrz Oslo, Sarpsborg, Halden, Ski, Lillestrøm, Anna Rasinska"
         };
         document.querySelector('meta[name="keywords"]').setAttribute("content", keywordsList[lang] || keywordsList["no"]);
 
@@ -91,7 +96,120 @@
     <title>Limes Interiør Anna Rasinska</title>
   </head>
   <body>
-    <noscript>Du må aktivere JavaScript for å bruke denne appen.</noscript>
+    <noscript>
+      <div style="padding:2rem;font-family:sans-serif;max-width:720px;margin:0 auto">
+        <h1>Limes Interiør Anna Rasinska</h1>
+        <p>Interiørarkitekt og interiørdesigner i Eidsberg, Akershus og Oslo. Boligstyling, interiørarkitektur og eventdekorasjon.</p>
+        <p>Finnestadveien 371, 1880 Eidsberg · studio@limes-interior.no · +47 947 12 654</p>
+        <p>Områder: Eidsberg, Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm, Oslo, Akershus.</p>
+        <p>Du må aktivere JavaScript for full funksjonalitet på denne siden.</p>
+      </div>
+    </noscript>
     <div id="root"></div>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["ProfessionalService", "InteriorDesigner"],
+          "@id": "https://limes-interior.no/#business",
+          "name": "Limes Interiør – Anna Rasinska",
+          "legalName": "LIMES INTERIØR ANNA RASINSKA",
+          "url": "https://limes-interior.no",
+          "telephone": "+4794712654",
+          "email": "studio@limes-interior.no",
+          "image": "https://limes-interior.no/img/artistic_collage_social_media.jpg",
+          "description": "Interiørarkitekt og interiørdesigner i Eidsberg, Akershus. Private hjem, kjøkken, bad, boligstyling og næringslokaler i Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm og Oslo.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Finnestadveien 371",
+            "postalCode": "1880",
+            "addressLocality": "Eidsberg",
+            "addressRegion": "Akershus",
+            "addressCountry": "NO"
+          },
+          "areaServed": [
+            {"@type": "AdministrativeArea", "name": "Eidsberg"},
+            {"@type": "AdministrativeArea", "name": "Akershus"},
+            {"@type": "City", "name": "Askim"},
+            {"@type": "City", "name": "Moss"},
+            {"@type": "City", "name": "Fredrikstad"},
+            {"@type": "City", "name": "Sarpsborg"},
+            {"@type": "City", "name": "Halden"},
+            {"@type": "City", "name": "Ski"},
+            {"@type": "City", "name": "Lillestrøm"},
+            {"@type": "City", "name": "Oslo"}
+          ],
+          "sameAs": [
+            "https://www.facebook.com/alfadesignstudio.annarasinska/",
+            "https://www.linkedin.com/in/anna-rasi%C5%84ska-81083413b/"
+          ],
+          "priceRange": "$$",
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "17:00",
+            "description": "Etter avtale"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://limes-interior.no/#website",
+          "url": "https://limes-interior.no",
+          "name": "Limes Interiør Anna Rasinska",
+          "inLanguage": ["nb-NO", "en", "pl"],
+          "publisher": {"@id": "https://limes-interior.no/#business"}
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://limes-interior.no/contact#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Tilbyr du interiørdesign i Eidsberg og Askim?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, Limes Interiør tar oppdrag i Eidsberg, Askim og omegn."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jobber du i Akershus og Oslo?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, vi tar oppdrag i Akershus og Oslo, blant annet Ski, Lillestrøm, Moss, Fredrikstad, Sarpsborg og Halden."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kan du hjelpe med kjøkken og bad?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, planlegging og styling av kjøkken og bad er en del av tilbudet vårt."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Tilbyr du hjelp til private hjem og næringslokaler?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, vi designer både private boliger og kommersielle lokaler som kontorer, butikker og restauranter."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hvordan foregår et interiørprosjekt?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vi starter med en uforpliktende samtale, deretter utarbeider vi konsept, materialvalg og gjennomføring etter avtale."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </body>
 </html>

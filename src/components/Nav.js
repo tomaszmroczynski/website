@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Trans } from "react-i18next";
+import { Link } from "react-router-dom";
+import { Trans, useTranslation } from "react-i18next";
 import {
   Wrapper,
   Container,
@@ -10,9 +11,11 @@ import {
   Overlaybg,
 } from "../styles/Navigation.styles";
 import { withRouter } from "react-router";
+import Icon from "./Icon";
 import NavButton from "./NavButton";
 
 const NavigationMenu = ({ history, hasBackground, setBackground }) => {
+  const { t } = useTranslation();
   const [isOn, setState] = useState(false);
   const [shouldAnimate, setShouldAnimate] = useState(false);
   const [linking, setLink] = useState("");
@@ -89,25 +92,27 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
   return (
     <header>
       <div id="header"></div>
-      <div className="logo" onClick={() => setLinkHandler("home")}>
-        <img
-          src="./img/logowhite.png"
-          className="portret"
-          alt="obrazek przedstawia portret architekta"
-          //style={{ borderRadius: "10%" }}
-        />
+      <div className="logo">
+        <Link to="/" className="logo-brand" aria-label={t("Nav.1496")}>
+          <img
+            src="./img/logowhite.png"
+            className="portret"
+            alt=""
+            aria-hidden="true"
+          />
+          <img
+            src="./img/logowhite3.png"
+            className="podpis"
+            alt="Limes Interiør Anna Rasinska"
+          />
+        </Link>
 
-        <img
-          src="./img/logowhite3.png"
-          className="podpis"
-          alt="podpis"
-         
-        />
-
-
-        <span className="callus" onClick={() => window.open("tel:+4794712654", "_self")}><Trans i18nKey={"Nav.1501"}></Trans>: (+47) 947 12 654</span>
-        <span className="callus" onClick={() => window.open("mailto:studio@limes-interior.no", "_self")}>e-mail: studio@limes-interior.no</span>
-
+        <a className="callus" href="tel:+4794712654">
+          <Trans i18nKey={"Nav.1501"}></Trans>: (+47) 947 12 654
+        </a>
+        <a className="callus" href="mailto:studio@limes-interior.no">
+          e-mail: studio@limes-interior.no
+        </a>
       </div>
       <Wrapper open={isOn} shouldAnimate={shouldAnimate}>
         <Overlaybg
@@ -155,13 +160,14 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
             </Page>
           </div>
 
-          <div className="info"> 
-            <span>Limes Interiør - Anna Rasinska</span>
-            <span>Finnestadveien 371 1880 Indre Østfold</span>
-            <span>(+47) 947 12 654</span>
-            <span className="link">studio@limes-interior.no</span>
-            <span >Org nr 925 621 102</span>
-            
+          <div className="info nav-contact">
+            <span>Limes Interiør – Anna Rasinska</span>
+            <span>Finnestadveien 371, 1880 Eidsberg</span>
+            <a href="tel:+4794712654">(+47) 947 12 654</a>
+            <a className="link" href="mailto:studio@limes-interior.no">
+              studio@limes-interior.no
+            </a>
+            <span>Org.nr 925 621 102</span>
           </div>
         </Body>
         <SocialContainer className="soc-icon" open={isOn}>
@@ -169,18 +175,20 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
 
           <a
             href="https://www.facebook.com/alfadesignstudio.annarasinska/"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span className="socicon">
-              <i className="fa fa-facebook-f"></i>
+              <Icon name="facebook" />
             </span>
           </a>
           <a
             href="https://www.linkedin.com/in/anna-rasi%C5%84ska-81083413b/?locale=no_NO"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span className="socicon">
-              <i className="fa fa-linkedin"></i>
+              <Icon name="linkedin" />
             </span>
           </a>
         </SocialContainer>

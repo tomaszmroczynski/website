@@ -1,21 +1,26 @@
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
-import "../node_modules/font-awesome/css/font-awesome.min.css";
+import { HelmetProvider } from "react-helmet-async";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./i18n";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import "./i18n";
 
-ReactDOM.render(
+const rootElement = document.getElementById("root");
+const app = (
   <React.StrictMode>
-    <Suspense fallback={<div>Loading...</div>}>
-      <App />
-    </Suspense>
-  </React.StrictMode>,
-  document.getElementById("root")
+    <HelmetProvider>
+      <Suspense fallback={<div>Loading...</div>}>
+        <App />
+      </Suspense>
+    </HelmetProvider>
+  </React.StrictMode>
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+if (rootElement.hasChildNodes()) {
+  ReactDOM.hydrate(app, rootElement);
+} else {
+  ReactDOM.render(app, rootElement);
+}
+
 serviceWorker.unregister();
