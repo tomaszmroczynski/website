@@ -1,0 +1,57 @@
+# Limes Interiør – Anna Rasinska
+
+> Anna Rasinska er utdannet sivilarkitekt og interiørarkitekt. Limes Interiør holder til i Eidsberg, Akershus, og tar oppdrag i Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm og Oslo.
+
+Anna Rasinska spesialiserer seg på interiørarkitektur, interiørdekorasjon, home staging (boligstyling) og dekorasjon av arrangementer for private hjem og næringslokaler.
+
+## Kontakt
+
+- Navn: Anna Rasinska
+- Firma: Limes Interiør Anna Rasinska
+- Adresse: Finnestadveien 371, 1880 Eidsberg, Norge
+- Telefon: +47 947 12 654
+- E-post: studio@limes-interior.no
+- Org.nr: 925 621 102
+- Nettside: https://limes-interior.no
+
+## Tjenester
+
+- Interiørarkitektur – https://limes-interior.no/interiorArchitecture
+- Interiørdekorasjon – https://limes-interior.no/decoration
+- Home staging / boligstyling – https://limes-interior.no/home-staging
+- Dekorasjon av arrangementer – https://limes-interior.no/dekorasjon-av-arrangementer
+
+## Hovedsider
+
+- https://limes-interior.no/
+- https://limes-interior.no/about
+- https://limes-interior.no/work
+- https://limes-interior.no/contact
+- https://limes-interior.no/expertness
+
+## Full tekst for AI (Markdown – originaltekster, uendret)
+
+Norsk (originalspråk):
+- https://limes-interior.no/ai/om-meg-no.md
+- https://limes-interior.no/ai/tjenester-no.md
+- https://limes-interior.no/ai/prosjekter-no.md
+
+English:
+- https://limes-interior.no/ai/om-meg-en.md
+- https://limes-interior.no/ai/tjenester-en.md
+- https://limes-interior.no/ai/prosjekter-en.md
+
+Polski:
+- https://limes-interior.no/ai/om-meg-pl.md
+- https://limes-interior.no/ai/tjenester-pl.md
+- https://limes-interior.no/ai/prosjekter-pl.md
+
+## Full tekst (JSON-kilde)
+
+- https://limes-interior.no/locales/no/translation.json
+- https://limes-interior.no/locales/en/translation.json
+- https://limes-interior.no/locales/pl/translation.json
+
+## Søkeord
+
+interiørarkitekt Eidsberg, interiørarkitekt Askim, interiørarkitekt Akershus, interiørarkitekt Oslo, Anna Rasinska, Limes Interiør, boligstyling, home staging, interiørdesign, interiørdekorasjon

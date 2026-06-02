@@ -18,4 +18,8 @@
   <url><loc>https://limes-interior.no/mjondalen</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://limes-interior.no/expertness</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://limes-interior.no/personvern</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://limes-interior.no/llms.txt</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://limes-interior.no/ai/om-meg-no.md</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://limes-interior.no/ai/tjenester-no.md</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://limes-interior.no/ai/prosjekter-no.md</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

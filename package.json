@@ -30,8 +30,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "postbuild": "react-snap",
+    "generate:llm": "node scripts/generate-llm-content.js",
+    "build": "npm run generate:llm && react-scripts build",
+    "postbuild": "node scripts/postbuild.js",
     "snap": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
