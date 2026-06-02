@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
@@ -36,8 +36,6 @@ const SliderInteriorArchitecture = () => {
     },
  
   ];
-
-  useEffect(() => {}, [content]);
 
   return (
     <Slider className="slider-wrapper" autoplay={1000}>

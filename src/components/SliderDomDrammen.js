@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/vertical.css";
 import { Trans } from "react-i18next";
@@ -72,8 +72,6 @@ const SliderDomDrammen = () => {
       image: "./img/domDrammen/9.webp",
     },
   ];
-
-  useEffect(() => {}, [content]);
 
   return (
 

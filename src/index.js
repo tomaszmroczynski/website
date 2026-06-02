@@ -1,7 +1,6 @@
 import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import { HelmetProvider } from "react-helmet-async";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./i18n";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";

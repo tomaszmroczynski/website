@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from "react";
+import React, { Component } from "react";
 import { Trans, useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
@@ -13,10 +13,8 @@ class CustomSlide extends Component {
   }
 }
 
-const Carouselprojects = ({ history }) => {
+const Carouselprojects = () => {
   const { t } = useTranslation();
-  const [toCase, setCase] = useState("");
-  const [coord, setCoords] = useState();
 
   const settings = {
     dots: true,
@@ -91,16 +89,6 @@ const Carouselprojects = ({ history }) => {
       },
     ],
   };
-
-  useEffect(() => {
-    toCase &&
-      setTimeout(() => {
-        history.push(toCase);
-      }, 600);
-  }, [toCase, history]);
-
-  const handleCaseSwap = (e, uri) =>
-    e.x < coord + 15 && e.x > coord - 15 && setCase(uri);
 
   return (
     <div className="slick slickproject">
