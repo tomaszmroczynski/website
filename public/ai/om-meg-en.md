@@ -1,6 +1,6 @@
 # Anna Rasinska – Limes Interior
 
-> Original website texts (English). Interior architect in Eidsberg, Akershus and Oslo.
+> Original website texts (English). Interior architect in Eidsberg, Østfold and Oslo.
 
 Nettside: https://limes-interior.no/about
 
@@ -32,7 +32,7 @@ My Offer
 
 Areas we serve
 
-Limes Interior is based in Eidsberg and serves clients in Eidsberg, Akershus and Oslo.
+Limes Interior is based in Eidsberg and serves clients in Eidsberg, Østfold and Oslo.
 
 As an interior architect in Eidsberg, I help clients in Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm and Oslo. Contact me for a no-obligation conversation.
 

@@ -13,7 +13,7 @@ const SeoHead = () => {
   const canonicalPath = path === "/" ? "" : path;
   const canonicalUrl = `${SITE_URL}${canonicalPath}`;
   const lang = i18n.language || "no";
-  const ogLocale = { no: "no_NO", en: "en_US", pl: "pl_PL" }[lang] || "no_NO";
+  const ogLocale = { no: "nb_NO", en: "en_US", pl: "pl_PL" }[lang] || "nb_NO";
 
   return (
     <Helmet>

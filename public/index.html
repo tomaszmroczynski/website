@@ -1,236 +1,166 @@
 <!DOCTYPE html>
-<html lang="no"> <!-- Domyślnie norweski -->
+<html lang="nb-NO">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+
     <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
-    <link rel="preload" as="image" href="%PUBLIC_URL%/img/front/sandvika.webp" fetchpriority="high" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preload" as="image" href="%PUBLIC_URL%/img/front/sandvika.webp" fetchpriority="high" />
+
+    <link rel="canonical" href="https://limes-interior.no/" />
     <link rel="alternate" hreflang="x-default" href="https://limes-interior.no/" />
     <link rel="alternate" type="text/plain" href="https://limes-interior.no/llms.txt" title="LLM content index" />
 
-    <!-- 🌍 Dynamiczny język ustawiany przez i18n -->
-    <script>
-      document.documentElement.lang = localStorage.getItem("i18nextLng") || "no";
-    </script>
+    <title>Limes Interiør Anna Rasinska – interiørarkitekt i Eidsberg, Østfold og Oslo</title>
 
-<!-- 🔹 Meta Description -->
-<!-- Norweski (domyślny) -->
-<meta name="description" content="Limes Interiør Anna Rasinska er et profesjonelt interiørdesignstudio som spesialiserer seg på boligstyling, eventdekorasjon og skreddersydde interiørløsninger for private og offentlige miljøer." />
+    <!--
+      ÉN kilde til sannhet for statiske metadata (norsk).
+      Per-språk og per-rute metadata settes av src/components/SeoHead.js (react-helmet-async).
+      IKKE dupliser description / og:locale her — siste tag vinner i parseren.
+    -->
+    <meta
+      name="description"
+      content="Limes Interiør Anna Rasinska er et interiørdesignstudio i Eidsberg, Østfold. Interiørarkitektur, boligstyling og eventdekorasjon i Indre Østfold, Moss, Drammen, Sandvika, Akershus og Oslo."
+    />
 
-<!-- Angielski -->
-<meta name="description" lang="en" content="Limes Interior by Anna Rasinska is a professional interior design studio specializing in home staging, event decoration, and tailored interior solutions for private and commercial spaces." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Limes Interiør Anna Rasinska" />
+    <meta property="og:url" content="https://limes-interior.no/" />
+    <meta property="og:locale" content="nb_NO" />
+    <meta property="og:locale:alternate" content="pl_PL" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:title" content="Limes Interiør Anna Rasinska – interiørarkitekt i Eidsberg, Østfold og Oslo" />
+    <meta
+      property="og:description"
+      content="Interiørarkitektur, boligstyling og eventdekorasjon for private hjem og næringslokaler."
+    />
+    <meta property="og:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Interiørprosjekt av Limes Interiør Anna Rasinska" />
 
-<!-- Polski -->
-<meta name="description" lang="pl" content="Limes Interior Anna Rasińska to profesjonalne studio projektowania wnętrz, specjalizujące się w home stagingu, dekoracji eventów oraz aranżacji wnętrz dla klientów indywidualnych i firm." />
-
-<!-- 🔹 Open Graph (Facebook, LinkedIn) -->
-<!-- Norweski (domyślny) -->
-<meta property="og:title" content="Limes Interiør Anna Rasinska - Interiørdesign, boligstyling og eventdekorasjon i Norge" />
-<meta property="og:description" content="Vi skaper unike og funksjonelle rom for private og offentlige miljøer, inkludert boligstyling og eventdekorasjon." />
-<meta property="og:locale" content="no_NO" />
-
-<!-- Angielski -->
-<meta property="og:title" lang="en" content="Limes Interior by Anna Rasinska - Interior Design, Home Staging & Event Decoration in Norway" />
-<meta property="og:description" lang="en" content="We create unique and functional spaces for private and commercial environments, including home staging and event decoration." />
-<meta property="og:locale" content="en_US" />
-
-<!-- Polski -->
-<meta property="og:title" lang="pl" content="Limes Interior Anna Rasińska - Aranżacja wnętrz, home staging i dekoracja eventów w Norwegii" />
-<meta property="og:description" lang="pl" content="Tworzymy unikalne i funkcjonalne przestrzenie dla klientów prywatnych i biznesowych, oferując aranżację wnętrz, home staging oraz dekorację eventów." />
-<meta property="og:locale" content="pl_PL" />
-
-<!-- 🔹 Open Graph Image -->
-<meta property="og:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://limes-interior.no" />
-<meta property="og:type" content="website" />
-
-    <!-- 🔹 Meta tagi dla Twitter (X) -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Limes Interiør Anna Rasinska - Interiørdesign, boligstyling og eventdekorasjon i Norge" />
-    <meta name="twitter:description" content="Limes Interiør Anna Rasinska er et profesjonelt interiørdesignstudio som spesialiserer seg på boligstyling, eventdekorasjon og skreddersydde interiørløsninger for private og offentlige miljøer." />
+    <meta name="twitter:title" content="Limes Interiør Anna Rasinska – interiørarkitekt i Eidsberg, Østfold og Oslo" />
+    <meta
+      name="twitter:description"
+      content="Interiørarkitektur, boligstyling og eventdekorasjon for private hjem og næringslokaler."
+    />
     <meta name="twitter:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
 
-    <!-- 🔹 Meta tagi dla Pinterest -->
     <meta name="pinterest-rich-pin" content="true" />
-    <meta property="pinterest:image" content="https://limes-interior.no/img/artistic_collage_social_media.jpg" />
-
-    <!-- 🔹 Dynamic Keywords -->
-    <meta name="keywords" content="interiørarkitekt Eidsberg, interiørarkitekt Askim, interiørarkitekt Akershus, interiørarkitekt Oslo, Sarpsborg, Halden, Ski, Lillestrøm, Anna Rasinska, interiørdesign, boligstyling" />
-
-    <!-- 🌎 Dynamic SEO Meta Tags (z i18n.js) -->
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const lang = localStorage.getItem("i18nextLng") || "no";
-        document.documentElement.lang = lang;
-
-        const descriptions = {
-          en: "Limes Interior Anna Rasinska is a professional interior design studio specializing in creating unique and functional spaces. We offer home staging, event decoration, and stylish interior solutions.",
-          no: "Limes Interiør Anna Rasinska er et profesjonelt interiørdesignstudio som spesialiserer seg på boligstyling, eventdekorasjon og unike interiørløsninger.",
-          pl: "Limes Interior Anna Rasinska to profesjonalne studio projektowania wnętrz oferujące home staging, dekorację eventów i aranżację wnętrz."
-        };
-        document.querySelector('meta[name="description"]').setAttribute("content", descriptions[lang] || descriptions["no"]);
-
-        const keywordsList = {
-          en: "interior architect Eidsberg, interior architect Oslo, Sarpsborg, Halden, Ski, Lillestrøm, interior design Akershus, Anna Rasinska",
-          no: "interiørarkitekt Eidsberg, interiørarkitekt Askim, interiørarkitekt Akershus, interiørarkitekt Oslo, Sarpsborg, Halden, Ski, Lillestrøm, boligstyling, Anna Rasinska",
-          pl: "architekt wnętrz Eidsberg, architekt wnętrz Oslo, Sarpsborg, Halden, Ski, Lillestrøm, Anna Rasinska"
-        };
-        document.querySelector('meta[name="keywords"]').setAttribute("content", keywordsList[lang] || keywordsList["no"]);
-
-        const locales = { en: "en_US", no: "no_NO", pl: "pl_PL" };
-        document.querySelector('meta[property="og:locale"]').setAttribute("content", locales[lang] || locales["no_NO"]);
-      });
-    </script>
-
-    <!-- 📱 Apple Touch Icon -->
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    
-    <!-- 📜 Web App Manifest -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
-    <title>Limes Interiør Anna Rasinska</title>
   </head>
   <body>
     <noscript>
-      <div style="padding:2rem;font-family:sans-serif;max-width:720px;margin:0 auto">
+      <div style="padding: 2rem; font-family: sans-serif; max-width: 720px; margin: 0 auto">
         <h1>Limes Interiør Anna Rasinska</h1>
-        <p>Interiørarkitekt og interiørdesigner i Eidsberg, Akershus og Oslo. Boligstyling, interiørarkitektur og eventdekorasjon.</p>
+        <p>
+          Interiørarkitekt og interiørdesigner i Eidsberg, Østfold. Boligstyling, interiørarkitektur og
+          eventdekorasjon.
+        </p>
         <p>Finnestadveien 371, 1880 Eidsberg · studio@limes-interior.no · +47 947 12 654</p>
-        <p>Områder: Eidsberg, Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm, Oslo, Akershus.</p>
+        <p>
+          Områder: Indre Østfold (Eidsberg, Mysen, Askim), Moss, Fredrikstad, Sarpsborg, Drammen, Mjøndalen,
+          Sandvika, Bærum, Ski, Lillestrøm, Oslo.
+        </p>
         <p>Du må aktivere JavaScript for full funksjonalitet på denne siden.</p>
       </div>
     </noscript>
     <div id="root"></div>
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": ["ProfessionalService", "InteriorDesigner"],
-          "@id": "https://limes-interior.no/#business",
-          "name": "Limes Interiør – Anna Rasinska",
-          "legalName": "LIMES INTERIØR ANNA RASINSKA",
-          "url": "https://limes-interior.no",
-          "telephone": "+4794712654",
-          "email": "studio@limes-interior.no",
-          "image": "https://limes-interior.no/img/artistic_collage_social_media.jpg",
-          "description": "Interiørarkitekt og interiørdesigner i Eidsberg, Akershus. Private hjem, kjøkken, bad, boligstyling og næringslokaler i Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm og Oslo.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Finnestadveien 371",
-            "postalCode": "1880",
-            "addressLocality": "Eidsberg",
-            "addressRegion": "Akershus",
-            "addressCountry": "NO"
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": ["ProfessionalService", "InteriorDesigner"],
+            "@id": "https://limes-interior.no/#business",
+            "name": "Limes Interiør – Anna Rasinska",
+            "legalName": "LIMES INTERIØR ANNA RASINSKA",
+            "url": "https://limes-interior.no",
+            "telephone": "+4794712654",
+            "email": "studio@limes-interior.no",
+            "image": "https://limes-interior.no/img/artistic_collage_social_media.jpg",
+            "description": "Interiørarkitekt og interiørdesigner i Eidsberg, Østfold. Private hjem, kjøkken, bad, boligstyling og næringslokaler i Indre Østfold, Moss, Drammen, Mjøndalen, Sandvika, Akershus og Oslo.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Finnestadveien 371",
+              "postalCode": "1880",
+              "addressLocality": "Eidsberg",
+              "addressRegion": "Østfold",
+              "addressCountry": "NO"
+            },
+            "areaServed": [
+              { "@type": "AdministrativeArea", "name": "Indre Østfold" },
+              { "@type": "AdministrativeArea", "name": "Østfold" },
+              { "@type": "AdministrativeArea", "name": "Akershus" },
+              { "@type": "City", "name": "Mysen" },
+              { "@type": "City", "name": "Askim" },
+              { "@type": "City", "name": "Moss" },
+              { "@type": "City", "name": "Fredrikstad" },
+              { "@type": "City", "name": "Sarpsborg" },
+              { "@type": "City", "name": "Drammen" },
+              { "@type": "City", "name": "Mjøndalen" },
+              { "@type": "City", "name": "Sandvika" },
+              { "@type": "City", "name": "Bærum" },
+              { "@type": "City", "name": "Ski" },
+              { "@type": "City", "name": "Lillestrøm" },
+              { "@type": "City", "name": "Oslo" }
+            ],
+            "sameAs": [
+              "https://www.facebook.com/alfadesignstudio.annarasinska/",
+              "https://www.linkedin.com/in/anna-rasi%C5%84ska-81083413b/"
+            ],
+            "priceRange": "$$",
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "17:00",
+              "description": "Etter avtale"
+            },
+            "founder": { "@id": "https://limes-interior.no/#anna-rasinska" }
           },
-          "areaServed": [
-            {"@type": "AdministrativeArea", "name": "Eidsberg"},
-            {"@type": "AdministrativeArea", "name": "Akershus"},
-            {"@type": "City", "name": "Askim"},
-            {"@type": "City", "name": "Moss"},
-            {"@type": "City", "name": "Fredrikstad"},
-            {"@type": "City", "name": "Sarpsborg"},
-            {"@type": "City", "name": "Halden"},
-            {"@type": "City", "name": "Ski"},
-            {"@type": "City", "name": "Lillestrøm"},
-            {"@type": "City", "name": "Oslo"}
-          ],
-          "sameAs": [
-            "https://www.facebook.com/alfadesignstudio.annarasinska/",
-            "https://www.linkedin.com/in/anna-rasi%C5%84ska-81083413b/"
-          ],
-          "priceRange": "$$",
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "09:00",
-            "closes": "17:00",
-            "description": "Etter avtale"
+          {
+            "@type": "Person",
+            "@id": "https://limes-interior.no/#anna-rasinska",
+            "name": "Anna Rasinska",
+            "givenName": "Anna",
+            "familyName": "Rasinska",
+            "jobTitle": "Interiørarkitekt",
+            "description": "Utdannet sivilarkitekt og interiørarkitekt. Grunnlegger av Limes Interiør i Eidsberg, Østfold. Spesialiserer seg på private interiører, home staging, interiørdekorasjon og eventdekorasjon i Indre Østfold, Moss, Drammen, Sandvika og Oslo.",
+            "url": "https://limes-interior.no/about",
+            "email": "studio@limes-interior.no",
+            "telephone": "+4794712654",
+            "worksFor": { "@id": "https://limes-interior.no/#business" },
+            "knowsAbout": [
+              "Interiørarkitektur",
+              "Interiørdesign",
+              "Home staging",
+              "Boligstyling",
+              "Interiørdekorasjon",
+              "Eventdekorasjon"
+            ],
+            "sameAs": [
+              "https://www.facebook.com/alfadesignstudio.annarasinska/",
+              "https://www.linkedin.com/in/anna-rasi%C5%84ska-81083413b/"
+            ]
           },
-          "founder": {"@id": "https://limes-interior.no/#anna-rasinska"}
-        },
-        {
-          "@type": "Person",
-          "@id": "https://limes-interior.no/#anna-rasinska",
-          "name": "Anna Rasinska",
-          "givenName": "Anna",
-          "familyName": "Rasinska",
-          "jobTitle": "Interiørarkitekt",
-          "description": "Utdannet sivilarkitekt og interiørarkitekt. Grunnlegger av Limes Interiør i Eidsberg, Akershus. Spesialiserer seg på private interiører, home staging, interiørdekorasjon og eventdekorasjon i Askim, Moss, Oslo og Akershus.",
-          "url": "https://limes-interior.no/about",
-          "email": "studio@limes-interior.no",
-          "telephone": "+4794712654",
-          "worksFor": {"@id": "https://limes-interior.no/#business"},
-          "knowsAbout": ["Interiørarkitektur", "Interiørdesign", "Home staging", "Boligstyling", "Interiørdekorasjon", "Eventdekorasjon"],
-          "sameAs": [
-            "https://www.facebook.com/alfadesignstudio.annarasinska/",
-            "https://www.linkedin.com/in/anna-rasi%C5%84ska-81083413b/"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://limes-interior.no/#website",
-          "url": "https://limes-interior.no",
-          "name": "Limes Interiør Anna Rasinska",
-          "inLanguage": ["nb-NO", "en", "pl"],
-          "publisher": {"@id": "https://limes-interior.no/#business"}
-        },
-        {
-          "@type": "FAQPage",
-          "@id": "https://limes-interior.no/contact#faq",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "Tilbyr du interiørdesign i Eidsberg og Askim?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, jeg tar oppdrag i Eidsberg, Askim og omegn."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Jobber du i Akershus og Oslo?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, jeg tar oppdrag i Akershus og Oslo, blant annet Ski, Lillestrøm, Moss, Fredrikstad, Sarpsborg og Halden."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Kan du hjelpe med kjøkken og bad?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, planlegging og styling av kjøkken og bad er en del av tilbudet mitt."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Tilbyr du hjelp til private hjem og næringslokaler?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, jeg designer både private boliger og kommersielle lokaler som kontorer, butikker og restauranter."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Hvordan foregår et interiørprosjekt?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Vi starter med en uforpliktende samtale, deretter utarbeider vi konsept, materialvalg og gjennomføring etter avtale."
-              }
-            }
-          ]
-        }
-      ]
-    }
+          {
+            "@type": "WebSite",
+            "@id": "https://limes-interior.no/#website",
+            "url": "https://limes-interior.no",
+            "name": "Limes Interiør Anna Rasinska",
+            "inLanguage": ["nb-NO", "en", "pl"],
+            "publisher": { "@id": "https://limes-interior.no/#business" }
+          }
+        ]
+      }
     </script>
   </body>
 </html>
