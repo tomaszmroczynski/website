@@ -174,7 +174,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           <span><Trans i18nKey={"Nav.1500"}></Trans></span>
 
           <a
-            href="https://www.facebook.com/alfadesignstudio.annarasinska/"
+            href="https://www.facebook.com/limesinterior.annarasinska/"
             target="_blank"
             rel="noopener noreferrer"
           >

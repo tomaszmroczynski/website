@@ -35,7 +35,7 @@ i18n
     },
   });
 
-const normalizeLang = (lng) => {
+export const normalizeLang = (lng) => {
   const base = (lng || "no").split("-")[0];
   return base === "nb" ? "no" : base;
 };

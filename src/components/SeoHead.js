@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { SITE_URL } from "../config/contact";
 import { DEFAULT_SEO, SEO_BY_PATH } from "../config/seoRoutes";
+import { normalizeLang } from "../i18n";
 
 const SeoHead = () => {
   const { pathname } = useLocation();
@@ -12,7 +13,7 @@ const SeoHead = () => {
   const seo = SEO_BY_PATH[path] || DEFAULT_SEO;
   const canonicalPath = path === "/" ? "" : path;
   const canonicalUrl = `${SITE_URL}${canonicalPath}`;
-  const lang = i18n.language || "no";
+  const lang = normalizeLang(i18n.language);
   const ogLocale = { no: "nb_NO", en: "en_US", pl: "pl_PL" }[lang] || "nb_NO";
 
   return (

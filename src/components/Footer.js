@@ -76,7 +76,7 @@ const Footer = () => (
             <p><Trans i18nKey={"Footer.1399"}></Trans>
             </p>
             <a
-              href="https://www.facebook.com/alfadesignstudio.annarasinska/"
+              href="https://www.facebook.com/limesinterior.annarasinska/"
               target="_blank"
               rel="noopener noreferrer"
             >
