@@ -37,3 +37,22 @@ export const SERVICES: Service[] = [
 
 export const projectBySlug = (slug: string) => PROJECTS.find((p) => p.slug === slug);
 export const serviceBySlug = (slug: string) => SERVICES.find((s) => s.slug === slug);
+
+/**
+ * Obszary w stopce. Identyczne we wszystkich jezykach (nazwy wlasne),
+ * wiec dane, nie tlumaczenie. Trzymane obok areaServed w jsonld.ts —
+ * jedno zrodlo dla stopki i dla danych strukturalnych.
+ */
+
+export const AREAS: string[] = [
+  "Eidsberg",
+  "Askim",
+  "Moss",
+  "Fredrikstad",
+  "Sarpsborg",
+  "Halden",
+  "Ski",
+  "Lillestrøm",
+  "Oslo",
+  "Akershus",
+];

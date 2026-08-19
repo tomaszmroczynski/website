@@ -1,11 +1,29 @@
 import type {Metadata} from "next";
 import {notFound} from "next/navigation";
+import {Gruppo, Poppins} from "next/font/google";
 import {NextIntlClientProvider, hasLocale} from "next-intl";
 import {setRequestLocale} from "next-intl/server";
 import {routing, type Locale} from "@/i18n/routing";
 import {buildJsonLd} from "@/lib/jsonld";
 import {SITE_URL} from "@/lib/site";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 import "../globals.css";
+
+/** Self-hostet via next/font — ingen render-blokkerende request til Google. */
+const gruppo = Gruppo({
+  weight: "400",
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
+  variable: "--font-display",
+});
+
+const poppins = Poppins({
+  weight: ["400", "500"],
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
+  variable: "--font-ui",
+});
 
 const HTML_LANG: Record<Locale, string> = {no: "nb-NO", pl: "pl", en: "en"};
 
@@ -29,9 +47,13 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={HTML_LANG[locale as Locale]}>
+    <html lang={HTML_LANG[locale as Locale]} className={`${gruppo.variable} ${poppins.variable}`}>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Nav />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{__html: JSON.stringify(buildJsonLd())}}
