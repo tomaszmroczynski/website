@@ -1,6 +1,7 @@
 import {getTranslations, setRequestLocale} from "next-intl/server";
 import AboutBlock from "@/components/AboutBlock";
 import CardGrid from "@/components/CardGrid.module.css";
+import CardSlider from "@/components/CardSlider";
 import HeroSlider from "@/components/HeroSlider";
 import ProjectCard from "@/components/ProjectCard";
 import Reveal from "@/components/Reveal";
@@ -12,7 +13,8 @@ import type {Locale} from "@/i18n/routing";
 import styles from "./page.module.css";
 
 /** Cztery realizacje na stronie glownej; komplet jest na /prosjekter. */
-const FEATURED = PROJECTS.slice(0, 4);
+/* Karuzela pokazuje komplet, tak jak Carouselprojects.js w oryginale. */
+const FEATURED = PROJECTS;
 const STARS = "★★★★★";
 
 export async function generateMetadata({params}: {params: Promise<{locale: Locale}>}) {
@@ -85,7 +87,7 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
             <p className="eyebrow">{nav("projects")}</p>
             <h2 className="heading">{w("heading")}</h2>
           </div>
-          <div className={CardGrid.grid}>
+          <CardSlider>
             {FEATURED.map((project) => (
               <ProjectCard
                 key={project.slug}
@@ -98,7 +100,7 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             ))}
-          </div>
+          </CardSlider>
           <Link href="/prosjekter" className="li-btn li-btn--text">
             {nav("projects")}
           </Link>
