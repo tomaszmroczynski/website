@@ -23,126 +23,6 @@
     "title3": "med mitt tilbud",
     "desc3": "interiørarkitektur"
   },
-  "interiorArchitecture": {
-    "2133": "Tilbake",
-    "2209": "",
-    "2256": "INTERIØR ARKITEKTUR",
-    "2313": "Drømmer du om et helt nytt interiør, ombygging, en annen planløsning av rom, en omfattende oppussing av huset eller utvalgte rom - anbefaler jeg INTERIØRDESIGN.",
-    "2910": "Vi har TO PAKKER i vårt interiørtilbud",
-    "3397": "GRUNNLEGGENDE PAKKE:",
-    "3398": "en planløsning med utforming av utstyr, møbler osv.",
-    "3399": "demonstrativ visualisering av utvalgte rom ELLER Mood Board (farge- og materialtavle) er detaljering: dekorasjoner, møbler, farger, utstyr, materialer, etc.",
-    "3400": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder",
-    "3401": "2 møter / konsultasjoner, inkludert ett med ankomst til byggherre, inventar (dimensjonering) og diskusjon av prosjektet",
-    "3402": "FULL PAKKE:",
-    "3403": "en planløsning med utforming av utstyr, møbler osv.",
-    "3404": "Mood Board (farge- og materialtavle) inneholder detaljer: dekorasjoner, møbler, farger, utstyr, materialer osv.",
-    "3405": "demonstrativ visualisering av utvalgte rom",
-    "3406": "tverrsnitt av en valgt del av leiligheten",
-    "3407": "elektrisk installasjonsplan med merkede lyspunkter, brytere, kontakter osv.",
-    "3408": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder",
-    "3409": "3 møter/konsultasjoner, inkludert ett med ankomst oppdragsgiver, inventar (dimensjonering) og diskusjon av prosjektet",
-    "3410": "en endring av designet (hver suetterfølgende konsultasjon og/eller endring betales i tillegg).",
-    "3411": "Tilleggstjenester settes individuelt. Pakken kan tilpasses kundens individuelle behov",
-    "3952": "Interiør",
-    "4068": "Klient:",
-    "4112": "Projekt ",
-    "4234": "Fullført:",
-    "4281": "30. september 2020",
-    "4401": "Prosjekttype:",
-    "4451": "Hjemmedekorasjon",
-    "4684": "Etiketter:",
-    "4745": "Inspirasjon",
-    "4811": "Dekorasjon",
-    "4875": "Interiør",
-    "4938": "Minimum",
-    "5138": "Del:"
-  },
-  "decoration": {
-    "2133": "Tilbake",
-    "2209": "",
-    "2256": "Interiør Decorasjon",
-    "2313": "Hvis du trenger å friske opp hjemmet ditt (lokaler eller kontor), vil en liten renovering som vil medføre betydelige endringer, noen få dekorasjoner eller møbler få interiøret ditt til å se moderne ut? Eller kansje du trenger et nytt utseende på butikkfronten din? Dette er et tilbud til deg!",
-    "2910": "Dette prosjektet vil inneholde:",
-    "3397": "demonstrativ visualisering av utvalgte rom ELLER Mood Board (materiale og fargetavle),",
-    "3398": "en planløsning med utforming av utstyr, møbler osv.",
-    "3399": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder",
-    "3400": "Tilleggstjenester settes individuelt. Pakken kan tilpasses kundens individuelle behov. ",
-    "3904": "Kategorier:",
-    "3952": "Interiør",
-    "4068": "Klient:",
-    "4112": "Prosjekt",
-    "4234": "Fullført:",
-    "4281": "30. september 2020",
-    "4401": "Prosjekttype:",
-    "4451": "Hjemmedekorasjon",
-    "4684": "Etiketter:",
-    "4745": "Inspirasjon",
-    "4811": "Dekorasjon",
-    "4875": "Interiør",
-    "4938": "Minimum",
-    "5138": "Del:"
-  },
-  "home-staging": {
-    "2133": "Tilbake",
-    "2209": "",
-    "2256": "Home staging",
-    "2313": "Planlegger du å selge leiligheten, huset eller lokalene dine for mer penger? Trenger du å renovere eller oppgradere leiligheten din før du leier den ut? Driver du med gjestgiveri, hytte eller hotell og ønsker at gjestene dine skal komme tilbake oftere? HJEMME-STAGING er den perfekte løsningen!",
-    "2910": "Dette prosjektet vil inkludere:",
-    "3397": "",
-    "3403": "En plan med plassering av møbler og utstyr, osv.",
-    "3404": "En visuell presentasjon av utvalgte rom ELLER en farge- og materialplan med utheving av dekor, møbler, farger, utstyr, materialer, osv.",
-    "3405": "En plan for elektriske installasjoner med markering av lyspunkt, brytere, kontakter, osv.",
-    "3406": "En liste over interiørutstyr med priser og adresser til butikker/nettsteder.",
-    "3407": "3 møter/konsultasjoner, inkludert ett besøk hos klienten for å ta mål og diskutere prosjektet.",
-    "3408": "Én revisjon av prosjektet (hver ekstra konsultasjon eller revisjon er ekstra betaling).",
-    "3409": "",
-    "3410": "Tilleggstjenester kan tilpasses individuelle behov. Pakken kan tilpasses kundens individuelle behov.",
-    "3904": "Kategorier:",
-    "3952": "Interiør",
-    "4068": "Klient:",
-    "4112": "Prosjekt",
-    "4234": "Fullført:",
-    "4281": "30.09.2020",
-    "4401": "Prosjekttype:",
-    "4451": "Husdekorasjon",
-    "4684": "Tagger:",
-    "4745": "Inspirasjon",
-    "4811": "Dekorasjon",
-    "4875": "Interiør",
-    "4938": "Minimalistisk",
-    "5138": "Del:"
-  },
-  "dekorasjon-av-arrangementer": {
-    "2133": "Tilbake",
-    "2209": "",
-    "2256": "Dekorasjon av arrangementer",
-    "2313": "Jeg spesialiserer meg på design og gjennomføring av eksklusive arrangementer, inkludert selskaper, bryllupsfester og bedriftsgallaer. Med mine egne materialer og ekspertise sørger jeg for en unik og stemningsfull atmosfære som gjenspeiler din visjon. Hvert prosjekt er skreddersydd med nøye utvalgte elementer som belysning, blomsterdekorasjoner og andre dekorative detaljer.",
-    "2910": "Dette prosjektet vil inkludere:",
-    "3397": "",
-    "3403": "En detaljert plan for plassering av dekorative elementer og belysning.",
-    "3404": "En visuell presentasjon av dekorasjonskonseptet ELLER en plan med farger, materialer og dekorative detaljer.",
-    "3405": "En belysningsplan for å skape den rette atmosfæren.",
-    "3406": "En liste over spesialutvalgte dekorative elementer med priser og leverandører.",
-    "3407": "3 møter/konsultasjoner, inkludert ett besøk på arrangementsstedet for å diskutere konseptet og valg av materialer.",
-    "3408": "Én revisjon av designet (hver ekstra revisjon er en tilleggstjeneste).",
-    "3409": "",
-    "3410": "Tilleggstjenester kan skreddersys etter individuelle behov.",
-    "3904": "Kategorier:",
-    "3952": "Arrangementer",
-    "4068": "Klient:",
-    "4112": "Prosjekt",
-    "4234": "Fullført:",
-    "4281": "30.09.2020",
-    "4401": "Prosjekttype:",
-    "4451": "Eventdekorasjon",
-    "4684": "Tagger:",
-    "4745": "Inspirasjon",
-    "4811": "Dekorasjon",
-    "4875": "Arrangementer",
-    "4938": "Eksklusiv",
-    "5138": "Del:"
-  },
   "Contact": {
     "1296": "Kontakt meg for å designe",
     "1297": "ditt",
@@ -247,20 +127,6 @@
     "1798": "Mitt tilbud",
     "1799": "Mine prosjekter",
     "pageTitle": "Limes Interiør Anna Rasinska – interiørarkitekt i Eidsberg, Østfold og Oslo"
-  },
-  "expertness": {
-    "1800": "Interiørarkitektur",
-    "1801": "Drømmer du om et helt nytt interiør, rekonstruksjon, en annen planløsning av rom, en omfattende renovering av huset eller utvalgte rom - anbefaler jeg interiørdesignet",
-    "1802": "",
-    "1803": "Interiørdekorasjon",
-    "1804": "Trenger du å friske opp hjemmet ditt (lokaler eller kontor), en liten oppussing som vil bringe store endringer? Noen dekorasjoner eller møbler som vil få interiøret ditt til å se moderne ut? Eller kanskje du trenger et nytt utseende på butikken din vindu? Dette er et tilbud til deg. ",
-    "1805": "",
-    "1806": "Home staging",
-    "1807": "Har du planer om å selge en leilighet, hus eller lokaler for mer penger? Ønsker du å leie en leilighet, men trenger oppussing eller forfriskning? Driver du gjestehus, hytte eller hotell og ønsker at gjestene dine skal komme tilbake her ofte? Boligstyling er den perfekte løsningen.",
-    "1808": "",
-    "1809": "Dekorasjon av arrangementer",
-    "1810": "Planlegger du et bryllup, jubileum eller firmafest og ønsker en unik atmosfære? Vil du skape en uforglemmelig stemning for gjestene dine? Trenger du spesialtilpasset dekorasjon for en spesiell anledning? Profesjonell eventdekorasjon gir arrangementet ditt et eksklusivt preg.",
-    "1811": ""
   },
   "Work": {
     "heading": "Utvalgte prosjekter"
@@ -688,5 +554,187 @@
     "alt": "{room} — prosjekt av Limes Interiør",
     "close": "Lukk",
     "seeProject": "Se prosjekt"
+  },
+  "Services": {
+    "interiorarkitekt": {
+      "title": "INTERIØR ARKITEKTUR",
+      "intro": "Drømmer du om et helt nytt interiør, ombygging, en annen planløsning av rom, en omfattende oppussing av huset eller utvalgte rom - anbefaler jeg INTERIØRDESIGN.",
+      "body": [
+        {
+          "type": "text",
+          "value": "Vi har TO PAKKER i vårt interiørtilbud"
+        },
+        {
+          "type": "heading",
+          "value": "GRUNNLEGGENDE PAKKE"
+        },
+        {
+          "type": "text",
+          "value": "en planløsning med utforming av utstyr, møbler osv."
+        },
+        {
+          "type": "text",
+          "value": "demonstrativ visualisering av utvalgte rom ELLER Mood Board (farge- og materialtavle) er detaljering: dekorasjoner, møbler, farger, utstyr, materialer, etc."
+        },
+        {
+          "type": "text",
+          "value": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder"
+        },
+        {
+          "type": "text",
+          "value": "2 møter / konsultasjoner, inkludert ett med ankomst til byggherre, inventar (dimensjonering) og diskusjon av prosjektet"
+        },
+        {
+          "type": "heading",
+          "value": "FULL PAKKE"
+        },
+        {
+          "type": "text",
+          "value": "en planløsning med utforming av utstyr, møbler osv."
+        },
+        {
+          "type": "text",
+          "value": "Mood Board (farge- og materialtavle) inneholder detaljer: dekorasjoner, møbler, farger, utstyr, materialer osv."
+        },
+        {
+          "type": "text",
+          "value": "demonstrativ visualisering av utvalgte rom"
+        },
+        {
+          "type": "text",
+          "value": "tverrsnitt av en valgt del av leiligheten"
+        },
+        {
+          "type": "text",
+          "value": "elektrisk installasjonsplan med merkede lyspunkter, brytere, kontakter osv."
+        },
+        {
+          "type": "text",
+          "value": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder"
+        },
+        {
+          "type": "text",
+          "value": "3 møter/konsultasjoner, inkludert ett med ankomst oppdragsgiver, inventar (dimensjonering) og diskusjon av prosjektet"
+        },
+        {
+          "type": "text",
+          "value": "en endring av designet (hver suetterfølgende konsultasjon og/eller endring betales i tillegg)."
+        },
+        {
+          "type": "text",
+          "value": "Tilleggstjenester settes individuelt. Pakken kan tilpasses kundens individuelle behov"
+        }
+      ],
+      "summary": "Drømmer du om et helt nytt interiør, rekonstruksjon, en annen planløsning av rom, en omfattende renovering av huset eller utvalgte rom - anbefaler jeg interiørdesignet",
+      "cardTitle": "Interiørarkitektur"
+    },
+    "boligstyling": {
+      "title": "Home staging",
+      "intro": "Planlegger du å selge leiligheten, huset eller lokalene dine for mer penger? Trenger du å renovere eller oppgradere leiligheten din før du leier den ut? Driver du med gjestgiveri, hytte eller hotell og ønsker at gjestene dine skal komme tilbake oftere? HJEMME-STAGING er den perfekte løsningen!",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Dette prosjektet vil inkludere"
+        },
+        {
+          "type": "text",
+          "value": "En plan med plassering av møbler og utstyr, osv."
+        },
+        {
+          "type": "text",
+          "value": "En visuell presentasjon av utvalgte rom ELLER en farge- og materialplan med utheving av dekor, møbler, farger, utstyr, materialer, osv."
+        },
+        {
+          "type": "text",
+          "value": "En plan for elektriske installasjoner med markering av lyspunkt, brytere, kontakter, osv."
+        },
+        {
+          "type": "text",
+          "value": "En liste over interiørutstyr med priser og adresser til butikker/nettsteder."
+        },
+        {
+          "type": "text",
+          "value": "3 møter/konsultasjoner, inkludert ett besøk hos klienten for å ta mål og diskutere prosjektet."
+        },
+        {
+          "type": "text",
+          "value": "Én revisjon av prosjektet (hver ekstra konsultasjon eller revisjon er ekstra betaling)."
+        },
+        {
+          "type": "text",
+          "value": "Tilleggstjenester kan tilpasses individuelle behov. Pakken kan tilpasses kundens individuelle behov."
+        }
+      ],
+      "summary": "Har du planer om å selge en leilighet, hus eller lokaler for mer penger? Ønsker du å leie en leilighet, men trenger oppussing eller forfriskning? Driver du gjestehus, hytte eller hotell og ønsker at gjestene dine skal komme tilbake her ofte? Boligstyling er den perfekte løsningen.",
+      "cardTitle": "Home staging"
+    },
+    "interiordekorasjon": {
+      "title": "Interiør Decorasjon",
+      "intro": "Hvis du trenger å friske opp hjemmet ditt (lokaler eller kontor), vil en liten renovering som vil medføre betydelige endringer, noen få dekorasjoner eller møbler få interiøret ditt til å se moderne ut? Eller kansje du trenger et nytt utseende på butikkfronten din? Dette er et tilbud til deg!",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Dette prosjektet vil inneholde"
+        },
+        {
+          "type": "text",
+          "value": "demonstrativ visualisering av utvalgte rom ELLER Mood Board (materiale og fargetavle),"
+        },
+        {
+          "type": "text",
+          "value": "en planløsning med utforming av utstyr, møbler osv."
+        },
+        {
+          "type": "text",
+          "value": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder"
+        },
+        {
+          "type": "text",
+          "value": "Tilleggstjenester settes individuelt. Pakken kan tilpasses kundens individuelle behov."
+        }
+      ],
+      "summary": "Trenger du å friske opp hjemmet ditt (lokaler eller kontor), en liten oppussing som vil bringe store endringer? Noen dekorasjoner eller møbler som vil få interiøret ditt til å se moderne ut? Eller kanskje du trenger et nytt utseende på butikken din vindu? Dette er et tilbud til deg.",
+      "cardTitle": "Interiørdekorasjon"
+    },
+    "eventdekorasjon": {
+      "title": "Dekorasjon av arrangementer",
+      "intro": "Jeg spesialiserer meg på design og gjennomføring av eksklusive arrangementer, inkludert selskaper, bryllupsfester og bedriftsgallaer. Med mine egne materialer og ekspertise sørger jeg for en unik og stemningsfull atmosfære som gjenspeiler din visjon. Hvert prosjekt er skreddersydd med nøye utvalgte elementer som belysning, blomsterdekorasjoner og andre dekorative detaljer.",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Dette prosjektet vil inkludere"
+        },
+        {
+          "type": "text",
+          "value": "En detaljert plan for plassering av dekorative elementer og belysning."
+        },
+        {
+          "type": "text",
+          "value": "En visuell presentasjon av dekorasjonskonseptet ELLER en plan med farger, materialer og dekorative detaljer."
+        },
+        {
+          "type": "text",
+          "value": "En belysningsplan for å skape den rette atmosfæren."
+        },
+        {
+          "type": "text",
+          "value": "En liste over spesialutvalgte dekorative elementer med priser og leverandører."
+        },
+        {
+          "type": "text",
+          "value": "3 møter/konsultasjoner, inkludert ett besøk på arrangementsstedet for å diskutere konseptet og valg av materialer."
+        },
+        {
+          "type": "text",
+          "value": "Én revisjon av designet (hver ekstra revisjon er en tilleggstjeneste)."
+        },
+        {
+          "type": "text",
+          "value": "Tilleggstjenester kan skreddersys etter individuelle behov."
+        }
+      ],
+      "summary": "Planlegger du et bryllup, jubileum eller firmafest og ønsker en unik atmosfære? Vil du skape en uforglemmelig stemning for gjestene dine? Trenger du spesialtilpasset dekorasjon for en spesiell anledning? Profesjonell eventdekorasjon gir arrangementet ditt et eksklusivt preg.",
+      "cardTitle": "Dekorasjon av arrangementer"
+    }
   }
 }

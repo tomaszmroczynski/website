@@ -1,0 +1,38 @@
+.hero { position: relative; height: 100vh; }
+@media (max-width: 768px) { .hero { height: 70vh; } }
+
+.caption {
+  padding: 45px 7% 30px;
+  position: fixed; bottom: 0; left: 0;
+  z-index: 2; width: 100vw;
+  background: rgba(0, 0, 0, 0.6);
+}
+.back {
+  z-index: 10; padding: 19px; height: 75px; width: 75px;
+  position: absolute; left: 0; top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-size: 1.6rem; line-height: 1;
+  transition: background-color 0.1s ease-in-out;
+}
+.back:hover { background-color: rgba(0, 0, 0, 0.9); }
+@media (max-width: 768px) { .back { height: 40px; width: 40px; padding: 0; } }
+
+.title { color: #fff; font-size: 2rem; max-width: 80vw; margin: 0; }
+@media (max-width: 768px) { .title { font-size: 1.5rem; } .caption { padding: 24px 7% 20px; } }
+
+.detail { padding: var(--space-7) 5% var(--space-10); max-width: 1200px; margin: 0 auto; }
+.intro { font-size: var(--text-md); color: var(--text-primary); margin-bottom: var(--space-7); }
+.body h2 {
+  font-size: 1rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--brand-accent); margin: var(--space-6) 0 var(--space-3);
+}
+.list { list-style: none; padding: 0; margin: 0 0 var(--space-5); }
+.list li {
+  color: var(--text-secondary); padding: 0 0 12px 22px; position: relative;
+}
+.list li::before {
+  content: ""; position: absolute; left: 0; top: 11px;
+  width: 8px; height: 1px; background: var(--brand-accent);
+}
+.cta { display: inline-block; margin-top: var(--space-6); border-bottom: 2px solid var(--brand-accent); padding-bottom: 4px; }

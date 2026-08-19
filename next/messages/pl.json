@@ -23,126 +23,6 @@
     "title3": "z moją ofertą  ",
     "desc3": "architektury wnętrz"
   },
-  "interiorArchitecture": {
-    "2133": "Powrót",
-    "2209": "",
-    "2256": "ARCHITEKTURA WNĘTRZ",
-    "2313": "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- polecam PROJEKT WNĘTRZ.",
-    "2910": "W ofercie projektowania wnętrz mamy DWA PAKIETY  ",
-    "3397": " PAKIET PODSTAWOWY :  ",
-    "3398": "rzut z rozplanowaniem sprzętów, mebli itd.",
-    "3399": "poglądową wizualizację wybranych pomieszczeń LUB planszę kolorystyczno-materiałową z wyszczególnieniem: dekoracji, mebli, kolorów, sprzętów, materiałów itd.",
-    "3400": "spis elementów wyposażenia wnętrz z uwzględnieniem cen i adresów sklepów/stron internetowych",
-    "3401": "2 spotkania/konsultacje w tym jedna z przyjazdem do klienta, inwentaryzacją (wymiarowaniem) i omówieniem projektu",
-    "3402": "PAKIET PEŁNY :",
-    "3403": "rzut z rozplanowaniem sprzętów, mebli itd.",
-    "3404": "planszę kolorystyczno-materiałowa z wyszczególnieniem: dekoracji, mebli, kolorów, sprzętów, materiałów itd.",
-    "3405": "poglądową wizualizację wybranych pomieszczeń",
-    "3406": "przekrój wybranej części mieszkania",
-    "3407": "plan instalacji elektrycznej z zaznaczonymi punktami świetlnymi, włącznikami, kontaktami itp.",
-    "3408": "spis elementów wyposażenia wnętrz z uwzględnieniem cen i adresów sklepów/stron internetowych",
-    "3409": "3 spotkania/konsultacje w tym jedna z dojazdem do klienta, inwentaryzacją (wymiarowaniem) i omówieniem projektu",
-    "3410": "jedna poprawka do projektu (każda kolejna konsultacja i / lub poprawka jest dodatkowo płatna).",
-    "3411": "Dodatkowe usługi ustalane są indywidualnie. Pakiety mogą być dostosowane do indywidualnych potrzeb klienta.",
-    "3952": "Wnętrza",
-    "4068": "Klient:",
-    "4112": "Projekt Homekins",
-    "4234": "Ukończono:",
-    "4281": "30.09.2020",
-    "4401": "Typ projektu:",
-    "4451": "Dekoracja domu",
-    "4684": "Tagi :",
-    "4745": "Inspiracja",
-    "4811": "Dekoracja",
-    "4875": "Wnętrze",
-    "4938": "Minimalny",
-    "5138": "Udostępnij :"
-  },
-  "decoration": {
-    "2133": "Powrót",
-    "2209": "",
-    "2256": "DEKOROWANIE WNĘTRZ",
-    "2313": "Jeśli potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu który przyniesie wielkie zmiany, kilku dekoracji lub mebli które sprawią, że Twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku Twojej witryny sklepowej? jest to oferta dla Ciebie! ",
-    "2910": "Projekt ten będzie zawierał:",
-    "3397": "Wizualizację wybranych pomieszczeń LUB planszę materiałowo-kolorystyczną, ",
-    "3398": "rzut z rozplanowaniem sprzętów, mebli itp ",
-    "3399": "spis elementów wyposażenia wnętrz z uwzględnieniem cen i adresów sklepów/stron internetowych",
-    "3400": "Dodatkowe usugi ustalane są indywidualnie. Pakiet może być dostosowany do indywidualnych potrzeb klienta.",
-    "3904": "Kategorie:",
-    "3952": "Wnętrza",
-    "4068": "Klient:",
-    "4112": "Projekt ",
-    "4234": "Ukończono:",
-    "4281": "30.09.2020",
-    "4401": "Typ projektu:",
-    "4451": "Dekoracja domu",
-    "4684": "Tagi :",
-    "4745": "Inspiracja",
-    "4811": "Dekoracja",
-    "4875": "Wnętrze",
-    "4938": "Minimalny",
-    "5138": "Udostępnij :"
-  },
-  "home-staging": {
-    "2133": "Powrót",
-    "2209": "",
-    "2256": "HOME STAGING",
-    "2313": "Planujesz sprzedać mieszkanie  , dom lub  lokal za większe pieniądze? Chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby Twoi goście wracali tu często ? HOME STAGING jest idealnym rozwiązaniem !",
-    "2910": "Projekt ten będzie zawierał:",
-    "3397": "",
-    "3403": "rzut z rozplanowaniem sprzętów, mebli itd.",
-    "3404": "poglądową wizualizację wybranych pomieszczeń LUB planszę kolorystyczno-materiałowa z wyszczególnieniem: dekoracji, mebli, kolorów, sprzętów, materiałów itd.",
-    "3405": "plan instalacji elektrycznej z zaznaczonymi punktami świetlnymi, włącznikami, kontaktami itp.",
-    "3406": "spis elementów wyposażenia wnętrz z uwzględnieniem cen i adresów sklepów/stron internetowych",
-    "3407": "3 spotkania/konsultacje w tym jedna z dojazdem do klienta, inwentaryzacją (wymiarowaniem) i omówieniem projektu",
-    "3408": "jedna poprawka do projektu (każda kolejna konsultacja i/lub poprawka jest dodatkowo płatna).",
-    "3409": "",
-    "3410": "Dodatkowe usugi ustalane są indywidualnie. Pakiet może być dostosowany do indywidualnych potrzeb klienta.",
-    "3904": "Kategorie:",
-    "3952": "Wnętrza",
-    "4068": "Klient:",
-    "4112": "Projekt ",
-    "4234": "Ukończono:",
-    "4281": "30.09.2020",
-    "4401": "Typ projektu:",
-    "4451": "Dekoracja domu",
-    "4684": "Tagi :",
-    "4745": "Inspiracja",
-    "4811": "Dekoracja",
-    "4875": "Wnętrze",
-    "4938": "Minimalny",
-    "5138": "Udostępnij :"
-  },
-  "dekorasjon-av-arrangementer": {
-    "2133": "Wstecz",
-    "2209": "",
-    "2256": "Dekoracja wydarzeń",
-    "2313": "Specjalizuję się w projektowaniu i realizacji ekskluzywnych wydarzeń, w tym przyjęć prywatnych, wesel oraz gal firmowych. Dzięki własnym materiałom i doświadczeniu tworzę unikalną i nastrojową atmosferę, która odzwierciedla Twoją wizję. Każdy projekt jest dostosowany indywidualnie, z starannie dobranymi elementami, takimi jak oświetlenie, dekoracje kwiatowe i inne detale ozdobne.",
-    "2910": "Ten projekt obejmie:",
-    "3397": "",
-    "3403": "Szczegółowy plan rozmieszczenia elementów dekoracyjnych i oświetlenia.",
-    "3404": "Wizualną prezentację koncepcji dekoracji LUB plan z kolorami, materiałami i detalami dekoracyjnymi.",
-    "3405": "Plan oświetlenia w celu stworzenia odpowiedniego klimatu.",
-    "3406": "Listę specjalnie wyselekcjonowanych elementów dekoracyjnych wraz z cenami i dostawcami.",
-    "3407": "Trzy spotkania/konsultacje, w tym jedna wizyta w miejscu wydarzenia w celu omówienia koncepcji i wyboru materiałów.",
-    "3408": "Jedna rewizja projektu (każda dodatkowa rewizja jest usługą dodatkową).",
-    "3409": "",
-    "3410": "Usługi dodatkowe mogą być dostosowane do indywidualnych potrzeb.",
-    "3904": "Kategorie:",
-    "3952": "Wydarzenia",
-    "4068": "Klient:",
-    "4112": "Projekt",
-    "4234": "Zakończono:",
-    "4281": "30.09.2020",
-    "4401": "Typ projektu:",
-    "4451": "Dekoracja wydarzeń",
-    "4684": "Tagi:",
-    "4745": "Inspiracja",
-    "4811": "Dekoracja",
-    "4875": "Wydarzenia",
-    "4938": "Ekskluzywne",
-    "5138": "Udostępnij:"
-  },
   "Contact": {
     "1296": "Skontaktuj się ze mną, aby zaprojektować",
     "1297": "swoj",
@@ -247,19 +127,6 @@
     "1798": "Moja oferta ",
     "1799": "Wybrane projekty ",
     "pageTitle": "Limes Interior Anna Rasinska – architekt wnętrz w Eidsberg, Østfold i Oslo"
-  },
-  "expertness": {
-    "1800": "Architektura wnętrz",
-    "1801": "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- to polecam projekt wnętrz",
-    "1802": "",
-    "1803": "Dekorowanie wnętrz",
-    "1804": "Potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu, który przyniesie wielkie zmiany? kilku dekoracji lub mebli które sprawią, że Twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku Twojej witryny sklepowej? Jeśli tak,jest to oferta dla Ciebie. ",
-    "1805": "",
-    "1806": "Home Staging",
-    "1807": "Planujesz sprzedać mieszkanie, dom, lokal za większe pieniądze? chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby Twoi goście wracali tu często ? HOME STAGING jest idealnym rozwiązaniem.",
-    "1808": "",
-    "1809": "Dekoracja imprez okolicznościowych",
-    "1810": "Planujesz ślub, jubileusz lub firmową imprezę i chcesz stworzyć niepowtarzalną atmosferę? Chcesz zapewnić gościom niezapomniane wrażenia? Potrzebujesz spersonalizowanej dekoracji na wyjątkową okazję? Profesjonalna dekoracja eventowa nada Twojemu wydarzeniu ekskluzywny charakter."
   },
   "Work": {
     "heading": "Wybrane projekty"
@@ -687,5 +554,187 @@
     "alt": "{room} — projekt Limes Interiør",
     "close": "Zamknij",
     "seeProject": "Zobacz projekt"
+  },
+  "Services": {
+    "interiorarkitekt": {
+      "title": "ARCHITEKTURA WNĘTRZ",
+      "intro": "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- polecam PROJEKT WNĘTRZ.",
+      "body": [
+        {
+          "type": "text",
+          "value": "W ofercie projektowania wnętrz mamy DWA PAKIETY"
+        },
+        {
+          "type": "heading",
+          "value": "PAKIET PODSTAWOWY "
+        },
+        {
+          "type": "text",
+          "value": "rzut z rozplanowaniem sprzętów, mebli itd."
+        },
+        {
+          "type": "text",
+          "value": "poglądową wizualizację wybranych pomieszczeń LUB planszę kolorystyczno-materiałową z wyszczególnieniem: dekoracji, mebli, kolorów, sprzętów, materiałów itd."
+        },
+        {
+          "type": "text",
+          "value": "spis elementów wyposażenia wnętrz z uwzględnieniem cen i adresów sklepów/stron internetowych"
+        },
+        {
+          "type": "text",
+          "value": "2 spotkania/konsultacje w tym jedna z przyjazdem do klienta, inwentaryzacją (wymiarowaniem) i omówieniem projektu"
+        },
+        {
+          "type": "heading",
+          "value": "PAKIET PEŁNY "
+        },
+        {
+          "type": "text",
+          "value": "rzut z rozplanowaniem sprzętów, mebli itd."
+        },
+        {
+          "type": "text",
+          "value": "planszę kolorystyczno-materiałowa z wyszczególnieniem: dekoracji, mebli, kolorów, sprzętów, materiałów itd."
+        },
+        {
+          "type": "text",
+          "value": "poglądową wizualizację wybranych pomieszczeń"
+        },
+        {
+          "type": "text",
+          "value": "przekrój wybranej części mieszkania"
+        },
+        {
+          "type": "text",
+          "value": "plan instalacji elektrycznej z zaznaczonymi punktami świetlnymi, włącznikami, kontaktami itp."
+        },
+        {
+          "type": "text",
+          "value": "spis elementów wyposażenia wnętrz z uwzględnieniem cen i adresów sklepów/stron internetowych"
+        },
+        {
+          "type": "text",
+          "value": "3 spotkania/konsultacje w tym jedna z dojazdem do klienta, inwentaryzacją (wymiarowaniem) i omówieniem projektu"
+        },
+        {
+          "type": "text",
+          "value": "jedna poprawka do projektu (każda kolejna konsultacja i / lub poprawka jest dodatkowo płatna)."
+        },
+        {
+          "type": "text",
+          "value": "Dodatkowe usługi ustalane są indywidualnie. Pakiety mogą być dostosowane do indywidualnych potrzeb klienta."
+        }
+      ],
+      "summary": "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- to polecam projekt wnętrz",
+      "cardTitle": "Architektura wnętrz"
+    },
+    "boligstyling": {
+      "title": "HOME STAGING",
+      "intro": "Planujesz sprzedać mieszkanie  , dom lub  lokal za większe pieniądze? Chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby Twoi goście wracali tu często ? HOME STAGING jest idealnym rozwiązaniem !",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Projekt ten będzie zawierał"
+        },
+        {
+          "type": "text",
+          "value": "rzut z rozplanowaniem sprzętów, mebli itd."
+        },
+        {
+          "type": "text",
+          "value": "poglądową wizualizację wybranych pomieszczeń LUB planszę kolorystyczno-materiałowa z wyszczególnieniem: dekoracji, mebli, kolorów, sprzętów, materiałów itd."
+        },
+        {
+          "type": "text",
+          "value": "plan instalacji elektrycznej z zaznaczonymi punktami świetlnymi, włącznikami, kontaktami itp."
+        },
+        {
+          "type": "text",
+          "value": "spis elementów wyposażenia wnętrz z uwzględnieniem cen i adresów sklepów/stron internetowych"
+        },
+        {
+          "type": "text",
+          "value": "3 spotkania/konsultacje w tym jedna z dojazdem do klienta, inwentaryzacją (wymiarowaniem) i omówieniem projektu"
+        },
+        {
+          "type": "text",
+          "value": "jedna poprawka do projektu (każda kolejna konsultacja i/lub poprawka jest dodatkowo płatna)."
+        },
+        {
+          "type": "text",
+          "value": "Dodatkowe usugi ustalane są indywidualnie. Pakiet może być dostosowany do indywidualnych potrzeb klienta."
+        }
+      ],
+      "summary": "Planujesz sprzedać mieszkanie, dom, lokal za większe pieniądze? chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby Twoi goście wracali tu często ? HOME STAGING jest idealnym rozwiązaniem.",
+      "cardTitle": "Home Staging"
+    },
+    "interiordekorasjon": {
+      "title": "DEKOROWANIE WNĘTRZ",
+      "intro": "Jeśli potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu który przyniesie wielkie zmiany, kilku dekoracji lub mebli które sprawią, że Twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku Twojej witryny sklepowej? jest to oferta dla Ciebie!",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Projekt ten będzie zawierał"
+        },
+        {
+          "type": "text",
+          "value": "Wizualizację wybranych pomieszczeń LUB planszę materiałowo-kolorystyczną,"
+        },
+        {
+          "type": "text",
+          "value": "rzut z rozplanowaniem sprzętów, mebli itp"
+        },
+        {
+          "type": "text",
+          "value": "spis elementów wyposażenia wnętrz z uwzględnieniem cen i adresów sklepów/stron internetowych"
+        },
+        {
+          "type": "text",
+          "value": "Dodatkowe usugi ustalane są indywidualnie. Pakiet może być dostosowany do indywidualnych potrzeb klienta."
+        }
+      ],
+      "summary": "Potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu, który przyniesie wielkie zmiany? kilku dekoracji lub mebli które sprawią, że Twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku Twojej witryny sklepowej? Jeśli tak,jest to oferta dla Ciebie.",
+      "cardTitle": "Dekorowanie wnętrz"
+    },
+    "eventdekorasjon": {
+      "title": "Dekoracja wydarzeń",
+      "intro": "Specjalizuję się w projektowaniu i realizacji ekskluzywnych wydarzeń, w tym przyjęć prywatnych, wesel oraz gal firmowych. Dzięki własnym materiałom i doświadczeniu tworzę unikalną i nastrojową atmosferę, która odzwierciedla Twoją wizję. Każdy projekt jest dostosowany indywidualnie, z starannie dobranymi elementami, takimi jak oświetlenie, dekoracje kwiatowe i inne detale ozdobne.",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Ten projekt obejmie"
+        },
+        {
+          "type": "text",
+          "value": "Szczegółowy plan rozmieszczenia elementów dekoracyjnych i oświetlenia."
+        },
+        {
+          "type": "text",
+          "value": "Wizualną prezentację koncepcji dekoracji LUB plan z kolorami, materiałami i detalami dekoracyjnymi."
+        },
+        {
+          "type": "text",
+          "value": "Plan oświetlenia w celu stworzenia odpowiedniego klimatu."
+        },
+        {
+          "type": "text",
+          "value": "Listę specjalnie wyselekcjonowanych elementów dekoracyjnych wraz z cenami i dostawcami."
+        },
+        {
+          "type": "text",
+          "value": "Trzy spotkania/konsultacje, w tym jedna wizyta w miejscu wydarzenia w celu omówienia koncepcji i wyboru materiałów."
+        },
+        {
+          "type": "text",
+          "value": "Jedna rewizja projektu (każda dodatkowa rewizja jest usługą dodatkową)."
+        },
+        {
+          "type": "text",
+          "value": "Usługi dodatkowe mogą być dostosowane do indywidualnych potrzeb."
+        }
+      ],
+      "summary": "Planujesz ślub, jubileusz lub firmową imprezę i chcesz stworzyć niepowtarzalną atmosferę? Chcesz zapewnić gościom niezapomniane wrażenia? Potrzebujesz spersonalizowanej dekoracji na wyjątkową okazję? Profesjonalna dekoracja eventowa nada Twojemu wydarzeniu ekskluzywny charakter.",
+      "cardTitle": "Dekoracja imprez okolicznościowych"
+    }
   }
 }

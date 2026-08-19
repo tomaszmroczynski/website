@@ -82,3 +82,26 @@ export const PROJECT_IMAGES: Record<string, ProjectImage[]> = {
     {src: "/img/flat-gorlice-poland/9.webp", width: 1920, height: 1080},
   ],
 };
+
+/** Zdjecia stron uslug. */
+export const SERVICE_IMAGES: Record<string, ProjectImage[]> = {
+  "interiorarkitekt": [
+    {src: "/img/feature/interiorArchitecture/1.webp", width: 2016, height: 1339},
+    {src: "/img/feature/interiorArchitecture/2.webp", width: 2873, height: 2155},
+    {src: "/img/feature/interiorArchitecture/3.webp", width: 3067, height: 2300},
+    {src: "/img/feature/interiorArchitecture/4.webp", width: 2873, height: 2155},
+  ],
+  "interiordekorasjon": [
+    {src: "/img/feature/decoration/DekorElementer.webp", width: 2000, height: 1500},
+    {src: "/img/feature/decoration/FargeOgMaterialer.webp", width: 2000, height: 1381},
+    {src: "/img/feature/decoration/InteriorDekorasjon.webp", width: 2000, height: 1333},
+    {src: "/img/feature/decoration/RomStyling.webp", width: 1997, height: 1333},
+  ],
+  "boligstyling": [
+    {src: "/img/home-staging/1.webp", width: 6000, height: 4000},
+    {src: "/img/home-staging/2.webp", width: 6000, height: 4000},
+  ],
+  "eventdekorasjon": [
+    {src: "/img/feature/decorasjon-av-arrangmenter/bryllupsdekor.webp", width: 2000, height: 1325},
+  ],
+};
