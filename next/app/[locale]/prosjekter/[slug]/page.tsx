@@ -1,10 +1,13 @@
 import {notFound} from "next/navigation";
 import {getTranslations, setRequestLocale} from "next-intl/server";
-import Gallery from "@/components/Gallery";
+import HeroSlider from "@/components/HeroSlider";
+import Reveal from "@/components/Reveal";
+import ShareLinks from "@/components/ShareLinks";
 import {Link} from "@/i18n/navigation";
 import {PROJECTS, projectBySlug} from "@/lib/content";
 import {PROJECT_IMAGES} from "@/lib/images";
-import {buildMetadata} from "@/lib/seo";
+import {buildProjectJsonLd} from "@/lib/jsonld";
+import {buildMetadata, localeUrl} from "@/lib/seo";
 import {routing, type Locale} from "@/i18n/routing";
 import styles from "./page.module.css";
 
@@ -33,13 +36,13 @@ export default async function ProjectPage({params}: {params: Params}) {
   const p = await getTranslations({locale, namespace: `Projects.${slug}`});
   const images = PROJECT_IMAGES[slug] ?? [];
 
+  /** p.raw kaster pa manglende nokler; ikke alle prosjekter har alle feltene. */
+  const opt = <T,>(key: string) => (p.has(key) ? (p.raw(key) as T) : undefined);
+
   const room = p("room");
   const alt = project.city
     ? t("altWithCity", {room, city: project.city})
     : t("alt", {room});
-
-  /** p.raw kaster pa manglende nokler; ikke alle prosjekter har alle feltene. */
-  const opt = <T,>(key: string) => (p.has(key) ? (p.raw(key) as T) : undefined);
 
   const body = opt<Array<{type: "heading" | "text"; value: string}>>("body") ?? [];
   const tags = opt<string[]>("tags") ?? [];
@@ -55,46 +58,86 @@ export default async function ProjectPage({params}: {params: Params}) {
   if (projectType) rows.push([t("projectType"), projectType]);
   if (date && dateKind) rows.push([t(dateKind), date]);
 
+  const url = localeUrl(locale, `/prosjekter/${slug}`);
+
+  const jsonLd = buildProjectJsonLd({
+    slug,
+    name: p("title"),
+    description: body.find((b) => b.type === "text")?.value ?? p("title"),
+    city: project.city,
+    images: images.map((i) => i.src),
+    url,
+  });
+
   return (
-    <main className={styles.wrap}>
-      <Link href="/prosjekter" className={styles.back}>
-        ← {t("back")}
-      </Link>
+    <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}
+      />
+      <Reveal effect="fadeIn">
+        <section className={styles.hero}>
+          <HeroSlider images={images} alt={alt} />
 
-      <p className={styles.eyebrow}>{p.has("eyebrow") ? p("eyebrow") : room}</p>
-      <h1 className={styles.title}>{p("title")}</h1>
+          <div className={styles.caption}>
+            <Link href="/prosjekter" className={styles.back} aria-label={t("back")}>
+              <span className={styles.backArrow} aria-hidden="true">
+                ←
+              </span>
+            </Link>
+            <p className={styles.eyebrow}>{p.has("eyebrow") ? p("eyebrow") : room}</p>
+            <h1 className={styles.title}>{p("title")}</h1>
+          </div>
+        </section>
+      </Reveal>
 
-      <div className={styles.layout}>
-        <div className={styles.body}>
-          {body.map((block, i) =>
-            block.type === "heading" ? (
-              <h2 key={i}>{block.value}</h2>
-            ) : (
-              <p key={i}>{block.value}</p>
-            )
-          )}
-        </div>
-
-        <aside className={styles.meta}>
-          {rows.map(([label, value]) => (
-            <div key={label} className={styles.metaRow}>
-              <span className={styles.metaLabel}>{label}</span>
-              <span>{value}</span>
+      <Reveal effect="fadeInUp">
+        <section className={styles.detail} id="detailproject">
+          <div className={styles.grid}>
+            <div className={styles.body}>
+              {body.map((block, i) =>
+                block.type === "heading" ? (
+                  <p key={i}>
+                    <span className={styles.color}>{block.value}</span>
+                  </p>
+                ) : (
+                  <p key={i}>{block.value}</p>
+                )
+              )}
             </div>
-          ))}
+
+            <div className={styles.sticky}>
+              <ul className={styles.metaList}>
+                {rows.map(([label, value]) => (
+                  <li key={label}>
+                    <span className={styles.tile}>{label}</span>
+                    <span>{value}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
           <div className={styles.tags}>
+            <span className={styles.tagsHeading}>{t("tags")}</span>
             {tags.map((tag) => (
               <span key={tag} className={styles.tag}>
                 {tag}
               </span>
             ))}
           </div>
-        </aside>
-      </div>
 
-      <div className={styles.gallery}>
-        <Gallery images={images} alt={alt} closeLabel={t("close")} />
-      </div>
+          <div className={styles.share}>
+            <span className={styles.shareHeading}>{t("share")}</span>
+            <ShareLinks
+              url={url}
+              title={p("title")}
+              image={images[0]?.src}
+              className={styles.shareLink}
+            />
+          </div>
+        </section>
+      </Reveal>
     </main>
   );
 }

@@ -71,3 +71,31 @@ export function buildJsonLd() {
     ],
   };
 }
+
+/**
+ * Per prosjekt. Gir Google bildelisten strukturert, i tillegg til
+ * <img> i HTML-en og <image:image> i sitemapen, og knytter prosjektet
+ * til et sted via contentLocation.
+ */
+export function buildProjectJsonLd(opts: {
+  slug: string;
+  name: string;
+  description: string;
+  city: string | null;
+  images: string[];
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "@id": `${opts.url}#project`,
+    name: opts.name,
+    description: opts.description,
+    url: opts.url,
+    image: opts.images.map((src) => `${SITE_URL}${src}`),
+    creator: {"@id": `${SITE_URL}/#business`},
+    ...(opts.city
+      ? {contentLocation: {"@type": "Place", name: opts.city, address: {"@type": "PostalAddress", addressLocality: opts.city, addressCountry: "NO"}}}
+      : {}),
+  };
+}
