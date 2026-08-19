@@ -164,6 +164,8 @@ const Contact = ({ history }) => {
                 <li><Trans i18nKey={"Omrader.askim"}></Trans></li>
                 <li><Trans i18nKey={"Omrader.eidsberg"}></Trans></li>
                 <li><Trans i18nKey={"Omrader.moss"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.sarpsborg"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.halden"}></Trans></li>
                 <li><Trans i18nKey={"Omrader.drammen"}></Trans></li>
                 <li><Trans i18nKey={"Omrader.mjondalen"}></Trans></li>
                 <li><Trans i18nKey={"Omrader.sandvika"}></Trans></li>

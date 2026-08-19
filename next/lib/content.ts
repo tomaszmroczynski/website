@@ -53,6 +53,8 @@ export const AREAS: Area[] = [
   {name: "Askim", type: "City"},
   {name: "Eidsberg", type: "City"},
   {name: "Moss", type: "City"},
+  {name: "Sarpsborg", type: "City"},
+  {name: "Halden", type: "City"},
   {name: "Drammen", type: "City"},
   {name: "Mjøndalen", type: "City"},
   {name: "Sandvika", type: "City"},

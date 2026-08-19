@@ -34,7 +34,7 @@ Obszary działania
 
 Limes Interior ma siedzibę w Eidsberg i realizuje projekty w Indre Østfold, Moss, Drammen, Sandvika i Oslo.
 
-Jako architekt wnętrz w Eidsberg pomagam klientom w Indre Østfold, Moss, Drammen, Mjøndalen, Sandvika, Bærum i Oslo. Skontaktuj się w celu niezobowiązującej rozmowy.
+Jako architekt wnętrz w Eidsberg pomagam klientom w Indre Østfold, Moss, Sarpsborg, Halden, Drammen, Mjøndalen, Sandvika, Bærum i Oslo. Skontaktuj się w celu niezobowiązującej rozmowy.
 
 Indre Østfold
 
@@ -45,6 +45,10 @@ Askim
 Eidsberg
 
 Moss
+
+Sarpsborg
+
+Halden
 
 Drammen
 
@@ -64,7 +68,7 @@ Tak, realizuję projekty w Eidsberg, Askim i okolicach.
 
 **Czy pracujesz w Akershus i w Oslo?**
 
-Tak, realizuję projekty w Indre Østfold, Moss, Drammen, Mjøndalen, Sandvika, Bærum i Oslo.
+Tak, realizuję projekty w Indre Østfold, Moss, Sarpsborg, Halden, Drammen, Mjøndalen, Sandvika, Bærum i Oslo.
 
 **Czy możesz pomóc z kuchnią i łazienką?**
 

@@ -182,7 +182,7 @@ function generateOmMeg(t, lang) {
   if (t.Footer) {
     md += `## ${labels.footer}\n\n`;
     md += sectionParagraphs(t.Footer)
-      .filter((p) => !["Indre Østfold", "Mysen", "Askim", "Eidsberg", "Moss", "Drammen", "Mjøndalen", "Sandvika", "Bærum", "Oslo", "Personvern"].includes(p))
+      .filter((p) => !["Indre Østfold", "Mysen", "Askim", "Eidsberg", "Moss", "Sarpsborg", "Halden", "Drammen", "Mjøndalen", "Sandvika", "Bærum", "Oslo", "Personvern"].includes(p))
       .join("\n\n") + "\n\n";
   }
 
@@ -235,7 +235,7 @@ function generateProsjekter(t, lang) {
 function generateLlmsTxt() {
   return `# Limes Interiør – Anna Rasinska
 
-> Anna Rasinska er utdannet sivilarkitekt og interiørarkitekt. Limes Interiør holder til i Eidsberg, Østfold, og tar oppdrag i Indre Østfold, Moss, Drammen, Mjøndalen, Sandvika, Bærum og Oslo.
+> Anna Rasinska er utdannet sivilarkitekt og interiørarkitekt. Limes Interiør holder til i Eidsberg, Østfold, og tar oppdrag i Indre Østfold, Moss, Sarpsborg, Halden, Drammen, Mjøndalen, Sandvika, Bærum og Oslo.
 
 Anna Rasinska spesialiserer seg på interiørarkitektur, interiørdekorasjon, home staging (boligstyling) og dekorasjon av arrangementer for private hjem og næringslokaler.
 

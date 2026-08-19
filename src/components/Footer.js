@@ -58,6 +58,8 @@ const Footer = () => (
             <div className="address"><Trans i18nKey={"Footer.1408"}></Trans></div>
             <div className="address"><Trans i18nKey={"Footer.1409"}></Trans></div>
             <div className="address"><Trans i18nKey={"Footer.1410"}></Trans></div>
+            <div className="address"><Trans i18nKey={"Footer.1411"}></Trans></div>
+            <div className="address"><Trans i18nKey={"Footer.1412"}></Trans></div>
           </div>
         </div>
       </div>
