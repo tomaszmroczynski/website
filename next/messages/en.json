@@ -1,214 +1,33 @@
 {
   "mainpictures": {
     "title1": "Limes Interior Anna Rasinska",
-         "desc1": "interior design & decoration",
-         "title2": "Limes Interior Anna Rasinska",
-         "desc2": "interior design & decoration",
-         "title3": "Limes Interior Anna Rasinska",
-         "desc3": "interior design & decoration"
+    "desc1": "interior design & decoration",
+    "title2": "Limes Interior Anna Rasinska",
+    "desc2": "interior design & decoration",
+    "title3": "Limes Interior Anna Rasinska",
+    "desc3": "interior design & decoration"
   },
   "mainpictures2": {
     "title1": "Limes Interior Anna Rasinska",
-         "desc1": "interior design & decoration",
-         "title2": "i proudly invite you",
-         "desc2": "to familiarize yourself",
-         "title3": "with my offer",
-         "desc3": "of interiror design"
+    "desc1": "interior design & decoration",
+    "title2": "i proudly invite you",
+    "desc2": "to familiarize yourself",
+    "title3": "with my offer",
+    "desc3": "of interiror design"
   },
   "mainpictures3": {
     "title1": "Limes Interior Anna Rasinska",
-         "desc1": "interior design & decoration",
-         "title2": "I am proud to invite you",
-         "desc2": "to read",
-         "title3": "with my offer",
-         "desc3": "interior architecture"
+    "desc1": "interior design & decoration",
+    "title2": "I am proud to invite you",
+    "desc2": "to read",
+    "title3": "with my offer",
+    "desc3": "interior architecture"
   },
-  "studioGdynia": {
-    "2467": "Back",
-    "2543": "INTERIOR",
-    "2544": "A small apartment",
-    "2679": "Small spaces often significant challenges. It was no different from the project of a small studio for my client. The apartment is located in an old tenement house. Originally it consisted of a bathroom, kitchen and living room. Our task was,above all, to separate a sleeping zone and arrange the space so that it would be functional, comfortable and beautiful. ",
-    "2680": "BEDROOM",
-    "3681": "the small bedroom has been separated from the living room, with windows facing north. The new bedroom has no windows, so we have proposed a folded glass wall instead of the TRADITIONAL wall, which ideally illuminates the room and can be folded if necessary, thus opening the space. The bedroom has a double bed, a bedside table and a wardrobe. The wall is decorated with a beautiful Boudoir Navy WallArt wallpaper that goes all the way to the living room ",
-    "3682": "LIVING ROOM",
-    "3683": "in the living room, we have replaced the traditional window with a wallet window, illuminating the interior. The old wardrobe has found use as a bookcase. While the armchair from the 1960s inherited from grandparents fits perfectly into the style of the apartment. The bright sofa looks beautiful against the Boiduar navy wallpaper, and wooden accessories give the interior cosiness. ",
-    "3684": "KITCHEN",
-    "3685": "the kitchen is elegant and straightforward. Bright colours with wood and the green motif on the walls repeated throughout the apartment. Hanging cabinets are glazed, which gives the kitchen light and elegant touch.",
-    "4270": "Categories:",
-    "4318": "Interiors",
-    "4434": "Client:",
-    "4478": "private person",
-    "4600": "Completed:",
-    "4647": "january 2021",
-    "4767": "",
-    "4817": "",
-    "5050": "Tags:",
-    "5111": "Inspiration",
-    "5177": "Decoration",
-    "5241": "Interior",
-    "5304": "Full",
-    "5504": "Share:"
-  },
-  "houseEidsberg": {
-    "2137": "Back",
-    "2213": "INTERIOR",
-    "2260": "Private house for a family of three",
-    "2321": "I present the project of the total metamorphosis of the house from the 1970s. The owners are a young couple with a small child.",
-    "2917": "LIVING ROOM:",
-    "2918": "a large area of ​​the living room is divided into a seating area and a dining room. The interior of the living room and dining room is modern. Still, the décor refers to nature: wallpaper with a motif of leaves, wooden floor and furniture, old brick by the wall with a fireplace, leather sofas - make that the interior is cosy and very comfortable - perfect for a young family. ",
-    "3404": "BEDROOM:",
-    "3405": "this realization of the project shows how a small renovation can cause massive changes. It has become an ideal place to rest and relax from an unsightly and uncomfortable room. This project is a perfect example of HOME STAGING - a small renovation and adding decorations make the bedroom it has become cosy elegant and at the same time increase the value of the property. ",
-    "3407": "TOILET:",
-    "3406": "a small toilet and a dark colour on the walls? Why not? Here I present a project of a small toilet that has completely changed although it is tiny. I used OSB 3D boards on the walls. These white panels visually expand the area. Dark walls and ceilings make the room seem higher than it is. ",
-    "3912": "Categories:",
-    "3960": "Interior design and decoration",
-    "4076": "Client:",
-    "4120": "private person",
-    "4242": "Completed:",
-    "4289": "December 2014",
-    "4409": "",
-    "4459": "",
-    "4692": "Tags:",
-    "4753": "Inspiration",
-    "4819": "Decoration",
-    "4883": "Interior",
-    "4946": "Minimum",
-    "5146": "Share:"
-  },
-  "salonGlm": {
-    "2428": "Powrót",
-    "2504": "WNĘTRZE",
-    "2551": "Salon in a modern style",
-    "2613": "",
-    "3209": "",
-    "3210": "The owners of the apartment are a unique family whose favorite style is a modern style with glamorous elements. The living room underwent a significant transformation: on 24 square meters, a comfortable seating area and dining room were created. Although the interior is not large, it has become a place of relaxation and rest, but also fulfills the practical role of a living room with a dining area.",
-    "3696": "",
-    "3697": "",
-    "3699": "",
-    "3698": "",
-    "4204": "Categories:",
-    "4252": "Interior design",
-    "4368": "Client:",
-    "4412": "Private",
-    "4534": "Completed:",
-    "4581": "December 2022",
-    "4701": "",
-    "4751": "",
-    "4984": "Tags:",
-    "5045": "Inspiration",
-    "5111": "Decoration",
-    "5175": "Arrangement",
-    "5238": "Interior design",
-    "5438": "Share:"
-    },
-  "lazMoss": {
-    "2428": "Back",
-    "2504": "INTERIOR",
-    "2551": "Bathroom in a warm, pleasant composition",
-    "2613": "",
-    "3209": "",
-    "3210": "A new, spacious bathroom was a big dream for a young family of three. By combining two non-functional rooms, a very spacious bathroom was created that combines natural elements with minimalistic elegance. The built-in cabinet not only hides household appliances, but also provides ample storage space. A comfortable bathtub with a shower is the perfect compromise for those who choose between relaxation and saving time. The dark color of the wall, wallpaper with a plant motif, and a beautiful mirror made from a piece of wood add warmth and a natural look.",
-    "3696": "",
-    "3697": "",
-    "3699": "",
-    "3698": "",
-    "4204": "Categories:",
-    "4252": "interior design",
-    "4368": "Client:",
-    "4412": "private",
-    "4534": "Concept:",
-    "4581": "January 2022",
-    "4701": "",
-    "4751": "",
-    "4984": "Tags:",
-    "5045": "Inspiration",
-    "5111": "Decoration",
-    "5175": "Arrangement",
-    "5238": "Interior Design",
-    "5438": "Share:"
-    },
-    "mjondalen": {
-      "2428": "Back",
-      "2504": "INTERIOR",
-      "2551": "Apartment design for a couple with a picturesque view.",
-      "2613": "",
-      "3209": "",
-      "3210": "Presenting a modern one-bedroom apartment featuring a spacious living room combined with a kitchen and an elegant bathroom. A carefully chosen color palette and stylish accessories create a cozy atmosphere. The space is designed with functionality in mind – the compact kitchen offers surprisingly ample storage, making the interior not only aesthetically pleasing but also ergonomic. The functional bathroom in soft colors is designed for elegance and convenience. It offers plenty of storage space, as well as room for a washing machine and dryer. Every inch has been optimally utilized to create a harmonious, stylish space that combines aesthetics with comfort.",
-      "3696": "",
-      "3697": "",
-      "3699": "",
-      "3698": "",
-      "4204": "Categories:",
-      "4252": "interior design",
-      "4368": "Client:",
-      "4412": "private",
-      "4534": "Concept:",
-      "4581": "March 2024",
-      "4701": "",
-      "4751": "",
-      "4984": "Tags:",
-      "5045": "Inspiration",
-      "5111": "Decoration",
-      "5175": "Arrangement",
-      "5238": "Interior Design",
-      "5438": "Share:"
-      },
-  "domDrammen": {
-    "2428": "Back",
-    "2504": "INTERIOR",
-    "2551": "House for a family of 4",
-    "2613": "Large space and many possibilities. I present a house project with separate zones for the kitchen, living room and dining room.",
-    "3209": "The Kitchen",
-    "3210": "is the heart of the home. Most of the day is stay here and meals are prepared here - a place that should be unique but also ergonomic and practical. There was a small, impractical room in the designed kitchen area. After demolishing the walls and opening the space, we have a fabulous kitchen with custom-made furniture, a built-in refrigerator and an oven. Two pull-out cargo wardrobes are a perfect place for storage and the multitude of cabinets and drawers will satisfy the most demanding housewife. I combined the beautiful sea colour of the fronts with a marble top and golden accessories. The black lighting, kitchen hood, and wooden accessories constitute a comositional whole. The kitchen is comfortable and beautiful at the same time ",
-    "3696": "Plants",
-    "3697": "were an essential element of interior design for my clients, so I decided to use a vertical garden in a coffee zone separated from the living room. The vertical garden is a unique element, referring to nature and cleverly placing an extensive collection of plants in one place.There is also a 3-seater honey sofa in the coffee area, two comfortable armchairs, and a table. Next to the coffee corner, there is another space: ",
-    "3699": "Salon.",
-    "3698": "A bright, comfortable couch with a chaise longue, a comfortable armchair and a table - this is almost everything you need in a TV corner. I placed the TV on a wall covered with old recycled wood planks. Here also a reference to nature, but not only wooden cladding on the wall is also a way to mask the lighting and cables needed to connect the RTV equipment. The whole is complemented by accessories and fabrics that make the interior cosier and elegant. ",
-    "4204": "Categories:",
-    "4252": "interior architecture",
-    "4368": "Client:",
-    "4412": "private",
-    "4534": "Completed:",
-    "4581": "december 2020",
-    "4701": "",
-    "4751": "",
-    "4984": "Tags:",
-    "5045": "Inspiration",
-    "5111": "Decoration",
-    "5175": "Arrangement",
-    "5238": "Interior architecture",
-    "5438": "Share:"
-  },
-  "flat-gorlice-poland": {
-    "2137": "Back",
-    "2213": "INTERIOR",
-    "2260": "An apartment for a young married couple",
-    "2317": "Can an attic apartment become a dream enclave for two? Of course! I present the project of an apartment in the attic",
-    "2914": "The project included a small apartment in the attic of a tenement house. From an old, non-functional apartment, I have created a beautiful, comfortable, ergonomic interior perfect for young people. Open spaces, natural colours and materials give the interior cosiness and lightness.",
-    "3400": "LIVING ROOM:",
-    "3401": "The apartment gained the necessary space by demolishing the walls. Covering the fireplace with stone gave it a new life, and the interior gave character and cosiness. Wooden furniture and accessories and subdued colours refer to the nature and colours of the earth.",
-    "3403": "KITCHEN:",
-    "3402": "The lower cabinets are mainly drawers due to the lack of hanging cabinets. It is also an excellent solution for an ergonomic space. Dark green tiles bring colour to the interior and blend in beautifully with the cabinets and the tabletop.In the kitchen, I have also designated a small dining room. ",
-    "3908": "Categories:",
-    "3956": "interior architecture",
-    "4072": "Client:",
-    "4116": "private person",
-    "4238": "Completed:",
-    "4285": "September 2021",
-    "4405": "",
-    "4455": "",
-    "4688": "Tags:",
-    "4749": "Inspiration",
-    "4815": "Decoration",
-    "4879": "Interior",
-    "4942": "Minimum",
-    "5142": "Share:"
-  },
-"interiorArchitecture": {
+  "interiorArchitecture": {
     "2133": "Back",
     "2209": "",
     "2256": "INTERIOR ARCHITECTURE",
-    "2313": "If you dream of a completely new interior, reconstruction, a different layout of rooms, a comprehensive renovation of the house or selected rooms - I recommend INTERIOR DESIGN." ,
+    "2313": "If you dream of a completely new interior, reconstruction, a different layout of rooms, a comprehensive renovation of the house or selected rooms - I recommend INTERIOR DESIGN.",
     "2910": "We have TWO PACKAGES in our interior design offer",
     "3397": "BASIC PACKAGE:",
     "3398": "a floor plan with the layout of equipment, furniture, etc.",
@@ -293,67 +112,37 @@
     "4875": "Interior",
     "4938": "Minimalist",
     "5138": "Share:"
-    },
-    "dekorasjon-av-arrangementer": {
-      "2133": "Back",
-      "2209": "",
-      "2256": "Decoration of Events",
-      "2313": "I specialize in the design and execution of exclusive events, including private parties, weddings, and corporate galas. With my own materials and expertise, I ensure a unique and atmospheric setting that reflects your vision. Each project is tailored with carefully selected elements such as lighting, floral decorations, and other decorative details.",
-      "2910": "This project will include:",
-      "3397": "",
-      "3403": "A detailed plan for the placement of decorative elements and lighting.",
-      "3404": "A visual presentation of the decoration concept OR a plan with colors, materials, and decorative details.",
-      "3405": "A lighting plan to create the right atmosphere.",
-      "3406": "A list of specially selected decorative elements with prices and suppliers.",
-      "3407": "Three meetings/consultations, including one visit to the event venue to discuss the concept and material selection.",
-      "3408": "One revision of the design (each additional revision is an extra service).",
-      "3409": "",
-      "3410": "Additional services can be customized to meet individual needs.",
-      "3904": "Categories:",
-      "3952": "Events",
-      "4068": "Client:",
-      "4112": "Project",
-      "4234": "Completed:",
-      "4281": "30.09.2020",
-      "4401": "Project Type:",
-      "4451": "Event Decoration",
-      "4684": "Tags:",
-      "4745": "Inspiration",
-      "4811": "Decoration",
-      "4875": "Events",
-      "4938": "Exclusive",
-      "5138": "Share:"
-},
-"salonSandvika": {
-  "2133": "Back",
-  "2209": "",
-  "2256": "A livingroom for a couple of travellers",
-  "2313": " The owners of the apartment are a young couple who are passionate about travelling. Where you go back is also essential in long expeditions. In this case, a comfortable and warm living room with a large, comfortable sofa, a bookcase for an extensive collection of books, a sideboard and a comfortable armchair for the host of the house. Despite the dark colours used, the living room is cosy, the interior is consistent and comfortable, and the decorations emphasize the owners' character.",
-  "3403": "",
-  "3404": "",
-  "3405": "",
-  "3406": "",
-  "3407": "",
-  "3408": "",
-  "3409": "",
-  "2910": "",
-  "3411": "",
-  "3410": "",
-  "3904": "Categories:",
-  "3952": "Interiors",
-  "4068": "Client:",
-  "4112": "Individual person",
-  "4234": "Completed:",
-  "4281": "November 2021",
-  "4401": "Project type:",
-  "4451": "Home decoration",
-  "4684": "Tags:",
-  "4745": "Inspiration",
-  "4811": "Decoration",
-  "4875": "Interior",
-  "4938": "Minimum",
-  "5138": "Share:"
-},
+  },
+  "dekorasjon-av-arrangementer": {
+    "2133": "Back",
+    "2209": "",
+    "2256": "Decoration of Events",
+    "2313": "I specialize in the design and execution of exclusive events, including private parties, weddings, and corporate galas. With my own materials and expertise, I ensure a unique and atmospheric setting that reflects your vision. Each project is tailored with carefully selected elements such as lighting, floral decorations, and other decorative details.",
+    "2910": "This project will include:",
+    "3397": "",
+    "3403": "A detailed plan for the placement of decorative elements and lighting.",
+    "3404": "A visual presentation of the decoration concept OR a plan with colors, materials, and decorative details.",
+    "3405": "A lighting plan to create the right atmosphere.",
+    "3406": "A list of specially selected decorative elements with prices and suppliers.",
+    "3407": "Three meetings/consultations, including one visit to the event venue to discuss the concept and material selection.",
+    "3408": "One revision of the design (each additional revision is an extra service).",
+    "3409": "",
+    "3410": "Additional services can be customized to meet individual needs.",
+    "3904": "Categories:",
+    "3952": "Events",
+    "4068": "Client:",
+    "4112": "Project",
+    "4234": "Completed:",
+    "4281": "30.09.2020",
+    "4401": "Project Type:",
+    "4451": "Event Decoration",
+    "4684": "Tags:",
+    "4745": "Inspiration",
+    "4811": "Decoration",
+    "4875": "Events",
+    "4938": "Exclusive",
+    "5138": "Share:"
+  },
   "Contact": {
     "1296": "Contact me to design",
     "1297": "your",
@@ -397,32 +186,32 @@
     "q5": "How does an interior project work?",
     "a5": "We start with a no-obligation conversation, then develop a concept, material choices and implementation as agreed."
   },
-"Abouthome": {
+  "Abouthome": {
     "1296": "A few words about me",
     "1297": "I hold a Master of Architecture degree, but my true passion lies in interior design. For me, creating spaces is more than just a profession – it is an art where every line, color, and detail matters. Interiors are not just a backdrop for our lives but an integral part of them, influencing our emotions, well-being, and daily experiences. At Limes Interior, I offer not only my knowledge and experience but also my artistic sensitivity and imagination. I approach every project as a unique work of art that not only meets but also shapes and inspires expectations. I specialize in:",
     "1298": "Private interior design – I create spaces that reflect the personality and lifestyle of their residents, building an atmosphere full of warmth and emotions.",
     "1299": "Interior decoration – the art of selecting details, fabrics, lighting, and composition is my way of expressing creativity and giving spaces soul and character.",
     "1822": "Home Staging – I transform interiors to make an immediate impression and evoke positive emotions, turning them into dream living spaces.",
     "1867": "Public interior design – I create places that are not only functional but also engage the senses and leave a lasting aesthetic impression."
-},
-    "Footer": {
-      "1396": "Thank you for your time and attention",
-      "1397": "I am glad to have presented myself and my offer to you. I am happy that you have noticed what I have to offer. If you have any questions, doubts or need help in designing your dream interior, I am happy to assist you. We are here to meet your expectations and create a space in which you will feel happy and relaxed.",
-      "1398": "Visit my profile",
-      "1399": "You can contact me through popular social media platforms.",
-      "1400": "Areas served",
-      "1401": "Eidsberg",
-      "1402": "Askim",
-      "1403": "Moss",
-      "1404": "Fredrikstad",
-      "1405": "Sarpsborg",
-      "1406": "Halden",
-      "1407": "Ski",
-      "1408": "Lillestrøm",
-      "1409": "Oslo",
-      "1410": "Akershus",
-      "privacy": "Privacy policy"
-      },
+  },
+  "Footer": {
+    "1396": "Thank you for your time and attention",
+    "1397": "I am glad to have presented myself and my offer to you. I am happy that you have noticed what I have to offer. If you have any questions, doubts or need help in designing your dream interior, I am happy to assist you. We are here to meet your expectations and create a space in which you will feel happy and relaxed.",
+    "1398": "Visit my profile",
+    "1399": "You can contact me through popular social media platforms.",
+    "1400": "Areas served",
+    "1401": "Eidsberg",
+    "1402": "Askim",
+    "1403": "Moss",
+    "1404": "Fredrikstad",
+    "1405": "Sarpsborg",
+    "1406": "Halden",
+    "1407": "Ski",
+    "1408": "Lillestrøm",
+    "1409": "Oslo",
+    "1410": "Akershus",
+    "privacy": "Privacy policy"
+  },
   "Nav": {
     "1496": "Home page",
     "1497": "About me",
@@ -433,42 +222,40 @@
     "1502": "Book consultation test"
   },
   "Carouselprojects": {
+    "1589": "Mjondalen,  Norway ",
+    "1590": "Flat  ",
+    "1591": "Moss, Norway",
+    "1594": "Bathroom 15m2",
     "1595": "See Project",
     "1596": "Interior",
-    "1594": "Bathroom 15m2",
-    "1591": "Moss, Norway",
-    "1590": "Flat  ",
-    "1589": "Mjondalen,  Norway ",
     "1597": "Living Room 24m2",
-    "15971": "Kogsberg, Norway",
     "1598": "Interior",
     "1599": "Studio Apartment 38m2",
-    "15991": "Gdynia, Poland",
     "1600": "See Project",
     "1601": "Interior and Decorations",
     "1602": "House 110 m2",
-    "16021": "Eidsberg, Norway",
     "1603": "See Project",
     "1604": "Interior",
     "1605": "Apartment 68m2",
-    "16051": "Gorlice, Poland",
     "1606": "See Project",
     "1607": "Living Room 32 m2",
-    "16071": "Sandvika, Norway",
-    "1608": "See Project"
-    },
-    
+    "1608": "See Project",
+    "15971": "Kogsberg, Norway",
+    "15991": "Gdynia, Poland",
+    "16021": "Eidsberg, Norway",
+    "16051": "Gorlice, Poland",
+    "16071": "Sandvika, Norway"
+  },
   "About": {
     "1795": "About My Passion",
     "1796": "People who have never worked with an interior architect often associate this profession mainly with fashion and prestige. However, designing and decorating spaces is an art that not only shapes the surroundings but also influences emotions and well-being. The ability to choose the right colors, furniture, lighting, and decorative details is more than just a skill – it is a form of artistic expression through which I share a part of myself with my clients. Every interior I create reflects my passion, sensitivity, and attention to harmony. A well-designed space can not only impress but also enhance the quality of life, which is why it is worth consciously shaping one’s surroundings.",
     "1797": "Selected Projects",
     "1798": "My Offer"
-    },
+  },
   "Home": {
-"1799": "My Projects",
     "1798": "My Offer",
+    "1799": "My Projects",
     "pageTitle": "Limes Interior Anna Rasinska – interior architect in Eidsberg, Østfold and Oslo"
-   
   },
   "expertness": {
     "1800": "Interior architecture",
@@ -602,5 +389,269 @@
     "rights_text": "You have the right to access, rectify, erase and restrict processing of your personal data. Contact us if you wish to exercise your rights.",
     "contact_title": "Contact",
     "contact_text": "Limes Interior Anna Rasinska, Finnestadveien 371, 1880 Eidsberg. Email: studio@limes-interior.no. Phone: +47 947 12 654."
+  },
+  "Projects": {
+    "enebolig-eidsberg": {
+      "eyebrow": "INTERIOR",
+      "title": "Private house for a family of three",
+      "body": [
+        {
+          "type": "text",
+          "value": "I present the project of the total metamorphosis of the house from the 1970s. The owners are a young couple with a small child."
+        },
+        {
+          "type": "heading",
+          "value": "LIVING ROOM"
+        },
+        {
+          "type": "text",
+          "value": "a large area of ​​the living room is divided into a seating area and a dining room. The interior of the living room and dining room is modern. Still, the décor refers to nature: wallpaper with a motif of leaves, wooden floor and furniture, old brick by the wall with a fireplace, leather sofas - make that the interior is cosy and very comfortable - perfect for a young family."
+        },
+        {
+          "type": "heading",
+          "value": "BEDROOM"
+        },
+        {
+          "type": "text",
+          "value": "this realization of the project shows how a small renovation can cause massive changes. It has become an ideal place to rest and relax from an unsightly and uncomfortable room. This project is a perfect example of HOME STAGING - a small renovation and adding decorations make the bedroom it has become cosy elegant and at the same time increase the value of the property."
+        },
+        {
+          "type": "text",
+          "value": "a small toilet and a dark colour on the walls? Why not? Here I present a project of a small toilet that has completely changed although it is tiny. I used OSB 3D boards on the walls. These white panels visually expand the area. Dark walls and ceilings make the room seem higher than it is."
+        },
+        {
+          "type": "heading",
+          "value": "TOILET"
+        }
+      ],
+      "category": "Interior design and decoration",
+      "client": "private person",
+      "date": "December 2014",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiration",
+        "Decoration",
+        "Interior",
+        "Minimum"
+      ]
+    },
+    "bad-moss": {
+      "eyebrow": "INTERIOR",
+      "title": "Bathroom in a warm, pleasant composition",
+      "body": [
+        {
+          "type": "text",
+          "value": "A new, spacious bathroom was a big dream for a young family of three. By combining two non-functional rooms, a very spacious bathroom was created that combines natural elements with minimalistic elegance. The built-in cabinet not only hides household appliances, but also provides ample storage space. A comfortable bathtub with a shower is the perfect compromise for those who choose between relaxation and saving time. The dark color of the wall, wallpaper with a plant motif, and a beautiful mirror made from a piece of wood add warmth and a natural look."
+        }
+      ],
+      "category": "interior design",
+      "client": "private",
+      "date": "January 2022",
+      "dateKind": "concept",
+      "tags": [
+        "Inspiration",
+        "Decoration",
+        "Arrangement",
+        "Interior Design"
+      ]
+    },
+    "enebolig-drammen": {
+      "eyebrow": "INTERIOR",
+      "title": "House for a family of 4",
+      "body": [
+        {
+          "type": "text",
+          "value": "Large space and many possibilities. I present a house project with separate zones for the kitchen, living room and dining room."
+        },
+        {
+          "type": "heading",
+          "value": "The Kitchen"
+        },
+        {
+          "type": "text",
+          "value": "is the heart of the home. Most of the day is stay here and meals are prepared here - a place that should be unique but also ergonomic and practical. There was a small, impractical room in the designed kitchen area. After demolishing the walls and opening the space, we have a fabulous kitchen with custom-made furniture, a built-in refrigerator and an oven. Two pull-out cargo wardrobes are a perfect place for storage and the multitude of cabinets and drawers will satisfy the most demanding housewife. I combined the beautiful sea colour of the fronts with a marble top and golden accessories. The black lighting, kitchen hood, and wooden accessories constitute a comositional whole. The kitchen is comfortable and beautiful at the same time"
+        },
+        {
+          "type": "heading",
+          "value": "Plants"
+        },
+        {
+          "type": "text",
+          "value": "were an essential element of interior design for my clients, so I decided to use a vertical garden in a coffee zone separated from the living room. The vertical garden is a unique element, referring to nature and cleverly placing an extensive collection of plants in one place.There is also a 3-seater honey sofa in the coffee area, two comfortable armchairs, and a table. Next to the coffee corner, there is another space:"
+        },
+        {
+          "type": "text",
+          "value": "A bright, comfortable couch with a chaise longue, a comfortable armchair and a table - this is almost everything you need in a TV corner. I placed the TV on a wall covered with old recycled wood planks. Here also a reference to nature, but not only wooden cladding on the wall is also a way to mask the lighting and cables needed to connect the RTV equipment. The whole is complemented by accessories and fabrics that make the interior cosier and elegant."
+        },
+        {
+          "type": "text",
+          "value": "Salon."
+        }
+      ],
+      "category": "interior architecture",
+      "client": "private",
+      "date": "december 2020",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiration",
+        "Decoration",
+        "Arrangement",
+        "Interior architecture"
+      ]
+    },
+    "leilighet-mjondalen": {
+      "eyebrow": "INTERIOR",
+      "title": "Apartment design for a couple with a picturesque view.",
+      "body": [
+        {
+          "type": "text",
+          "value": "Presenting a modern one-bedroom apartment featuring a spacious living room combined with a kitchen and an elegant bathroom. A carefully chosen color palette and stylish accessories create a cozy atmosphere. The space is designed with functionality in mind – the compact kitchen offers surprisingly ample storage, making the interior not only aesthetically pleasing but also ergonomic. The functional bathroom in soft colors is designed for elegance and convenience. It offers plenty of storage space, as well as room for a washing machine and dryer. Every inch has been optimally utilized to create a harmonious, stylish space that combines aesthetics with comfort."
+        }
+      ],
+      "category": "interior design",
+      "client": "private",
+      "date": "March 2024",
+      "dateKind": "concept",
+      "tags": [
+        "Inspiration",
+        "Decoration",
+        "Arrangement",
+        "Interior Design"
+      ]
+    },
+    "stue-sandvika": {
+      "title": "A livingroom for a couple of travellers",
+      "body": [
+        {
+          "type": "text",
+          "value": "The owners of the apartment are a young couple who are passionate about travelling. Where you go back is also essential in long expeditions. In this case, a comfortable and warm living room with a large, comfortable sofa, a bookcase for an extensive collection of books, a sideboard and a comfortable armchair for the host of the house. Despite the dark colours used, the living room is cosy, the interior is consistent and comfortable, and the decorations emphasize the owners' character."
+        }
+      ],
+      "category": "Interiors",
+      "client": "Individual person",
+      "projectType": "Home decoration",
+      "date": "November 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiration",
+        "Decoration",
+        "Interior",
+        "Minimum"
+      ]
+    },
+    "stue-glamour": {
+      "eyebrow": "WNĘTRZE",
+      "title": "Salon in a modern style",
+      "body": [
+        {
+          "type": "text",
+          "value": "The owners of the apartment are a unique family whose favorite style is a modern style with glamorous elements. The living room underwent a significant transformation: on 24 square meters, a comfortable seating area and dining room were created. Although the interior is not large, it has become a place of relaxation and rest, but also fulfills the practical role of a living room with a dining area."
+        }
+      ],
+      "category": "Interior design",
+      "client": "Private",
+      "date": "December 2022",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiration",
+        "Decoration",
+        "Arrangement",
+        "Interior design"
+      ]
+    },
+    "leilighet-gdynia": {
+      "eyebrow": "INTERIOR",
+      "title": "A small apartment",
+      "body": [
+        {
+          "type": "text",
+          "value": "Small spaces often significant challenges. It was no different from the project of a small studio for my client. The apartment is located in an old tenement house. Originally it consisted of a bathroom, kitchen and living room. Our task was,above all, to separate a sleeping zone and arrange the space so that it would be functional, comfortable and beautiful."
+        },
+        {
+          "type": "heading",
+          "value": "BEDROOM"
+        },
+        {
+          "type": "text",
+          "value": "the small bedroom has been separated from the living room, with windows facing north. The new bedroom has no windows, so we have proposed a folded glass wall instead of the TRADITIONAL wall, which ideally illuminates the room and can be folded if necessary, thus opening the space. The bedroom has a double bed, a bedside table and a wardrobe. The wall is decorated with a beautiful Boudoir Navy WallArt wallpaper that goes all the way to the living room"
+        },
+        {
+          "type": "heading",
+          "value": "LIVING ROOM"
+        },
+        {
+          "type": "text",
+          "value": "in the living room, we have replaced the traditional window with a wallet window, illuminating the interior. The old wardrobe has found use as a bookcase. While the armchair from the 1960s inherited from grandparents fits perfectly into the style of the apartment. The bright sofa looks beautiful against the Boiduar navy wallpaper, and wooden accessories give the interior cosiness."
+        },
+        {
+          "type": "heading",
+          "value": "KITCHEN"
+        },
+        {
+          "type": "text",
+          "value": "the kitchen is elegant and straightforward. Bright colours with wood and the green motif on the walls repeated throughout the apartment. Hanging cabinets are glazed, which gives the kitchen light and elegant touch."
+        }
+      ],
+      "category": "Interiors",
+      "client": "private person",
+      "date": "january 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiration",
+        "Decoration",
+        "Interior",
+        "Full"
+      ]
+    },
+    "leilighet-gorlice": {
+      "eyebrow": "INTERIOR",
+      "title": "An apartment for a young married couple",
+      "body": [
+        {
+          "type": "text",
+          "value": "Can an attic apartment become a dream enclave for two? Of course! I present the project of an apartment in the attic"
+        },
+        {
+          "type": "text",
+          "value": "The project included a small apartment in the attic of a tenement house. From an old, non-functional apartment, I have created a beautiful, comfortable, ergonomic interior perfect for young people. Open spaces, natural colours and materials give the interior cosiness and lightness."
+        },
+        {
+          "type": "heading",
+          "value": "LIVING ROOM"
+        },
+        {
+          "type": "text",
+          "value": "The apartment gained the necessary space by demolishing the walls. Covering the fireplace with stone gave it a new life, and the interior gave character and cosiness. Wooden furniture and accessories and subdued colours refer to the nature and colours of the earth."
+        },
+        {
+          "type": "text",
+          "value": "The lower cabinets are mainly drawers due to the lack of hanging cabinets. It is also an excellent solution for an ergonomic space. Dark green tiles bring colour to the interior and blend in beautifully with the cabinets and the tabletop.In the kitchen, I have also designated a small dining room."
+        },
+        {
+          "type": "heading",
+          "value": "KITCHEN"
+        }
+      ],
+      "category": "interior architecture",
+      "client": "private person",
+      "date": "September 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiration",
+        "Decoration",
+        "Interior",
+        "Minimum"
+      ]
+    }
+  },
+  "Project": {
+    "back": "Back",
+    "categories": "Categories:",
+    "client": "Client:",
+    "completed": "Completed:",
+    "concept": "Concept:",
+    "projectType": "Project type:",
+    "tags": "Tags:",
+    "share": "Share:"
   }
 }

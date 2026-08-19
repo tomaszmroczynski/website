@@ -1,218 +1,33 @@
 {
   "mainpictures": {
     "title1": "Limes Interior Anna Rasinska",
-         "desc1": "projektowanie i dekorowanie wnętrz",
-         "title2": " Limes Interior Anna Rasinska ",
-         "desc2": " projektowanie i dekorowanie wnętrz",
-         "title3": "Limes Interior Anna Rasinska",
-         "desc3": "projektowanie i dekorowanie wnętrz" 
+    "desc1": "projektowanie i dekorowanie wnętrz",
+    "title2": " Limes Interior Anna Rasinska ",
+    "desc2": " projektowanie i dekorowanie wnętrz",
+    "title3": "Limes Interior Anna Rasinska",
+    "desc3": "projektowanie i dekorowanie wnętrz"
   },
   "mainpictures2": {
     "title1": "Limes Interior Anna Rasinska",
-         "desc1": "Welcome to my site",
-         "title2": "i proudly invite you",
-         "desc2": " to familiarize yourself ",
-         "title3": "with my offer ",
-         "desc3": "of interiror design" 
+    "desc1": "Welcome to my site",
+    "title2": "i proudly invite you",
+    "desc2": " to familiarize yourself ",
+    "title3": "with my offer ",
+    "desc3": "of interiror design"
   },
   "mainpictures3": {
     "title1": "Limes Interior Anna Rasinska",
-         "desc1": "Witam na mojej stronie",
-         "title2": "z dumą zapraszam Cię ",
-         "desc2": " do zapoznania się ",
-         "title3": "z moją ofertą  ",
-         "desc3": "architektury wnętrz" 
+    "desc1": "Witam na mojej stronie",
+    "title2": "z dumą zapraszam Cię ",
+    "desc2": " do zapoznania się ",
+    "title3": "z moją ofertą  ",
+    "desc3": "architektury wnętrz"
   },
-  "studioGdynia": {
-    "2467": "Powrót",
-    "2543": "WNĘTRZE",
-    "2544": "Niewielkie mieszkanie",
-    "2679": "Małe powierzchnie często stanowią duże wyzwania. Nie inaczej było z projektem małego studio dla mojej klientki. Mieszkanie znajduje się w starej kamienicy. Pierwotnie składało się z łazienki, kuchni oraz salonu. Naszym zadaniem było przede wszystkim wydzielenie strefy do spania oraz aranżacja przestrzeni tak, aby było funkcjonalne, wygodne i piękne.",
-    "2680": "SYPIALNIA",
-    "3681": "mała sypialnia została wydzielona z salonu, z którego okna wychodzą na północ. W nowej sypialni nie ma okien, dlatego zamiast TRADYCYJNEJ ściany zaproponowaliśmy składaną przeszkloną ścianę, która idealnie doświetla nam pomieszczenie a w razie potrzeby można ją złożyć otwierając tym samym przestrzeń.  W sypialni znajduje się podwójne łózko, stolik nocny oraz szafa. Ścianę ozdabia piękny motyw tapety Boudoir Navy WallArt który przechodzi aż do salonu",
-    "3682": "SALON",
-    "3683": "w salonie tradycyjne okno zastąpiliśmy oknem portfenetr, które doświetla wnętrze. Wiekowa szafa znalazła swoje zastosowanie jako biblioteczka natomiast odziedziczony po dziadkach fotel z lat 60 idealnie wpasował się w stylistykę mieszkania. Jasna sofa pięknie prezentuje się na tle tapety Boiduar navy, a drewniane dodatki nadają wnętrzu przytulności.",
-    "3684": "KUCHNIA",
-    "3685": "kuchnia jest prosta i elegancka. Kolory jasne z dodatkiem drewna oraz powtarzalnym w całym mieszkaniu motywem zieleni na ścianach.  Wiszące szafki są przeszklone co nadaje kuchni lekkości i elegancji. ",
-    "4270": "Kategorie:",
-    "4318": "Wnętrza",
-    "4434": "Klient:",
-    "4478": "osoba prywatna",
-    "4600": "Ukończony:",
-    "4647": "styczeń 2021",
-    "4767": "",
-    "4817": "",
-    "5050": "Tagi :",
-    "5111": "Inspiracja",
-    "5177": "Dekoracja",
-    "5241": "Wnętrze",
-    "5304": "Pełny",
-    "5504": "Udostępnij :"
-  },
-  "houseEidsberg": {
-    "2137": "Powrót",
-    "2213": "WNĘTRZE",
-    "2260": "Dom prywatny dla 3 osobowej rodziny",
-    "2321": "Przedstawiam realizację projektu totalnej metamorfozy domu z lat '70-tych. Właścicielami jest młode małżeństwo z małym dzieckiem. ",
-    "2917": "SALON:",
-    "2918": "sporą powierzchnię salonu podzielono na strefę wypoczynkową oraz jadalnię.  Wnętrze salonu i jadalni jest nowoczesne, wystrojem nawiązujące jednak do natury:  tapeta z motywem liści, drewniana podłoga i meble,stara cegła przy ścianie z kominkiem, skórzane sofy - sprawiają,że wnętrze jest przytulne i bardzo komfortowe-idealne dla młodej rodziny.",
-    "3404": "SYPIALNIA:",
-    "3405": " ta realizacja projektu przedstawia, jak  niewielki remont może spowodować ogromne zmiany. Z nieestetycznego i niekomfortowego pomieszczenia , stała się idealnym miejscem do odpoczynku i relaksu.Ten projekt jest doskonałym przykładem HOME STAGINGU- drobny remont i dodanie dekoracji sprawiają, że sypialnia stała się przytulna, elegancka a przy okazji podnosi wartość nieruchomości.",
-    "3407": "TOALETA:",
-    "3406": " mała toaleta i ciemny kolor na ścianach? Dlaczego nie?! Tutaj przedstawiam realizaję projektu małej toalety, któa mimo, że jest bardzo mała -przeszła totalną przemianę. Na ścianach zastosowałam płyty OSB 3D. Te białe płyty optycznie poszerzają pomieszczenie. Ciemne ściany i sufit sprawiają, że pomieszczenie wydaje się wyższe niż jest w rzeczywistości.",
-    "3912": "Kategorie:",
-    "3960": "Archietektura wnętrz i dekorowanie ",
-    "4076": "Klient:",
-    "4120": "osoba prywatna ",
-    "4242": "Ukończono:",
-    "4289": "grudzień 2014",
-    "4409": "",
-    "4459": "",
-    "4692": "Tagi :",
-    "4753": "Inspiracja",
-    "4819": "Dekoracja",
-    "4883": "Wnętrze",
-    "4946": "Minimalny",
-    "5146": "Udostępnij :"
-  },
-  "salonGlm": {
-    "2428": "Powrót",
-    "2504": "WNĘTRZE",
-    "2551": "Salon w nowoczesnym stylu  ",
-    "2613": " ",
-    "3209": "",
-    "3210": "Właścicielami mieszkania jest wyjątkowa rodzina, której ulubionym stylem jest styl nowoczesny z elementami glamour. Salon przeszedł sporą metamorfozę : na 24 metrach kwadratowych  powstała wygodna strefa wypoczynku i jadalnia. Wnętrze ,mimo że nie jest duże, stało się miejscem relaksu i wypoczynku lecz również doskonale spełnia praktyczną rolę salonu z jadalnią.",
-    "3696": "" ,
-    "3697": "",
-    "3699": "",
-    "3698": "",
-    "4204": "Kategorie:",
-    "4252": "architektura wnętrz",
-    "4368": "Klient:",
-    "4412": "prywatny",
-    "4534": "Ukończony:",
-    "4581": "grudzień 2022",
-    "4701": "",
-    "4751": "",
-    "4984": "Tagi :",
-    "5045": "Inspiracja",
-    "5111": "Dekoracja",
-    "5175": "Aranżacja",
-    "5238": "Architektura wnętrz",
-    "5438": "Udostępnij :"
-    
-  },
-  "lazMoss": {
-    "2428": "Powrót",
-    "2504": "WNĘTRZE",
-    "2551": "Łazienka w ciepłej, przyjemnej kompozycji",
-    "2613": "",
-    "3209": "",
-    "3210": " Nowa , przestronna łazienka była duzym marzeniem 3 osobowej , mlodej rodziny. z polaczenia dwoch niefunkcnoalnych pomieszczen powstala bardzo przestronna łazeinka , ktora laczy elementy natury z minimalustyczna eleganca. zabuodwana szafa kryje w sobie nie tylko urzadzenia agd lecz rowniez jest spora przestrzenia do przechowywania.    wygodna wanna z prysznicem to idealny kompromis dla tych, ktorzy  wybierają miedzy relaksem a oszczednoscia czasu. ciemny kolor sciany , tapeta z motywem roslinnym i piekne lustro zrobione z kawalka pnia dodają ciepla i naturalnego wygladu",
-    "3696": "" ,
-    "3697": "",
-    "3699": "",
-    "3698": "",
-    "4204": "Kategorie:",
-    "4252": "architektura wnętrz",
-    "4368": "Klient:",
-    "4412": "prywatny",
-    "4534": "Koncepcja:",
-    "4581": "Styczeń 2022",
-    "4701": "",
-    "4751": "",
-    "4984": "Tagi :",
-    "5045": "Inspiracja",
-    "5111": "Dekoracja",
-    "5175": "Aranżacja",
-    "5238": "Architektura wnętrz",
-    "5438": "Udostępnij :"
-    
-  }, 
-   "mjondalen": {
-    "2428": "Powrót",
-    "2504": "WNĘTRZE",
-    "2551": "Projekt mieszkania dla pary z malowniczym widokiem",
-    "2613": "",
-    "3209": "",
-    "3210": "Przedstawiamy nowoczesne mieszkanie z jedną sypialnią, przestronnym salonem połączonym z kuchnią oraz elegancką łazienką. Starannie dobrana paleta kolorów oraz stylowe dodatki tworzą przytulną atmosferę. Przestrzeń została zaprojektowana z myślą o funkcjonalności – kompaktowa kuchnia oferuje zaskakująco dużo miejsca do przechowywania, co sprawia, że wnętrze jest nie tylko estetyczne, ale i ergonomiczne. Funkcjonalna łazienka w delikatnych kolorach Łazienka została zaprojektowana z myślą o elegancji i funkcjonalności. Oferuje dużo miejsca do przechowywania, a także przestrzeń na pralkę i suszarkę. Każdy centymetr został optymalnie wykorzystany, aby stworzyć harmonijną, stylową przestrzeń, która łączy estetykę z wygodą.",
-    "3696": "" ,
-    "3697": "",
-    "3699": "",
-    "3698": "",
-    "4204": "Kategorie:",
-    "4252": "architektura wnętrz",
-    "4368": "Klient:",
-    "4412": "prywatny",
-    "4534": "Koncepcja:",
-    "4581": "Marzec 2024",
-    "4701": "",
-    "4751": "",
-    "4984": "Tagi :",
-    "5045": "Inspiracja",
-    "5111": "Dekoracja",
-    "5175": "Aranżacja",
-    "5238": "Architektura wnętrz",
-    "5438": "Udostępnij :"
-    
-  },
-  "domDrammen": {
-    "2428": "Powrót",
-    "2504": "WNĘTRZE",
-    "2551": "Dom dla 4 osobowej rodziny ",
-    "2613": "Duża przestrzeń i dużo możliwości. Przedstawiam Wam projekt domu z wydzielonymi strefami dla kuchni, salonu i jadalni. ",
-    "3209": "Kuchnia ",
-    "3210": "to serce domu. Tu spędza się większą część dnia, tu przyrządza się posiłki- to miejsce, które powinno być nie tylko wyjątkowe, ale ergonomiczne i praktyczne. W miejscu zaprojektowanej kuchni była tu małe, niepraktyczne pomieszczenie– po zburzeniu ścian i otwarciu przestrzeni mamy wspaniałą kuchnię z meblami na wymiar, zabudowaną lodówką i piekarnikiem. Dwie wysuwane szafy cargo stanowią doskonałe miejsce do przechowywania a mnogość szafek i szuflad zaspokoją najbardziej wymagająca panią domu. Piękny morski kolor frontów połączyłam z marmurowym blatem i złotymi dodatkami a czarne oświetlenie i okap kuchenny oraz dodatki z drewna stanowią kompozycyjną całość. Kuchnia jest wygodna i piękna zarazem",
-    "3696": "Rośliny " ,
-    "3697": "stanowiły dla klientów ważny element w wystroju wnętrz, dlatego też zdecydowałam się zastosować ogród wertykalny w wydzielonej z salony strefie kawowej. Ogród wertykalny jest elementem niepowtarzalnym, nawiązującym do natury, ale też sprytnym umieszczeniem w jednym miejscu pokaźnej kolekcji roślin. W strefie kawowej znajdują się ponadto 3 osobowa miodowa kanapa oraz dwa wygodne fotele i stolik. Obok kącika kawowego jest wydzielona kolejna przestrzeń: ",
-    "3699": "Salon. ",
-    "3698": " Jasna, wygodna kanapa z szezlongiem oraz komfortowy fotel i stolik- to prawie wszystko czego potrzeba w kąciku telewizyjnym. Telewizor umieściłam na ścianie pokrytej deskami ze starego drewna z odzysku. I tu również nawiązanie do natury, ale nie tylko- drewniana okładzina na ścianie to też sposób na zamaskowanie oświetlenia i kabli potrzebnych do podłączenia sprzętu RTV. Całość dopełniają dodatki oraz tkaniny nadające wnętrzu przytulności i elegancji.",
-    "4204": "Kategorie:",
-    "4252": "architektura wnętrz",
-    "4368": "Klient:",
-    "4412": "prywatny",
-    "4534": "Ukończony:",
-    "4581": "grudzień 2020",
-    "4701": "",
-    "4751": "",
-    "4984": "Tagi :",
-    "5045": "Inspiracja",
-    "5111": "Dekoracja",
-    "5175": "Aranżacja",
-    "5238": "Architektura wnętrz",
-    "5438": "Udostępnij :"
-    
-  },
-  "flat-gorlice-poland": {
-    "2137": "Powrót",
-    "2213": "WNĘTRZE",
-    "2260": "Mieszkanie dla młodego małżeństwa",
-    "2317": "Czy mieszkanie na poddaszu może stać się wymarzoną enklawą dla dwójki? Oczywiście! Przedstawiam projekt mieszkania na poddaszu ",
-    "2914": "Projekt obejmował niewielkie mieszkanie na poddaszu kamienicy. Ze starego, niefunkcjonalnego mieszkania stworzyłam piękne, komfortowe i ergonomiczne wnętrze idealnie nadające się dla młodych ludzi. Otwarte przestrzenie, naturalne kolory i zastosowane materiały nadają wnętrzu przytulności i lekkości. ",
-    "3400": "SALON:",
-    "3401": " przez wyburzenie ścian mieszkanie zyskało potrzebną przestrzeń. Obudowanie kominka kamieniem dało mu nowe życie a wnętrzu nadało charakteru i przytulności. Drewniane meble i dodatki oraz stonowana kolorystyka nawiązują do nataury i kolorów ziemi.   ",
-    "3403": "KUCHNIA:",
-    "3402": " Ze względu na brak szafek wiszących - szafki dolne to głownie szuflady, jest to też świetne rozwiązanie na ergonomiczną przestrzeń. Ciemnozielone kafelki wprowadzają kolor do wnętrza i pięknie komponują się z szafkami i blatem. W kuchni wydzieliłam również miejsce na niewielką jadalnię. ",
-    "3908": "Kategorie:",
-    "3956": "architektura wnętrz ",
-    "4072": "Klient:",
-    "4116": " osoba prywatna",
-    "4238": "Ukończono: ",
-    "4285": "wrzesień 2021",
-    "4405": "",
-    "4455": "",
-    "4688": "Tagi :",
-    "4749": "Inspiracja",
-    "4815": "Dekoracja",
-    "4879": "Wnętrze",
-    "4942": "Minimalny",
-    "5142": "Udostępnij :"
-  },
-"interiorArchitecture": {
+  "interiorArchitecture": {
     "2133": "Powrót",
     "2209": "",
     "2256": "ARCHITEKTURA WNĘTRZ",
-    "2313": "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- polecam PROJEKT WNĘTRZ." ,
+    "2313": "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- polecam PROJEKT WNĘTRZ.",
     "2910": "W ofercie projektowania wnętrz mamy DWA PAKIETY  ",
     "3397": " PAKIET PODSTAWOWY :  ",
     "3398": "rzut z rozplanowaniem sprzętów, mebli itd.",
@@ -297,69 +112,37 @@
     "4875": "Wnętrze",
     "4938": "Minimalny",
     "5138": "Udostępnij :"
-},
-"dekorasjon-av-arrangementer": {
-  "2133": "Wstecz",
-  "2209": "",
-  "2256": "Dekoracja wydarzeń",
-  "2313": "Specjalizuję się w projektowaniu i realizacji ekskluzywnych wydarzeń, w tym przyjęć prywatnych, wesel oraz gal firmowych. Dzięki własnym materiałom i doświadczeniu tworzę unikalną i nastrojową atmosferę, która odzwierciedla Twoją wizję. Każdy projekt jest dostosowany indywidualnie, z starannie dobranymi elementami, takimi jak oświetlenie, dekoracje kwiatowe i inne detale ozdobne.",
-  "2910": "Ten projekt obejmie:",
-  "3397": "",
-  "3403": "Szczegółowy plan rozmieszczenia elementów dekoracyjnych i oświetlenia.",
-  "3404": "Wizualną prezentację koncepcji dekoracji LUB plan z kolorami, materiałami i detalami dekoracyjnymi.",
-  "3405": "Plan oświetlenia w celu stworzenia odpowiedniego klimatu.",
-  "3406": "Listę specjalnie wyselekcjonowanych elementów dekoracyjnych wraz z cenami i dostawcami.",
-  "3407": "Trzy spotkania/konsultacje, w tym jedna wizyta w miejscu wydarzenia w celu omówienia koncepcji i wyboru materiałów.",
-  "3408": "Jedna rewizja projektu (każda dodatkowa rewizja jest usługą dodatkową).",
-  "3409": "",
-  "3410": "Usługi dodatkowe mogą być dostosowane do indywidualnych potrzeb.",
-  "3904": "Kategorie:",
-  "3952": "Wydarzenia",
-  "4068": "Klient:",
-  "4112": "Projekt",
-  "4234": "Zakończono:",
-  "4281": "30.09.2020",
-  "4401": "Typ projektu:",
-  "4451": "Dekoracja wydarzeń",
-  "4684": "Tagi:",
-  "4745": "Inspiracja",
-  "4811": "Dekoracja",
-  "4875": "Wydarzenia",
-  "4938": "Ekskluzywne",
-  "5138": "Udostępnij:"
-},
-"salonSandvika": {
-  "2133": "Powrót",
-  "2209": "",
-
-  "2256": "Salon dla pary podróżników",
-  "2313": " Właścicielami mieszkania jest młode małżeństwo, których pasją jest podróżowanie. W dalekich wyprawach ważne jest również to, dokąd się wraca. W tym wypadku do wygodnego i pełnego ciepła salonu w którym miejsce znalazły duża, wygodna sofa, regał na pokaźną kolekcję książek, kredens oraz wygodny fotel dla gospodarza domu. W salonie mimo zastosowanych ciemnych kolorów jest przytulnie, wnętrze jest spójne i wygodne a dekoracje podkreślają charakter właścicieli. ",
-  "2910": "  ",
-  "3397": "",
-  "3403": "",
-  "3404": "",
-  "3405": "",
-  "3406": "",
-  "3407": "",
-  "3408": "",
-  "3409": "",
-  "3410": "",
-  "3411": " ",
-  "3904": "Kategorie:",
-  "3952": "Wnętrza",
-  "4068": "Klient:",
-  "4112": "osoba prywatna ",
-  "4234": "Ukończono:",
-  "4281": "listopad 2021",
-  "4401": "Typ projektu:",
-  "4451": "Dekoracja domu",
-  "4684": "Tagi :",
-  "4745": "",
-  "4811": "Dekoracja",
-  "4875": "Wnętrze",
-  "4938": "Minimalny",
-  "5138": "Udostępnij :"
-},
+  },
+  "dekorasjon-av-arrangementer": {
+    "2133": "Wstecz",
+    "2209": "",
+    "2256": "Dekoracja wydarzeń",
+    "2313": "Specjalizuję się w projektowaniu i realizacji ekskluzywnych wydarzeń, w tym przyjęć prywatnych, wesel oraz gal firmowych. Dzięki własnym materiałom i doświadczeniu tworzę unikalną i nastrojową atmosferę, która odzwierciedla Twoją wizję. Każdy projekt jest dostosowany indywidualnie, z starannie dobranymi elementami, takimi jak oświetlenie, dekoracje kwiatowe i inne detale ozdobne.",
+    "2910": "Ten projekt obejmie:",
+    "3397": "",
+    "3403": "Szczegółowy plan rozmieszczenia elementów dekoracyjnych i oświetlenia.",
+    "3404": "Wizualną prezentację koncepcji dekoracji LUB plan z kolorami, materiałami i detalami dekoracyjnymi.",
+    "3405": "Plan oświetlenia w celu stworzenia odpowiedniego klimatu.",
+    "3406": "Listę specjalnie wyselekcjonowanych elementów dekoracyjnych wraz z cenami i dostawcami.",
+    "3407": "Trzy spotkania/konsultacje, w tym jedna wizyta w miejscu wydarzenia w celu omówienia koncepcji i wyboru materiałów.",
+    "3408": "Jedna rewizja projektu (każda dodatkowa rewizja jest usługą dodatkową).",
+    "3409": "",
+    "3410": "Usługi dodatkowe mogą być dostosowane do indywidualnych potrzeb.",
+    "3904": "Kategorie:",
+    "3952": "Wydarzenia",
+    "4068": "Klient:",
+    "4112": "Projekt",
+    "4234": "Zakończono:",
+    "4281": "30.09.2020",
+    "4401": "Typ projektu:",
+    "4451": "Dekoracja wydarzeń",
+    "4684": "Tagi:",
+    "4745": "Inspiracja",
+    "4811": "Dekoracja",
+    "4875": "Wydarzenia",
+    "4938": "Ekskluzywne",
+    "5138": "Udostępnij:"
+  },
   "Contact": {
     "1296": "Skontaktuj się ze mną, aby zaprojektować",
     "1297": "swoj",
@@ -410,7 +193,6 @@
     "1299": "Dekorowaniu wnętrz – sztuka doboru detali, tkanin, światła i kompozycji to dla mnie forma ekspresji, która nadaje przestrzeni duszę i charakter.",
     "1822": "Home Stagingu – transformuję wnętrza tak, by zachwycały od pierwszego spojrzenia i budziły pozytywne emocje, sprawiając, że stają się wymarzonym miejscem do życia.",
     "1867": "Projektowaniu wnętrz publicznych – kreuję miejsca, które nie tylko funkcjonują, ale również oddziałują na zmysły i budują silne wrażenie estetyczne."
-   
   },
   "Footer": {
     "1396": "Dziękuję za Twój czas i uwagę",
@@ -440,53 +222,51 @@
     "1502": "Umow Konsultację test"
   },
   "Carouselprojects": {
+    "1589": "Mjøndalen,  Norwegia ",
+    "1590": "Miaszkanie ",
+    "1591": "Moss,  Norwegia ",
+    "1594": "Łazienka 15m2 ",
     "1595": "Zobacz Projekt",
     "1596": "Wnętrze",
-    "1594": "Łazienka 15m2 ",
-    "1591": "Moss,  Norwegia ",
-    "1590": "Miaszkanie ",
-    "1589": "Mjøndalen,  Norwegia ",
     "1597": "Salon 24m2",
-    "15971": "Kogsberg , Norwegia",
     "1598": "Wnętrze",
     "1599": "Kawalerka 38m2",
-    "15991": "Gdynia, Polska",
     "1600": "Zobacz Projekt",
     "1601": "Wnętrze i dekoracje",
     "1602": "Dom 110 m2 ",
-    "16021": "Eidsberg, Norwegia ",
     "1603": "Zobacz Projekt",
     "1604": "Wnętrze",
     "1605": "Mieszkanie 68m2",
-    "16051": "Gorlice, Polska",
-    "1606": "Zobacz Projekt"  ,
+    "1606": "Zobacz Projekt",
     "1607": "Salon 32 m2",
-    "16071": "Sandvika, Norwegia",
-    "1608": "Zobacz Projekt"  
+    "1608": "Zobacz Projekt",
+    "15971": "Kogsberg , Norwegia",
+    "15991": "Gdynia, Polska",
+    "16021": "Eidsberg, Norwegia ",
+    "16051": "Gorlice, Polska",
+    "16071": "Sandvika, Norwegia"
   },
   "About": {
     "1795": "O mojej pasji",
     "1796": "Osoby, które nie miały wcześniej styczności z architektem wnętrz, często utożsamiają tę profesję głównie z modą i prestiżem. Tymczasem projektowanie i dekorowanie przestrzeni to sztuka, która nie tylko kształtuje otoczenie, ale także wpływa na emocje i samopoczucie. Umiejętność doboru kolorów, mebli, oświetlenia i detali dekoracyjnych to coś więcej niż technika – to forma artystycznej ekspresji, w której oddaję swoim klientom cząstkę siebie. Każde wnętrze, które tworzę, jest odzwierciedleniem mojej pasji, wrażliwości i dbałości o harmonię. Dobrze zaprojektowana przestrzeń potrafi nie tylko zachwycać, ale też poprawiać jakość życia, dlatego warto świadomie kształtować swoje otoczenie.",
-    "1797": "Wybrane projekty " ,
-    "1798": "Moja oferta " 
-   
+    "1797": "Wybrane projekty ",
+    "1798": "Moja oferta "
   },
   "Home": {
-"1799": "Wybrane projekty " ,
     "1798": "Moja oferta ",
+    "1799": "Wybrane projekty ",
     "pageTitle": "Limes Interior Anna Rasinska – architekt wnętrz w Eidsberg, Østfold i Oslo"
-   
   },
   "expertness": {
-    "1800" : "Architektura wnętrz",
-    "1801" : "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- to polecam projekt wnętrz",
-    "1802" : "",
-    "1803" : "Dekorowanie wnętrz",
-    "1804" : "Potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu, który przyniesie wielkie zmiany? kilku dekoracji lub mebli które sprawią, że Twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku Twojej witryny sklepowej? Jeśli tak,jest to oferta dla Ciebie. ",
-    "1805" : "",
-    "1806" : "Home Staging",
-    "1807" : "Planujesz sprzedać mieszkanie, dom, lokal za większe pieniądze? chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby Twoi goście wracali tu często ? HOME STAGING jest idealnym rozwiązaniem.",
-    "1808" : "",
+    "1800": "Architektura wnętrz",
+    "1801": "Jeśli marzy Ci się całkowicie nowe wnętrze, przebudowa, inny układ pomieszczeń, kompleksowy remont domu lub wybranych pomieszczeń- to polecam projekt wnętrz",
+    "1802": "",
+    "1803": "Dekorowanie wnętrz",
+    "1804": "Potrzebujesz odświeżenia swojego domu (lokalu lub biura), niewielkiego remontu, który przyniesie wielkie zmiany? kilku dekoracji lub mebli które sprawią, że Twoje wnętrze będzie wyglądało nowocześnie? A może potrzebujesz nowego looku Twojej witryny sklepowej? Jeśli tak,jest to oferta dla Ciebie. ",
+    "1805": "",
+    "1806": "Home Staging",
+    "1807": "Planujesz sprzedać mieszkanie, dom, lokal za większe pieniądze? chcesz wynająć mieszkanie ale przydałby się remont lub odświeżenie? Prowadzisz pensjonat, hytte lub hotel i chcesz oby Twoi goście wracali tu często ? HOME STAGING jest idealnym rozwiązaniem.",
+    "1808": "",
     "1809": "Dekoracja imprez okolicznościowych",
     "1810": "Planujesz ślub, jubileusz lub firmową imprezę i chcesz stworzyć niepowtarzalną atmosferę? Chcesz zapewnić gościom niezapomniane wrażenia? Potrzebujesz spersonalizowanej dekoracji na wyjątkową okazję? Profesjonalna dekoracja eventowa nada Twojemu wydarzeniu ekskluzywny charakter."
   },
@@ -609,5 +389,269 @@
     "rights_text": "Masz prawo dostępu, sprostowania, usunięcia i ograniczenia przetwarzania danych. Skontaktuj się z nami, jeśli chcesz skorzystać ze swoich praw.",
     "contact_title": "Kontakt",
     "contact_text": "Limes Interior Anna Rasinska, Finnestadveien 371, 1880 Eidsberg. E-mail: studio@limes-interior.no. Tel.: +47 947 12 654."
+  },
+  "Projects": {
+    "enebolig-eidsberg": {
+      "eyebrow": "WNĘTRZE",
+      "title": "Dom prywatny dla 3 osobowej rodziny",
+      "body": [
+        {
+          "type": "text",
+          "value": "Przedstawiam realizację projektu totalnej metamorfozy domu z lat '70-tych. Właścicielami jest młode małżeństwo z małym dzieckiem."
+        },
+        {
+          "type": "heading",
+          "value": "SALON"
+        },
+        {
+          "type": "text",
+          "value": "sporą powierzchnię salonu podzielono na strefę wypoczynkową oraz jadalnię.  Wnętrze salonu i jadalni jest nowoczesne, wystrojem nawiązujące jednak do natury:  tapeta z motywem liści, drewniana podłoga i meble,stara cegła przy ścianie z kominkiem, skórzane sofy - sprawiają,że wnętrze jest przytulne i bardzo komfortowe-idealne dla młodej rodziny."
+        },
+        {
+          "type": "heading",
+          "value": "SYPIALNIA"
+        },
+        {
+          "type": "text",
+          "value": "ta realizacja projektu przedstawia, jak  niewielki remont może spowodować ogromne zmiany. Z nieestetycznego i niekomfortowego pomieszczenia , stała się idealnym miejscem do odpoczynku i relaksu.Ten projekt jest doskonałym przykładem HOME STAGINGU- drobny remont i dodanie dekoracji sprawiają, że sypialnia stała się przytulna, elegancka a przy okazji podnosi wartość nieruchomości."
+        },
+        {
+          "type": "text",
+          "value": "mała toaleta i ciemny kolor na ścianach? Dlaczego nie?! Tutaj przedstawiam realizaję projektu małej toalety, któa mimo, że jest bardzo mała -przeszła totalną przemianę. Na ścianach zastosowałam płyty OSB 3D. Te białe płyty optycznie poszerzają pomieszczenie. Ciemne ściany i sufit sprawiają, że pomieszczenie wydaje się wyższe niż jest w rzeczywistości."
+        },
+        {
+          "type": "heading",
+          "value": "TOALETA"
+        }
+      ],
+      "category": "Archietektura wnętrz i dekorowanie",
+      "client": "osoba prywatna",
+      "date": "grudzień 2014",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiracja",
+        "Dekoracja",
+        "Wnętrze",
+        "Minimalny"
+      ]
+    },
+    "bad-moss": {
+      "eyebrow": "WNĘTRZE",
+      "title": "Łazienka w ciepłej, przyjemnej kompozycji",
+      "body": [
+        {
+          "type": "text",
+          "value": "Nowa , przestronna łazienka była duzym marzeniem 3 osobowej , mlodej rodziny. z polaczenia dwoch niefunkcnoalnych pomieszczen powstala bardzo przestronna łazeinka , ktora laczy elementy natury z minimalustyczna eleganca. zabuodwana szafa kryje w sobie nie tylko urzadzenia agd lecz rowniez jest spora przestrzenia do przechowywania.    wygodna wanna z prysznicem to idealny kompromis dla tych, ktorzy  wybierają miedzy relaksem a oszczednoscia czasu. ciemny kolor sciany , tapeta z motywem roslinnym i piekne lustro zrobione z kawalka pnia dodają ciepla i naturalnego wygladu"
+        }
+      ],
+      "category": "architektura wnętrz",
+      "client": "prywatny",
+      "date": "styczeń 2022",
+      "dateKind": "concept",
+      "tags": [
+        "Inspiracja",
+        "Dekoracja",
+        "Aranżacja",
+        "Architektura wnętrz"
+      ]
+    },
+    "enebolig-drammen": {
+      "eyebrow": "WNĘTRZE",
+      "title": "Dom dla 4 osobowej rodziny",
+      "body": [
+        {
+          "type": "text",
+          "value": "Duża przestrzeń i dużo możliwości. Przedstawiam Wam projekt domu z wydzielonymi strefami dla kuchni, salonu i jadalni."
+        },
+        {
+          "type": "heading",
+          "value": "Kuchnia"
+        },
+        {
+          "type": "text",
+          "value": "to serce domu. Tu spędza się większą część dnia, tu przyrządza się posiłki- to miejsce, które powinno być nie tylko wyjątkowe, ale ergonomiczne i praktyczne. W miejscu zaprojektowanej kuchni była tu małe, niepraktyczne pomieszczenie– po zburzeniu ścian i otwarciu przestrzeni mamy wspaniałą kuchnię z meblami na wymiar, zabudowaną lodówką i piekarnikiem. Dwie wysuwane szafy cargo stanowią doskonałe miejsce do przechowywania a mnogość szafek i szuflad zaspokoją najbardziej wymagająca panią domu. Piękny morski kolor frontów połączyłam z marmurowym blatem i złotymi dodatkami a czarne oświetlenie i okap kuchenny oraz dodatki z drewna stanowią kompozycyjną całość. Kuchnia jest wygodna i piękna zarazem"
+        },
+        {
+          "type": "heading",
+          "value": "Rośliny"
+        },
+        {
+          "type": "text",
+          "value": "stanowiły dla klientów ważny element w wystroju wnętrz, dlatego też zdecydowałam się zastosować ogród wertykalny w wydzielonej z salony strefie kawowej. Ogród wertykalny jest elementem niepowtarzalnym, nawiązującym do natury, ale też sprytnym umieszczeniem w jednym miejscu pokaźnej kolekcji roślin. W strefie kawowej znajdują się ponadto 3 osobowa miodowa kanapa oraz dwa wygodne fotele i stolik. Obok kącika kawowego jest wydzielona kolejna przestrzeń:"
+        },
+        {
+          "type": "text",
+          "value": "Jasna, wygodna kanapa z szezlongiem oraz komfortowy fotel i stolik- to prawie wszystko czego potrzeba w kąciku telewizyjnym. Telewizor umieściłam na ścianie pokrytej deskami ze starego drewna z odzysku. I tu również nawiązanie do natury, ale nie tylko- drewniana okładzina na ścianie to też sposób na zamaskowanie oświetlenia i kabli potrzebnych do podłączenia sprzętu RTV. Całość dopełniają dodatki oraz tkaniny nadające wnętrzu przytulności i elegancji."
+        },
+        {
+          "type": "text",
+          "value": "Salon."
+        }
+      ],
+      "category": "architektura wnętrz",
+      "client": "prywatny",
+      "date": "grudzień 2020",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiracja",
+        "Dekoracja",
+        "Aranżacja",
+        "Architektura wnętrz"
+      ]
+    },
+    "leilighet-mjondalen": {
+      "eyebrow": "WNĘTRZE",
+      "title": "Projekt mieszkania dla pary z malowniczym widokiem",
+      "body": [
+        {
+          "type": "text",
+          "value": "Przedstawiamy nowoczesne mieszkanie z jedną sypialnią, przestronnym salonem połączonym z kuchnią oraz elegancką łazienką. Starannie dobrana paleta kolorów oraz stylowe dodatki tworzą przytulną atmosferę. Przestrzeń została zaprojektowana z myślą o funkcjonalności – kompaktowa kuchnia oferuje zaskakująco dużo miejsca do przechowywania, co sprawia, że wnętrze jest nie tylko estetyczne, ale i ergonomiczne. Funkcjonalna łazienka w delikatnych kolorach Łazienka została zaprojektowana z myślą o elegancji i funkcjonalności. Oferuje dużo miejsca do przechowywania, a także przestrzeń na pralkę i suszarkę. Każdy centymetr został optymalnie wykorzystany, aby stworzyć harmonijną, stylową przestrzeń, która łączy estetykę z wygodą."
+        }
+      ],
+      "category": "architektura wnętrz",
+      "client": "prywatny",
+      "date": "marzec 2024",
+      "dateKind": "concept",
+      "tags": [
+        "Inspiracja",
+        "Dekoracja",
+        "Aranżacja",
+        "Architektura wnętrz"
+      ]
+    },
+    "stue-sandvika": {
+      "title": "Salon dla pary podróżników",
+      "body": [
+        {
+          "type": "text",
+          "value": "Właścicielami mieszkania jest młode małżeństwo, których pasją jest podróżowanie. W dalekich wyprawach ważne jest również to, dokąd się wraca. W tym wypadku do wygodnego i pełnego ciepła salonu w którym miejsce znalazły duża, wygodna sofa, regał na pokaźną kolekcję książek, kredens oraz wygodny fotel dla gospodarza domu. W salonie mimo zastosowanych ciemnych kolorów jest przytulnie, wnętrze jest spójne i wygodne a dekoracje podkreślają charakter właścicieli."
+        }
+      ],
+      "category": "Wnętrza",
+      "client": "osoba prywatna",
+      "projectType": "Dekoracja domu",
+      "date": "listopad 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiracja",
+        "Dekoracja",
+        "Wnętrze",
+        "Minimalny"
+      ]
+    },
+    "stue-glamour": {
+      "eyebrow": "WNĘTRZE",
+      "title": "Salon w nowoczesnym stylu",
+      "body": [
+        {
+          "type": "text",
+          "value": "Właścicielami mieszkania jest wyjątkowa rodzina, której ulubionym stylem jest styl nowoczesny z elementami glamour. Salon przeszedł sporą metamorfozę : na 24 metrach kwadratowych  powstała wygodna strefa wypoczynku i jadalnia. Wnętrze ,mimo że nie jest duże, stało się miejscem relaksu i wypoczynku lecz również doskonale spełnia praktyczną rolę salonu z jadalnią."
+        }
+      ],
+      "category": "architektura wnętrz",
+      "client": "prywatny",
+      "date": "grudzień 2022",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiracja",
+        "Dekoracja",
+        "Aranżacja",
+        "Architektura wnętrz"
+      ]
+    },
+    "leilighet-gdynia": {
+      "eyebrow": "WNĘTRZE",
+      "title": "Niewielkie mieszkanie",
+      "body": [
+        {
+          "type": "text",
+          "value": "Małe powierzchnie często stanowią duże wyzwania. Nie inaczej było z projektem małego studio dla mojej klientki. Mieszkanie znajduje się w starej kamienicy. Pierwotnie składało się z łazienki, kuchni oraz salonu. Naszym zadaniem było przede wszystkim wydzielenie strefy do spania oraz aranżacja przestrzeni tak, aby było funkcjonalne, wygodne i piękne."
+        },
+        {
+          "type": "heading",
+          "value": "SYPIALNIA"
+        },
+        {
+          "type": "text",
+          "value": "mała sypialnia została wydzielona z salonu, z którego okna wychodzą na północ. W nowej sypialni nie ma okien, dlatego zamiast TRADYCYJNEJ ściany zaproponowaliśmy składaną przeszkloną ścianę, która idealnie doświetla nam pomieszczenie a w razie potrzeby można ją złożyć otwierając tym samym przestrzeń.  W sypialni znajduje się podwójne łózko, stolik nocny oraz szafa. Ścianę ozdabia piękny motyw tapety Boudoir Navy WallArt który przechodzi aż do salonu"
+        },
+        {
+          "type": "heading",
+          "value": "SALON"
+        },
+        {
+          "type": "text",
+          "value": "w salonie tradycyjne okno zastąpiliśmy oknem portfenetr, które doświetla wnętrze. Wiekowa szafa znalazła swoje zastosowanie jako biblioteczka natomiast odziedziczony po dziadkach fotel z lat 60 idealnie wpasował się w stylistykę mieszkania. Jasna sofa pięknie prezentuje się na tle tapety Boiduar navy, a drewniane dodatki nadają wnętrzu przytulności."
+        },
+        {
+          "type": "heading",
+          "value": "KUCHNIA"
+        },
+        {
+          "type": "text",
+          "value": "kuchnia jest prosta i elegancka. Kolory jasne z dodatkiem drewna oraz powtarzalnym w całym mieszkaniu motywem zieleni na ścianach.  Wiszące szafki są przeszklone co nadaje kuchni lekkości i elegancji."
+        }
+      ],
+      "category": "Wnętrza",
+      "client": "osoba prywatna",
+      "date": "styczeń 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiracja",
+        "Dekoracja",
+        "Wnętrze",
+        "Pełny"
+      ]
+    },
+    "leilighet-gorlice": {
+      "eyebrow": "WNĘTRZE",
+      "title": "Mieszkanie dla młodego małżeństwa",
+      "body": [
+        {
+          "type": "text",
+          "value": "Czy mieszkanie na poddaszu może stać się wymarzoną enklawą dla dwójki? Oczywiście! Przedstawiam projekt mieszkania na poddaszu"
+        },
+        {
+          "type": "text",
+          "value": "Projekt obejmował niewielkie mieszkanie na poddaszu kamienicy. Ze starego, niefunkcjonalnego mieszkania stworzyłam piękne, komfortowe i ergonomiczne wnętrze idealnie nadające się dla młodych ludzi. Otwarte przestrzenie, naturalne kolory i zastosowane materiały nadają wnętrzu przytulności i lekkości."
+        },
+        {
+          "type": "heading",
+          "value": "SALON"
+        },
+        {
+          "type": "text",
+          "value": "przez wyburzenie ścian mieszkanie zyskało potrzebną przestrzeń. Obudowanie kominka kamieniem dało mu nowe życie a wnętrzu nadało charakteru i przytulności. Drewniane meble i dodatki oraz stonowana kolorystyka nawiązują do nataury i kolorów ziemi."
+        },
+        {
+          "type": "text",
+          "value": "Ze względu na brak szafek wiszących - szafki dolne to głownie szuflady, jest to też świetne rozwiązanie na ergonomiczną przestrzeń. Ciemnozielone kafelki wprowadzają kolor do wnętrza i pięknie komponują się z szafkami i blatem. W kuchni wydzieliłam również miejsce na niewielką jadalnię."
+        },
+        {
+          "type": "heading",
+          "value": "KUCHNIA"
+        }
+      ],
+      "category": "architektura wnętrz",
+      "client": "osoba prywatna",
+      "date": "wrzesień 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspiracja",
+        "Dekoracja",
+        "Wnętrze",
+        "Minimalny"
+      ]
+    }
+  },
+  "Project": {
+    "back": "Powrót",
+    "categories": "Kategorie:",
+    "client": "Klient:",
+    "completed": "Ukończono:",
+    "concept": "Koncepcja:",
+    "projectType": "Typ projektu:",
+    "tags": "Tagi:",
+    "share": "Udostępnij:"
   }
 }
