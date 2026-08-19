@@ -738,5 +738,14 @@
       "summary": "Are you planning a wedding, anniversary, or corporate event and want to create a unique atmosphere? Do you want to provide your guests with an unforgettable experience? Do you need customized decorations for a special occasion? Professional event decoration gives your event an exclusive touch.",
       "cardTitle": "Event decoration"
     }
+  },
+  "ContactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send",
+    "sending": "Sending…",
+    "sent": "Thank you! I will reply as soon as I can.",
+    "error": "Something went wrong. Please try again or email directly."
   }
 }

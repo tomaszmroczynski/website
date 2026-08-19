@@ -738,5 +738,14 @@
       "summary": "Planujesz ślub, jubileusz lub firmową imprezę i chcesz stworzyć niepowtarzalną atmosferę? Chcesz zapewnić gościom niezapomniane wrażenia? Potrzebujesz spersonalizowanej dekoracji na wyjątkową okazję? Profesjonalna dekoracja eventowa nada Twojemu wydarzeniu ekskluzywny charakter.",
       "cardTitle": "Dekoracja imprez okolicznościowych"
     }
+  },
+  "ContactForm": {
+    "name": "Imię",
+    "email": "E-mail",
+    "message": "Wiadomość",
+    "submit": "Wyślij",
+    "sending": "Wysyłanie…",
+    "sent": "Dziękuję! Odpowiem najszybciej, jak się da.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie lub napisz bezpośrednio."
   }
 }

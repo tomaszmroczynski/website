@@ -738,5 +738,14 @@
       "summary": "Planlegger du et bryllup, jubileum eller firmafest og ønsker en unik atmosfære? Vil du skape en uforglemmelig stemning for gjestene dine? Trenger du spesialtilpasset dekorasjon for en spesiell anledning? Profesjonell eventdekorasjon gir arrangementet ditt et eksklusivt preg.",
       "cardTitle": "Dekorasjon av arrangementer"
     }
+  },
+  "ContactForm": {
+    "name": "Navn",
+    "email": "E-post",
+    "message": "Melding",
+    "submit": "Send",
+    "sending": "Sender…",
+    "sent": "Takk! Jeg svarer sa snart jeg kan.",
+    "error": "Noe gikk galt. Prov igjen eller send e-post direkte."
   }
 }
