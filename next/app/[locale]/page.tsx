@@ -69,7 +69,7 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
                       cta={nav("cta")}
                       width={cover.width}
                       height={cover.height}
-                      sizes="(max-width: 768px) 100vw, 25vw"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   );
                 })}
@@ -85,7 +85,7 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
             <p className="eyebrow">{nav("projects")}</p>
             <h2 className="heading">{w("heading")}</h2>
           </div>
-          <div className={`${CardGrid.grid} ${CardGrid.grid4}`}>
+          <div className={CardGrid.grid}>
             {FEATURED.map((project) => (
               <ProjectCard
                 key={project.slug}
@@ -95,7 +95,7 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
                 tag={p(`${project.slug}.cardLocation`)}
                 name={p(`${project.slug}.cardName`)}
                 cta={t("seeProject")}
-                sizes="(max-width: 768px) 100vw, 25vw"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             ))}
           </div>

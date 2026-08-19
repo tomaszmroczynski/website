@@ -14,28 +14,25 @@ type Props = {
 };
 
 /**
- * Slider bygget pa CSS scroll-snap i stedet for react-animated-slider.
+ * Slider na CSS scroll-snap zamiast biblioteki karuzelowej.
  *
- * Poenget for indeksering: alle bildene ligger i den serverrendrede
- * HTML-en fra forste byte. Et JS-drevet karusellbibliotek monterer bare
- * noen av slidene, og resten finnes ikke for klienten har kjort.
- * Her gjor JavaScript kun en ting — flytter scrollposisjonen. Uten JS
- * er dette fortsatt en fungerende, swipe-bar bildestripe.
+ * Dla indeksacji istotne jest, ze wszystkie zdjecia sa w serwerowym HTML
+ * od pierwszego bajtu. JavaScript przesuwa tylko pozycje scrolla; bez
+ * niego zostaje dzialajaca, przesuwalna palcem tasma.
  */
 export default function HeroSlider({images, alt, interval = 2000, direction = "x"}: Props) {
   const vertical = direction === "y";
   const trackRef = useRef<HTMLDivElement>(null);
+  const pausedRef = useRef(false);
   const [active, setActive] = useState(0);
-  const [paused, setPaused] = useState(false);
 
-  const goTo = useCallback(
-    (i: number) => {
+  const scrollToIndex = useCallback(
+    (i: number, behavior: ScrollBehavior) => {
       const el = trackRef.current;
       if (!el) return;
+      const size = vertical ? el.clientHeight : el.clientWidth;
       el.scrollTo(
-        vertical
-          ? {top: el.clientHeight * i, behavior: "smooth"}
-          : {left: el.clientWidth * i, behavior: "smooth"}
+        vertical ? {top: size * i, behavior} : {left: size * i, behavior}
       );
     },
     [vertical]
@@ -44,39 +41,60 @@ export default function HeroSlider({images, alt, interval = 2000, direction = "x
   useEffect(() => {
     const el = trackRef.current;
     if (!el) return;
-    const onScroll = () =>
-      setActive(
-        vertical
-          ? Math.round(el.scrollTop / el.clientHeight)
-          : Math.round(el.scrollLeft / el.clientWidth)
-      );
+    const onScroll = () => {
+      const size = vertical ? el.clientHeight : el.clientWidth;
+      const pos = vertical ? el.scrollTop : el.scrollLeft;
+      if (size) setActive(Math.round(pos / size));
+    };
     el.addEventListener("scroll", onScroll, {passive: true});
     return () => el.removeEventListener("scroll", onScroll);
   }, [vertical]);
 
   useEffect(() => {
-    if (paused || images.length < 2) return;
+    if (images.length < 2) return;
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
     const id = window.setInterval(() => {
       const el = trackRef.current;
-      if (!el) return;
+      // Karta w tle nie renderuje; przesuwanie jej wtedy nic nie daje
+      if (!el || pausedRef.current || document.hidden) return;
+
       const size = vertical ? el.clientHeight : el.clientWidth;
-      const pos = vertical ? el.scrollTop : el.scrollLeft;
-      const next = (Math.round(pos / size) + 1) % images.length;
-      el.scrollTo(
-        vertical ? {top: size * next, behavior: "smooth"} : {left: size * next, behavior: "smooth"}
-      );
+      if (!size) return;
+      const before = vertical ? el.scrollTop : el.scrollLeft;
+      const next = (Math.round(before / size) + 1) % images.length;
+
+      scrollToIndex(next, "smooth");
+
+      // Plynne przewijanie prowadzi kompozytor i bywa zignorowane —
+      // np. przy ograniczonych zasobach albo w nieaktywnym kontekscie.
+      // Jesli po 400 ms pozycja nie drgnela, przeskakujemy bez animacji,
+      // zeby zdjecie zmienilo sie tak czy inaczej.
+      window.setTimeout(() => {
+        const el2 = trackRef.current;
+        if (!el2) return;
+        const now = vertical ? el2.scrollTop : el2.scrollLeft;
+        if (Math.abs(now - before) < 2) scrollToIndex(next, "instant");
+      }, 400);
     }, interval);
+
     return () => window.clearInterval(id);
-  }, [paused, images.length, interval, vertical]);
+  }, [images.length, interval, vertical, scrollToIndex]);
 
   return (
     <div
       className={styles.wrapper}
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-      onFocusCapture={() => setPaused(true)}
-      onBlurCapture={() => setPaused(false)}
+      /*
+        Bez pauzy na hover. Hero zajmuje caly ekran, wiec kursor lezy na nim
+        niemal zawsze i autoplay by nigdy nie ruszyl. Pauzujemy tylko, gdy
+        ktos wejdzie w kropki klawiatura.
+      */
+      onFocusCapture={() => {
+        pausedRef.current = true;
+      }}
+      onBlurCapture={() => {
+        pausedRef.current = false;
+      }}
     >
       <div className={`${styles.track} ${vertical ? styles.trackY : ""}`} ref={trackRef}>
         {images.map((img, i) => (
@@ -103,7 +121,7 @@ export default function HeroSlider({images, alt, interval = 2000, direction = "x
               className={`${styles.dot} ${i === active ? styles.dotActive : ""}`}
               aria-label={`${i + 1} / ${images.length}`}
               aria-current={i === active}
-              onClick={() => goTo(i)}
+              onClick={() => scrollToIndex(i, "smooth")}
             />
           ))}
         </div>

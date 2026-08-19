@@ -359,3 +359,17 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   html.js .reveal { opacity: 1; transform: none; }
 }
+
+/* ============================================================
+   ODSTEPSTWA OD DESIGN SYSTEMU — swiadome, na rzecz zgodnosci
+   z zywa strona
+   ============================================================ */
+
+/* .li-project-card ma w arkuszu aspect-ratio 3/4, czyli kadr pionowy.
+   Zywa strona uzywa kadru poziomego o min-height 380px (.itm .bg img
+   w main.scss) i dwoch kolumn. Przy 3:4 kafelki byly wyraznie mniejsze. */
+.li-project-card {
+  aspect-ratio: auto;
+  min-height: 380px;
+}
+.li-project-card img { min-height: 380px; }

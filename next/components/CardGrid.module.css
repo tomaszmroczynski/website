@@ -1,5 +1,4 @@
-/* Siatka kart. Same karty stylizuje .li-project-card z design systemu. */
-.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
-.grid4 { grid-template-columns: repeat(4, 1fr); }
-@media (max-width: 1100px) { .grid4 { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 768px) { .grid, .grid4 { grid-template-columns: 1fr; } }
+/* Dwie kolumny jak col-md-6 w oryginale. Same karty stylizuje
+   .li-project-card z design systemu. */
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+@media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
