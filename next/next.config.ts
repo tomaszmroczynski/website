@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
   turbopack: {root: __dirname},
   images: {
     formats: ["image/avif", "image/webp"],
+    // 80 dla hero (obraz LCP), 75 dla reszty. Next 16 wymaga jawnej listy —
+    // wartosc spoza niej jest ignorowana i loguje ostrzezenie przy kazdym zadaniu.
+    qualities: [75, 80],
   },
   async redirects() {
     return buildLegacyRedirects();
