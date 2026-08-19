@@ -39,20 +39,22 @@ export const projectBySlug = (slug: string) => PROJECTS.find((p) => p.slug === s
 export const serviceBySlug = (slug: string) => SERVICES.find((s) => s.slug === slug);
 
 /**
- * Obszary w stopce. Identyczne we wszystkich jezykach (nazwy wlasne),
- * wiec dane, nie tlumaczenie. Trzymane obok areaServed w jsonld.ts —
- * jedno zrodlo dla stopki i dla danych strukturalnych.
+ * Dekningsomrade. Ett sted, brukt bade i footeren og i areaServed i
+ * strukturerte data — de to listene dreiv fra hverandre for.
+ * Holdes identisk med Google Business Profile, Gule Sider og 1881:
+ * bare steder der det finnes reelle prosjekter.
  */
+export type Area = {name: string; type: "AdministrativeArea" | "City"};
 
-export const AREAS: string[] = [
-  "Eidsberg",
-  "Askim",
-  "Moss",
-  "Fredrikstad",
-  "Sarpsborg",
-  "Halden",
-  "Ski",
-  "Lillestrøm",
-  "Oslo",
-  "Akershus",
+export const AREAS: Area[] = [
+  {name: "Indre Østfold", type: "AdministrativeArea"},
+  {name: "Mysen", type: "City"},
+  {name: "Askim", type: "City"},
+  {name: "Eidsberg", type: "City"},
+  {name: "Moss", type: "City"},
+  {name: "Drammen", type: "City"},
+  {name: "Mjøndalen", type: "City"},
+  {name: "Sandvika", type: "City"},
+  {name: "Bærum", type: "City"},
+  {name: "Oslo", type: "City"},
 ];

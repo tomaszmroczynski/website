@@ -159,16 +159,16 @@ const Contact = ({ history }) => {
             </div>
             <div className="col-md-6">
               <ul className="list-home">
-                <li><Trans i18nKey={"Omrader.eidsberg"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.indreOstfold"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.mysen"}></Trans></li>
                 <li><Trans i18nKey={"Omrader.askim"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.eidsberg"}></Trans></li>
                 <li><Trans i18nKey={"Omrader.moss"}></Trans></li>
-                <li><Trans i18nKey={"Omrader.fredrikstad"}></Trans></li>
-                <li><Trans i18nKey={"Omrader.sarpsborg"}></Trans></li>
-                <li><Trans i18nKey={"Omrader.halden"}></Trans></li>
-                <li><Trans i18nKey={"Omrader.ski"}></Trans></li>
-                <li><Trans i18nKey={"Omrader.lillestrom"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.drammen"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.mjondalen"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.sandvika"}></Trans></li>
+                <li><Trans i18nKey={"Omrader.baerum"}></Trans></li>
                 <li><Trans i18nKey={"Omrader.oslo"}></Trans></li>
-                <li><Trans i18nKey={"Omrader.akershus"}></Trans></li>
               </ul>
             </div>
           </div>

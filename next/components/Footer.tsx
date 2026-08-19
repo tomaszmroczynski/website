@@ -31,7 +31,7 @@ export default function Footer() {
           <div className={styles.heading}>{t("areasHeading")}</div>
           <ul className={styles.areas}>
             {AREAS.map((area) => (
-              <li key={area}>{area}</li>
+              <li key={area.name}>{area.name}</li>
             ))}
           </ul>
         </div>

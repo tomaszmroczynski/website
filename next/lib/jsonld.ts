@@ -1,3 +1,4 @@
+import {AREAS} from "./content";
 import {CONTACT, SITE_URL} from "./site";
 
 /**
@@ -30,19 +31,7 @@ export function buildJsonLd() {
           addressRegion: CONTACT.region,
           addressCountry: CONTACT.country,
         },
-        areaServed: [
-          {"@type": "AdministrativeArea", name: "Indre Østfold"},
-          {"@type": "AdministrativeArea", name: "Østfold"},
-          {"@type": "City", name: "Eidsberg"},
-          {"@type": "City", name: "Mysen"},
-          {"@type": "City", name: "Askim"},
-          {"@type": "City", name: "Moss"},
-          {"@type": "City", name: "Drammen"},
-          {"@type": "City", name: "Mjøndalen"},
-          {"@type": "City", name: "Sandvika"},
-          {"@type": "City", name: "Bærum"},
-          {"@type": "City", name: "Oslo"},
-        ],
+        areaServed: AREAS.map((a) => ({"@type": a.type, name: a.name})),
         sameAs: [
           "https://www.facebook.com/limesinterior.annarasinska/",
           "https://www.linkedin.com/in/anna-rasi%C5%84ska-81083413b/",

@@ -377,25 +377,25 @@
   },
   "Omrader": {
     "title": "Obszary działania",
-    "intro": "Limes Interior ma siedzibę w Eidsberg i realizuje projekty w Eidsberg, Østfold i Oslo.",
-    "body": "Jako architekt wnętrz w Eidsberg pomagam klientom w Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm i Oslo. Skontaktuj się w celu niezobowiązującej rozmowy.",
-    "eidsberg": "Eidsberg",
+    "intro": "Limes Interior ma siedzibę w Eidsberg i realizuje projekty w Indre Østfold, Moss, Drammen, Sandvika i Oslo.",
+    "body": "Jako architekt wnętrz w Eidsberg pomagam klientom w Indre Østfold, Moss, Drammen, Mjøndalen, Sandvika, Bærum i Oslo. Skontaktuj się w celu niezobowiązującej rozmowy.",
+    "indreOstfold": "Indre Østfold",
+    "mysen": "Mysen",
     "askim": "Askim",
+    "eidsberg": "Eidsberg",
     "moss": "Moss",
-    "fredrikstad": "Fredrikstad",
-    "sarpsborg": "Sarpsborg",
-    "halden": "Halden",
-    "ski": "Ski",
-    "lillestrom": "Lillestrøm",
-    "oslo": "Oslo",
-    "akershus": "Akershus"
+    "drammen": "Drammen",
+    "mjondalen": "Mjøndalen",
+    "sandvika": "Sandvika",
+    "baerum": "Bærum",
+    "oslo": "Oslo"
   },
   "Faq": {
     "title": "Najczęściej zadawane pytania",
     "q1": "Czy oferujesz projektowanie wnętrz w Eidsberg i Askim?",
     "a1": "Tak, realizuję projekty w Eidsberg, Askim i okolicach.",
     "q2": "Czy pracujesz w Akershus i w Oslo?",
-    "a2": "Tak, realizuję projekty w Akershus i Oslo, m.in. Ski, Lillestrøm, Moss, Fredrikstad, Sarpsborg i Halden.",
+    "a2": "Tak, realizuję projekty w Indre Østfold, Moss, Drammen, Mjøndalen, Sandvika, Bærum i Oslo.",
     "q3": "Czy możesz pomóc z kuchnią i łazienką?",
     "a3": "Tak, planowanie i aranżacja kuchni i łazienek jest częścią mojej oferty.",
     "q4": "Czy pracujesz z domami prywatnymi i lokale komercyjne?",
@@ -418,16 +418,16 @@
     "1398": " Wejdź na mój profil",
     "1399": " Kontakt ze mną możliwy jest za pośrednictwem popularnych serwisów społecznosciowych.",
     "1400": "Obszary działania",
-    "1401": "Eidsberg",
-    "1402": "Askim",
-    "1403": "Moss",
-    "1404": "Fredrikstad",
-    "1405": "Sarpsborg",
-    "1406": "Halden",
-    "1407": "Ski",
-    "1408": "Lillestrøm",
-    "1409": "Oslo",
-    "1410": "Akershus",
+    "1401": "Indre Østfold",
+    "1402": "Mysen",
+    "1403": "Askim",
+    "1404": "Eidsberg",
+    "1405": "Moss",
+    "1406": "Drammen",
+    "1407": "Mjøndalen",
+    "1408": "Sandvika",
+    "1409": "Bærum",
+    "1410": "Oslo",
     "privacy": "Polityka prywatności"
   },
   "Nav": {
@@ -505,7 +505,7 @@
   "Seo": {
     "home": {
       "title": "Limes Interior Anna Rasinska – architekt wnętrz Eidsberg, Østfold i Oslo",
-      "description": "Profesjonalne studio projektowania wnętrz w Eidsberg. Architektura wnętrz, home staging i dekoracja w Askim, Moss, Ski, Lillestrøm, Oslo i Akershus."
+      "description": "Profesjonalne studio projektowania wnętrz w Eidsberg. Architektura wnętrz, home staging i dekoracja w Indre Østfold, Moss, Drammen, Sandvika i Oslo."
     },
     "about": {
       "title": "O mnie – Limes Interior Anna Rasinska",
