@@ -2,12 +2,13 @@ import Image from "next/image";
 import {Link} from "@/i18n/navigation";
 
 /**
- * Karta z design systemu: .li-project-card wraz z __scrim, __body, __tag,
- * __name i __cta. Podkreslenie CTA rozsuwa sie na hover z 40 do 110 px —
- * to zachowanie jest w limes.css, nie tutaj.
+ * Karta z design systemu. Znaczniki dokladnie wedlug przepisu
+ * z references/components.md: __tag i __name to <div>, __scrim i __cta
+ * to <span>. Uzycie <span> dla wszystkiego sklejalo tag z nazwa w jedna
+ * linie, bo elementy inline nie lamia sie na osobne wiersze.
  *
- * Uzywana na /prosjekter, /tjenester i na stronie glownej, zeby te trzy
- * miejsca nie rozjechaly sie stylistycznie.
+ * Podkreslenie CTA rozsuwa sie z 40 do 110 px na hover — to zachowanie
+ * jest w limes.css, nie tutaj.
  */
 export default function ProjectCard({
   href,
@@ -36,11 +37,11 @@ export default function ProjectCard({
     <Link href={href} className="li-project-card">
       <Image src={src} alt={alt} width={width} height={height} sizes={sizes} priority={priority} />
       <span className="li-project-card__scrim" />
-      <span className="li-project-card__body">
-        {tag ? <span className="li-project-card__tag">{tag}</span> : null}
-        <span className="li-project-card__name">{name}</span>
+      <div className="li-project-card__body">
+        {tag ? <div className="li-project-card__tag">{tag}</div> : null}
+        <div className="li-project-card__name">{name}</div>
         <span className="li-project-card__cta">{cta}</span>
-      </span>
+      </div>
     </Link>
   );
 }
