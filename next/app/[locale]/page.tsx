@@ -1,4 +1,5 @@
 import {getTranslations, setRequestLocale} from "next-intl/server";
+import AboutBlock from "@/components/AboutBlock";
 import CardGrid from "@/components/CardGrid.module.css";
 import HeroSlider from "@/components/HeroSlider";
 import ProjectCard from "@/components/ProjectCard";
@@ -43,19 +44,12 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
       </section>
 
       <Reveal effect="fadeInUp">
-        <section className={styles.section}>
-          <div className={styles.two}>
-            <div>
-              <div className={`li-section-heading ${styles.head}`}>
-                <p className="eyebrow">{nav("about")}</p>
-                <h2 className="heading">{a("introHeading")}</h2>
-              </div>
-              <p className="lead">{a("intro")}</p>
-              <Link href="/om-meg" className="li-btn li-btn--text">
-                {nav("about")}
-              </Link>
-            </div>
+        <AboutBlock />
+      </Reveal>
 
+      <Reveal effect="fadeInUp">
+        <section className={styles.section}>
+          <div>
             <div>
               <div className={`li-section-heading ${styles.head}`}>
                 <p className="eyebrow">{nav("cta")}</p>

@@ -1,22 +1,7 @@
-.wrap { padding: 0 5%; max-width: 1400px; margin: 0 auto var(--space-10); }
-.heading { margin: var(--space-10) 0 var(--space-7); font-size: var(--text-xl); }
-.intro { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: start; }
-@media (max-width: 860px) { .intro { grid-template-columns: 1fr; gap: var(--space-5); } }
-.portrait { width: 100%; height: auto; }
-.lead { font-size: var(--text-md); color: var(--text-primary); }
-.specialties { list-style: none; padding: 0; margin: var(--space-6) 0 0; }
-.specialties li { padding: 0 0 16px 22px; position: relative; color: var(--text-secondary); }
-.specialties li::before {
-  content: ""; position: absolute; left: 0; top: 12px;
-  width: 8px; height: 1px; background: var(--brand-accent);
-}
-.term { color: var(--text-primary); }
-.passion { margin-top: var(--space-10); max-width: 78ch; }
-/* 2.1rem — tyle ma .heading w oryginalnym main.scss */
-.subheading { font-size: var(--text-xl); margin-bottom: var(--space-4); }
-.reviews { margin-top: var(--space-10); }
-.reviewGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); margin-top: var(--space-5); }
+.wrap { max-width: var(--container-max); margin: 0 auto var(--space-10); }
+.reviews { padding: var(--section-y) var(--container-pad); }
+.subheading { font-size: var(--text-xl); margin-bottom: var(--space-5); }
+.reviewGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); }
 @media (max-width: 860px) { .reviewGrid { grid-template-columns: 1fr; } }
-.review { border: 1px solid var(--border-hairline); padding: var(--space-5); }
-.stars { color: var(--brand-accent); letter-spacing: 2px; margin-bottom: var(--space-3); }
+.stars { color: var(--brand-accent); letter-spacing: var(--tracking-wider); margin-bottom: var(--space-3); }
 .author { color: var(--text-muted); font-size: var(--text-xs); margin: var(--space-3) 0 0; }

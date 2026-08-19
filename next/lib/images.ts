@@ -119,3 +119,6 @@ export const HOME_IMAGES: ProjectImage[] = [
 
 /** Portret na /om-meg. Wymiary czytane z pliku, nie wpisywane recznie. */
 export const ABOUT_IMAGE: ProjectImage = {src: "/img/imgabout.webp", width: 1600, height: 1200};
+
+/** Portret Anny — /om-meg i blok o mnie na stronie glownej. */
+export const PORTRAIT_IMAGE: ProjectImage = {src: "/img/home.webp", width: 567, height: 756};
