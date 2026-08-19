@@ -96,7 +96,7 @@ export default async function ServicePage({params}: {params: Params}) {
               </div>
             ))}
           </div>
-          <Link href="/kontakt" className={styles.cta}>
+          <Link href="/kontakt" className="li-btn li-btn--ghost">
             {nav("cta")}
           </Link>
         </section>

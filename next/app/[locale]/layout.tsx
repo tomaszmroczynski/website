@@ -10,19 +10,23 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import "../globals.css";
 
-/** Self-hostet via next/font — ingen render-blokkerende request til Google. */
+/**
+ * Self-hostet via next/font. Design system linker Google Fonts direkte;
+ * her serveres de fra eget domene — ingen render-blokkerende request,
+ * og ingen IP-lekkasje til Google for besokeren.
+ */
 const gruppo = Gruppo({
   weight: "400",
   subsets: ["latin", "latin-ext"],
   display: "swap",
-  variable: "--font-display",
+  variable: "--font-gruppo",
 });
 
 const poppins = Poppins({
   weight: ["400", "500"],
   subsets: ["latin", "latin-ext"],
   display: "swap",
-  variable: "--font-ui",
+  variable: "--font-poppins",
 });
 
 const HTML_LANG: Record<Locale, string> = {no: "nb-NO", pl: "pl", en: "en"};

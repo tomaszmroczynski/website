@@ -21,10 +21,6 @@
   z-index: 2; width: 100vw;
   background: rgba(0, 0, 0, 0.6);
 }
-.eyebrow {
-  color: #fff; font-size: 0.87em; letter-spacing: 1px;
-  text-transform: capitalize; margin: 0 0 6px;
-}
 .title { color: #fff; font-size: 2rem; max-width: 80vw; margin: 0; }
 @media (max-width: 768px) { .title { font-size: 1.5rem; } .caption { padding: 24px 7% 20px; } }
 .subtitle { color: #fff; font-size: 1.2em; line-height: normal; max-width: 80vw; margin: 8px 0 0; }
@@ -46,19 +42,7 @@
 }
 .tile { font-weight: 600; }
 
-.tags { display: block; margin: 15px 0; }
+.tags { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); margin: var(--space-4) 0; }
 .tagsHeading, .shareHeading { font-size: 0.98rem; font-weight: 600; margin-right: 15px; }
-.tag {
-  font-size: 0.96rem; font-weight: 300; margin-right: 5px;
-  color: var(--text-secondary); transition: color 0.3s ease;
-}
-.tag::after { content: ","; }
-.tag:last-child::after { content: ""; }
-.tag:hover { color: var(--brand-accent); }
 
-.share { display: block; margin: 0 0 60px; }
-.shareLink {
-  font-size: 1rem; font-weight: 300; margin: 0 10px;
-  color: var(--text-secondary); transition: color 0.3s ease;
-}
-.shareLink:hover { color: var(--brand-accent); }
+.share { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4); margin: 0 0 var(--space-8); }

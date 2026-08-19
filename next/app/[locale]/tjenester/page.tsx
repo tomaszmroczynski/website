@@ -1,7 +1,7 @@
-import Image from "next/image";
 import {getTranslations, setRequestLocale} from "next-intl/server";
+import CardGrid from "@/components/CardGrid.module.css";
+import ProjectCard from "@/components/ProjectCard";
 import Reveal from "@/components/Reveal";
-import {Link} from "@/i18n/navigation";
 import {SERVICES} from "@/lib/content";
 import {SERVICE_IMAGES} from "@/lib/images";
 import {buildMetadata} from "@/lib/seo";
@@ -19,36 +19,34 @@ export default async function ServicesPage({params}: {params: Promise<{locale: L
 
   const s = await getTranslations({locale, namespace: "Services"});
   const a = await getTranslations({locale, namespace: "About"});
+  const nav = await getTranslations({locale, namespace: "Nav"});
 
   return (
     <main className={styles.wrap}>
-      <h1 className={styles.heading}>{a("offerHeading")}</h1>
+      <div className={`li-section-heading ${styles.head}`}>
+        <p className="eyebrow">{nav("cta")}</p>
+        <h1 className="heading">{a("offerHeading")}</h1>
+      </div>
 
       <Reveal effect="fadeInUp">
-        <div className={styles.grid}>
+        <div className={CardGrid.grid}>
           {SERVICES.map((service, i) => {
             const cover = SERVICE_IMAGES[service.slug]?.[0];
+            if (!cover) return null;
             return (
-              <Link
-                key={service.slug}
-                href={`/tjenester/${service.slug}`}
-                className={styles.card}
-              >
-                {cover && (
-                  <Image
-                    src={cover.src}
-                    alt={s(`${service.slug}.title`)}
-                    width={cover.width}
-                    height={cover.height}
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    priority={i < 2}
-                  />
-                )}
-                <div className={styles.desc}>
-                  <h2 className={styles.name}>{s(`${service.slug}.cardTitle`)}</h2>
-                  <p className={styles.summary}>{s(`${service.slug}.summary`)}</p>
-                </div>
-              </Link>
+              <div key={service.slug}>
+                <ProjectCard
+                  href={`/tjenester/${service.slug}`}
+                  src={cover.src}
+                  alt={s(`${service.slug}.title`)}
+                  name={s(`${service.slug}.cardTitle`)}
+                  cta={nav("cta")}
+                  width={cover.width}
+                  height={cover.height}
+                  priority={i < 2}
+                />
+                <p className={styles.summary}>{s(`${service.slug}.summary`)}</p>
+              </div>
             );
           })}
         </div>

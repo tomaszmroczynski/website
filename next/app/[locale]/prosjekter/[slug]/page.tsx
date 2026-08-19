@@ -85,7 +85,7 @@ export default async function ProjectPage({params}: {params: Params}) {
                 ←
               </span>
             </Link>
-            <p className={styles.eyebrow}>{p.has("eyebrow") ? p("eyebrow") : room}</p>
+            <p className="eyebrow">{p.has("eyebrow") ? p("eyebrow") : room}</p>
             <h1 className={styles.title}>{p("title")}</h1>
           </div>
         </section>
@@ -121,7 +121,7 @@ export default async function ProjectPage({params}: {params: Params}) {
           <div className={styles.tags}>
             <span className={styles.tagsHeading}>{t("tags")}</span>
             {tags.map((tag) => (
-              <span key={tag} className={styles.tag}>
+              <span key={tag} className="li-chip">
                 {tag}
               </span>
             ))}
@@ -133,7 +133,7 @@ export default async function ProjectPage({params}: {params: Params}) {
               url={url}
               title={p("title")}
               image={images[0]?.src}
-              className={styles.shareLink}
+              className="li-btn li-btn--text"
             />
           </div>
         </section>

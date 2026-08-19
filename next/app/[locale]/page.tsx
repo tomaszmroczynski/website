@@ -1,6 +1,7 @@
-import Image from "next/image";
 import {getTranslations, setRequestLocale} from "next-intl/server";
+import CardGrid from "@/components/CardGrid.module.css";
 import HeroSlider from "@/components/HeroSlider";
+import ProjectCard from "@/components/ProjectCard";
 import Reveal from "@/components/Reveal";
 import {Link} from "@/i18n/navigation";
 import {PROJECTS, SERVICES} from "@/lib/content";
@@ -28,12 +29,12 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
   const p = await getTranslations({locale, namespace: "Projects"});
   const w = await getTranslations({locale, namespace: "Work"});
   const r = await getTranslations({locale, namespace: "Reviews"});
-  const seo = await getTranslations({locale, namespace: "Seo"});
+  const t = await getTranslations({locale, namespace: "Project"});
   const nav = await getTranslations({locale, namespace: "Nav"});
 
   return (
     <main>
-      <section className={styles.hero}>
+      <section className={`li-hero ${styles.hero}`}>
         <HeroSlider images={HOME_IMAGES} alt={mp("title1")} interval={4000} />
         <div className={styles.heroCaption}>
           <h1 className={styles.heroTitle}>{mp("title1")}</h1>
@@ -45,30 +46,37 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
         <section className={styles.section}>
           <div className={styles.two}>
             <div>
-              <h2 className={styles.sectionHeading}>{a("introHeading")}</h2>
-              <p>{a("intro")}</p>
-              <Link href="/om-meg" className={styles.more}>{nav("about")}</Link>
+              <div className={`li-section-heading ${styles.head}`}>
+                <p className="eyebrow">{nav("about")}</p>
+                <h2 className="heading">{a("introHeading")}</h2>
+              </div>
+              <p className="lead">{a("intro")}</p>
+              <Link href="/om-meg" className="li-btn li-btn--text">
+                {nav("about")}
+              </Link>
             </div>
+
             <div>
-              <h2 className={styles.sectionHeading}>{a("offerHeading")}</h2>
-              <div className={styles.cards}>
+              <div className={`li-section-heading ${styles.head}`}>
+                <p className="eyebrow">{nav("cta")}</p>
+                <h2 className="heading">{a("offerHeading")}</h2>
+              </div>
+              <div className={`${CardGrid.grid}`}>
                 {SERVICES.map((service) => {
                   const cover = SERVICE_IMAGES[service.slug]?.[0];
+                  if (!cover) return null;
                   return (
-                    <Link key={service.slug} href={`/tjenester/${service.slug}`} className={styles.card}>
-                      {cover ? (
-                        <Image
-                          src={cover.src}
-                          alt={s(`${service.slug}.title`)}
-                          width={cover.width}
-                          height={cover.height}
-                          sizes="(max-width: 768px) 100vw, 25vw"
-                        />
-                      ) : null}
-                      <div className={styles.cardDesc}>
-                        <h3 className={styles.cardName}>{s(`${service.slug}.cardTitle`)}</h3>
-                      </div>
-                    </Link>
+                    <ProjectCard
+                      key={service.slug}
+                      href={`/tjenester/${service.slug}`}
+                      src={cover.src}
+                      alt={s(`${service.slug}.title`)}
+                      name={s(`${service.slug}.cardTitle`)}
+                      cta={nav("cta")}
+                      width={cover.width}
+                      height={cover.height}
+                      sizes="(max-width: 768px) 100vw, 25vw"
+                    />
                   );
                 })}
               </div>
@@ -79,34 +87,39 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
 
       <Reveal effect="fadeInUp">
         <section className={styles.section}>
-          <h2 className={styles.sectionHeading}>{w("heading")}</h2>
-          <div className={styles.cards}>
+          <div className={`li-section-heading ${styles.head}`}>
+            <p className="eyebrow">{nav("projects")}</p>
+            <h2 className="heading">{w("heading")}</h2>
+          </div>
+          <div className={`${CardGrid.grid} ${CardGrid.grid4}`}>
             {FEATURED.map((project) => (
-              <Link key={project.slug} href={`/prosjekter/${project.slug}`} className={styles.card}>
-                <Image
-                  src={p(`${project.slug}.cover`)}
-                  alt={p(`${project.slug}.cardAlt`)}
-                  width={1920}
-                  height={1080}
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-                <div className={styles.cardDesc}>
-                  <h3 className={styles.cardName}>{p(`${project.slug}.cardName`)}</h3>
-                  <p className={styles.cardMeta}>{p(`${project.slug}.cardLocation`)}</p>
-                </div>
-              </Link>
+              <ProjectCard
+                key={project.slug}
+                href={`/prosjekter/${project.slug}`}
+                src={p(`${project.slug}.cover`)}
+                alt={p(`${project.slug}.cardAlt`)}
+                tag={p(`${project.slug}.cardLocation`)}
+                name={p(`${project.slug}.cardName`)}
+                cta={t("seeProject")}
+                sizes="(max-width: 768px) 100vw, 25vw"
+              />
             ))}
           </div>
-          <Link href="/prosjekter" className={styles.more}>{nav("projects")}</Link>
+          <Link href="/prosjekter" className="li-btn li-btn--text">
+            {nav("projects")}
+          </Link>
         </section>
       </Reveal>
 
       <Reveal effect="fadeInUp">
         <section className={styles.section}>
-          <h2 className={styles.sectionHeading}>{r("title")}</h2>
+          <div className={`li-section-heading ${styles.head}`}>
+            <p className="eyebrow">{r("stars_label")}</p>
+            <h2 className="heading">{r("title")}</h2>
+          </div>
           <div className={styles.reviewGrid}>
             {([1, 2, 3] as const).map((i) => (
-              <blockquote key={i} className={styles.review}>
+              <blockquote key={i} className="li-card">
                 <div className={styles.stars} aria-label={r("stars_label")}>{STARS}</div>
                 <p>{r(`review${i}_text`)}</p>
                 <footer className={styles.author}>{r(`review${i}_author`)}</footer>

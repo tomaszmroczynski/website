@@ -1,25 +1,10 @@
+/* Pola i przycisk pochodza z design systemu (.li-input, .li-btn--ghost).
+   Tutaj zostaje tylko uklad i honeypot. */
 .form { display: grid; gap: var(--space-4); max-width: 620px; }
-.field { display: grid; gap: 6px; }
-.label { font-size: var(--text-xs); letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); }
-.input, .textarea {
-  background: transparent; color: var(--text-primary);
-  border: 1px solid var(--border-hairline); border-radius: 0;
-  padding: 12px 14px; font: inherit; font-size: var(--text-sm);
-  transition: border-color var(--dur-base) var(--ease-standard);
-}
-.input:focus, .textarea:focus { outline: none; border-color: var(--brand-accent); }
+.field { display: grid; gap: var(--space-2); }
 .textarea { min-height: 170px; resize: vertical; }
 /* Honeypot — poza ekranem, niedostepny dla czytnikow i klawiatury */
 .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
-.submit {
-  justify-self: start; background: transparent; color: var(--text-primary);
-  border: 1px solid var(--brand-accent); border-radius: 0;
-  padding: 12px 28px; font: inherit; font-size: var(--text-sm);
-  letter-spacing: 0.14em; text-transform: uppercase; cursor: pointer;
-  transition: background var(--dur-base) var(--ease-standard), color var(--dur-base) var(--ease-standard);
-}
-.submit:hover:not(:disabled) { background: var(--brand-accent); color: #111; }
-.submit:disabled { opacity: 0.5; cursor: default; }
 .status { font-size: var(--text-sm); }
 .ok { color: var(--brand-accent); }
-.err { color: #ff8a7a; }
+.err { color: var(--ext-red); }

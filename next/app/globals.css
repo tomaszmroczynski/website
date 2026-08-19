@@ -1,81 +1,341 @@
-/**
- * Tokeny marki Limes Interiør. Ciemna paleta, jeden akcent (bursztyn),
- * kwadratowe naroza, prawie bez cieni — glebia z wartosci i overlayu.
- * Fonty ladowane przez next/font w layout.tsx, nie z Google Fonts,
- * zeby nie blokowac renderu zewnetrznym requestem.
- */
+/* ============================================================
+   Limes Interiør — Anna Rasinska · Design System
+   Self-contained stylesheet. Link or inline this ONE file:
+     <link rel="stylesheet" href="limes.css">
+   Everything below is plain CSS — no build step, no React needed.
+   Tokens are CSS custom properties (design against the semantic
+   aliases). Component classes (.li-*) recreate the site primitives.
+   ============================================================ */
+
+/* ---- Webfonty ----
+   Design system laduje je z fonts.googleapis.com. Tutaj przechodza przez
+   next/font i sa serwowane z wlasnej domeny: zaden render-blokujacy
+   request do obcego hosta, brak wycieku IP uzytkownika do Google.
+   --font-gruppo i --font-poppins wstrzykuje app/[locale]/layout.tsx.
+   Cormorant Garamond i Amatic SC nie sa nigdzie uzywane, wiec nie sa
+   ladowane — zostaja jako deklaracje z fallbackiem systemowym.        */
+
+/* ============================================================
+   TOKENS
+   ============================================================ */
 :root {
-  --black-900: #050505;
-  --black-850: #0b0b0b;
-  --black-800: #111111;
-  --black-750: #171717;
-  --black-700: #1d1d1d;
-  --amber-500: #ffb41d;
-  --amber-600: #e09a10;
-  --line: rgba(255, 255, 255, 0.12);
+  /* ---- Brand: amber / brass accent ---- */
+  --amber-500: #ffb41d;   /* primary interactive accent (links, borders, focus) */
+  --amber-600: #fdaf11;   /* hover / pressed — a touch deeper */
+  --amber-700: #e09c0c;   /* active, small text on dark */
+  --brass-400: #c9a227;   /* muted decorative gold from the logo arc */
+  --brass-300: #d4b24a;   /* signature gold */
 
-  --surface-page: var(--black-800);
-  --surface-deep: var(--black-900);
+  /* ---- Brand: powder blue (from the logo wordmark) ---- */
+  --powder-100: #eaf2f8;
+  --powder-200: #d8e6f0;  /* logo wordmark / chips */
+  --powder-300: #b9d2e4;
+  --ink-navy:   #1a2340;  /* deep navy — serif accent, on powder chips */
+
+  /* ---- Canvas: dark neutrals ---- */
+  --black-900: #090707;   /* near-black — deepest surfaces */
+  --black-850: #111111;   /* headers, footer */
+  --black-800: #1b1b1b;   /* primary page canvas */
+  --black-750: #1d1d1d;   /* soft panel */
+  --black-700: #242424;   /* raised card */
+  --black-600: #2c2c2c;   /* hovered card / inputs */
+  --black-500: #444444;   /* buttons, muted fills */
+
+  /* ---- Light neutrals ---- */
+  --white:    #ffffff;
+  --gray-050: #f7f7f7;
+  --gray-200: #dddddd;    /* image frames, captions */
+  --gray-400: #aaaaaa;    /* text on light surfaces */
+  --gray-500: #888888;
+
+  /* ---- Hairlines (translucent white on dark) ---- */
+  --line-soft:   rgba(255, 255, 255, 0.08);
+  --line:        rgba(255, 255, 255, 0.12);
+  --line-strong: rgba(255, 255, 255, 0.22);
+
+  /* ---- Image / overlay scrims ---- */
+  --scrim-flat:   rgba(0, 0, 0, 0.30);
+  --scrim-bottom: linear-gradient(to top, rgba(0,0,0,0.95), rgba(0,0,0,0.55) 45%, rgba(0,0,0,0) 100%);
+  --scrim-footer: rgba(0, 0, 0, 0.60);
+
+  /* ---- Extended palette (case studies / tags only — use sparingly) ---- */
+  --ext-red: #ce2f34; --ext-blue: #0a2463; --ext-light-blue: #3f88c5;
+  --ext-yellow: #ffe900; --ext-peach: #eae1c0; --ext-green: #09814a;
+  --ext-green-soft: #39df93; --ext-green-dark: #2d4739;
+
+  /* ---- Semantic aliases — design against THESE ---- */
+  --surface-page:   var(--black-800);
+  --surface-deep:   var(--black-900);
   --surface-header: var(--black-850);
-  --surface-card: var(--black-700);
+  --surface-panel:  var(--black-750);
+  --surface-card:   var(--black-700);
+  --surface-raised: var(--black-600);
+  --surface-invert: var(--gray-050);
 
-  --text-primary: #ffffff;
+  --text-primary:   var(--white);
   --text-secondary: rgba(255, 255, 255, 0.72);
-  --text-muted: rgba(255, 255, 255, 0.5);
-  --text-accent: var(--amber-500);
+  --text-muted:     rgba(255, 255, 255, 0.50);
+  --text-accent:    var(--amber-500);
+  --text-on-light:  var(--gray-400);
+  --text-on-powder: var(--ink-navy);
 
   --border-hairline: var(--line);
-  --brand-accent: var(--amber-500);
+  --border-accent:   var(--amber-500);
+  --focus-ring:      var(--amber-500);
+
+  --brand-accent:       var(--amber-500);
   --brand-accent-hover: var(--amber-600);
+  --brand-powder:       var(--powder-200);
 
-  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  /* ---- Families ---- */
+  --font-display: var(--font-gruppo), "Segoe UI", "Ubuntu", sans-serif;
+  --font-body:    var(--font-gruppo), "Segoe UI", "Ubuntu", sans-serif;
+  --font-ui:      var(--font-poppins), "Segoe UI", system-ui, sans-serif;
+  --font-serif:   "Cormorant Garamond", Georgia, serif;         /* editorial accents */
+  --font-script:  "Amatic SC", "Gruppo", cursive;               /* rare decorative accent */
+
+  /* ---- Weights ---- */
+  --weight-light: 300; --weight-regular: 400; --weight-medium: 500;
+  --weight-semibold: 600; --weight-bold: 800;
+
+  /* ---- Type scale ---- */
+  --text-2xs: 0.75rem; --text-xs: 0.85rem; --text-sm: 0.95rem;
+  --text-base: 1.05rem; --text-md: 1.2rem; --text-lg: 1.6rem;
+  --text-xl: 2.1rem; --text-2xl: 2.8rem; --text-3xl: 3.75rem; --text-4xl: 5rem;
+
+  /* ---- Line heights ---- */
+  --leading-tight: 1.15; --leading-snug: 1.3; --leading-normal: 1.6; --leading-relaxed: 1.8;
+
+  /* ---- Letter-spacing — central to the airy feel ---- */
+  --tracking-tight: 0; --tracking-base: 0.5px; --tracking-wide: 1px;
+  --tracking-wider: 2px; --tracking-widest: 4px;
+
+  /* ---- Semantic type roles ---- */
+  --display-font: var(--font-display); --display-weight: var(--weight-regular);
+  --heading-font: var(--font-display); --heading-weight: var(--weight-regular);
+  --body-font: var(--font-body);       --body-weight: var(--weight-semibold);
+  --label-font: var(--font-ui);        --label-weight: var(--weight-medium);
+
+  /* ---- Spacing scale (8px base) ---- */
+  --space-0: 0; --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
   --space-5: 24px; --space-6: 32px; --space-7: 48px; --space-8: 64px;
-  --space-9: 75px; --space-10: 96px;
+  --space-9: 75px; /* signature section padding */ --space-10: 96px; --space-12: 128px;
 
-  --text-xs: 0.85rem; --text-sm: 0.95rem; --text-base: 1.05rem;
-  --text-md: 1.2rem;  --text-lg: 1.6rem;  --text-xl: 2.1rem;
-  --text-2xl: 2.8rem; --text-3xl: 3.75rem;
+  /* ---- Layout ---- */
+  --container-max: 1600px; --container-pad: 5%; --hero-pad: 7%; --section-y: var(--space-9);
 
-  --radius-none: 0;
-  --ease-standard: cubic-bezier(0.215, 0.61, 0.355, 1);
-  --dur-base: 0.3s;
+  /* ---- Radii — square is the default ---- */
+  --radius-none: 0; --radius-sm: 2px; --radius-md: 4px; --radius-pill: 999px;
 
-  --content-max: 1240px;
+  /* ---- Borders ---- */
+  --border-width: 1px; --border-accent-w: 2px; --border-accent-w-lg: 3px;
+  --border-hairline-style: 1px solid var(--line);
+  --border-accent-style: 2px solid var(--amber-500);
+
+  /* ---- Shadows (nearly shadowless) ---- */
+  --shadow-none: none;
+  --shadow-ambient: 0 0 65px rgba(0, 0, 0, 0.07);
+  --shadow-card: 0 18px 40px rgba(0, 0, 0, 0.45);
+  --shadow-text: 3px 5px 2px rgba(71, 71, 71, 0.55);
+  --shadow-text-soft: 2px 4px 3px rgba(0, 0, 0, 0.30);
+
+  /* ---- Motion ---- */
+  --ease-standard: cubic-bezier(0.215, 0.610, 0.355, 1.000); /* house curve */
+  --ease-out: ease;
+  --dur-fast: 0.1s; --dur-base: 0.3s; --dur-slow: 0.6s; --dur-slower: 0.9s;
+  --transition-base: all var(--dur-base) var(--ease-out);
+
+  /* ---- Z-index ---- */
+  --z-base: 1; --z-sticky: 99; --z-header: 999; --z-overlay: 9999; --z-lang: 10001;
 }
 
-*, *::before, *::after { box-sizing: border-box; }
-
-html { -webkit-text-size-adjust: 100%; }
+/* ============================================================
+   BASE LAYER
+   ============================================================ */
+* { box-sizing: border-box; }
 
 body {
   margin: 0;
-  background: var(--surface-page);
-  color: var(--text-primary);
-  font-family: var(--font-display), system-ui, sans-serif;
+  font-family: var(--font-body);
+  font-weight: var(--body-weight);
   font-size: var(--text-base);
-  line-height: 1.65;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--tracking-base);
+  line-height: var(--leading-normal);
+  color: var(--text-primary);
+  background: var(--surface-page);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3 { font-weight: 400; line-height: 1.15; margin: 0 0 var(--space-4); }
-h1 { font-size: var(--text-2xl); }
+h1, h2, h3, h4, h5, .heading {
+  font-family: var(--heading-font);
+  font-weight: var(--heading-weight);
+  color: var(--text-primary);
+  margin: 0 0 var(--space-4);
+  line-height: var(--leading-snug);
+}
+h1 { font-size: var(--text-3xl); }
 h2 { font-size: var(--text-xl); }
-h3 { font-size: var(--text-md); }
-p { margin: 0 0 var(--space-4); color: var(--text-secondary); }
+h3 { font-size: var(--text-lg); }
 
-a { color: inherit; text-decoration: none; }
-a:hover { color: var(--brand-accent); }
+p { margin: 0 0 var(--space-4); }
 
-img { max-width: 100%; height: auto; display: block; }
-
-:focus-visible {
-  outline: 2px solid var(--brand-accent);
-  outline-offset: 2px;
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--dur-base) var(--ease-out), opacity var(--dur-base) var(--ease-out);
 }
+a:hover { color: var(--amber-600); }
+
+img { display: block; max-width: 100%; }
+
+::selection { background: var(--amber-500); color: var(--black-900); }
+
+/* ---- Layout helpers ---- */
+.section { padding: var(--section-y) 0; }
+.container {
+  width: 100%; max-width: var(--container-max);
+  margin: 0 auto; padding: 0 var(--container-pad);
+}
+
+/* ---- Type roles ---- */
+.heading { font-size: var(--text-xl); line-height: 1.35; letter-spacing: var(--tracking-wide); }
+.lead {
+  font-size: var(--text-md); font-weight: var(--weight-medium);
+  line-height: var(--leading-normal); color: var(--text-secondary);
+}
+.eyebrow, .li-tag {
+  font-family: var(--font-ui); font-size: var(--text-2xs);
+  text-transform: uppercase; letter-spacing: var(--tracking-wider);
+  color: var(--amber-500);
+}
+
+/* ============================================================
+   COMPONENTS  (plain CSS — add the class, no JS required)
+   ============================================================ */
+
+/* ---- Section heading lockup: eyebrow + heading ---- */
+.li-section-heading { display: flex; flex-direction: column; gap: var(--space-3); }
+.li-section-heading .eyebrow { margin: 0; }
+.li-section-heading .heading { margin: 0; }
+
+/* ---- Tag / chip (uppercase category label) ---- */
+.li-chip {
+  display: inline-block; font-family: var(--font-ui);
+  font-size: var(--text-2xs); text-transform: uppercase;
+  letter-spacing: var(--tracking-wider); padding: 4px 10px;
+  border-radius: var(--radius-md); background: var(--powder-200);
+  color: var(--ink-navy);
+}
+
+/* ---- Button: ghost (default), solid, text ---- */
+.li-btn {
+  position: relative; overflow: hidden;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  font-family: var(--font-ui); font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  padding: 11px 40px; border-radius: var(--radius-none);
+  cursor: pointer; text-decoration: none; background: transparent;
+  -webkit-tap-highlight-color: transparent;
+  transition: color var(--dur-base) var(--ease-out),
+              background var(--dur-base) var(--ease-out),
+              border-color var(--dur-base) var(--ease-out);
+}
+.li-btn--ghost {
+  color: var(--text-primary);
+  border: var(--border-accent-w-lg) solid var(--amber-500);
+}
+.li-btn--ghost:hover { background: var(--amber-500); color: var(--black-900); }
+.li-btn--solid {
+  color: var(--black-900); background: var(--amber-500);
+  border: var(--border-accent-w-lg) solid var(--amber-500);
+}
+.li-btn--solid:hover { background: var(--amber-600); border-color: var(--amber-600); }
+.li-btn--text {
+  color: var(--amber-500); background: transparent; border: none; padding: 4px 0;
+}
+.li-btn--text:hover { color: var(--amber-600); }
+.li-btn--sm { padding: 8px 24px; font-size: var(--text-xs); }
+.li-btn--lg { padding: 0 44px; height: 48px; font-size: var(--text-base); }
+
+/* ---- Input: square form field ---- */
+.li-input {
+  display: block; width: 100%; font-family: var(--font-ui);
+  font-size: var(--text-base); color: var(--text-primary);
+  background: var(--surface-raised);
+  border: 1px solid var(--line); border-radius: var(--radius-none);
+  padding: 12px 16px; transition: border-color var(--dur-base) var(--ease-out);
+}
+.li-input::placeholder { color: var(--text-muted); }
+.li-input:focus { outline: none; border-color: var(--amber-500); }
+
+/* ---- Card: dark surface container ---- */
+.li-card {
+  background: var(--surface-card); border: 1px solid var(--line);
+  border-radius: var(--radius-none); padding: var(--space-6);
+}
+
+/* ---- Project card: photo + scrim + growing amber underline ---- */
+.li-project-card {
+  position: relative; display: block; aspect-ratio: 3 / 4;
+  overflow: hidden; border-radius: var(--radius-none);
+  text-decoration: none; color: var(--white); cursor: pointer;
+}
+.li-project-card img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; transform: scale(1);
+  transition: transform var(--dur-slow) var(--ease-standard);
+}
+.li-project-card:hover img { transform: scale(1.04); }
+.li-project-card__scrim {
+  position: absolute; inset: 0; background: var(--scrim-bottom);
+  opacity: 0.78; transition: opacity var(--dur-base) var(--ease-out);
+}
+.li-project-card:hover .li-project-card__scrim { opacity: 1; }
+.li-project-card__body { position: absolute; left: 24px; bottom: 22px; right: 24px; z-index: 1; }
+.li-project-card__tag {
+  font-family: var(--font-ui); font-size: var(--text-2xs);
+  text-transform: uppercase; letter-spacing: var(--tracking-wider);
+  color: var(--powder-200); margin-bottom: 8px;
+}
+.li-project-card__name {
+  font-family: var(--font-display); font-size: var(--text-lg);
+  letter-spacing: var(--tracking-wide); line-height: 1.2;
+  text-shadow: var(--shadow-text-soft); margin-bottom: 14px;
+}
+.li-project-card__cta {
+  display: inline-block; font-family: var(--font-ui); font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wide); padding-bottom: 5px;
+  width: 40px; white-space: nowrap; overflow: hidden; color: transparent;
+  border-bottom: 2px solid var(--amber-500);
+  transition: width var(--dur-base) var(--ease-standard),
+              color var(--dur-base) var(--ease-out);
+}
+.li-project-card:hover .li-project-card__cta { width: 110px; color: var(--white); }
+
+/* ---- Hero scrim helper (full-bleed photo background) ---- */
+.li-hero {
+  position: relative; isolation: isolate;
+  background-size: cover; background-position: center;
+}
+.li-hero::before { content: ""; position: absolute; inset: 0; background: var(--scrim-flat); z-index: -1; }
+.li-hero h1 { text-shadow: var(--shadow-text); }
+
+/* ---- Hairline divider ---- */
+.li-divider { border: 0; border-top: 1px solid var(--line); margin: var(--space-7) 0; }
+
+/* ---- Brand icon (inline svg, 24x24, currentColor) ---- */
+.li-icon { display: inline-block; vertical-align: middle; flex-shrink: 0; width: 1em; height: 1em; fill: currentColor; }
+
+/* ============================================================
+   DOSTEPNOSC — dodane poza design systemem
+   ============================================================ */
+:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

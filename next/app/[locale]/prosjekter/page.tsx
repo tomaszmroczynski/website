@@ -1,7 +1,7 @@
-import Image from "next/image";
 import {getTranslations, setRequestLocale} from "next-intl/server";
+import CardGrid from "@/components/CardGrid.module.css";
+import ProjectCard from "@/components/ProjectCard";
 import Reveal from "@/components/Reveal";
-import {Link} from "@/i18n/navigation";
 import {PROJECTS} from "@/lib/content";
 import {buildMetadata} from "@/lib/seo";
 import type {Locale} from "@/i18n/routing";
@@ -22,33 +22,24 @@ export default async function ProjectsPage({params}: {params: Promise<{locale: L
 
   return (
     <main className={styles.wrap}>
-      <h1 className={styles.heading}>{w("heading")}</h1>
+      <div className={`li-section-heading ${styles.head}`}>
+        <p className="eyebrow">{t("categories").replace(":", "")}</p>
+        <h1 className="heading">{w("heading")}</h1>
+      </div>
 
       <Reveal effect="fadeInUp">
-        <div className={styles.grid}>
+        <div className={CardGrid.grid}>
           {PROJECTS.map((project, i) => (
-            <Link
+            <ProjectCard
               key={project.slug}
               href={`/prosjekter/${project.slug}`}
-              className={styles.itm}
-            >
-              <div className={styles.bg}>
-                <Image
-                  src={p(`${project.slug}.cover`)}
-                  alt={p(`${project.slug}.cardAlt`)}
-                  width={1920}
-                  height={1080}
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  priority={i < 2}
-                />
-              </div>
-              <div className={styles.desc}>
-                <div className={styles.tag}>{p(`${project.slug}.cardTag`)}</div>
-                <div className={styles.location}>{p(`${project.slug}.cardLocation`)}</div>
-                <div className={styles.name}>{p(`${project.slug}.cardName`)}</div>
-                <span className={styles.cta}>{t("seeProject")}</span>
-              </div>
-            </Link>
+              src={p(`${project.slug}.cover`)}
+              alt={p(`${project.slug}.cardAlt`)}
+              tag={p(`${project.slug}.cardLocation`)}
+              name={p(`${project.slug}.cardName`)}
+              cta={t("seeProject")}
+              priority={i < 2}
+            />
           ))}
         </div>
       </Reveal>

@@ -35,4 +35,3 @@
   content: ""; position: absolute; left: 0; top: 11px;
   width: 8px; height: 1px; background: var(--brand-accent);
 }
-.cta { display: inline-block; margin-top: var(--space-6); border-bottom: 2px solid var(--brand-accent); padding-bottom: 4px; }
