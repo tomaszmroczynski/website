@@ -68,14 +68,6 @@
     "q5": "Hvordan foregår et interiørprosjekt?",
     "a5": "Vi starter med en uforpliktende samtale, deretter utarbeider vi konsept, materialvalg og gjennomføring etter avtale."
   },
-  "Abouthome": {
-    "1296": "Noen ord om meg",
-    "1297": "Jeg er utdannet sivilarkitekt, men min lidenskap ligger i interiørarkitektur. Å skape rom er for meg mer enn bare et yrke – det er en kunst der hver linje, farge og detalj har betydning. Interiører er ikke bare en bakgrunn for våre liv, men en del av dem, og de påvirker våre følelser, trivsel og daglige opplevelser. I Limes Interior tilbyr jeg ikke bare min kunnskap og erfaring, men også min kunstneriske følsomhet og fantasi. Hvert prosjekt ser jeg på som et unikt verk som ikke bare skal oppfylle forventningene dine, men også skape og inspirere dem. Jeg spesialiserer meg på:",
-    "1298": "Design av private interiører – jeg skaper rom som gjenspeiler beboernes personlighet og livsstil, og bygger en atmosfære full av varme og følelser.",
-    "1299": "Dekorasjon av interiører – kunsten å velge detaljer, tekstiler, lys og komposisjon er for meg en form for uttrykk som gir rommet sjel og karakter.",
-    "1822": "Home Staging – jeg transformerer interiører slik at de fanger oppmerksomheten ved første øyekast og skaper positive følelser, slik at de blir det perfekte stedet å bo.",
-    "1867": "Design av offentlige interiører – jeg skaper steder som ikke bare er funksjonelle, men også påvirker sansene og etterlater et sterkt estetisk inntrykk."
-  },
   "Footer": {
     "thanksTitle": "Takk for din tid og oppmerksomhet",
     "intro": "Jeg er glad for å kunne presentere meg og tilbudet mitt for deg. Jeg er glad for at du har lagt merke til hva jeg har å tilby. Hvis du har spørsmål, bekymringer eller trenger hjelp til å designe ditt drømmehjem, så er jeg mer enn gjerne tilgjengelig for å hjelpe deg. Vi er her for å oppfylle dine forventninger og skape et rom der du vil føle deg lykkelig og avslappet.",
@@ -120,10 +112,14 @@
     "16071": "Sandvika, Norge"
   },
   "About": {
-    "1795": "Om Min Lidenskap",
-    "1796": "Personer som ikke tidligere har hatt kontakt med en interiørarkitekt, assosierer ofte dette yrket hovedsakelig med mote og prestisje. Men å designe og dekorere rom er en kunst som ikke bare former omgivelsene, men også påvirker følelser og velvære. Evnen til å velge riktige farger, møbler, belysning og dekorative detaljer er mer enn bare en teknikk – det er en form for kunstnerisk uttrykk der jeg gir en del av meg selv til mine kunder. Hvert interiør jeg skaper, gjenspeiler min lidenskap, følsomhet og omsorg for harmoni. Et godt designet rom kan ikke bare imponere, men også forbedre livskvaliteten, og derfor er det verdt å forme omgivelsene sine bevisst.",
-    "1797": "Utvalgte Prosjekter",
-    "1798": "Mitt Tilbud"
+    "introHeading": "Noen ord om meg",
+    "intro": "Jeg er utdannet sivilarkitekt, men min lidenskap ligger i interiørarkitektur. Å skape rom er for meg mer enn bare et yrke – det er en kunst der hver linje, farge og detalj har betydning. Interiører er ikke bare en bakgrunn for våre liv, men en del av dem, og de påvirker våre følelser, trivsel og daglige opplevelser. I Limes Interior tilbyr jeg ikke bare min kunnskap og erfaring, men også min kunstneriske følsomhet og fantasi. Hvert prosjekt ser jeg på som et unikt verk som ikke bare skal oppfylle forventningene dine, men også skape og inspirere dem. Jeg spesialiserer meg på:",
+    "s1": "Design av private interiører – jeg skaper rom som gjenspeiler beboernes personlighet og livsstil, og bygger en atmosfære full av varme og følelser.",
+    "s2": "Dekorasjon av interiører – kunsten å velge detaljer, tekstiler, lys og komposisjon er for meg en form for uttrykk som gir rommet sjel og karakter.",
+    "s3": "Home Staging – jeg transformerer interiører slik at de fanger oppmerksomheten ved første øyekast og skaper positive følelser, slik at de blir det perfekte stedet å bo.",
+    "s4": "Design av offentlige interiører – jeg skaper steder som ikke bare er funksjonelle, men også påvirker sansene og etterlater et sterkt estetisk inntrykk.",
+    "passionHeading": "Om Min Lidenskap",
+    "passion": "Personer som ikke tidligere har hatt kontakt med en interiørarkitekt, assosierer ofte dette yrket hovedsakelig med mote og prestisje. Men å designe og dekorere rom er en kunst som ikke bare former omgivelsene, men også påvirker følelser og velvære. Evnen til å velge riktige farger, møbler, belysning og dekorative detaljer er mer enn bare en teknikk – det er en form for kunstnerisk uttrykk der jeg gir en del av meg selv til mine kunder. Hvert interiør jeg skaper, gjenspeiler min lidenskap, følsomhet og omsorg for harmoni. Et godt designet rom kan ikke bare imponere, men også forbedre livskvaliteten, og derfor er det verdt å forme omgivelsene sine bevisst."
   },
   "Home": {
     "1798": "Mitt tilbud",

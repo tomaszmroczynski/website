@@ -68,14 +68,6 @@
     "q5": "How does an interior project work?",
     "a5": "We start with a no-obligation conversation, then develop a concept, material choices and implementation as agreed."
   },
-  "Abouthome": {
-    "1296": "A few words about me",
-    "1297": "I hold a Master of Architecture degree, but my true passion lies in interior design. For me, creating spaces is more than just a profession – it is an art where every line, color, and detail matters. Interiors are not just a backdrop for our lives but an integral part of them, influencing our emotions, well-being, and daily experiences. At Limes Interior, I offer not only my knowledge and experience but also my artistic sensitivity and imagination. I approach every project as a unique work of art that not only meets but also shapes and inspires expectations. I specialize in:",
-    "1298": "Private interior design – I create spaces that reflect the personality and lifestyle of their residents, building an atmosphere full of warmth and emotions.",
-    "1299": "Interior decoration – the art of selecting details, fabrics, lighting, and composition is my way of expressing creativity and giving spaces soul and character.",
-    "1822": "Home Staging – I transform interiors to make an immediate impression and evoke positive emotions, turning them into dream living spaces.",
-    "1867": "Public interior design – I create places that are not only functional but also engage the senses and leave a lasting aesthetic impression."
-  },
   "Footer": {
     "thanksTitle": "Thank you for your time and attention",
     "intro": "I am glad to have presented myself and my offer to you. I am happy that you have noticed what I have to offer. If you have any questions, doubts or need help in designing your dream interior, I am happy to assist you. We are here to meet your expectations and create a space in which you will feel happy and relaxed.",
@@ -120,10 +112,14 @@
     "16071": "Sandvika, Norway"
   },
   "About": {
-    "1795": "About My Passion",
-    "1796": "People who have never worked with an interior architect often associate this profession mainly with fashion and prestige. However, designing and decorating spaces is an art that not only shapes the surroundings but also influences emotions and well-being. The ability to choose the right colors, furniture, lighting, and decorative details is more than just a skill – it is a form of artistic expression through which I share a part of myself with my clients. Every interior I create reflects my passion, sensitivity, and attention to harmony. A well-designed space can not only impress but also enhance the quality of life, which is why it is worth consciously shaping one’s surroundings.",
-    "1797": "Selected Projects",
-    "1798": "My Offer"
+    "introHeading": "A few words about me",
+    "intro": "I hold a Master of Architecture degree, but my true passion lies in interior design. For me, creating spaces is more than just a profession – it is an art where every line, color, and detail matters. Interiors are not just a backdrop for our lives but an integral part of them, influencing our emotions, well-being, and daily experiences. At Limes Interior, I offer not only my knowledge and experience but also my artistic sensitivity and imagination. I approach every project as a unique work of art that not only meets but also shapes and inspires expectations. I specialize in:",
+    "s1": "Private interior design – I create spaces that reflect the personality and lifestyle of their residents, building an atmosphere full of warmth and emotions.",
+    "s2": "Interior decoration – the art of selecting details, fabrics, lighting, and composition is my way of expressing creativity and giving spaces soul and character.",
+    "s3": "Home Staging – I transform interiors to make an immediate impression and evoke positive emotions, turning them into dream living spaces.",
+    "s4": "Public interior design – I create places that are not only functional but also engage the senses and leave a lasting aesthetic impression.",
+    "passionHeading": "About My Passion",
+    "passion": "People who have never worked with an interior architect often associate this profession mainly with fashion and prestige. However, designing and decorating spaces is an art that not only shapes the surroundings but also influences emotions and well-being. The ability to choose the right colors, furniture, lighting, and decorative details is more than just a skill – it is a form of artistic expression through which I share a part of myself with my clients. Every interior I create reflects my passion, sensitivity, and attention to harmony. A well-designed space can not only impress but also enhance the quality of life, which is why it is worth consciously shaping one’s surroundings."
   },
   "Home": {
     "1798": "My Offer",

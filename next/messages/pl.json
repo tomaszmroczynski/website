@@ -68,14 +68,6 @@
     "q5": "Jak przebiega projekt wnętrza?",
     "a5": "Zaczynamy od niezobowiązującej rozmowy, następnie opracowujemy koncepcję, dobór materiałów i realizację według ustaleń."
   },
-  "Abouthome": {
-    "1296": "Kilka słów o mnie",
-    "1297": "Z wykształcenia jestem magistrem inżynierem architektem, z pasji – architektem wnętrz. Tworzenie przestrzeni to dla mnie coś więcej niż zawód – to sztuka, w której każda linia, kolor i detal mają znaczenie. Wnętrza są nie tylko tłem naszego życia, ale także jego częścią, wpływając na emocje, samopoczucie i codzienne doświadczenia. W Limes Interior oddaję do Waszej dyspozycji nie tylko swoją wiedzę i doświadczenie, ale także artystyczną wrażliwość i wyobraźnię. Każdy projekt traktuję jak unikalne dzieło, które ma nie tylko spełniać Wasze oczekiwania, lecz także je kreować i inspirować. Specjalizuję się w:",
-    "1298": "Projektowaniu wnętrz prywatnych – tworzę przestrzenie, które odzwierciedlają osobowość i styl życia ich mieszkańców, budując atmosferę pełną ciepła i emocji. ",
-    "1299": "Dekorowaniu wnętrz – sztuka doboru detali, tkanin, światła i kompozycji to dla mnie forma ekspresji, która nadaje przestrzeni duszę i charakter.",
-    "1822": "Home Stagingu – transformuję wnętrza tak, by zachwycały od pierwszego spojrzenia i budziły pozytywne emocje, sprawiając, że stają się wymarzonym miejscem do życia.",
-    "1867": "Projektowaniu wnętrz publicznych – kreuję miejsca, które nie tylko funkcjonują, ale również oddziałują na zmysły i budują silne wrażenie estetyczne."
-  },
   "Footer": {
     "thanksTitle": "Dziękuję za Twój czas i uwagę",
     "intro": "Z przyjemnością przedstawiłam Ci swoją osobę i ofertę. Cieszę się, że zwróciłeś uwagę na to, co mam do zaoferowania. Jeśli masz jakiekolwiek pytania, wątpliwości lub potrzebujesz pomocy w projektowaniu wymarzonego wnętrza, z przyjemnością służę swoją pomocą. Jesteśmy tutaj po to, aby spełnić Twoje oczekiwania i stworzyć dla Ciebie przestrzeń, w której będziesz czuł się szczęśliwy i zrelaksowany.",
@@ -120,10 +112,14 @@
     "16071": "Sandvika, Norwegia"
   },
   "About": {
-    "1795": "O mojej pasji",
-    "1796": "Osoby, które nie miały wcześniej styczności z architektem wnętrz, często utożsamiają tę profesję głównie z modą i prestiżem. Tymczasem projektowanie i dekorowanie przestrzeni to sztuka, która nie tylko kształtuje otoczenie, ale także wpływa na emocje i samopoczucie. Umiejętność doboru kolorów, mebli, oświetlenia i detali dekoracyjnych to coś więcej niż technika – to forma artystycznej ekspresji, w której oddaję swoim klientom cząstkę siebie. Każde wnętrze, które tworzę, jest odzwierciedleniem mojej pasji, wrażliwości i dbałości o harmonię. Dobrze zaprojektowana przestrzeń potrafi nie tylko zachwycać, ale też poprawiać jakość życia, dlatego warto świadomie kształtować swoje otoczenie.",
-    "1797": "Wybrane projekty ",
-    "1798": "Moja oferta "
+    "introHeading": "Kilka słów o mnie",
+    "intro": "Z wykształcenia jestem magistrem inżynierem architektem, z pasji – architektem wnętrz. Tworzenie przestrzeni to dla mnie coś więcej niż zawód – to sztuka, w której każda linia, kolor i detal mają znaczenie. Wnętrza są nie tylko tłem naszego życia, ale także jego częścią, wpływając na emocje, samopoczucie i codzienne doświadczenia. W Limes Interior oddaję do Waszej dyspozycji nie tylko swoją wiedzę i doświadczenie, ale także artystyczną wrażliwość i wyobraźnię. Każdy projekt traktuję jak unikalne dzieło, które ma nie tylko spełniać Wasze oczekiwania, lecz także je kreować i inspirować. Specjalizuję się w:",
+    "s1": "Projektowaniu wnętrz prywatnych – tworzę przestrzenie, które odzwierciedlają osobowość i styl życia ich mieszkańców, budując atmosferę pełną ciepła i emocji.",
+    "s2": "Dekorowaniu wnętrz – sztuka doboru detali, tkanin, światła i kompozycji to dla mnie forma ekspresji, która nadaje przestrzeni duszę i charakter.",
+    "s3": "Home Stagingu – transformuję wnętrza tak, by zachwycały od pierwszego spojrzenia i budziły pozytywne emocje, sprawiając, że stają się wymarzonym miejscem do życia.",
+    "s4": "Projektowaniu wnętrz publicznych – kreuję miejsca, które nie tylko funkcjonują, ale również oddziałują na zmysły i budują silne wrażenie estetyczne.",
+    "passionHeading": "O mojej pasji",
+    "passion": "Osoby, które nie miały wcześniej styczności z architektem wnętrz, często utożsamiają tę profesję głównie z modą i prestiżem. Tymczasem projektowanie i dekorowanie przestrzeni to sztuka, która nie tylko kształtuje otoczenie, ale także wpływa na emocje i samopoczucie. Umiejętność doboru kolorów, mebli, oświetlenia i detali dekoracyjnych to coś więcej niż technika – to forma artystycznej ekspresji, w której oddaję swoim klientom cząstkę siebie. Każde wnętrze, które tworzę, jest odzwierciedleniem mojej pasji, wrażliwości i dbałości o harmonię. Dobrze zaprojektowana przestrzeń potrafi nie tylko zachwycać, ale też poprawiać jakość życia, dlatego warto świadomie kształtować swoje otoczenie."
   },
   "Home": {
     "1798": "Moja oferta ",
