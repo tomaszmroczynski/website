@@ -100,7 +100,11 @@
 
   /* ---- Type scale ---- */
   --text-2xs: 0.75rem; --text-xs: 0.85rem; --text-sm: 0.95rem;
-  --text-base: 1.05rem; --text-md: 1.2rem; --text-lg: 1.6rem;
+  /* --text-base swiadomie 0.98rem, nie 1.05rem jak w design systemie.
+     Tyle ma body w oryginalnym main.scss i tyle widac na zywej stronie;
+     1.05rem powiekszalo cala tresc o okolo 7%. Reszta skali zgadza sie
+     z oryginalem co do wartosci. */
+  --text-base: 0.98rem; --text-md: 1.2rem; --text-lg: 1.6rem;
   --text-xl: 2.1rem; --text-2xl: 2.8rem; --text-3xl: 3.75rem; --text-4xl: 5rem;
 
   /* ---- Line heights ---- */

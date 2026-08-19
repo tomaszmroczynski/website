@@ -1,5 +1,5 @@
 .wrap { padding: 0 5%; max-width: 1400px; margin: 0 auto var(--space-10); }
-.heading { margin: var(--space-10) 0 var(--space-7); font-size: var(--text-2xl); }
+.heading { margin: var(--space-10) 0 var(--space-7); font-size: var(--text-xl); }
 .intro { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: start; }
 @media (max-width: 860px) { .intro { grid-template-columns: 1fr; gap: var(--space-5); } }
 .portrait { width: 100%; height: auto; }
@@ -12,7 +12,8 @@
 }
 .term { color: var(--text-primary); }
 .passion { margin-top: var(--space-10); max-width: 78ch; }
-.subheading { font-size: var(--text-lg); margin-bottom: var(--space-4); }
+/* 2.1rem — tyle ma .heading w oryginalnym main.scss */
+.subheading { font-size: var(--text-xl); margin-bottom: var(--space-4); }
 .reviews { margin-top: var(--space-10); }
 .reviewGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); margin-top: var(--space-5); }
 @media (max-width: 860px) { .reviewGrid { grid-template-columns: 1fr; } }

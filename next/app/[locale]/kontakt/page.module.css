@@ -1,5 +1,5 @@
 .wrap { padding: 0 5%; max-width: 1200px; margin: 0 auto var(--space-10); }
-.heading { margin: var(--space-10) 0 var(--space-7); font-size: var(--text-2xl); }
+.heading { margin: var(--space-10) 0 var(--space-7); font-size: var(--text-xl); }
 .grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--space-8); }
 @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
 .blockHeading {
