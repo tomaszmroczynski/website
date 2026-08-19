@@ -1,0 +1,41 @@
+.hero { position: relative; height: 100vh; }
+@media (max-width: 768px) { .hero { height: 80vh; } }
+.heroCaption {
+  position: absolute; z-index: 3; left: 0; right: 0; top: 50%;
+  transform: translateY(-50%);
+  padding: 0 7%; text-align: left; pointer-events: none;
+  text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.45);
+}
+.heroTitle { color: #fff; font-size: var(--text-3xl); margin: 0; letter-spacing: 0.04em; }
+.heroDesc { color: #fff; font-size: var(--text-md); margin: var(--space-3) 0 0; }
+@media (max-width: 768px) {
+  .heroTitle { font-size: var(--text-xl); }
+  .heroDesc { font-size: var(--text-sm); }
+}
+
+.section { padding: var(--space-10) 5%; max-width: 1600px; margin: 0 auto; }
+.sectionHeading { font-size: var(--text-xl); margin-bottom: var(--space-6); }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: start; }
+@media (max-width: 860px) { .two { grid-template-columns: 1fr; } }
+
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+@media (max-width: 768px) { .cards { grid-template-columns: 1fr; } }
+.card { position: relative; display: block; overflow: hidden; min-height: 340px; }
+.card img { width: 100%; height: 100%; min-height: 340px; object-fit: cover; transition: transform 0.6s var(--ease-standard); }
+.card::after {
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55));
+  opacity: 0.5; transition: opacity 0.2s var(--ease-standard);
+}
+.card:hover::after { opacity: 0.72; }
+.card:hover img { transform: scale(1.04); }
+.cardDesc { position: absolute; z-index: 2; bottom: 22px; left: 22px; right: 22px; color: #fff; }
+.cardName { font-size: 1.4rem; font-weight: 500; margin: 0 0 4px; text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.35); }
+.cardMeta { font-size: 0.9rem; color: rgba(255, 255, 255, 0.78); margin: 0; }
+
+.more { display: inline-block; margin-top: var(--space-6); border-bottom: 2px solid var(--brand-accent); padding-bottom: 4px; }
+.reviewGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-5); }
+@media (max-width: 860px) { .reviewGrid { grid-template-columns: 1fr; } }
+.review { border: 1px solid var(--border-hairline); padding: var(--space-5); }
+.stars { color: var(--brand-accent); letter-spacing: 2px; margin-bottom: var(--space-3); }
+.author { color: var(--text-muted); font-size: var(--text-xs); margin: var(--space-3) 0 0; }

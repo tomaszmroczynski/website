@@ -18,11 +18,11 @@ export default async function ServicesPage({params}: {params: Promise<{locale: L
   setRequestLocale(locale);
 
   const s = await getTranslations({locale, namespace: "Services"});
-  const seo = await getTranslations({locale, namespace: "Seo"});
+  const a = await getTranslations({locale, namespace: "About"});
 
   return (
     <main className={styles.wrap}>
-      <h1 className={styles.heading}>{seo("expertness.title")}</h1>
+      <h1 className={styles.heading}>{a("offerHeading")}</h1>
 
       <Reveal effect="fadeInUp">
         <div className={styles.grid}>

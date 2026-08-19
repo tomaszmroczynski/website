@@ -105,3 +105,14 @@ export const SERVICE_IMAGES: Record<string, ProjectImage[]> = {
     {src: "/img/feature/decorasjon-av-arrangmenter/bryllupsdekor.webp", width: 2000, height: 1325},
   ],
 };
+
+/** Slider na stronie glownej. */
+export const HOME_IMAGES: ProjectImage[] = [
+  {src: "/img/front/aleksandra.webp", width: 1920, height: 1080},
+  {src: "/img/front/front.webp", width: 1920, height: 1080},
+  {src: "/img/front/gorlice.webp", width: 1920, height: 1080},
+  {src: "/img/front/mjondalen.webp", width: 1920, height: 1080},
+  {src: "/img/front/naszsalon.webp", width: 1920, height: 1080},
+  {src: "/img/front/salonGlm.webp", width: 1920, height: 1080},
+  {src: "/img/front/sandvika.webp", width: 1920, height: 1080},
+];
