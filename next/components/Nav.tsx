@@ -29,6 +29,7 @@ export default function Nav() {
           width={220}
           height={34}
           className={styles.signature}
+          style={{width: "auto", height: 34}}
           priority
         />
       </Link>

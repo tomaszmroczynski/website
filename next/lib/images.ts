@@ -116,3 +116,6 @@ export const HOME_IMAGES: ProjectImage[] = [
   {src: "/img/front/salonGlm.webp", width: 1920, height: 1080},
   {src: "/img/front/sandvika.webp", width: 1920, height: 1080},
 ];
+
+/** Portret na /om-meg. Wymiary czytane z pliku, nie wpisywane recznie. */
+export const ABOUT_IMAGE: ProjectImage = {src: "/img/imgabout.webp", width: 1600, height: 1200};

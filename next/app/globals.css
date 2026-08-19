@@ -339,3 +339,19 @@ img { display: block; max-width: 100%; }
     scroll-behavior: auto !important;
   }
 }
+
+/* ============================================================
+   REVEAL — animacja wejscia sekcji
+   Tresc jest widoczna domyslnie. Ukrywa ja dopiero klasa .js na <html>,
+   dodawana skryptem przed pierwszym malowaniem. Dzieki temu brak JS,
+   zablokowany skrypt albo crawler zawsze widza tekst — wczesniej
+   startowal z opacity 0 i zalezal od tego, czy odpali IntersectionObserver.
+   ============================================================ */
+.reveal { transition: opacity 1s var(--ease-out), transform 1s var(--ease-out); }
+html.js .reveal { opacity: 0; will-change: opacity, transform; }
+html.js .reveal--up { transform: translateY(28px); }
+html.js .reveal.is-visible { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .reveal { opacity: 1; transform: none; }
+}

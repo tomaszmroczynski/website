@@ -1,15 +1,17 @@
 "use client";
 
 import {useEffect, useRef, useState} from "react";
-import styles from "./Reveal.module.css";
 
 /**
- * Erstatter react-reveal, som er forlatt siden 2020 og har React 16 som
- * peer dependency — den ville ikke kjort med React 19. Samme effekt med
- * IntersectionObserver og CSS, uten bibliotek.
+ * Zastepuje react-reveal (porzucony w 2020, peer React 16).
  *
- * Innholdet ligger alltid i HTML-en; bare opasiteten animeres, sa en
- * crawler ser teksten uansett om observeren aldri kjorer.
+ * Tresc nie jest ukrywana w HTML — robi to dopiero klasa .js na <html>,
+ * dodawana skryptem w <head>. Bez JS wszystko jest widoczne.
+ *
+ * Do tego siatka bezpieczenstwa: IntersectionObserver zalezy od potoku
+ * renderowania i nie odpala w karcie, ktora nie kompozytuje klatek —
+ * np. otwartej w tle. Bez limitu czasu sekcja zostalaby przezroczysta
+ * na zawsze, takze po powrocie do karty.
  */
 export default function Reveal({
   children,
@@ -24,23 +26,42 @@ export default function Reveal({
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+
+    let done = false;
+    const reveal = () => {
+      if (done) return;
+      done = true;
+      setShown(true);
+    };
+
     const io = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setShown(true);
+          reveal();
           io.disconnect();
         }
       },
       {rootMargin: "0px 0px -10% 0px"}
     );
     io.observe(el);
-    return () => io.disconnect();
+
+    const timer = window.setTimeout(reveal, 1000);
+    return () => {
+      io.disconnect();
+      window.clearTimeout(timer);
+    };
   }, []);
 
   return (
     <div
       ref={ref}
-      className={`${styles.reveal} ${styles[effect]} ${shown ? styles.visible : ""}`}
+      className={[
+        "reveal",
+        effect === "fadeInUp" ? "reveal--up" : "",
+        shown ? "is-visible" : "",
+      ]
+        .filter(Boolean)
+        .join(" ")}
     >
       {children}
     </div>

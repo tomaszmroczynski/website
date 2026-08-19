@@ -1,6 +1,7 @@
 import Image from "next/image";
 import {getTranslations, setRequestLocale} from "next-intl/server";
 import Reveal from "@/components/Reveal";
+import {ABOUT_IMAGE} from "@/lib/images";
 import {buildMetadata} from "@/lib/seo";
 import type {Locale} from "@/i18n/routing";
 import styles from "./page.module.css";
@@ -38,10 +39,10 @@ export default async function AboutPage({params}: {params: Promise<{locale: Loca
       <Reveal effect="fadeInUp">
         <div className={styles.intro}>
           <Image
-            src="/img/imgabout.webp"
+            src={ABOUT_IMAGE.src}
             alt="Anna Rasinska — interiørarkitekt, Limes Interiør"
-            width={1200}
-            height={1500}
+            width={ABOUT_IMAGE.width}
+            height={ABOUT_IMAGE.height}
             className={styles.portrait}
             sizes="(max-width: 860px) 100vw, 50vw"
             priority

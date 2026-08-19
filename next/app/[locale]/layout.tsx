@@ -52,6 +52,18 @@ export default async function LocaleLayout({
 
   return (
     <html lang={HTML_LANG[locale as Locale]} className={`${gruppo.variable} ${poppins.variable}`}>
+      <head>
+        {/*
+          Znacznik, ze JavaScript dziala. Ustawiany przed pierwszym malowaniem,
+          wiec animacje wejscia moga startowac od opacity 0 bez migniecia —
+          a gdy skryptu nie ma, tresc pozostaje po prostu widoczna.
+        */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: 'document.documentElement.classList.add("js")',
+          }}
+        />
+      </head>
       <body>
         <NextIntlClientProvider>
           <Nav />
