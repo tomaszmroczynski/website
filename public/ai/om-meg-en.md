@@ -2,7 +2,7 @@
 
 > Original website texts (English). Interior architect in Eidsberg, Østfold and Oslo.
 
-Nettside: https://limes-interior.no/about
+Nettside: https://www.limes-interior.no/about
 
 ## About me
 

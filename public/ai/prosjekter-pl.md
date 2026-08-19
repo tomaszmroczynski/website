@@ -2,7 +2,7 @@
 
 > Oryginalne opisy projektów (polski).
 
-Nettside: https://limes-interior.no/work
+Nettside: https://www.limes-interior.no/work
 
 ## Niewielkie mieszkanie
 
@@ -48,7 +48,7 @@ Pełny
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/studioGdynia
+Side: https://www.limes-interior.no/studioGdynia
 
 ## Dom prywatny dla 3 osobowej rodziny
 
@@ -94,7 +94,7 @@ Minimalny
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/houseEidsberg
+Side: https://www.limes-interior.no/houseEidsberg
 
 ## Salon w nowoczesnym stylu
 
@@ -128,7 +128,7 @@ Architektura wnętrz
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/salonGlm
+Side: https://www.limes-interior.no/salonGlm
 
 ## Łazienka w ciepłej, przyjemnej kompozycji
 
@@ -162,7 +162,7 @@ Architektura wnętrz
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/lazMoss
+Side: https://www.limes-interior.no/lazMoss
 
 ## Projekt mieszkania dla pary z malowniczym widokiem
 
@@ -196,7 +196,7 @@ Architektura wnętrz
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/mjondalen
+Side: https://www.limes-interior.no/mjondalen
 
 ## Dom dla 4 osobowej rodziny
 
@@ -242,7 +242,7 @@ Architektura wnętrz
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/domDrammen
+Side: https://www.limes-interior.no/domDrammen
 
 ## Mieszkanie dla młodego małżeństwa
 
@@ -286,7 +286,7 @@ Minimalny
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/flat-gorlice-poland
+Side: https://www.limes-interior.no/flat-gorlice-poland
 
 ## Salon dla pary podróżników
 
@@ -320,5 +320,5 @@ Minimalny
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/salonSandvika
+Side: https://www.limes-interior.no/salonSandvika
 

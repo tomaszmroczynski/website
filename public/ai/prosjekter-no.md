@@ -2,7 +2,7 @@
 
 > Originaltekster fra porteføljen (norsk).
 
-Nettside: https://limes-interior.no/work
+Nettside: https://www.limes-interior.no/work
 
 ## En liten leilighet
 
@@ -22,7 +22,7 @@ KJØKKEN
 
 Kjøkkenet er elegant og greit. Lyse farger med tre og det grønne motivet på veggene går igjen i hele leiligheten. Hengende skap er innglasset, noe som gir kjøkkenet et lett og elegant preg.
 
-Side: https://limes-interior.no/studioGdynia
+Side: https://www.limes-interior.no/studioGdynia
 
 ## Privat hus for en familie på tre
 
@@ -44,7 +44,7 @@ et lite toalett og en mørk farge på veggene? Hvorfor ikke? Her presenterer jeg
 
 Interiørdesign og dekorasjon
 
-Side: https://limes-interior.no/houseEidsberg
+Side: https://www.limes-interior.no/houseEidsberg
 
 ## Stue i moderne stil
 
@@ -52,7 +52,7 @@ Stue i moderne stil
 
 Eierne av leiligheten er en spesiell familie som elsker den moderne stilen med glamourøse elementer. Stuen har gjennomgått en stor forandring: på 24 kvadratmeter har det blitt skapt en komfortabel sittegruppe og spisestue. Interiøret, selv om det ikke er stort, har blitt et sted for avslapning og hvile, men det oppfyller også den praktiske funksjonen som stue med spisestue.
 
-Side: https://limes-interior.no/salonGlm
+Side: https://www.limes-interior.no/salonGlm
 
 ## Bad i en varm, behagelig komposisjon
 
@@ -62,7 +62,7 @@ Et nytt, romslig bad var en stor drøm for en ung familie på tre. Ved å kombin
 
 Arrangement
 
-Side: https://limes-interior.no/lazMoss
+Side: https://www.limes-interior.no/lazMoss
 
 ## Leilighetsdesign for et par med en pittoresk utsikt.
 
@@ -72,7 +72,7 @@ Her er en moderne leilighet med ett soverom, en romslig stue kombinert med kjøk
 
 Arrangement
 
-Side: https://limes-interior.no/mjondalen
+Side: https://www.limes-interior.no/mjondalen
 
 ## Hus for en familie på 4
 
@@ -94,7 +94,7 @@ Salon.
 
 Arrangement
 
-Side: https://limes-interior.no/domDrammen
+Side: https://www.limes-interior.no/domDrammen
 
 ## En leilighet for et ungt ektepar
 
@@ -112,7 +112,7 @@ De nedre skapene er hovedsakelig skuffer på grunn av mangel på hengende skap. 
 
 ### KJØKKEN
 
-Side: https://limes-interior.no/flat-gorlice-poland
+Side: https://www.limes-interior.no/flat-gorlice-poland
 
 ## Stue til et ungt reisende
 
@@ -120,5 +120,5 @@ Stue til et ungt reisende
 
 Eierne av leiligheten er et ungt ektepar, lidenskapen deres er reiser. Når du reiser langt så er det viktig at du har et fint sted til å komme tilbake til. I dette tilfellet til et komfortabel og full av varme stue hvor de finnes et stort, komfortabel sofa, en bokhylle for en stor samling av bøker, et skap og en beleilig lenestol for husets vert. Selv om det ble brukt mørke farger så er det koselig, interiøret er sammenhengende og dekorasjoner undertrykker eiernes karakter.
 
-Side: https://limes-interior.no/salonSandvika
+Side: https://www.limes-interior.no/salonSandvika
 

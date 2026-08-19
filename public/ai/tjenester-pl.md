@@ -2,7 +2,7 @@
 
 > Oryginalne opisy usług (polski).
 
-Nettside: https://limes-interior.no/expertness
+Nettside: https://www.limes-interior.no/expertness
 
 ## Oversikt
 
@@ -82,7 +82,7 @@ Minimalny
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/interiorArchitecture
+Side: https://www.limes-interior.no/interiorArchitecture
 
 ## DEKOROWANIE WNĘTRZ
 
@@ -128,7 +128,7 @@ Minimalny
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/decoration
+Side: https://www.limes-interior.no/decoration
 
 ## HOME STAGING
 
@@ -180,7 +180,7 @@ Minimalny
 
 ### Udostępnij 
 
-Side: https://limes-interior.no/home-staging
+Side: https://www.limes-interior.no/home-staging
 
 ## Dekoracja wydarzeń
 
@@ -228,5 +228,5 @@ Ekskluzywne
 
 ### Udostępnij
 
-Side: https://limes-interior.no/dekorasjon-av-arrangementer
+Side: https://www.limes-interior.no/dekorasjon-av-arrangementer
 

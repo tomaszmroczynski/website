@@ -2,7 +2,7 @@
 
 > Originaltekster fra nettsiden (norsk). Interiørarkitekt i Eidsberg, Østfold og Oslo.
 
-Nettside: https://limes-interior.no/about
+Nettside: https://www.limes-interior.no/about
 
 ## Om meg
 

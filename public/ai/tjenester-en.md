@@ -2,7 +2,7 @@
 
 > Original service texts (English).
 
-Nettside: https://limes-interior.no/expertness
+Nettside: https://www.limes-interior.no/expertness
 
 ## Oversikt
 
@@ -78,7 +78,7 @@ Interior
 
 ### Share
 
-Side: https://limes-interior.no/interiorArchitecture
+Side: https://www.limes-interior.no/interiorArchitecture
 
 ## INTERIOR DECORATION
 
@@ -120,7 +120,7 @@ Interior
 
 ### Share
 
-Side: https://limes-interior.no/decoration
+Side: https://www.limes-interior.no/decoration
 
 ## HOME STAGING
 
@@ -172,7 +172,7 @@ Minimalist
 
 ### Share
 
-Side: https://limes-interior.no/home-staging
+Side: https://www.limes-interior.no/home-staging
 
 ## Decoration of Events
 
@@ -222,5 +222,5 @@ Exclusive
 
 ### Share
 
-Side: https://limes-interior.no/dekorasjon-av-arrangementer
+Side: https://www.limes-interior.no/dekorasjon-av-arrangementer
 

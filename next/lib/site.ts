@@ -1,4 +1,4 @@
-export const SITE_URL = "https://limes-interior.no";
+export const SITE_URL = "https://www.limes-interior.no";
 
 export const CONTACT = {
   legalName: "LIMES INTERIØR ANNA RASINSKA",
