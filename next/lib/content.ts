@@ -8,7 +8,8 @@ export type Project = {
   seoKey: string;
   msgKey: string;
   imgDir: string;
-  city: string;
+  /** null = lokalitet ikke bekreftet; da utelates den fra alt-tekst og geo */
+  city: string | null;
 };
 
 export type Service = {
@@ -23,7 +24,7 @@ export const PROJECTS: Project[] = [
   {slug: "enebolig-drammen",    seoKey: "domDrammen",     msgKey: "domDrammen",           imgDir: "domDrammen",          city: "Drammen"},
   {slug: "leilighet-mjondalen", seoKey: "mjondalen",      msgKey: "mjondalen",            imgDir: "mjondalen",           city: "Mjøndalen"},
   {slug: "stue-sandvika",       seoKey: "salonSandvika",  msgKey: "salonSandvika",        imgDir: "salonSandvika",       city: "Sandvika"},
-  {slug: "stue-glamour",        seoKey: "salonGlm",       msgKey: "salonGlm",             imgDir: "salonGlm",            city: "Eidsberg"},
+  {slug: "stue-glamour",        seoKey: "salonGlm",       msgKey: "salonGlm",             imgDir: "salonGlm",            city: null},
   {slug: "leilighet-gdynia",    seoKey: "studioGdynia",   msgKey: "studioGdynia",         imgDir: "studioGdynia",        city: "Gdynia"},
   {slug: "leilighet-gorlice",   seoKey: "gorlice",        msgKey: "flat-gorlice-poland",  imgDir: "flat-gorlice-poland", city: "Gorlice"},
 ];

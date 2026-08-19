@@ -425,7 +425,8 @@
         "Dekorasjon",
         "Interiør",
         "Minimum"
-      ]
+      ],
+      "room": "Enebolig"
     },
     "bad-moss": {
       "eyebrow": "INTERIØR",
@@ -445,7 +446,8 @@
         "Dekorasjon",
         "Arrangement",
         "Interiørdesign"
-      ]
+      ],
+      "room": "Bad"
     },
     "enebolig-drammen": {
       "eyebrow": "INTERIØR",
@@ -489,7 +491,8 @@
         "Dekorasjon",
         "Arrangement",
         "Interiørarkitektur"
-      ]
+      ],
+      "room": "Enebolig"
     },
     "leilighet-mjondalen": {
       "eyebrow": "INTERIØR",
@@ -509,7 +512,8 @@
         "Dekorasjon",
         "Arrangement",
         "Interiørdesign"
-      ]
+      ],
+      "room": "Leilighet"
     },
     "stue-sandvika": {
       "title": "Stue til et ungt reisende",
@@ -529,7 +533,8 @@
         "Dekorasjon",
         "Interiør",
         "Minimum"
-      ]
+      ],
+      "room": "Stue"
     },
     "stue-glamour": {
       "eyebrow": "INTERIØR",
@@ -549,7 +554,8 @@
         "Dekorasjon",
         "Dekorasjon",
         "Interiørarkitektur"
-      ]
+      ],
+      "room": "Stue"
     },
     "leilighet-gdynia": {
       "eyebrow": "INTERIØR",
@@ -593,7 +599,8 @@
         "Dekorasjon",
         "Interiør",
         "Full"
-      ]
+      ],
+      "room": "Leilighet"
     },
     "leilighet-gorlice": {
       "eyebrow": "INTERIØR",
@@ -633,7 +640,8 @@
         "Dekorasjon",
         "Interiør",
         "Minimum"
-      ]
+      ],
+      "room": "Leilighet"
     }
   },
   "Project": {
@@ -644,6 +652,9 @@
     "concept": "Konsept:",
     "projectType": "Prosjekttype:",
     "tags": "Etiketter:",
-    "share": "Del:"
+    "share": "Del:",
+    "altWithCity": "{room} i {city} — prosjekt av Limes Interiør",
+    "alt": "{room} — prosjekt av Limes Interiør",
+    "close": "Lukk"
   }
 }

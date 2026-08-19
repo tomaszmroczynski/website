@@ -424,7 +424,8 @@
         "Decoration",
         "Interior",
         "Minimum"
-      ]
+      ],
+      "room": "Detached house"
     },
     "bad-moss": {
       "eyebrow": "INTERIOR",
@@ -444,7 +445,8 @@
         "Decoration",
         "Arrangement",
         "Interior Design"
-      ]
+      ],
+      "room": "Bathroom"
     },
     "enebolig-drammen": {
       "eyebrow": "INTERIOR",
@@ -488,7 +490,8 @@
         "Decoration",
         "Arrangement",
         "Interior architecture"
-      ]
+      ],
+      "room": "Detached house"
     },
     "leilighet-mjondalen": {
       "eyebrow": "INTERIOR",
@@ -508,7 +511,8 @@
         "Decoration",
         "Arrangement",
         "Interior Design"
-      ]
+      ],
+      "room": "Apartment"
     },
     "stue-sandvika": {
       "title": "A livingroom for a couple of travellers",
@@ -528,7 +532,8 @@
         "Decoration",
         "Interior",
         "Minimum"
-      ]
+      ],
+      "room": "Living room"
     },
     "stue-glamour": {
       "eyebrow": "WNĘTRZE",
@@ -548,7 +553,8 @@
         "Decoration",
         "Arrangement",
         "Interior design"
-      ]
+      ],
+      "room": "Living room"
     },
     "leilighet-gdynia": {
       "eyebrow": "INTERIOR",
@@ -592,7 +598,8 @@
         "Decoration",
         "Interior",
         "Full"
-      ]
+      ],
+      "room": "Apartment"
     },
     "leilighet-gorlice": {
       "eyebrow": "INTERIOR",
@@ -632,7 +639,8 @@
         "Decoration",
         "Interior",
         "Minimum"
-      ]
+      ],
+      "room": "Apartment"
     }
   },
   "Project": {
@@ -643,6 +651,9 @@
     "concept": "Concept:",
     "projectType": "Project type:",
     "tags": "Tags:",
-    "share": "Share:"
+    "share": "Share:",
+    "altWithCity": "{room} in {city} — project by Limes Interiør",
+    "alt": "{room} — project by Limes Interiør",
+    "close": "Close"
   }
 }

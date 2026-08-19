@@ -424,7 +424,8 @@
         "Dekoracja",
         "Wnętrze",
         "Minimalny"
-      ]
+      ],
+      "room": "Dom jednorodzinny"
     },
     "bad-moss": {
       "eyebrow": "WNĘTRZE",
@@ -444,7 +445,8 @@
         "Dekoracja",
         "Aranżacja",
         "Architektura wnętrz"
-      ]
+      ],
+      "room": "Łazienka"
     },
     "enebolig-drammen": {
       "eyebrow": "WNĘTRZE",
@@ -488,7 +490,8 @@
         "Dekoracja",
         "Aranżacja",
         "Architektura wnętrz"
-      ]
+      ],
+      "room": "Dom jednorodzinny"
     },
     "leilighet-mjondalen": {
       "eyebrow": "WNĘTRZE",
@@ -508,7 +511,8 @@
         "Dekoracja",
         "Aranżacja",
         "Architektura wnętrz"
-      ]
+      ],
+      "room": "Mieszkanie"
     },
     "stue-sandvika": {
       "title": "Salon dla pary podróżników",
@@ -528,7 +532,8 @@
         "Dekoracja",
         "Wnętrze",
         "Minimalny"
-      ]
+      ],
+      "room": "Salon"
     },
     "stue-glamour": {
       "eyebrow": "WNĘTRZE",
@@ -548,7 +553,8 @@
         "Dekoracja",
         "Aranżacja",
         "Architektura wnętrz"
-      ]
+      ],
+      "room": "Salon"
     },
     "leilighet-gdynia": {
       "eyebrow": "WNĘTRZE",
@@ -592,7 +598,8 @@
         "Dekoracja",
         "Wnętrze",
         "Pełny"
-      ]
+      ],
+      "room": "Mieszkanie"
     },
     "leilighet-gorlice": {
       "eyebrow": "WNĘTRZE",
@@ -632,7 +639,8 @@
         "Dekoracja",
         "Wnętrze",
         "Minimalny"
-      ]
+      ],
+      "room": "Mieszkanie"
     }
   },
   "Project": {
@@ -643,6 +651,9 @@
     "concept": "Koncepcja:",
     "projectType": "Typ projektu:",
     "tags": "Tagi:",
-    "share": "Udostępnij:"
+    "share": "Udostępnij:",
+    "altWithCity": "{room}, {city} — projekt Limes Interiør",
+    "alt": "{room} — projekt Limes Interiør",
+    "close": "Zamknij"
   }
 }
