@@ -262,16 +262,7 @@
     "1810": "Planujesz ślub, jubileusz lub firmową imprezę i chcesz stworzyć niepowtarzalną atmosferę? Chcesz zapewnić gościom niezapomniane wrażenia? Potrzebujesz spersonalizowanej dekoracji na wyjątkową okazję? Profesjonalna dekoracja eventowa nada Twojemu wydarzeniu ekskluzywny charakter."
   },
   "Work": {
-    "heading": "Wybrane projekty",
-    "location_domDrammen": "Drammen, Norwegia",
-    "alt_salonGlm": "Salon w stylu modern – projekt wnętrz Limes Interior",
-    "alt_lazMoss": "Łazienka w Moss – projekt wnętrz Limes Interior",
-    "alt_studioGdynia": "Małe mieszkanie Gdynia – projekt wnętrz",
-    "alt_houseEidsberg": "Dom prywatny Eidsberg – projekt wnętrz",
-    "alt_gorlice": "Mieszkanie Gorlice – projekt wnętrz",
-    "alt_salonSandvika": "Salon Sandvika – projekt wnętrz",
-    "alt_mjondalen": "Mieszkanie Mjøndalen – projekt wnętrz",
-    "alt_domDrammen": "Dom Drammen – projekt wnętrz Limes Interior"
+    "heading": "Wybrane projekty"
   },
   "Seo": {
     "home": {
@@ -425,7 +416,12 @@
         "Wnętrze",
         "Minimalny"
       ],
-      "room": "Dom jednorodzinny"
+      "room": "Dom jednorodzinny",
+      "cardTag": "Wnętrze i dekoracje",
+      "cardName": "Dom 110 m2",
+      "cardLocation": "Eidsberg, Norwegia",
+      "cardAlt": "Dom prywatny Eidsberg – projekt wnętrz",
+      "cover": "/img/houseEidsberg/front2.webp"
     },
     "bad-moss": {
       "eyebrow": "WNĘTRZE",
@@ -446,7 +442,12 @@
         "Aranżacja",
         "Architektura wnętrz"
       ],
-      "room": "Łazienka"
+      "room": "Łazienka",
+      "cardTag": "Wnętrze",
+      "cardName": "Łazienka 15m2",
+      "cardLocation": "Moss, Norwegia",
+      "cardAlt": "Łazienka w Moss – projekt wnętrz Limes Interior",
+      "cover": "/img/lazMoss/front.webp"
     },
     "enebolig-drammen": {
       "eyebrow": "WNĘTRZE",
@@ -491,7 +492,12 @@
         "Aranżacja",
         "Architektura wnętrz"
       ],
-      "room": "Dom jednorodzinny"
+      "room": "Dom jednorodzinny",
+      "cardTag": "WNĘTRZE",
+      "cardName": "Dom dla 4 osobowej rodziny",
+      "cardLocation": "Drammen, Norwegia",
+      "cardAlt": "Dom Drammen – projekt wnętrz Limes Interior",
+      "cover": "/img/domDrammen/1.webp"
     },
     "leilighet-mjondalen": {
       "eyebrow": "WNĘTRZE",
@@ -512,7 +518,12 @@
         "Aranżacja",
         "Architektura wnętrz"
       ],
-      "room": "Mieszkanie"
+      "room": "Mieszkanie",
+      "cardTag": "Wnętrze",
+      "cardName": "Mieszkanie",
+      "cardLocation": "Mjøndalen, Norwegia",
+      "cardAlt": "Mieszkanie Mjøndalen – projekt wnętrz",
+      "cover": "/img/mjondalen/front.webp"
     },
     "stue-sandvika": {
       "title": "Salon dla pary podróżników",
@@ -533,7 +544,12 @@
         "Wnętrze",
         "Minimalny"
       ],
-      "room": "Salon"
+      "room": "Salon",
+      "cardTag": "Wnętrze",
+      "cardName": "Salon 32 m2",
+      "cardLocation": "Sandvika, Norwegia",
+      "cardAlt": "Salon Sandvika – projekt wnętrz",
+      "cover": "/img/salonSandvika/front7.webp"
     },
     "stue-glamour": {
       "eyebrow": "WNĘTRZE",
@@ -554,7 +570,12 @@
         "Aranżacja",
         "Architektura wnętrz"
       ],
-      "room": "Salon"
+      "room": "Salon",
+      "cardTag": "Wnętrze",
+      "cardName": "Salon 24m2",
+      "cardLocation": "Kongsberg, Norwegia",
+      "cardAlt": "Salon w stylu modern – projekt wnętrz Limes Interior",
+      "cover": "/img/salonGlm/front.webp"
     },
     "leilighet-gdynia": {
       "eyebrow": "WNĘTRZE",
@@ -599,7 +620,12 @@
         "Wnętrze",
         "Pełny"
       ],
-      "room": "Mieszkanie"
+      "room": "Mieszkanie",
+      "cardTag": "Wnętrze",
+      "cardName": "Kawalerka 38m2",
+      "cardLocation": "Gdynia, Polska",
+      "cardAlt": "Małe mieszkanie Gdynia – projekt wnętrz",
+      "cover": "/img/studioGdynia/front1.webp"
     },
     "leilighet-gorlice": {
       "eyebrow": "WNĘTRZE",
@@ -640,7 +666,12 @@
         "Wnętrze",
         "Minimalny"
       ],
-      "room": "Mieszkanie"
+      "room": "Mieszkanie",
+      "cardTag": "Wnętrze",
+      "cardName": "Mieszkanie 68m2",
+      "cardLocation": "Gorlice, Polska",
+      "cardAlt": "Mieszkanie Gorlice – projekt wnętrz",
+      "cover": "/img/flat-gorlice-poland/front.webp"
     }
   },
   "Project": {
@@ -654,6 +685,7 @@
     "share": "Udostępnij:",
     "altWithCity": "{room}, {city} — projekt Limes Interiør",
     "alt": "{room} — projekt Limes Interiør",
-    "close": "Zamknij"
+    "close": "Zamknij",
+    "seeProject": "Zobacz projekt"
   }
 }

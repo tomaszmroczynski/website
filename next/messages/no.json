@@ -263,16 +263,7 @@
     "1811": ""
   },
   "Work": {
-    "heading": "Utvalgte prosjekter",
-    "location_domDrammen": "Drammen, Norge",
-    "alt_salonGlm": "Stue i moderne stil – interiørprosjekt Limes Interiør",
-    "alt_lazMoss": "Bad i Moss – interiørprosjekt Limes Interiør",
-    "alt_studioGdynia": "Liten leilighet Gdynia – interiørprosjekt",
-    "alt_houseEidsberg": "Privat hus Eidsberg – interiørprosjekt",
-    "alt_gorlice": "Leilighet Gorlice – interiørprosjekt",
-    "alt_salonSandvika": "Stue Sandvika – interiørprosjekt",
-    "alt_mjondalen": "Leilighet Mjøndalen – interiørprosjekt",
-    "alt_domDrammen": "Hus Drammen – interiørprosjekt Limes Interiør"
+    "heading": "Utvalgte prosjekter"
   },
   "Seo": {
     "home": {
@@ -426,7 +417,12 @@
         "Interiør",
         "Minimum"
       ],
-      "room": "Enebolig"
+      "room": "Enebolig",
+      "cardTag": "Interiør og dekorasjon",
+      "cardName": "110 kvm Hus",
+      "cardLocation": "Eidsberg, Norge",
+      "cardAlt": "Privat hus Eidsberg – interiørprosjekt",
+      "cover": "/img/houseEidsberg/front2.webp"
     },
     "bad-moss": {
       "eyebrow": "INTERIØR",
@@ -447,7 +443,12 @@
         "Arrangement",
         "Interiørdesign"
       ],
-      "room": "Bad"
+      "room": "Bad",
+      "cardTag": "Interiør",
+      "cardName": "15 kvm Bad",
+      "cardLocation": "Moss, Norge",
+      "cardAlt": "Bad i Moss – interiørprosjekt Limes Interiør",
+      "cover": "/img/lazMoss/front.webp"
     },
     "enebolig-drammen": {
       "eyebrow": "INTERIØR",
@@ -492,7 +493,12 @@
         "Arrangement",
         "Interiørarkitektur"
       ],
-      "room": "Enebolig"
+      "room": "Enebolig",
+      "cardTag": "INTERIØR",
+      "cardName": "Hus for en familie på 4",
+      "cardLocation": "Drammen, Norge",
+      "cardAlt": "Hus Drammen – interiørprosjekt Limes Interiør",
+      "cover": "/img/domDrammen/1.webp"
     },
     "leilighet-mjondalen": {
       "eyebrow": "INTERIØR",
@@ -513,7 +519,12 @@
         "Arrangement",
         "Interiørdesign"
       ],
-      "room": "Leilighet"
+      "room": "Leilighet",
+      "cardTag": "Interiør",
+      "cardName": "Leilighet",
+      "cardLocation": "Mjøndalen, Norge",
+      "cardAlt": "Leilighet Mjøndalen – interiørprosjekt",
+      "cover": "/img/mjondalen/front.webp"
     },
     "stue-sandvika": {
       "title": "Stue til et ungt reisende",
@@ -534,7 +545,12 @@
         "Interiør",
         "Minimum"
       ],
-      "room": "Stue"
+      "room": "Stue",
+      "cardTag": "Interiør",
+      "cardName": "32 kvm Stue",
+      "cardLocation": "Sandvika, Norge",
+      "cardAlt": "Stue Sandvika – interiørprosjekt",
+      "cover": "/img/salonSandvika/front7.webp"
     },
     "stue-glamour": {
       "eyebrow": "INTERIØR",
@@ -555,7 +571,12 @@
         "Dekorasjon",
         "Interiørarkitektur"
       ],
-      "room": "Stue"
+      "room": "Stue",
+      "cardTag": "Interiør",
+      "cardName": "24 kvm Stue",
+      "cardLocation": "Kongsberg, Norge",
+      "cardAlt": "Stue i moderne stil – interiørprosjekt Limes Interiør",
+      "cover": "/img/salonGlm/front.webp"
     },
     "leilighet-gdynia": {
       "eyebrow": "INTERIØR",
@@ -600,7 +621,12 @@
         "Interiør",
         "Full"
       ],
-      "room": "Leilighet"
+      "room": "Leilighet",
+      "cardTag": "Interiør",
+      "cardName": "38 kvm Leilighet",
+      "cardLocation": "Gdynia, Polen",
+      "cardAlt": "Liten leilighet Gdynia – interiørprosjekt",
+      "cover": "/img/studioGdynia/front1.webp"
     },
     "leilighet-gorlice": {
       "eyebrow": "INTERIØR",
@@ -641,7 +667,12 @@
         "Interiør",
         "Minimum"
       ],
-      "room": "Leilighet"
+      "room": "Leilighet",
+      "cardTag": "Interiør",
+      "cardName": "68 kvm Leilighet",
+      "cardLocation": "Gorlice, Polen",
+      "cardAlt": "Leilighet Gorlice – interiørprosjekt",
+      "cover": "/img/flat-gorlice-poland/front.webp"
     }
   },
   "Project": {
@@ -655,6 +686,7 @@
     "share": "Del:",
     "altWithCity": "{room} i {city} — prosjekt av Limes Interiør",
     "alt": "{room} — prosjekt av Limes Interiør",
-    "close": "Lukk"
+    "close": "Lukk",
+    "seeProject": "Se prosjekt"
   }
 }

@@ -24,7 +24,7 @@ export const PROJECTS: Project[] = [
   {slug: "enebolig-drammen",    seoKey: "domDrammen",     msgKey: "domDrammen",           imgDir: "domDrammen",          city: "Drammen"},
   {slug: "leilighet-mjondalen", seoKey: "mjondalen",      msgKey: "mjondalen",            imgDir: "mjondalen",           city: "Mjøndalen"},
   {slug: "stue-sandvika",       seoKey: "salonSandvika",  msgKey: "salonSandvika",        imgDir: "salonSandvika",       city: "Sandvika"},
-  {slug: "stue-glamour",        seoKey: "salonGlm",       msgKey: "salonGlm",             imgDir: "salonGlm",            city: null},
+  {slug: "stue-glamour",        seoKey: "salonGlm",       msgKey: "salonGlm",             imgDir: "salonGlm",            city: "Kongsberg"},
   {slug: "leilighet-gdynia",    seoKey: "studioGdynia",   msgKey: "studioGdynia",         imgDir: "studioGdynia",        city: "Gdynia"},
   {slug: "leilighet-gorlice",   seoKey: "gorlice",        msgKey: "flat-gorlice-poland",  imgDir: "flat-gorlice-poland", city: "Gorlice"},
 ];

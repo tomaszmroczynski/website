@@ -262,16 +262,7 @@
     "1810": "Are you planning a wedding, anniversary, or corporate event and want to create a unique atmosphere? Do you want to provide your guests with an unforgettable experience? Do you need customized decorations for a special occasion? Professional event decoration gives your event an exclusive touch."
   },
   "Work": {
-    "heading": "Selected projects",
-    "location_domDrammen": "Drammen, Norway",
-    "alt_salonGlm": "Modern living room – interior project by Limes Interior",
-    "alt_lazMoss": "Bathroom in Moss – interior project by Limes Interior",
-    "alt_studioGdynia": "Small apartment Gdynia – interior project",
-    "alt_houseEidsberg": "Private house Eidsberg – interior project",
-    "alt_gorlice": "Apartment Gorlice – interior project",
-    "alt_salonSandvika": "Living room Sandvika – interior project",
-    "alt_mjondalen": "Apartment Mjøndalen – interior project",
-    "alt_domDrammen": "House Drammen – interior project by Limes Interior"
+    "heading": "Selected projects"
   },
   "Seo": {
     "home": {
@@ -425,7 +416,12 @@
         "Interior",
         "Minimum"
       ],
-      "room": "Detached house"
+      "room": "Detached house",
+      "cardTag": "Interior and Decorations",
+      "cardName": "House 110 m2",
+      "cardLocation": "Eidsberg, Norway",
+      "cardAlt": "Private house Eidsberg – interior project",
+      "cover": "/img/houseEidsberg/front2.webp"
     },
     "bad-moss": {
       "eyebrow": "INTERIOR",
@@ -446,7 +442,12 @@
         "Arrangement",
         "Interior Design"
       ],
-      "room": "Bathroom"
+      "room": "Bathroom",
+      "cardTag": "Interior",
+      "cardName": "Bathroom 15m2",
+      "cardLocation": "Moss, Norway",
+      "cardAlt": "Bathroom in Moss – interior project by Limes Interior",
+      "cover": "/img/lazMoss/front.webp"
     },
     "enebolig-drammen": {
       "eyebrow": "INTERIOR",
@@ -491,7 +492,12 @@
         "Arrangement",
         "Interior architecture"
       ],
-      "room": "Detached house"
+      "room": "Detached house",
+      "cardTag": "INTERIOR",
+      "cardName": "House for a family of 4",
+      "cardLocation": "Drammen, Norway",
+      "cardAlt": "House Drammen – interior project by Limes Interior",
+      "cover": "/img/domDrammen/1.webp"
     },
     "leilighet-mjondalen": {
       "eyebrow": "INTERIOR",
@@ -512,7 +518,12 @@
         "Arrangement",
         "Interior Design"
       ],
-      "room": "Apartment"
+      "room": "Apartment",
+      "cardTag": "Interior",
+      "cardName": "Flat",
+      "cardLocation": "Mjøndalen, Norway",
+      "cardAlt": "Apartment Mjøndalen – interior project",
+      "cover": "/img/mjondalen/front.webp"
     },
     "stue-sandvika": {
       "title": "A livingroom for a couple of travellers",
@@ -533,7 +544,12 @@
         "Interior",
         "Minimum"
       ],
-      "room": "Living room"
+      "room": "Living room",
+      "cardTag": "Interior",
+      "cardName": "Living Room 32 m2",
+      "cardLocation": "Sandvika, Norway",
+      "cardAlt": "Living room Sandvika – interior project",
+      "cover": "/img/salonSandvika/front7.webp"
     },
     "stue-glamour": {
       "eyebrow": "WNĘTRZE",
@@ -554,7 +570,12 @@
         "Arrangement",
         "Interior design"
       ],
-      "room": "Living room"
+      "room": "Living room",
+      "cardTag": "Interior",
+      "cardName": "Living Room 24m2",
+      "cardLocation": "Kongsberg, Norway",
+      "cardAlt": "Modern living room – interior project by Limes Interior",
+      "cover": "/img/salonGlm/front.webp"
     },
     "leilighet-gdynia": {
       "eyebrow": "INTERIOR",
@@ -599,7 +620,12 @@
         "Interior",
         "Full"
       ],
-      "room": "Apartment"
+      "room": "Apartment",
+      "cardTag": "Interior",
+      "cardName": "Studio Apartment 38m2",
+      "cardLocation": "Gdynia, Poland",
+      "cardAlt": "Small apartment Gdynia – interior project",
+      "cover": "/img/studioGdynia/front1.webp"
     },
     "leilighet-gorlice": {
       "eyebrow": "INTERIOR",
@@ -640,7 +666,12 @@
         "Interior",
         "Minimum"
       ],
-      "room": "Apartment"
+      "room": "Apartment",
+      "cardTag": "Interior",
+      "cardName": "Apartment 68m2",
+      "cardLocation": "Gorlice, Poland",
+      "cardAlt": "Apartment Gorlice – interior project",
+      "cover": "/img/flat-gorlice-poland/front.webp"
     }
   },
   "Project": {
@@ -654,6 +685,7 @@
     "share": "Share:",
     "altWithCity": "{room} in {city} — project by Limes Interiør",
     "alt": "{room} — project by Limes Interiør",
-    "close": "Close"
+    "close": "Close",
+    "seeProject": "See project"
   }
 }
