@@ -11,6 +11,7 @@ import styles from "./Nav.module.css";
 const ITEMS = [
   {href: "/", key: "home"},
   {href: "/om-meg", key: "about"},
+  {href: "/tjenester", key: "services"},
   {href: "/prosjekter", key: "projects"},
   {href: "/kontakt", key: "contact"},
 ] as const;
