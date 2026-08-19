@@ -13,10 +13,12 @@
 @media (max-width: 768px) { .back { height: 40px; width: 40px; padding: 5px 0 5px 10px; } }
 .backArrow { font-size: 1.6rem; line-height: 1; color: #fff; }
 
+/* position: fixed jak w oryginalnym .herocaption — pasek zostaje na
+   ekranie takze po przewinieciu poza hero */
 .caption {
   padding: 45px 7% 30px;
-  position: absolute; bottom: 0; left: 0;
-  z-index: 2; width: 100%;
+  position: fixed; bottom: 0; left: 0;
+  z-index: 2; width: 100vw;
   background: rgba(0, 0, 0, 0.6);
 }
 .eyebrow {

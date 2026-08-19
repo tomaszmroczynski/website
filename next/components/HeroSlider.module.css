@@ -36,3 +36,13 @@
 }
 .dot:hover { background: rgba(255, 255, 255, 0.8); }
 .dotActive { background: var(--brand-accent); transform: scale(1.35); }
+
+/* Wariant pionowy — jak react-animated-slider/vertical.css w CRA */
+.trackY {
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+.trackY .slide { flex: 0 0 100%; }
+.dotsY { flex-direction: row; right: auto; left: 50%; top: auto; bottom: 24px; transform: translateX(-50%); }

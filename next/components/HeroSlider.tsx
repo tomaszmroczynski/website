@@ -5,7 +5,13 @@ import Image from "next/image";
 import type {ProjectImage} from "@/lib/images";
 import styles from "./HeroSlider.module.css";
 
-type Props = {images: ProjectImage[]; alt: string; interval?: number};
+type Props = {
+  images: ProjectImage[];
+  alt: string;
+  interval?: number;
+  /** "x" = przesuw poziomy (swipe na dotyku), "y" = pionowy jak w CRA */
+  direction?: "x" | "y";
+};
 
 /**
  * Slider bygget pa CSS scroll-snap i stedet for react-animated-slider.
@@ -16,24 +22,37 @@ type Props = {images: ProjectImage[]; alt: string; interval?: number};
  * Her gjor JavaScript kun en ting — flytter scrollposisjonen. Uten JS
  * er dette fortsatt en fungerende, swipe-bar bildestripe.
  */
-export default function HeroSlider({images, alt, interval = 2000}: Props) {
+export default function HeroSlider({images, alt, interval = 2000, direction = "x"}: Props) {
+  const vertical = direction === "y";
   const trackRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
 
-  const goTo = useCallback((i: number) => {
-    const el = trackRef.current;
-    if (!el) return;
-    el.scrollTo({left: el.clientWidth * i, behavior: "smooth"});
-  }, []);
+  const goTo = useCallback(
+    (i: number) => {
+      const el = trackRef.current;
+      if (!el) return;
+      el.scrollTo(
+        vertical
+          ? {top: el.clientHeight * i, behavior: "smooth"}
+          : {left: el.clientWidth * i, behavior: "smooth"}
+      );
+    },
+    [vertical]
+  );
 
   useEffect(() => {
     const el = trackRef.current;
     if (!el) return;
-    const onScroll = () => setActive(Math.round(el.scrollLeft / el.clientWidth));
+    const onScroll = () =>
+      setActive(
+        vertical
+          ? Math.round(el.scrollTop / el.clientHeight)
+          : Math.round(el.scrollLeft / el.clientWidth)
+      );
     el.addEventListener("scroll", onScroll, {passive: true});
     return () => el.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [vertical]);
 
   useEffect(() => {
     if (paused || images.length < 2) return;
@@ -41,11 +60,15 @@ export default function HeroSlider({images, alt, interval = 2000}: Props) {
     const id = window.setInterval(() => {
       const el = trackRef.current;
       if (!el) return;
-      const next = (Math.round(el.scrollLeft / el.clientWidth) + 1) % images.length;
-      el.scrollTo({left: el.clientWidth * next, behavior: "smooth"});
+      const size = vertical ? el.clientHeight : el.clientWidth;
+      const pos = vertical ? el.scrollTop : el.scrollLeft;
+      const next = (Math.round(pos / size) + 1) % images.length;
+      el.scrollTo(
+        vertical ? {top: size * next, behavior: "smooth"} : {left: size * next, behavior: "smooth"}
+      );
     }, interval);
     return () => window.clearInterval(id);
-  }, [paused, images.length, interval]);
+  }, [paused, images.length, interval, vertical]);
 
   return (
     <div
@@ -55,7 +78,7 @@ export default function HeroSlider({images, alt, interval = 2000}: Props) {
       onFocusCapture={() => setPaused(true)}
       onBlurCapture={() => setPaused(false)}
     >
-      <div className={styles.track} ref={trackRef}>
+      <div className={`${styles.track} ${vertical ? styles.trackY : ""}`} ref={trackRef}>
         {images.map((img, i) => (
           <div className={styles.slide} key={img.src}>
             <Image
@@ -72,7 +95,7 @@ export default function HeroSlider({images, alt, interval = 2000}: Props) {
       </div>
 
       {images.length > 1 && (
-        <div className={styles.dots}>
+        <div className={`${styles.dots} ${vertical ? styles.dotsY : ""}`}>
           {images.map((img, i) => (
             <button
               key={img.src}
