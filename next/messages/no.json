@@ -746,5 +746,47 @@
     "sending": "Sender…",
     "sent": "Takk! Jeg svarer sa snart jeg kan.",
     "error": "Noe gikk galt. Prov igjen eller send e-post direkte."
+  },
+  "Geo": {
+    "interiorarkitekt-indre-ostfold": {
+      "metaTitle": "Interiørarkitekt i Indre Østfold – Mysen, Askim og Eidsberg",
+      "metaDescription": "Limes Interiør holder til i Eidsberg og tegner interiørarkitektur, boligstyling og dekorasjon i Mysen, Askim og resten av Indre Østfold.",
+      "h1": "Interiørarkitekt i Indre Østfold",
+      "intro": "Studioet mitt ligger i Eidsberg, midt i Indre Østfold. Det betyr kort vei til befaring i Mysen, Askim og bygdene rundt – og at jeg kjenner boligmassen her: eneboliger fra sytti- og åttitallet, romslige tomter og planløsninger som sjelden svarer til måten folk lever på i dag.",
+      "p1": "Jeg tegner interiørarkitektur for private hjem, fra planløsning og kjøkken til bad, belysning og møblering. Du får 3D-visualisering av rommet før noe rives, og tegninger håndverkeren kan bygge etter.",
+      "p2": "Fordi jeg holder til her, blir befaring sjelden vanskelig å få til. Ta kontakt for en uforpliktende samtale om hva rommet ditt tåler."
+    },
+    "interiorarkitekt-moss": {
+      "metaTitle": "Interiørarkitekt i Moss – bad, kjøkken og boligstyling",
+      "metaDescription": "Interiørarkitekt for private hjem i Moss. Bad, kjøkken, planløsning og boligstyling, med 3D-visualisering og tegninger til håndverkeren.",
+      "h1": "Interiørarkitekt i Moss",
+      "intro": "Moss ligger under en time fra studioet i Eidsberg, og jeg tar oppdrag her jevnlig. Boligene i sentrum har ofte små, oppdelte bad og kjøkken fra en tid da rommene skulle være atskilte – nettopp de oppgavene der en gjennomtegnet planløsning betyr mest.",
+      "p1": "Et av prosjektene mine i Moss viser hva som er mulig: to lite funksjonelle rom slått sammen til ett romslig bad med badekar, dusj og skjult oppbevaring.",
+      "p2": "Jeg tegner interiørarkitektur, interiørdekorasjon og boligstyling for private hjem og næringslokaler. Ta kontakt for en uforpliktende samtale."
+    },
+    "interiorarkitekt-buskerud": {
+      "metaTitle": "Interiørarkitekt i Drammen, Mjøndalen og Kongsberg",
+      "metaDescription": "Interiørarkitekt i Buskerud. Prosjekter i Drammen, Mjøndalen og Kongsberg – planløsning, kjøkken, bad, belysning og møblering.",
+      "h1": "Interiørarkitekt i Buskerud",
+      "intro": "I Buskerud har jeg tre gjennomførte prosjekter: en enebolig i Drammen, en leilighet i Mjøndalen og en stue i Kongsberg. Det er den delen av landet jeg har jobbet mest i utenfor Østfold.",
+      "p1": "Oppgavene her har vært ulike i skala, men like i kjernen: planløsninger som ikke lenger passer familien som bor der. En enebolig for fire, en moderne leilighet med ett soverom, en stue som skulle tåle både hverdag og gjester.",
+      "p2": "Jeg tegner interiørarkitektur og interiørdekorasjon for private hjem, med 3D-visualisering og tegninger håndverkeren kan bygge etter. Ta kontakt for en uforpliktende samtale."
+    },
+    "boligstyling-baerum-sandvika": {
+      "metaTitle": "Boligstyling i Bærum og Sandvika – interiørarkitekt",
+      "metaDescription": "Boligstyling og interiørdesign i Bærum og Sandvika. Jeg gjør boligen visningsklar, med møblering og detaljer som fanger oppmerksomheten.",
+      "h1": "Boligstyling i Bærum og Sandvika",
+      "intro": "I Sandvika har jeg stylet en stue for et ungt ektepar som reiser mye. Bærum er et marked der kjøperne ser mange visninger på én helg, og der forskjellen mellom et rom som fungerer og et rom som selger ofte ligger i detaljene.",
+      "p1": "Boligstyling handler ikke om å fylle rommet med møbler. Det handler om å vise hva rommet kan brukes til, slik at den som kommer på visning ser seg selv bo der.",
+      "p2": "Jeg tar også interiørarkitektur og dekorasjon i samme område. Ta kontakt for en uforpliktende samtale."
+    },
+    "interiorarkitekt-polen": {
+      "metaTitle": "Interiørprosjekter i Polen – Gdynia og Gorlice",
+      "metaDescription": "Interiørarkitektur i Polen. Leiligheter i Gdynia og Gorlice, tegnet fra studioet i Eidsberg. Norsk, engelsk og polsk.",
+      "h1": "Interiørprosjekter i Polen",
+      "intro": "To av prosjektene mine ligger i Polen: en liten leilighet i Gdynia og en loftsleilighet i Gorlice. Jeg snakker polsk like godt som norsk, så avstand er sjelden det som avgjør om et oppdrag lar seg gjennomføre.",
+      "p1": "Begge oppgavene handlet om små flater der hver kvadratmeter måtte gjøre nytte for seg – et soverom skilt fra stuen uten å stenge lyset ute, og en loftsleilighet som fikk plass ved å rive én vegg.",
+      "p2": "Tegninger og visualiseringer fungerer uavhengig av hvor bygget står. Ta kontakt for en uforpliktende samtale."
+    }
   }
 }

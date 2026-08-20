@@ -746,5 +746,47 @@
     "sending": "Wysyłanie…",
     "sent": "Dziękuję! Odpowiem najszybciej, jak się da.",
     "error": "Coś poszło nie tak. Spróbuj ponownie lub napisz bezpośrednio."
+  },
+  "Geo": {
+    "interiorarkitekt-indre-ostfold": {
+      "metaTitle": "Architekt wnętrz Indre Østfold – Mysen, Askim, Eidsberg",
+      "metaDescription": "Limes Interior ma siedzibę w Eidsberg i projektuje wnętrza, home staging i dekorację w Mysen, Askim i całym Indre Østfold.",
+      "h1": "Architekt wnętrz w Indre Østfold",
+      "intro": "Moje studio mieści się w Eidsberg, w środku Indre Østfold. To znaczy krótki dojazd na oględziny w Mysen, Askim i okolicznych miejscowościach – i znajomość tutejszej zabudowy: domów z lat siedemdziesiątych i osiemdziesiątych, dużych działek i układów, które rzadko odpowiadają temu, jak ludzie mieszkają dzisiaj.",
+      "p1": "Projektuję wnętrza domów prywatnych: od układu pomieszczeń i kuchni po łazienki, oświetlenie i umeblowanie. Dostajesz wizualizację 3D przed rozpoczęciem prac i rysunki, według których wykonawca może budować.",
+      "p2": "Ponieważ tu mieszkam, umówienie oględzin rzadko bywa problemem. Skontaktuj się w celu niezobowiązującej rozmowy."
+    },
+    "interiorarkitekt-moss": {
+      "metaTitle": "Architekt wnętrz Moss – łazienki, kuchnie, home staging",
+      "metaDescription": "Architekt wnętrz dla domów prywatnych w Moss. Łazienki, kuchnie, układ pomieszczeń i home staging, z wizualizacją 3D i rysunkami wykonawczymi.",
+      "h1": "Architekt wnętrz w Moss",
+      "intro": "Moss leży niecałą godzinę od studia w Eidsberg i regularnie realizuję tam projekty. Mieszkania w centrum mają często małe, podzielone łazienki i kuchnie z czasów, gdy pomieszczenia miały być oddzielone – czyli dokładnie te zadania, w których przemyślany układ znaczy najwięcej.",
+      "p1": "Jeden z moich projektów w Moss pokazuje, co jest możliwe: dwa mało funkcjonalne pomieszczenia połączone w jedną przestronną łazienkę z wanną, prysznicem i ukrytą zabudową.",
+      "p2": "Projektuję wnętrza, dekoracje i home staging dla domów prywatnych i lokali usługowych. Skontaktuj się w celu niezobowiązującej rozmowy."
+    },
+    "interiorarkitekt-buskerud": {
+      "metaTitle": "Architekt wnętrz Drammen, Mjøndalen i Kongsberg",
+      "metaDescription": "Architekt wnętrz w Buskerud. Realizacje w Drammen, Mjøndalen i Kongsbergu – układ pomieszczeń, kuchnie, łazienki, oświetlenie, umeblowanie.",
+      "h1": "Architekt wnętrz w Buskerud",
+      "intro": "W Buskerud mam trzy zrealizowane projekty: dom jednorodzinny w Drammen, mieszkanie w Mjøndalen i salon w Kongsbergu. To region, w którym pracowałam najwięcej poza Østfold.",
+      "p1": "Zadania różniły się skalą, ale w rdzeniu były podobne: układy, które przestały pasować do mieszkających tam rodzin. Dom dla czterech osób, nowoczesne mieszkanie z jedną sypialnią, salon, który miał znieść i codzienność, i gości.",
+      "p2": "Projektuję wnętrza i dekoracje dla domów prywatnych, z wizualizacją 3D i rysunkami wykonawczymi. Skontaktuj się w celu niezobowiązującej rozmowy."
+    },
+    "boligstyling-baerum-sandvika": {
+      "metaTitle": "Home staging Bærum i Sandvika – architekt wnętrz",
+      "metaDescription": "Home staging i projektowanie wnętrz w Bærum i Sandvika. Przygotowuję mieszkanie do prezentacji – umeblowanie i detale, które przyciągają uwagę.",
+      "h1": "Home staging w Bærum i Sandvika",
+      "intro": "W Sandvika przygotowałam salon dla młodego małżeństwa, które dużo podróżuje. Bærum to rynek, na którym kupujący oglądają kilka mieszkań w jeden weekend, a różnica między wnętrzem, które działa, a takim, które się sprzedaje, leży zwykle w szczegółach.",
+      "p1": "Home staging nie polega na zapełnianiu pokoju meblami. Polega na pokazaniu, do czego ten pokój służy, tak żeby osoba na prezentacji zobaczyła w nim siebie.",
+      "p2": "W tym samym rejonie podejmuję się też projektowania wnętrz i dekoracji. Skontaktuj się w celu niezobowiązującej rozmowy."
+    },
+    "interiorarkitekt-polen": {
+      "metaTitle": "Realizacje w Polsce – Gdynia i Gorlice",
+      "metaDescription": "Projekty wnętrz w Polsce. Mieszkania w Gdyni i Gorlicach, projektowane ze studia w Eidsberg w Norwegii. Obsługa po polsku.",
+      "h1": "Realizacje w Polsce",
+      "intro": "Dwa moje projekty są w Polsce: małe mieszkanie w Gdyni i mieszkanie na poddaszu w Gorlicach. Mówię po polsku tak samo swobodnie jak po norwesku, więc odległość rzadko przesądza o tym, czy zlecenie da się zrealizować.",
+      "p1": "Oba zadania dotyczyły małych metraży, gdzie każdy metr musiał na siebie pracować – sypialnia oddzielona od salonu bez odcinania światła i poddasze, które zyskało przestrzeń dzięki wyburzeniu jednej ściany.",
+      "p2": "Rysunki i wizualizacje działają niezależnie od tego, gdzie stoi budynek. Skontaktuj się w celu niezobowiązującej rozmowy."
+    }
   }
 }

@@ -61,3 +61,66 @@ export const AREAS: Area[] = [
   {name: "Bærum", type: "City"},
   {name: "Oslo", type: "City"},
 ];
+
+/**
+ * Strony geo. Kazdy projekt lezy dokladnie pod jedna z nich — to jest
+ * jego adres kanoniczny, zeby ta sama tresc nie byla osiagalna dwoma
+ * sciezkami. /prosjekter zostaje indeksem portfolio i linkuje tam,
+ * gdzie projekt faktycznie mieszka.
+ *
+ * Kongsberg, Drammen i Mjondalen sa w Buskerud, wiec dziela jedna
+ * strone — trzy realizacje zamiast trzech stron po jednej.
+ */
+export type GeoPage = {
+  slug: string;
+  /** miejscowosci opisywane przez ta strone, w kolejnosci waznosci */
+  places: string[];
+  projects: string[];
+  /** usluga wiodaca — decyduje o tresci i o Service w danych strukturalnych */
+  service: "interiorarkitekt" | "boligstyling";
+};
+
+export const GEO_PAGES: GeoPage[] = [
+  {
+    slug: "interiorarkitekt-indre-ostfold",
+    places: ["Mysen", "Askim", "Eidsberg"],
+    projects: ["enebolig-eidsberg"],
+    service: "interiorarkitekt",
+  },
+  {
+    slug: "interiorarkitekt-moss",
+    places: ["Moss"],
+    projects: ["bad-moss"],
+    service: "interiorarkitekt",
+  },
+  {
+    slug: "interiorarkitekt-buskerud",
+    places: ["Drammen", "Mjøndalen", "Kongsberg"],
+    projects: ["enebolig-drammen", "leilighet-mjondalen", "stue-glamour"],
+    service: "interiorarkitekt",
+  },
+  {
+    slug: "boligstyling-baerum-sandvika",
+    places: ["Sandvika", "Bærum"],
+    projects: ["stue-sandvika"],
+    service: "boligstyling",
+  },
+  {
+    slug: "interiorarkitekt-polen",
+    places: ["Gdynia", "Gorlice"],
+    projects: ["leilighet-gdynia", "leilighet-gorlice"],
+    service: "interiorarkitekt",
+  },
+];
+
+export const geoBySlug = (slug: string) => GEO_PAGES.find((g) => g.slug === slug);
+
+/** Strona geo, pod ktora lezy dany projekt. */
+export const geoForProject = (projectSlug: string) =>
+  GEO_PAGES.find((g) => g.projects.includes(projectSlug));
+
+/** Kanoniczna sciezka projektu. */
+export const projectPath = (projectSlug: string) => {
+  const geo = geoForProject(projectSlug);
+  return geo ? `/${geo.slug}/${projectSlug}` : `/prosjekter/${projectSlug}`;
+};

@@ -1,0 +1,6 @@
+.wrap { max-width: var(--container-max); margin: 0 auto var(--space-10); padding: 0 var(--container-pad); }
+.head { margin: var(--space-10) 0 var(--space-6); }
+.body { max-width: 72ch; }
+.body p { margin-bottom: var(--space-4); }
+.projects { margin-top: var(--space-9); }
+.projects h2 { font-size: var(--text-xl); margin-bottom: var(--space-5); }

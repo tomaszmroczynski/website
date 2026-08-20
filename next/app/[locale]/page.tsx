@@ -6,7 +6,7 @@ import HeroSlider from "@/components/HeroSlider";
 import ProjectCard from "@/components/ProjectCard";
 import Reveal from "@/components/Reveal";
 import {Link} from "@/i18n/navigation";
-import {PROJECTS, SERVICES} from "@/lib/content";
+import {PROJECTS, SERVICES, projectPath} from "@/lib/content";
 import {HOME_IMAGES, SERVICE_IMAGES} from "@/lib/images";
 import {buildMetadata} from "@/lib/seo";
 import type {Locale} from "@/i18n/routing";
@@ -91,7 +91,7 @@ export default async function HomePage({params}: {params: Promise<{locale: Local
             {FEATURED.map((project) => (
               <ProjectCard
                 key={project.slug}
-                href={`/prosjekter/${project.slug}`}
+                href={projectPath(project.slug)}
                 src={p(`${project.slug}.cover`)}
                 alt={p(`${project.slug}.cardAlt`)}
                 tag={p(`${project.slug}.cardLocation`)}

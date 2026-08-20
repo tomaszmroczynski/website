@@ -746,5 +746,47 @@
     "sending": "Sending…",
     "sent": "Thank you! I will reply as soon as I can.",
     "error": "Something went wrong. Please try again or email directly."
+  },
+  "Geo": {
+    "interiorarkitekt-indre-ostfold": {
+      "metaTitle": "Interior architect in Indre Østfold – Mysen, Askim, Eidsberg",
+      "metaDescription": "Limes Interiør is based in Eidsberg and designs interiors, home staging and decoration across Mysen, Askim and Indre Østfold.",
+      "h1": "Interior architect in Indre Østfold",
+      "intro": "My studio is in Eidsberg, in the middle of Indre Østfold. That means a short drive for a site visit in Mysen, Askim and the surrounding villages – and familiarity with the housing here: detached homes from the seventies and eighties, generous plots and layouts that rarely match how people live today.",
+      "p1": "I design interiors for private homes, from floor plan and kitchen to bathroom, lighting and furnishing. You get a 3D visualisation before anything is torn out, and drawings a contractor can build from.",
+      "p2": "Because I am based here, arranging a site visit is rarely a problem. Get in touch for a no-obligation conversation."
+    },
+    "interiorarkitekt-moss": {
+      "metaTitle": "Interior architect in Moss – bathrooms, kitchens, home staging",
+      "metaDescription": "Interior architect for private homes in Moss. Bathrooms, kitchens, floor plans and home staging, with 3D visualisation and contractor drawings.",
+      "h1": "Interior architect in Moss",
+      "intro": "Moss is under an hour from the studio in Eidsberg, and I take on work there regularly. Homes in the centre often have small, subdivided bathrooms and kitchens from a time when rooms were meant to be separate – exactly the briefs where a properly drawn layout matters most.",
+      "p1": "One of my projects in Moss shows what is possible: two poorly functioning rooms combined into one spacious bathroom with a bathtub, shower and concealed storage.",
+      "p2": "I work on interior architecture, decoration and home staging for private homes and commercial spaces. Get in touch for a no-obligation conversation."
+    },
+    "interiorarkitekt-buskerud": {
+      "metaTitle": "Interior architect in Drammen, Mjøndalen and Kongsberg",
+      "metaDescription": "Interior architect in Buskerud. Projects in Drammen, Mjøndalen and Kongsberg – floor plans, kitchens, bathrooms, lighting and furnishing.",
+      "h1": "Interior architect in Buskerud",
+      "intro": "In Buskerud I have three completed projects: a detached house in Drammen, an apartment in Mjøndalen and a living room in Kongsberg. It is the part of the country I have worked in most outside Østfold.",
+      "p1": "The briefs differed in scale but were alike at heart: layouts that no longer suited the family living there. A house for four, a modern one-bedroom apartment, a living room that had to work for both everyday life and guests.",
+      "p2": "I design interiors and decoration for private homes, with 3D visualisation and drawings a contractor can build from. Get in touch for a no-obligation conversation."
+    },
+    "boligstyling-baerum-sandvika": {
+      "metaTitle": "Home staging in Bærum and Sandvika – interior architect",
+      "metaDescription": "Home staging and interior design in Bærum and Sandvika. I make the home viewing-ready, with furnishing and details that hold attention.",
+      "h1": "Home staging in Bærum and Sandvika",
+      "intro": "In Sandvika I styled a living room for a young couple who travel a lot. Bærum is a market where buyers see several viewings in one weekend, and where the difference between a room that works and a room that sells usually lies in the details.",
+      "p1": "Home staging is not about filling a room with furniture. It is about showing what the room can be used for, so the person at the viewing pictures themselves living there.",
+      "p2": "I also take on interior architecture and decoration in the same area. Get in touch for a no-obligation conversation."
+    },
+    "interiorarkitekt-polen": {
+      "metaTitle": "Interior projects in Poland – Gdynia and Gorlice",
+      "metaDescription": "Interior architecture in Poland. Apartments in Gdynia and Gorlice, designed from the studio in Eidsberg, Norway.",
+      "h1": "Interior projects in Poland",
+      "intro": "Two of my projects are in Poland: a small apartment in Gdynia and a loft apartment in Gorlice. I speak Polish as readily as Norwegian, so distance rarely decides whether a commission can be carried out.",
+      "p1": "Both briefs dealt with small footprints where every square metre had to earn its place – a bedroom separated from the living room without shutting out the light, and a loft that gained space by removing a single wall.",
+      "p2": "Drawings and visualisations work regardless of where the building stands. Get in touch for a no-obligation conversation."
+    }
   }
 }

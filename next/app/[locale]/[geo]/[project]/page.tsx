@@ -4,37 +4,47 @@ import HeroSlider from "@/components/HeroSlider";
 import Reveal from "@/components/Reveal";
 import ShareLinks from "@/components/ShareLinks";
 import {Link} from "@/i18n/navigation";
-import {PROJECTS, projectBySlug} from "@/lib/content";
+import {GEO_PAGES, geoBySlug, projectBySlug} from "@/lib/content";
 import {PROJECT_IMAGES} from "@/lib/images";
-import {buildProjectJsonLd} from "@/lib/jsonld";
+import {buildBreadcrumbs, buildProjectJsonLd} from "@/lib/jsonld";
 import {buildMetadata, localeUrl} from "@/lib/seo";
 import {routing, type Locale} from "@/i18n/routing";
 import styles from "./page.module.css";
 
-type Params = Promise<{locale: Locale; slug: string}>;
+type Params = Promise<{locale: Locale; geo: string; project: string}>;
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
-    PROJECTS.map((p) => ({locale, slug: p.slug}))
+    GEO_PAGES.flatMap((g) => g.projects.map((project) => ({locale, geo: g.slug, project})))
   );
 }
 
+/** Projekt jest wazny tylko pod swoja wlasna strona geo — jeden adres kanoniczny. */
+function resolve(geoSlug: string, projectSlug: string) {
+  const geo = geoBySlug(geoSlug);
+  const project = projectBySlug(projectSlug);
+  if (!geo || !project || !geo.projects.includes(projectSlug)) return null;
+  return {geo, project};
+}
+
 export async function generateMetadata({params}: {params: Params}) {
-  const {locale, slug} = await params;
-  const project = projectBySlug(slug);
-  if (!project) return {};
-  return buildMetadata(locale, `/prosjekter/${project.slug}`, project.seoKey);
+  const {locale, geo, project} = await params;
+  const found = resolve(geo, project);
+  if (!found) return {};
+  return buildMetadata(locale, `/${geo}/${project}`, found.project.seoKey);
 }
 
 export default async function ProjectPage({params}: {params: Params}) {
-  const {locale, slug} = await params;
-  const project = projectBySlug(slug);
-  if (!project) notFound();
+  const {locale, geo: geoSlug, project: projectSlug} = await params;
+  const found = resolve(geoSlug, projectSlug);
+  if (!found) notFound();
+  const {geo, project} = found;
   setRequestLocale(locale);
 
   const t = await getTranslations({locale, namespace: "Project"});
-  const p = await getTranslations({locale, namespace: `Projects.${slug}`});
-  const images = PROJECT_IMAGES[slug] ?? [];
+  const g = await getTranslations({locale, namespace: `Geo.${geo.slug}`});
+  const p = await getTranslations({locale, namespace: `Projects.${projectSlug}`});
+  const images = PROJECT_IMAGES[projectSlug] ?? [];
 
   /** p.raw kaster pa manglende nokler; ikke alle prosjekter har alle feltene. */
   const opt = <T,>(key: string) => (p.has(key) ? (p.raw(key) as T) : undefined);
@@ -58,16 +68,22 @@ export default async function ProjectPage({params}: {params: Params}) {
   if (projectType) rows.push([t("projectType"), projectType]);
   if (date && dateKind) rows.push([t(dateKind), date]);
 
-  const url = localeUrl(locale, `/prosjekter/${slug}`);
+  const url = localeUrl(locale, `/${geo.slug}/${projectSlug}`);
 
-  const jsonLd = buildProjectJsonLd({
-    slug,
-    name: p("title"),
-    description: body.find((b) => b.type === "text")?.value ?? p("title"),
-    city: project.city,
-    images: images.map((i) => i.src),
-    url,
-  });
+  const jsonLd = [
+    buildProjectJsonLd({
+      slug: projectSlug,
+      name: p("title"),
+      description: body.find((b) => b.type === "text")?.value ?? p("title"),
+      city: project.city,
+      images: images.map((i) => i.src),
+      url,
+    }),
+    buildBreadcrumbs([
+      {name: g("h1"), url: localeUrl(locale, `/${geo.slug}`)},
+      {name: p("title"), url},
+    ]),
+  ];
 
   return (
     <main>
@@ -75,12 +91,13 @@ export default async function ProjectPage({params}: {params: Params}) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}
       />
+
       <Reveal effect="fadeIn">
         <section className={styles.hero}>
           <HeroSlider images={images} alt={alt} />
 
           <div className={styles.caption}>
-            <Link href="/prosjekter" className={styles.back} aria-label={t("back")}>
+            <Link href={`/${geo.slug}`} className={styles.back} aria-label={g("h1")}>
               <span className={styles.backArrow} aria-hidden="true">
                 ←
               </span>
@@ -136,6 +153,12 @@ export default async function ProjectPage({params}: {params: Params}) {
               className="li-btn li-btn--text"
             />
           </div>
+
+          <p>
+            <Link href={`/${geo.slug}`} className="li-btn li-btn--text">
+              {g("h1")}
+            </Link>
+          </p>
         </section>
       </Reveal>
     </main>

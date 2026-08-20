@@ -1,7 +1,7 @@
 import type {Metadata} from "next";
 import {getTranslations} from "next-intl/server";
 import {routing, type Locale} from "@/i18n/routing";
-import {PROJECTS, SERVICES} from "./content";
+import {GEO_PAGES, PROJECTS, SERVICES, projectPath} from "./content";
 import {SITE_URL} from "./site";
 
 /** Alle statiske ruter -> nøkkel i Seo-namespace */
@@ -17,7 +17,8 @@ export const STATIC_ROUTES: Record<string, string> = {
 export const ALL_PATHS: string[] = [
   ...Object.keys(STATIC_ROUTES),
   ...SERVICES.map((s) => `/tjenester/${s.slug}`),
-  ...PROJECTS.map((p) => `/prosjekter/${p.slug}`),
+  ...GEO_PAGES.map((g) => `/${g.slug}`),
+  ...PROJECTS.map((p) => projectPath(p.slug)),
 ];
 
 const HREFLANG: Record<Locale, string> = {no: "nb-NO", pl: "pl-PL", en: "en"};

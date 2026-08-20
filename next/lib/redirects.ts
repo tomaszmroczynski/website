@@ -15,14 +15,24 @@ export const legacySlugMap: Record<string, string> = {
   "/decoration": "/tjenester/interiordekorasjon",
   "/dekorasjon-av-arrangementer": "/tjenester/eventdekorasjon",
 
-  "/houseEidsberg": "/prosjekter/enebolig-eidsberg",
-  "/lazMoss": "/prosjekter/bad-moss",
-  "/domDrammen": "/prosjekter/enebolig-drammen",
-  "/mjondalen": "/prosjekter/leilighet-mjondalen",
-  "/salonSandvika": "/prosjekter/stue-sandvika",
-  "/salonGlm": "/prosjekter/stue-glamour",
-  "/studioGdynia": "/prosjekter/leilighet-gdynia",
-  "/flat-gorlice-poland": "/prosjekter/leilighet-gorlice",
+  "/houseEidsberg": "/interiorarkitekt-indre-ostfold/enebolig-eidsberg",
+  "/lazMoss": "/interiorarkitekt-moss/bad-moss",
+  "/domDrammen": "/interiorarkitekt-buskerud/enebolig-drammen",
+  "/mjondalen": "/interiorarkitekt-buskerud/leilighet-mjondalen",
+  "/salonGlm": "/interiorarkitekt-buskerud/stue-glamour",
+  "/salonSandvika": "/boligstyling-baerum-sandvika/stue-sandvika",
+  "/studioGdynia": "/interiorarkitekt-polen/leilighet-gdynia",
+  "/flat-gorlice-poland": "/interiorarkitekt-polen/leilighet-gorlice",
+
+  // Adresy z etapu, gdy projekty lezaly plasko pod /prosjekter
+  "/prosjekter/enebolig-eidsberg": "/interiorarkitekt-indre-ostfold/enebolig-eidsberg",
+  "/prosjekter/bad-moss": "/interiorarkitekt-moss/bad-moss",
+  "/prosjekter/enebolig-drammen": "/interiorarkitekt-buskerud/enebolig-drammen",
+  "/prosjekter/leilighet-mjondalen": "/interiorarkitekt-buskerud/leilighet-mjondalen",
+  "/prosjekter/stue-glamour": "/interiorarkitekt-buskerud/stue-glamour",
+  "/prosjekter/stue-sandvika": "/boligstyling-baerum-sandvika/stue-sandvika",
+  "/prosjekter/leilighet-gdynia": "/interiorarkitekt-polen/leilighet-gdynia",
+  "/prosjekter/leilighet-gorlice": "/interiorarkitekt-polen/leilighet-gorlice",
 };
 
 /**

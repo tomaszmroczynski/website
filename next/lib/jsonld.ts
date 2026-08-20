@@ -99,3 +99,20 @@ export function buildProjectJsonLd(opts: {
       : {}),
   };
 }
+
+/**
+ * Sciezka nawigacyjna. Strona glowna jest zawsze pierwsza, reszta
+ * przekazywana w kolejnosci zagniezdzenia.
+ */
+export function buildBreadcrumbs(items: Array<{name: string; url: string}>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [{name: "Limes Interiør", url: SITE_URL}, ...items].map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: it.name,
+      item: it.url,
+    })),
+  };
+}

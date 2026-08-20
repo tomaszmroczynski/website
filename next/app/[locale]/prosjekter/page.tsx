@@ -2,7 +2,7 @@ import {getTranslations, setRequestLocale} from "next-intl/server";
 import CardGrid from "@/components/CardGrid.module.css";
 import ProjectCard from "@/components/ProjectCard";
 import Reveal from "@/components/Reveal";
-import {PROJECTS} from "@/lib/content";
+import {PROJECTS, projectPath} from "@/lib/content";
 import {buildMetadata} from "@/lib/seo";
 import type {Locale} from "@/i18n/routing";
 import styles from "./page.module.css";
@@ -32,7 +32,7 @@ export default async function ProjectsPage({params}: {params: Promise<{locale: L
           {PROJECTS.map((project, i) => (
             <ProjectCard
               key={project.slug}
-              href={`/prosjekter/${project.slug}`}
+              href={projectPath(project.slug)}
               src={p(`${project.slug}.cover`)}
               alt={p(`${project.slug}.cardAlt`)}
               tag={p(`${project.slug}.cardLocation`)}

@@ -1,5 +1,6 @@
 import type {MetadataRoute} from "next";
 import {routing} from "@/i18n/routing";
+import {PROJECTS, projectPath} from "@/lib/content";
 import {PROJECT_IMAGES} from "@/lib/images";
 import {ALL_PATHS, languageAlternates, localeUrl} from "@/lib/seo";
 import {SITE_URL} from "@/lib/site";
@@ -11,7 +12,7 @@ import {SITE_URL} from "@/lib/site";
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   return ALL_PATHS.map((path) => {
-    const slug = path.startsWith("/prosjekter/") ? path.slice("/prosjekter/".length) : null;
+    const slug = PROJECTS.find((p) => projectPath(p.slug) === path)?.slug ?? null;
     const images = slug ? (PROJECT_IMAGES[slug] ?? []).map((i) => `${SITE_URL}${i.src}`) : undefined;
 
     return {
