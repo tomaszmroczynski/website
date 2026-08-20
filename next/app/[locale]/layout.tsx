@@ -51,7 +51,18 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={HTML_LANG[locale as Locale]} className={`${gruppo.variable} ${poppins.variable}`}>
+    /*
+      suppressHydrationWarning dotyczy wylacznie atrybutow tego jednego
+      elementu. Skrypt ponizej dokłada klase "js" do <html> przed
+      hydratacja, wiec React widzi inny className niz wyrenderowal serwer
+      i zglasza niezgodnosc. Roznica jest zamierzona, a hydratacja dzieci
+      przebiega normalnie.
+    */
+    <html
+      lang={HTML_LANG[locale as Locale]}
+      className={`${gruppo.variable} ${poppins.variable}`}
+      suppressHydrationWarning
+    >
       <head>
         {/*
           Znacznik, ze JavaScript dziala. Ustawiany przed pierwszym malowaniem,
