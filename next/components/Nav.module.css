@@ -22,8 +22,15 @@
 .signature { width: auto; height: 34px; }
 
 .nav { display: flex; align-items: center; gap: var(--space-6); }
+/*
+  Gruppo, nie Poppins. Design system przewiduje --font-ui do gestego
+  interfejsu, ale w tym pasku obok linkow stoja przelacznik jezyka
+  i dane kontaktowe, ktore dziedzicza Gruppo — dwie rodziny obok siebie
+  w jednym pasku bylo widac. Oryginalna nawigacja tez nie nadpisywala
+  rodziny i dziedziczyla Gruppo po body.
+*/
 .link {
-  font-family: var(--font-ui);
+  font-family: var(--font-display);
   font-size: var(--text-xs); letter-spacing: var(--tracking-wider);
   text-transform: uppercase;
   padding-bottom: 2px; border-bottom: 1px solid transparent;
@@ -41,7 +48,7 @@
 .toggle {
   display: none; background: none; border: 1px solid var(--border-hairline);
   color: inherit; padding: var(--space-2) var(--space-3); cursor: pointer;
-  font: inherit; font-size: var(--text-xs);
+  font: inherit; font-family: var(--font-display); font-size: var(--text-xs);
   letter-spacing: var(--tracking-wider); text-transform: uppercase;
 }
 
