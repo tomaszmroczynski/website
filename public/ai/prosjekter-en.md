@@ -2,7 +2,7 @@
 
 > Original portfolio texts (English).
 
-Nettside: https://limes-interior.no/work
+Nettside: https://www.limes-interior.no/work
 
 ## A small apartment
 
@@ -44,7 +44,7 @@ Interior
 
 ### Share
 
-Side: https://limes-interior.no/studioGdynia
+Side: https://www.limes-interior.no/studioGdynia
 
 ## Private house for a family of three
 
@@ -88,7 +88,7 @@ Interior
 
 ### Share
 
-Side: https://limes-interior.no/houseEidsberg
+Side: https://www.limes-interior.no/houseEidsberg
 
 ## Salon in a modern style
 
@@ -120,7 +120,7 @@ Arrangement
 
 ### Share
 
-Side: https://limes-interior.no/salonGlm
+Side: https://www.limes-interior.no/salonGlm
 
 ## Bathroom in a warm, pleasant composition
 
@@ -152,7 +152,7 @@ Interior Design
 
 ### Share
 
-Side: https://limes-interior.no/lazMoss
+Side: https://www.limes-interior.no/lazMoss
 
 ## Apartment design for a couple with a picturesque view.
 
@@ -184,7 +184,7 @@ Interior Design
 
 ### Share
 
-Side: https://limes-interior.no/mjondalen
+Side: https://www.limes-interior.no/mjondalen
 
 ## House for a family of 4
 
@@ -230,7 +230,7 @@ Interior architecture
 
 ### Share
 
-Side: https://limes-interior.no/domDrammen
+Side: https://www.limes-interior.no/domDrammen
 
 ## An apartment for a young married couple
 
@@ -270,7 +270,7 @@ Interior
 
 ### Share
 
-Side: https://limes-interior.no/flat-gorlice-poland
+Side: https://www.limes-interior.no/flat-gorlice-poland
 
 ## A livingroom for a couple of travellers
 
@@ -302,5 +302,5 @@ Interior
 
 ### Share
 
-Side: https://limes-interior.no/salonSandvika
+Side: https://www.limes-interior.no/salonSandvika
 

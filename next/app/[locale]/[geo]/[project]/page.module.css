@@ -1,0 +1,48 @@
+/* Odwzorowanie Case.styles.js + #detailproject z main.scss */
+.hero { position: relative; height: 100vh; }
+@media (max-width: 768px) { .hero { height: 70vh; } }
+
+.back {
+  z-index: 10; padding: 19px; height: 75px; width: 75px;
+  position: absolute; left: 0; top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex; align-items: center; justify-content: center;
+  transition: background-color 0.1s ease-in-out;
+}
+.back:hover { background-color: rgba(0, 0, 0, 0.9); }
+@media (max-width: 768px) { .back { height: 40px; width: 40px; padding: 5px 0 5px 10px; } }
+.backArrow { font-size: 1.6rem; line-height: 1; color: #fff; }
+
+/* position: fixed jak w oryginalnym .herocaption — pasek zostaje na
+   ekranie takze po przewinieciu poza hero */
+.caption {
+  padding: 45px 7% 30px;
+  position: fixed; bottom: 0; left: 0;
+  z-index: 2; width: 100vw;
+  background: rgba(0, 0, 0, 0.6);
+}
+.title { color: #fff; font-size: 2rem; max-width: 80vw; margin: 0; }
+@media (max-width: 768px) { .title { font-size: 1.5rem; } .caption { padding: 24px 7% 20px; } }
+.subtitle { color: #fff; font-size: 1.2em; line-height: normal; max-width: 80vw; margin: 8px 0 0; }
+@media (max-width: 768px) { .subtitle { font-size: 0.8em; } }
+
+.detail { margin-top: 15px; padding: 0 5%; max-width: 1600px; margin-left: auto; margin-right: auto; }
+.grid { display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-8); }
+@media (max-width: 768px) { .grid { grid-template-columns: 1fr; gap: var(--space-5); } }
+
+.body p { padding-bottom: 15px; }
+.color { color: var(--brand-accent); font-weight: 600; margin-right: 6px; }
+
+.sticky { position: sticky; top: 90px; align-self: start; }
+.metaList { z-index: 2; list-style: none; padding: 0; margin: 0; }
+.metaList li {
+  color: #fff; font-size: 16px; display: flex; justify-content: space-between;
+  padding: 0 0 15px 0; margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.tile { font-weight: 600; }
+
+.tags { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); margin: var(--space-4) 0; }
+.tagsHeading, .shareHeading { font-size: 0.98rem; font-weight: 600; margin-right: 15px; }
+
+.share { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-4); margin: 0 0 var(--space-8); }

@@ -2,7 +2,7 @@
 
 > Originaltekster om tjenester (norsk).
 
-Nettside: https://limes-interior.no/expertness
+Nettside: https://www.limes-interior.no/expertness
 
 ## Oversikt
 
@@ -56,7 +56,7 @@ Tilleggstjenester settes individuelt. Pakken kan tilpasses kundens individuelle 
 
 Projekt
 
-Side: https://limes-interior.no/interiorArchitecture
+Side: https://www.limes-interior.no/interiorArchitecture
 
 ## Interiør Decorasjon
 
@@ -76,7 +76,7 @@ Tilleggstjenester settes individuelt. Pakken kan tilpasses kundens individuelle 
 
 Prosjekt
 
-Side: https://limes-interior.no/decoration
+Side: https://www.limes-interior.no/decoration
 
 ## Home staging
 
@@ -104,7 +104,7 @@ Prosjekt
 
 30.09.2020
 
-Side: https://limes-interior.no/home-staging
+Side: https://www.limes-interior.no/home-staging
 
 ## Dekorasjon av arrangementer
 
@@ -132,5 +132,5 @@ Prosjekt
 
 30.09.2020
 
-Side: https://limes-interior.no/dekorasjon-av-arrangementer
+Side: https://www.limes-interior.no/dekorasjon-av-arrangementer
 

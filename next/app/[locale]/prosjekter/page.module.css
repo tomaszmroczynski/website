@@ -1,0 +1,2 @@
+.wrap { width: 100%; max-width: var(--container-max); margin: 0 auto; padding: 0 var(--container-pad); }
+.head { margin: var(--space-10) 0 var(--space-7); }

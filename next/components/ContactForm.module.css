@@ -1,0 +1,10 @@
+/* Pola i przycisk pochodza z design systemu (.li-input, .li-btn--ghost).
+   Tutaj zostaje tylko uklad i honeypot. */
+.form { display: grid; gap: var(--space-4); max-width: 620px; }
+.field { display: grid; gap: var(--space-2); }
+.textarea { min-height: 170px; resize: vertical; }
+/* Honeypot — poza ekranem, niedostepny dla czytnikow i klawiatury */
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.status { font-size: var(--text-sm); }
+.ok { color: var(--brand-accent); }
+.err { color: var(--ext-red); }

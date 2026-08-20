@@ -1,0 +1,11 @@
+.wrap { padding: 0 5%; max-width: 1200px; margin: 0 auto var(--space-10); }
+.heading { margin: var(--space-10) 0 var(--space-7); font-size: var(--text-xl); }
+.grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--space-8); }
+@media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+.blockHeading {
+  font-size: var(--text-xs); letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--text-accent); margin-bottom: var(--space-3);
+}
+.details { display: flex; flex-direction: column; gap: 6px; font-size: var(--text-sm); margin-bottom: var(--space-7); }
+.areas { list-style: none; padding: 0; margin: 0; columns: 2; }
+.areas li { color: var(--text-secondary); font-size: var(--text-sm); }

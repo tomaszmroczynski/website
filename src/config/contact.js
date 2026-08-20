@@ -1,5 +1,5 @@
 export const CONTACT_EMAIL = "studio@limes-interior.no";
-export const SITE_URL = "https://limes-interior.no";
+export const SITE_URL = "https://www.limes-interior.no";
 
 export const EMAILJS = {
   serviceId: "service_8ox8d4b",

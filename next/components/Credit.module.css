@@ -1,0 +1,15 @@
+/* Kredyt wykonawcy w stopce. Celowo cichy: stopka nalezy do Limes,
+   wiec znak obcej marki nie konkuruje z akcentem tej strony. */
+.credit {
+  display: inline-flex; align-items: center; gap: 10px;
+  color: var(--text-muted);
+  font-family: var(--font-ui);
+  transition: color var(--dur-base) var(--ease-out);
+}
+.credit:hover { color: var(--text-secondary); }
+.mark { width: 26px; height: 26px; flex: 0 0 auto; }
+.words { display: flex; flex-direction: column; line-height: 1.25; }
+.brand { font-size: var(--text-xs); font-weight: var(--weight-semibold); letter-spacing: 0.2px; }
+/* ember z design systemu Ripperdoc — jedyny obcy odcien, i tylko na jednym slowie */
+.ember { color: #dd7e27; }
+.person { font-size: var(--text-2xs); }

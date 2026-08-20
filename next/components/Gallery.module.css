@@ -1,0 +1,35 @@
+.grid {
+  display: grid; gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+.cell {
+  position: relative; margin: 0; padding: 0; border: 0; background: none;
+  cursor: zoom-in; overflow: hidden; line-height: 0;
+}
+.img {
+  width: 100%; height: auto; display: block;
+  transition: transform var(--dur-base) var(--ease-standard),
+              opacity var(--dur-base) var(--ease-standard);
+}
+.cell:hover .img { transform: scale(1.03); opacity: 0.9; }
+
+.lightbox {
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: center;
+  padding: var(--space-5);
+  background: rgba(0, 0, 0, 0.94);
+  border: 0;
+}
+.lightbox img { max-width: min(1400px, 100%); max-height: 90vh; width: auto; height: auto; }
+.close {
+  position: absolute; top: var(--space-4); right: var(--space-5);
+  background: none; border: 1px solid var(--border-hairline); color: var(--text-primary);
+  font: inherit; font-size: var(--text-sm); padding: var(--space-2) var(--space-4); cursor: pointer;
+}
+.nav {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: none; border: 0; color: var(--text-primary);
+  font-size: var(--text-xl); padding: var(--space-4); cursor: pointer; line-height: 1;
+}
+.prev { left: var(--space-2); }
+.next { right: var(--space-2); }

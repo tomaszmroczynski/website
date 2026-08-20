@@ -1,0 +1,792 @@
+{
+  "mainpictures": {
+    "title1": "Limes Interiør Anna Rasinska",
+    "desc1": "interiørdesign & dekorasjon",
+    "title2": "Limes Interiør Anna Rasinska",
+    "desc2": "interiørdesign & dekorasjon",
+    "title3": "Limes Interiør Anna Rasinska",
+    "desc3": "interiørdesign & dekorasjon"
+  },
+  "mainpictures2": {
+    "title1": "Limes Interiør Anna Rasinska",
+    "desc1": "interiørdesign & dekorasjon",
+    "title2": "Jeg har gleden av å invitere deg",
+    "desc2": "til å bli kjent med",
+    "title3": "med mitt tilbud",
+    "desc3": "av interiørdesign"
+  },
+  "mainpictures3": {
+    "title1": "Limes InteriørAnna Rasinska",
+    "desc1": "interiørdesign & dekorasjon",
+    "title2": "Jeg er stolt over å invitere deg",
+    "desc2": "til å utforske",
+    "title3": "med mitt tilbud",
+    "desc3": "interiørarkitektur"
+  },
+  "Contact": {
+    "1296": "Kontakt meg for å designe",
+    "1297": "ditt",
+    "1298": "drømmehjem",
+    "1299": ", dekorasjon eller interiør.",
+    "1822": "Kontaktdetaljer",
+    "1867": "Ta gjerne kontakt for en uforpliktende samtale om interiørprosjektet ditt.",
+    "form_name": "Navn",
+    "form_email": "E-post",
+    "form_message": "Melding",
+    "form_tel": "Telefon",
+    "form_send": "Send",
+    "form_success": "Meldingen din er sendt.",
+    "form_failed": "Kunne ikke sende meldingen. Prøv igjen."
+  },
+  "Omrader": {
+    "title": "Områder vi dekker",
+    "intro": "Limes Interiør holder til i Eidsberg og tar oppdrag i Indre Østfold, Moss, Drammen, Sandvika og Oslo.",
+    "body": "Som interiørarkitekt i Eidsberg hjelper jeg kunder i Indre Østfold, Moss, Sarpsborg, Halden, Drammen, Mjøndalen, Sandvika, Bærum og Oslo. Ta kontakt for en uforpliktende samtale.",
+    "indreOstfold": "Indre Østfold",
+    "mysen": "Mysen",
+    "askim": "Askim",
+    "eidsberg": "Eidsberg",
+    "moss": "Moss",
+    "sarpsborg": "Sarpsborg",
+    "halden": "Halden",
+    "drammen": "Drammen",
+    "mjondalen": "Mjøndalen",
+    "sandvika": "Sandvika",
+    "baerum": "Bærum",
+    "oslo": "Oslo"
+  },
+  "Faq": {
+    "title": "Ofte stilte spørsmål",
+    "q1": "Tilbyr du interiørdesign i Eidsberg og Askim?",
+    "a1": "Ja, jeg tar oppdrag i Eidsberg, Askim og omegn.",
+    "q2": "Jobber du i Akershus og Oslo?",
+    "a2": "Ja, jeg tar oppdrag i Indre Østfold, Moss, Sarpsborg, Halden, Drammen, Mjøndalen, Sandvika, Bærum og Oslo.",
+    "q3": "Kan du hjelpe med kjøkken og bad?",
+    "a3": "Ja, planlegging og styling av kjøkken og bad er en del av tilbudet mitt.",
+    "q4": "Tilbyr du hjelp til private hjem og næringslokaler?",
+    "a4": "Ja, jeg designer både private boliger og kommersielle lokaler som kontorer, butikker og restauranter.",
+    "q5": "Hvordan foregår et interiørprosjekt?",
+    "a5": "Vi starter med en uforpliktende samtale, deretter utarbeider vi konsept, materialvalg og gjennomføring etter avtale."
+  },
+  "Footer": {
+    "thanksTitle": "Takk for din tid og oppmerksomhet",
+    "intro": "Jeg er glad for å kunne presentere meg og tilbudet mitt for deg. Jeg er glad for at du har lagt merke til hva jeg har å tilby. Hvis du har spørsmål, bekymringer eller trenger hjelp til å designe ditt drømmehjem, så er jeg mer enn gjerne tilgjengelig for å hjelpe deg. Vi er her for å oppfylle dine forventninger og skape et rom der du vil føle deg lykkelig og avslappet.",
+    "socialHeading": "Besøk profilen min",
+    "socialText": "Du kan kontakte meg via populære sosiale medier.",
+    "areasHeading": "Områder",
+    "privacy": "Personvern"
+  },
+  "Nav": {
+    "home": "Hjemmeside",
+    "about": "Om meg",
+    "projects": "Prosjekter",
+    "contact": "Kontakt",
+    "socialLabel": "Besøk min profil:",
+    "phoneLabel": "Tlf",
+    "cta": "Bestill en konsultasjon",
+    "menu": "Meny",
+    "services": "Tjenester"
+  },
+  "Carouselprojects": {
+    "1589": "Mjondalen,  Norge ",
+    "1590": "Lelihet  ",
+    "1591": "Moss, Norge",
+    "1594": "15 kvm Bad",
+    "1595": "Se prosjekt",
+    "1596": "Interiør",
+    "1597": "24 kvm Stue",
+    "1598": "Interiør",
+    "1599": "38 kvm Leilighet",
+    "1600": "Se prosjekt",
+    "1601": "Interiør og dekorasjon",
+    "1602": "110 kvm Hus",
+    "1603": "Se prosjekt",
+    "1604": "Interiør",
+    "1605": "68 kvm Leilighet",
+    "1606": "Se prosjekt",
+    "1607": "32 kvm Stue",
+    "1608": "Se prosjekt",
+    "15971": "Kogsberg, Norge",
+    "15991": "Gdynia, Polen",
+    "16021": "Eidsberg, Norge",
+    "16051": "Gorlice, Polen",
+    "16071": "Sandvika, Norge"
+  },
+  "About": {
+    "introHeading": "Noen ord om meg",
+    "intro": "Jeg er utdannet sivilarkitekt, men min lidenskap ligger i interiørarkitektur. Å skape rom er for meg mer enn bare et yrke – det er en kunst der hver linje, farge og detalj har betydning. Interiører er ikke bare en bakgrunn for våre liv, men en del av dem, og de påvirker våre følelser, trivsel og daglige opplevelser. I Limes Interior tilbyr jeg ikke bare min kunnskap og erfaring, men også min kunstneriske følsomhet og fantasi. Hvert prosjekt ser jeg på som et unikt verk som ikke bare skal oppfylle forventningene dine, men også skape og inspirere dem. Jeg spesialiserer meg på:",
+    "s1": "Design av private interiører – jeg skaper rom som gjenspeiler beboernes personlighet og livsstil, og bygger en atmosfære full av varme og følelser.",
+    "s2": "Dekorasjon av interiører – kunsten å velge detaljer, tekstiler, lys og komposisjon er for meg en form for uttrykk som gir rommet sjel og karakter.",
+    "s3": "Home Staging – jeg transformerer interiører slik at de fanger oppmerksomheten ved første øyekast og skaper positive følelser, slik at de blir det perfekte stedet å bo.",
+    "s4": "Design av offentlige interiører – jeg skaper steder som ikke bare er funksjonelle, men også påvirker sansene og etterlater et sterkt estetisk inntrykk.",
+    "passionHeading": "Om Min Lidenskap",
+    "passion": "Personer som ikke tidligere har hatt kontakt med en interiørarkitekt, assosierer ofte dette yrket hovedsakelig med mote og prestisje. Men å designe og dekorere rom er en kunst som ikke bare former omgivelsene, men også påvirker følelser og velvære. Evnen til å velge riktige farger, møbler, belysning og dekorative detaljer er mer enn bare en teknikk – det er en form for kunstnerisk uttrykk der jeg gir en del av meg selv til mine kunder. Hvert interiør jeg skaper, gjenspeiler min lidenskap, følsomhet og omsorg for harmoni. Et godt designet rom kan ikke bare imponere, men også forbedre livskvaliteten, og derfor er det verdt å forme omgivelsene sine bevisst.",
+    "offerHeading": "Mitt Tilbud",
+    "projectsHeading": "Utvalgte Prosjekter"
+  },
+  "Home": {
+    "1798": "Mitt tilbud",
+    "1799": "Mine prosjekter",
+    "pageTitle": "Limes Interiør Anna Rasinska – interiørarkitekt i Eidsberg, Østfold og Oslo"
+  },
+  "Work": {
+    "heading": "Utvalgte prosjekter"
+  },
+  "Seo": {
+    "home": {
+      "title": "Limes Interiør Anna Rasinska – interiørarkitekt Eidsberg, Østfold og Oslo",
+      "description": "Profesjonelt interiørdesignstudio i Eidsberg. Interiørarkitektur, boligstyling og dekorasjon i Indre Østfold, Moss, Drammen, Sandvika og Oslo."
+    },
+    "about": {
+      "title": "Om meg – Limes Interiør Anna Rasinska",
+      "description": "Anna Rasinska, interiørarkitekt i Eidsberg. Lidenskap for private og offentlige interiører, home staging og dekorasjon."
+    },
+    "work": {
+      "title": "Prosjekter – Limes Interiør Anna Rasinska",
+      "description": "Se utvalgte interiørprosjekter fra Limes Interiør: boliger, bad, stuer og hjem i Eidsberg, Østfold og Oslo."
+    },
+    "contact": {
+      "title": "Kontakt – Limes Interiør Anna Rasinska",
+      "description": "Kontakt interiørarkitekt Anna Rasinska i Eidsberg. Finnestadveien 371, 1880 Eidsberg. Telefon +47 947 12 654."
+    },
+    "expertness": {
+      "title": "Tjenester – Limes Interiør Anna Rasinska",
+      "description": "Interiørarkitektur, interiørdekorasjon, home staging og eventdekorasjon i Eidsberg, Østfold og Oslo."
+    },
+    "studioGdynia": {
+      "title": "Liten leilighet Gdynia – Limes Interiør",
+      "description": "Interiørprosjekt for liten leilighet i Gdynia. Funksjonell og vakker bolig styling av Anna Rasinska."
+    },
+    "houseEidsberg": {
+      "title": "Privat hus Eidsberg – Limes Interiør",
+      "description": "Total metamorfose av hus i Eidsberg. Interiør- og dekorasjonsprosjekt av Limes Interiør Anna Rasinska."
+    },
+    "gorlice": {
+      "title": "Leilighet Gorlice – Limes Interiør",
+      "description": "Interiørprosjekt for leilighet i Gorlice, Polen. Design og dekorasjon av Anna Rasinska."
+    },
+    "salonGlm": {
+      "title": "Stue moderne stil – Limes Interiør",
+      "description": "Stueprosjekt i moderne stil med glamourøse elementer. Interiør av Limes Interiør Anna Rasinska."
+    },
+    "salonSandvika": {
+      "title": "Stue Sandvika – Limes Interiør",
+      "description": "Interiørprosjekt stue i Sandvika. Profesjonell interiørarkitektur av Anna Rasinska."
+    },
+    "lazMoss": {
+      "title": "Bad Moss – Limes Interiør",
+      "description": "Romslig bad i Moss med naturlige elementer og minimalistisk eleganse. Limes Interiør Anna Rasinska."
+    },
+    "mjondalen": {
+      "title": "Leilighet Mjøndalen – Limes Interiør",
+      "description": "Interiørprosjekt leilighet i Mjøndalen. Design og dekorasjon av Anna Rasinska."
+    },
+    "domDrammen": {
+      "title": "Hus Drammen – Limes Interiør",
+      "description": "Husprosjekt i Drammen med separate soner for kjøkken, stue og spisestue. Limes Interiør Anna Rasinska."
+    },
+    "interiorArchitecture": {
+      "title": "Interiørarkitektur – Limes Interiør Anna Rasinska",
+      "description": "Skreddersydd interiørarkitektur for boliger og næringslokaler i Eidsberg, Østfold og Oslo."
+    },
+    "decoration": {
+      "title": "Interiørdekorasjon – Limes Interiør Anna Rasinska",
+      "description": "Profesjonell interiørdekorasjon for hjem, kontor og butikker i Eidsberg og Østfold."
+    },
+    "homeStaging": {
+      "title": "Home staging – Limes Interiør Anna Rasinska",
+      "description": "Boligstyling for salg og utleie i Eidsberg, Østfold og Oslo. Øk verdien på boligen din."
+    },
+    "eventDecoration": {
+      "title": "Dekorasjon av arrangementer – Limes Interiør",
+      "description": "Profesjonell eventdekorasjon for bryllup, jubileum og firmaarrangementer i Akershus og Oslo."
+    },
+    "personvern": {
+      "title": "Personvern – Limes Interiør Anna Rasinska",
+      "description": "Personvernerklæring for Limes Interiør Anna Rasinska. Informasjon om behandling av personopplysninger og cookies."
+    }
+  },
+  "Lang": {
+    "switcher_label": "Velg språk",
+    "en": "Bytt til engelsk",
+    "no": "Bytt til norsk",
+    "pl": "Bytt til polsk"
+  },
+  "Reviews": {
+    "title": "Det sier kundene",
+    "stars_label": "5 av 5 stjerner",
+    "review1_text": "Anna forvandlet stuen vår til et rom vi elsker å være i. Profesjonell, kreativ og lett å samarbeide med.",
+    "review1_author": "Privatkunde, Askim",
+    "review2_text": "Fantastisk hjelp med kjøkken og bad. Gode løsninger som passet både budsjett og stil.",
+    "review2_author": "Privatkunde, Eidsberg",
+    "review3_text": "Home staging gjorde at leiligheten ble solgt raskere. Anbefales varmt!",
+    "review3_author": "Privatkunde, Moss"
+  },
+  "NotFound": {
+    "title": "404 – Siden finnes ikke",
+    "message": "Beklager, siden du leter etter finnes ikke eller er flyttet.",
+    "home": "Til forsiden",
+    "contact": "Kontakt oss"
+  },
+  "Personvern": {
+    "title": "Personvernerklæring",
+    "intro": "Limes Interiør Anna Rasinska tar personvern på alvor. Denne erklæringen forklarer hvordan vi behandler personopplysninger når du besøker nettsiden eller kontakter oss.",
+    "data_title": "Behandling av personopplysninger",
+    "data_text": "Når du sender oss en henvendelse via kontaktskjema, e-post eller telefon, behandler vi opplysninger som navn, e-post, telefonnummer og melding for å kunne svare på forespørselen din. Behandlingen skjer på grunnlag av berettiget interesse og/eller avtaleforhold.",
+    "cookies_title": "Informasjonskapsler (cookies)",
+    "cookies_text": "Nettsiden kan bruke nødvendige cookies og lokal lagring for språkvalg (i18next). Vi bruker ikke cookies til markedsføring uten ditt samtykke.",
+    "rights_title": "Dine rettigheter",
+    "rights_text": "Du har rett til innsyn, retting, sletting og begrensning av behandlingen av dine personopplysninger. Kontakt oss dersom du ønsker å benytte dine rettigheter.",
+    "contact_title": "Kontakt",
+    "contact_text": "Limes Interiør Anna Rasinska, Finnestadveien 371, 1880 Eidsberg. E-post: studio@limes-interior.no. Telefon: +47 947 12 654."
+  },
+  "Projects": {
+    "enebolig-eidsberg": {
+      "eyebrow": "INTERIØR",
+      "title": "Privat hus for en familie på tre",
+      "body": [
+        {
+          "type": "text",
+          "value": "Her er prosjektet med den totale metamorfosen av huset fra 1970-tallet. Eierne er et ungt par med et lite barn."
+        },
+        {
+          "type": "heading",
+          "value": "STUE"
+        },
+        {
+          "type": "text",
+          "value": "et stort område av stuen er delt inn i en sittegruppe og en spisestue. Interiøret i stuen og spisestuen er moderne. Likevel refererer innredningen til naturen: tapet med motiv av løv, tregulv og møbler, gammel murstein ved veggen med peis, skinnsofaer - gjør at interiøret er koselig og veldig behagelig - perfekt for en ung familie."
+        },
+        {
+          "type": "heading",
+          "value": "SOVEROM"
+        },
+        {
+          "type": "text",
+          "value": "denne realiseringen av prosjektet viser hvordan en liten renovering kan forårsake massive endringer. Det har blitt et ideelt sted å hvile og slappe av fra et skjemmende og ubehagelig rom. Dette prosjektet er et perfekt eksempel på Boligstyling - en liten renovering og å legge til dekorasjoner gjør soverommet det har blitt koselig elegant og øker samtidig verdien på eiendommen."
+        },
+        {
+          "type": "text",
+          "value": "et lite toalett og en mørk farge på veggene? Hvorfor ikke? Her presenterer jeg et prosjekt av et lite toalett som har endret seg totalt selv om det er bitte lite. Jeg brukte OSB 3D-plater på veggene. Disse hvite panelene får rommet til å virke større. Mørke vegger og tak gjør at rommet virker høyere enn det er."
+        },
+        {
+          "type": "heading",
+          "value": "TOALETT"
+        }
+      ],
+      "category": "Interiørdesign og dekorasjon",
+      "client": "privatperson",
+      "date": "desember 2014",
+      "dateKind": "completed",
+      "tags": [
+        "Inspirasjon",
+        "Dekorasjon",
+        "Interiør",
+        "Minimum"
+      ],
+      "room": "Enebolig",
+      "cardTag": "Interiør og dekorasjon",
+      "cardName": "110 kvm Hus",
+      "cardLocation": "Eidsberg, Norge",
+      "cardAlt": "Privat hus Eidsberg – interiørprosjekt",
+      "cover": "/img/houseEidsberg/front2.webp"
+    },
+    "bad-moss": {
+      "eyebrow": "INTERIØR",
+      "title": "Bad i en varm, behagelig komposisjon",
+      "body": [
+        {
+          "type": "text",
+          "value": "Et nytt, romslig bad var en stor drøm for en ung familie på tre. Ved å kombinere to ikke-funksjonelle rom ble det skapt et svært romslig bad som kombinerer naturlige elementer med minimalistisk eleganse. Det innebygde skapet skjuler ikke bare husholdningsapparater, men gir også god lagringsplass. Et komfortabelt badekar med dusj er det perfekte kompromisset for de som velger mellom avslapning og tidsbesparelse. Den mørke fargen på veggen, tapet med et plantemotiv og et vakkert speil laget av et stykke tre, tilfører varme og et naturlig utseende."
+        }
+      ],
+      "category": "interiørdesign",
+      "client": "privat",
+      "date": "januar 2022",
+      "dateKind": "concept",
+      "tags": [
+        "Inspirasjon",
+        "Dekorasjon",
+        "Arrangement",
+        "Interiørdesign"
+      ],
+      "room": "Bad",
+      "cardTag": "Interiør",
+      "cardName": "15 kvm Bad",
+      "cardLocation": "Moss, Norge",
+      "cardAlt": "Bad i Moss – interiørprosjekt Limes Interiør",
+      "cover": "/img/lazMoss/Front.webp"
+    },
+    "enebolig-drammen": {
+      "eyebrow": "INTERIØR",
+      "title": "Hus for en familie på 4",
+      "body": [
+        {
+          "type": "text",
+          "value": "Stor plass og mange muligheter. Her er et husprosjekt med separate soner for kjøkken, stue og spisestue."
+        },
+        {
+          "type": "heading",
+          "value": "Kjøkkenet"
+        },
+        {
+          "type": "text",
+          "value": "er hjemmets hjerte. Mesteparten av dagen er opphold her og måltidene tilberedes her - et sted som skal være unikt, men også ergonomisk og praktisk. Det var et lite upraktisk rom i det utformede kjøkkenområdet. Etter at vi rev veggene og åpnet plassen, har vi et fantastisk kjøkken med spesiallagde møbler, et innebygd kjøleskap og en stekeovn. To uttrekkbare lastegarderober er et perfekt sted for oppbevaring, og mengden av skap og skuffer vil tilfredsstille den mest krevende husmor. Jeg kombinerte den vakre sjøfargen på frontene med en marmortopp og gyldent tilbehør. Den svarte belysningen, kjøkkenhetten og tretilbehøret utgjør en komosional helhet. Kjøkkenet er komfortabelt og vakkert på samme tid"
+        },
+        {
+          "type": "heading",
+          "value": "Planter"
+        },
+        {
+          "type": "text",
+          "value": "var et essensielt element i interiørdesign for kundene mine, så jeg bestemte meg for å bruke en vertikal hage i en egen kaffekrok. Den vertikale hagen er et unikt element, som refererer til naturen og plasserer en omfattende samling av planter på ett sted. Det er også en 3-seters honningsofa i kaffeområdet, to komfortable lenestoler og et bord. Ved siden av kaffekroken er det en annen plass:"
+        },
+        {
+          "type": "text",
+          "value": "En lys, komfortabel sofa med sjeselong, en komfortabel lenestol og et bord - dette er nesten alt du trenger i et TV-hjørne. Jeg plasserte TV-en på en vegg dekket med gamle resirkulerte treplanker. Her har også en referanse til naturen, men ikke bare trekledning på veggen er også en måte å maskere belysningen og kablene som trengs for å koble til RTV-utstyret. Det hele er supplert med tilbehør og stoffer som gjør interiøret koseligere og elegantere."
+        },
+        {
+          "type": "text",
+          "value": "Salon."
+        }
+      ],
+      "category": "interiørarkitektur",
+      "client": "privat",
+      "date": "desember 2020",
+      "dateKind": "completed",
+      "tags": [
+        "Inspirasjon",
+        "Dekorasjon",
+        "Arrangement",
+        "Interiørarkitektur"
+      ],
+      "room": "Enebolig",
+      "cardTag": "INTERIØR",
+      "cardName": "Hus for en familie på 4",
+      "cardLocation": "Drammen, Norge",
+      "cardAlt": "Hus Drammen – interiørprosjekt Limes Interiør",
+      "cover": "/img/domDrammen/1.webp"
+    },
+    "leilighet-mjondalen": {
+      "eyebrow": "INTERIØR",
+      "title": "Leilighetsdesign for et par med en pittoresk utsikt.",
+      "body": [
+        {
+          "type": "text",
+          "value": "Her er en moderne leilighet med ett soverom, en romslig stue kombinert med kjøkken og et elegant bad. Et nøye utvalgt fargepalett og stilige tilbehør skaper en koselig atmosfære. Rommet er designet med tanke på funksjonalitet – det kompakte kjøkkenet tilbyr overraskende mye lagringsplass, noe som gjør interiøret ikke bare estetisk tiltalende, men også ergonomisk. Det funksjonelle badet i myke farger er designet for eleganse og bekvemmelighet. Det tilbyr rikelig med lagringsplass, samt plass til vaskemaskin og tørketrommel. Hver centimeter er optimalt utnyttet for å skape et harmonisk, stilig rom som kombinerer estetikk med komfort.."
+        }
+      ],
+      "category": "interiørdesign",
+      "client": "privat",
+      "date": "mars 2024",
+      "dateKind": "concept",
+      "tags": [
+        "Inspirasjon",
+        "Dekorasjon",
+        "Arrangement",
+        "Interiørdesign"
+      ],
+      "room": "Leilighet",
+      "cardTag": "Interiør",
+      "cardName": "Leilighet",
+      "cardLocation": "Mjøndalen, Norge",
+      "cardAlt": "Leilighet Mjøndalen – interiørprosjekt",
+      "cover": "/img/mjondalen/front.webp"
+    },
+    "stue-sandvika": {
+      "title": "Stue til et ungt reisende",
+      "body": [
+        {
+          "type": "text",
+          "value": "Eierne av leiligheten er et ungt ektepar, lidenskapen deres er reiser. Når du reiser langt så er det viktig at du har et fint sted til å komme tilbake til. I dette tilfellet til et komfortabel og full av varme stue hvor de finnes et stort, komfortabel sofa, en bokhylle for en stor samling av bøker, et skap og en beleilig lenestol for husets vert. Selv om det ble brukt mørke farger så er det koselig, interiøret er sammenhengende og dekorasjoner undertrykker eiernes karakter."
+        }
+      ],
+      "category": "Interiør",
+      "client": "privat",
+      "projectType": "Hjemmedekorasjon",
+      "date": "november 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspirasjon",
+        "Dekorasjon",
+        "Interiør",
+        "Minimum"
+      ],
+      "room": "Stue",
+      "cardTag": "Interiør",
+      "cardName": "32 kvm Stue",
+      "cardLocation": "Sandvika, Norge",
+      "cardAlt": "Stue Sandvika – interiørprosjekt",
+      "cover": "/img/salonSandvika/front7.webp"
+    },
+    "stue-glamour": {
+      "eyebrow": "INTERIØR",
+      "title": "Stue i moderne stil",
+      "body": [
+        {
+          "type": "text",
+          "value": "Eierne av leiligheten er en spesiell familie som elsker den moderne stilen med glamourøse elementer. Stuen har gjennomgått en stor forandring: på 24 kvadratmeter har det blitt skapt en komfortabel sittegruppe og spisestue. Interiøret, selv om det ikke er stort, har blitt et sted for avslapning og hvile, men det oppfyller også den praktiske funksjonen som stue med spisestue."
+        }
+      ],
+      "category": "interiørarkitektur",
+      "client": "privat",
+      "date": "desember 2022",
+      "dateKind": "completed",
+      "tags": [
+        "Inspirasjon",
+        "Dekorasjon",
+        "Dekorasjon",
+        "Interiørarkitektur"
+      ],
+      "room": "Stue",
+      "cardTag": "Interiør",
+      "cardName": "24 kvm Stue",
+      "cardLocation": "Kongsberg, Norge",
+      "cardAlt": "Stue i moderne stil – interiørprosjekt Limes Interiør",
+      "cover": "/img/salonGlm/front.webp"
+    },
+    "leilighet-gdynia": {
+      "eyebrow": "INTERIØR",
+      "title": "En liten leilighet",
+      "body": [
+        {
+          "type": "text",
+          "value": "Små plasser ofte betydelige utfordringer. Det var ikke forskjellig fra prosjektet med et lite studio for min klient. Leiligheten ligger i en gammel leiegård. Opprinnelig bestod den av bad, kjøkken og stue. Vår oppgave var fremfor alt å skille en sovesone og ordne plassen slik at den skulle være funksjonell, komfortabel og vakker."
+        },
+        {
+          "type": "heading",
+          "value": "SOVEROM"
+        },
+        {
+          "type": "text",
+          "value": "Det lille soverommet er adskilt fra stuen, med vinduer mot nord. Det nye soverommet har ingen vinduer, så vi har foreslått en foldet glassvegg i stedet for den TRADISJONELLE veggen, som ideelt sett lyser opp rommet og kan brettes om nødvendig, og åpner dermed plassen. Soverommet har dobbeltseng, nattbord og garderobe. Veggen er dekorert med et vakkert Boudoir Navy WallArt tapet som går helt til stuen"
+        },
+        {
+          "type": "heading",
+          "value": "STUE"
+        },
+        {
+          "type": "text",
+          "value": "i stua har vi byttet ut det tradisjonelle vinduet med et lommebokvindu, som lyser opp interiøret. Det gamle klesskapet er omgjort til en bokhylle. Mens lenestolen fra 1960-tallet som er arvet fra besteforeldre passer perfekt inn i stilen til leiligheten. Den lyse sofaen ser vakker ut mot Boudoir Navy-tapetet, og tilbehør i tre gir interiøret hygge."
+        },
+        {
+          "type": "heading",
+          "value": "KJØKKEN"
+        },
+        {
+          "type": "text",
+          "value": "Kjøkkenet er elegant og greit. Lyse farger med tre og det grønne motivet på veggene går igjen i hele leiligheten. Hengende skap er innglasset, noe som gir kjøkkenet et lett og elegant preg."
+        }
+      ],
+      "category": "Interiør",
+      "client": "privatperson",
+      "date": "januar 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspirasjon",
+        "Dekorasjon",
+        "Interiør",
+        "Full"
+      ],
+      "room": "Leilighet",
+      "cardTag": "Interiør",
+      "cardName": "38 kvm Leilighet",
+      "cardLocation": "Gdynia, Polen",
+      "cardAlt": "Liten leilighet Gdynia – interiørprosjekt",
+      "cover": "/img/studioGdynia/front1.webp"
+    },
+    "leilighet-gorlice": {
+      "eyebrow": "INTERIØR",
+      "title": "En leilighet for et ungt ektepar",
+      "body": [
+        {
+          "type": "text",
+          "value": "Kan en loftsleilighet bli en drømmeenklave for to? Selvfølgelig! Her er prosjektet med en leilighet på loftet"
+        },
+        {
+          "type": "text",
+          "value": "Prosjektet inkluderte en liten leilighet på loftet i en leiegård. Fra en gammel, ikke-funksjonell leilighet har jeg skapt et vakkert, komfortabelt, ergonomisk interiør perfekt for unge mennesker. Åpne rom, naturlige farger og materialer gi interiøret hygge og letthet."
+        },
+        {
+          "type": "heading",
+          "value": "STUE"
+        },
+        {
+          "type": "text",
+          "value": "Leiligheten fikk nødvendig plass ved å rive veggene. Å dekke peisen med stein ga den et nytt liv, og interiøret ga karakter og hygge. Tremøbler og tilbehør og dempede farger refererer til naturen og fargene i jord."
+        },
+        {
+          "type": "text",
+          "value": "De nedre skapene er hovedsakelig skuffer på grunn av mangel på hengende skap. Det er også en utmerket løsning for et ergonomisk rom. Mørkegrønne fliser gir farge til interiøret og går vakkert inn i skapene og bordplaten. kjøkkenet har jeg også utpekt en liten spisestue."
+        },
+        {
+          "type": "heading",
+          "value": "KJØKKEN"
+        }
+      ],
+      "category": "interiørarkitektur",
+      "client": "privatperson",
+      "date": "september 2021",
+      "dateKind": "completed",
+      "tags": [
+        "Inspirasjon",
+        "Dekorasjon",
+        "Interiør",
+        "Minimum"
+      ],
+      "room": "Leilighet",
+      "cardTag": "Interiør",
+      "cardName": "68 kvm Leilighet",
+      "cardLocation": "Gorlice, Polen",
+      "cardAlt": "Leilighet Gorlice – interiørprosjekt",
+      "cover": "/img/flat-gorlice-poland/front.webp"
+    }
+  },
+  "Project": {
+    "back": "Tilbake",
+    "categories": "Kategorier:",
+    "client": "Klient:",
+    "completed": "Fullført:",
+    "concept": "Konsept:",
+    "projectType": "Prosjekttype:",
+    "tags": "Etiketter:",
+    "share": "Del:",
+    "altWithCity": "{room} i {city} — prosjekt av Limes Interiør",
+    "alt": "{room} — prosjekt av Limes Interiør",
+    "close": "Lukk",
+    "seeProject": "Se prosjekt"
+  },
+  "Services": {
+    "interiorarkitekt": {
+      "title": "INTERIØR ARKITEKTUR",
+      "intro": "Drømmer du om et helt nytt interiør, ombygging, en annen planløsning av rom, en omfattende oppussing av huset eller utvalgte rom - anbefaler jeg INTERIØRDESIGN.",
+      "body": [
+        {
+          "type": "text",
+          "value": "Vi har TO PAKKER i vårt interiørtilbud"
+        },
+        {
+          "type": "heading",
+          "value": "GRUNNLEGGENDE PAKKE"
+        },
+        {
+          "type": "text",
+          "value": "en planløsning med utforming av utstyr, møbler osv."
+        },
+        {
+          "type": "text",
+          "value": "demonstrativ visualisering av utvalgte rom ELLER Mood Board (farge- og materialtavle) er detaljering: dekorasjoner, møbler, farger, utstyr, materialer, etc."
+        },
+        {
+          "type": "text",
+          "value": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder"
+        },
+        {
+          "type": "text",
+          "value": "2 møter / konsultasjoner, inkludert ett med ankomst til byggherre, inventar (dimensjonering) og diskusjon av prosjektet"
+        },
+        {
+          "type": "heading",
+          "value": "FULL PAKKE"
+        },
+        {
+          "type": "text",
+          "value": "en planløsning med utforming av utstyr, møbler osv."
+        },
+        {
+          "type": "text",
+          "value": "Mood Board (farge- og materialtavle) inneholder detaljer: dekorasjoner, møbler, farger, utstyr, materialer osv."
+        },
+        {
+          "type": "text",
+          "value": "demonstrativ visualisering av utvalgte rom"
+        },
+        {
+          "type": "text",
+          "value": "tverrsnitt av en valgt del av leiligheten"
+        },
+        {
+          "type": "text",
+          "value": "elektrisk installasjonsplan med merkede lyspunkter, brytere, kontakter osv."
+        },
+        {
+          "type": "text",
+          "value": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder"
+        },
+        {
+          "type": "text",
+          "value": "3 møter/konsultasjoner, inkludert ett med ankomst oppdragsgiver, inventar (dimensjonering) og diskusjon av prosjektet"
+        },
+        {
+          "type": "text",
+          "value": "en endring av designet (hver suetterfølgende konsultasjon og/eller endring betales i tillegg)."
+        },
+        {
+          "type": "text",
+          "value": "Tilleggstjenester settes individuelt. Pakken kan tilpasses kundens individuelle behov"
+        }
+      ],
+      "summary": "Drømmer du om et helt nytt interiør, rekonstruksjon, en annen planløsning av rom, en omfattende renovering av huset eller utvalgte rom - anbefaler jeg interiørdesignet",
+      "cardTitle": "Interiørarkitektur"
+    },
+    "boligstyling": {
+      "title": "Home staging",
+      "intro": "Planlegger du å selge leiligheten, huset eller lokalene dine for mer penger? Trenger du å renovere eller oppgradere leiligheten din før du leier den ut? Driver du med gjestgiveri, hytte eller hotell og ønsker at gjestene dine skal komme tilbake oftere? HJEMME-STAGING er den perfekte løsningen!",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Dette prosjektet vil inkludere"
+        },
+        {
+          "type": "text",
+          "value": "En plan med plassering av møbler og utstyr, osv."
+        },
+        {
+          "type": "text",
+          "value": "En visuell presentasjon av utvalgte rom ELLER en farge- og materialplan med utheving av dekor, møbler, farger, utstyr, materialer, osv."
+        },
+        {
+          "type": "text",
+          "value": "En plan for elektriske installasjoner med markering av lyspunkt, brytere, kontakter, osv."
+        },
+        {
+          "type": "text",
+          "value": "En liste over interiørutstyr med priser og adresser til butikker/nettsteder."
+        },
+        {
+          "type": "text",
+          "value": "3 møter/konsultasjoner, inkludert ett besøk hos klienten for å ta mål og diskutere prosjektet."
+        },
+        {
+          "type": "text",
+          "value": "Én revisjon av prosjektet (hver ekstra konsultasjon eller revisjon er ekstra betaling)."
+        },
+        {
+          "type": "text",
+          "value": "Tilleggstjenester kan tilpasses individuelle behov. Pakken kan tilpasses kundens individuelle behov."
+        }
+      ],
+      "summary": "Har du planer om å selge en leilighet, hus eller lokaler for mer penger? Ønsker du å leie en leilighet, men trenger oppussing eller forfriskning? Driver du gjestehus, hytte eller hotell og ønsker at gjestene dine skal komme tilbake her ofte? Boligstyling er den perfekte løsningen.",
+      "cardTitle": "Home staging"
+    },
+    "interiordekorasjon": {
+      "title": "Interiør Decorasjon",
+      "intro": "Hvis du trenger å friske opp hjemmet ditt (lokaler eller kontor), vil en liten renovering som vil medføre betydelige endringer, noen få dekorasjoner eller møbler få interiøret ditt til å se moderne ut? Eller kansje du trenger et nytt utseende på butikkfronten din? Dette er et tilbud til deg!",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Dette prosjektet vil inneholde"
+        },
+        {
+          "type": "text",
+          "value": "demonstrativ visualisering av utvalgte rom ELLER Mood Board (materiale og fargetavle),"
+        },
+        {
+          "type": "text",
+          "value": "en planløsning med utforming av utstyr, møbler osv."
+        },
+        {
+          "type": "text",
+          "value": "en liste over interiørdesignelementer, inkludert priser og adresser til butikker/nettsteder"
+        },
+        {
+          "type": "text",
+          "value": "Tilleggstjenester settes individuelt. Pakken kan tilpasses kundens individuelle behov."
+        }
+      ],
+      "summary": "Trenger du å friske opp hjemmet ditt (lokaler eller kontor), en liten oppussing som vil bringe store endringer? Noen dekorasjoner eller møbler som vil få interiøret ditt til å se moderne ut? Eller kanskje du trenger et nytt utseende på butikken din vindu? Dette er et tilbud til deg.",
+      "cardTitle": "Interiørdekorasjon"
+    },
+    "eventdekorasjon": {
+      "title": "Dekorasjon av arrangementer",
+      "intro": "Jeg spesialiserer meg på design og gjennomføring av eksklusive arrangementer, inkludert selskaper, bryllupsfester og bedriftsgallaer. Med mine egne materialer og ekspertise sørger jeg for en unik og stemningsfull atmosfære som gjenspeiler din visjon. Hvert prosjekt er skreddersydd med nøye utvalgte elementer som belysning, blomsterdekorasjoner og andre dekorative detaljer.",
+      "body": [
+        {
+          "type": "heading",
+          "value": "Dette prosjektet vil inkludere"
+        },
+        {
+          "type": "text",
+          "value": "En detaljert plan for plassering av dekorative elementer og belysning."
+        },
+        {
+          "type": "text",
+          "value": "En visuell presentasjon av dekorasjonskonseptet ELLER en plan med farger, materialer og dekorative detaljer."
+        },
+        {
+          "type": "text",
+          "value": "En belysningsplan for å skape den rette atmosfæren."
+        },
+        {
+          "type": "text",
+          "value": "En liste over spesialutvalgte dekorative elementer med priser og leverandører."
+        },
+        {
+          "type": "text",
+          "value": "3 møter/konsultasjoner, inkludert ett besøk på arrangementsstedet for å diskutere konseptet og valg av materialer."
+        },
+        {
+          "type": "text",
+          "value": "Én revisjon av designet (hver ekstra revisjon er en tilleggstjeneste)."
+        },
+        {
+          "type": "text",
+          "value": "Tilleggstjenester kan skreddersys etter individuelle behov."
+        }
+      ],
+      "summary": "Planlegger du et bryllup, jubileum eller firmafest og ønsker en unik atmosfære? Vil du skape en uforglemmelig stemning for gjestene dine? Trenger du spesialtilpasset dekorasjon for en spesiell anledning? Profesjonell eventdekorasjon gir arrangementet ditt et eksklusivt preg.",
+      "cardTitle": "Dekorasjon av arrangementer"
+    }
+  },
+  "ContactForm": {
+    "name": "Navn",
+    "email": "E-post",
+    "message": "Melding",
+    "submit": "Send",
+    "sending": "Sender…",
+    "sent": "Takk! Jeg svarer sa snart jeg kan.",
+    "error": "Noe gikk galt. Prov igjen eller send e-post direkte."
+  },
+  "Geo": {
+    "interiorarkitekt-indre-ostfold": {
+      "metaTitle": "Interiørarkitekt i Indre Østfold – Mysen, Askim og Eidsberg",
+      "metaDescription": "Limes Interiør holder til i Eidsberg og tegner interiørarkitektur, boligstyling og dekorasjon i Mysen, Askim og resten av Indre Østfold.",
+      "h1": "Interiørarkitekt i Indre Østfold",
+      "intro": "Studioet mitt ligger i Eidsberg, midt i Indre Østfold. Det betyr kort vei til befaring i Mysen, Askim og bygdene rundt – og at jeg kjenner boligmassen her: eneboliger fra sytti- og åttitallet, romslige tomter og planløsninger som sjelden svarer til måten folk lever på i dag.",
+      "p1": "Jeg tegner interiørarkitektur for private hjem, fra planløsning og kjøkken til bad, belysning og møblering. Du får 3D-visualisering av rommet før noe rives, og tegninger håndverkeren kan bygge etter.",
+      "p2": "Fordi jeg holder til her, blir befaring sjelden vanskelig å få til. Ta kontakt for en uforpliktende samtale om hva rommet ditt tåler."
+    },
+    "interiorarkitekt-moss": {
+      "metaTitle": "Interiørarkitekt i Moss – bad, kjøkken og boligstyling",
+      "metaDescription": "Interiørarkitekt for private hjem i Moss. Bad, kjøkken, planløsning og boligstyling, med 3D-visualisering og tegninger til håndverkeren.",
+      "h1": "Interiørarkitekt i Moss",
+      "intro": "Moss ligger under en time fra studioet i Eidsberg, og jeg tar oppdrag her jevnlig. Boligene i sentrum har ofte små, oppdelte bad og kjøkken fra en tid da rommene skulle være atskilte – nettopp de oppgavene der en gjennomtegnet planløsning betyr mest.",
+      "p1": "Et av prosjektene mine i Moss viser hva som er mulig: to lite funksjonelle rom slått sammen til ett romslig bad med badekar, dusj og skjult oppbevaring.",
+      "p2": "Jeg tegner interiørarkitektur, interiørdekorasjon og boligstyling for private hjem og næringslokaler. Ta kontakt for en uforpliktende samtale."
+    },
+    "interiorarkitekt-buskerud": {
+      "metaTitle": "Interiørarkitekt i Drammen, Mjøndalen og Kongsberg",
+      "metaDescription": "Interiørarkitekt i Buskerud. Prosjekter i Drammen, Mjøndalen og Kongsberg – planløsning, kjøkken, bad, belysning og møblering.",
+      "h1": "Interiørarkitekt i Buskerud",
+      "intro": "I Buskerud har jeg tre gjennomførte prosjekter: en enebolig i Drammen, en leilighet i Mjøndalen og en stue i Kongsberg. Det er den delen av landet jeg har jobbet mest i utenfor Østfold.",
+      "p1": "Oppgavene her har vært ulike i skala, men like i kjernen: planløsninger som ikke lenger passer familien som bor der. En enebolig for fire, en moderne leilighet med ett soverom, en stue som skulle tåle både hverdag og gjester.",
+      "p2": "Jeg tegner interiørarkitektur og interiørdekorasjon for private hjem, med 3D-visualisering og tegninger håndverkeren kan bygge etter. Ta kontakt for en uforpliktende samtale."
+    },
+    "boligstyling-baerum-sandvika": {
+      "metaTitle": "Boligstyling i Bærum og Sandvika – interiørarkitekt",
+      "metaDescription": "Boligstyling og interiørdesign i Bærum og Sandvika. Jeg gjør boligen visningsklar, med møblering og detaljer som fanger oppmerksomheten.",
+      "h1": "Boligstyling i Bærum og Sandvika",
+      "intro": "I Sandvika har jeg stylet en stue for et ungt ektepar som reiser mye. Bærum er et marked der kjøperne ser mange visninger på én helg, og der forskjellen mellom et rom som fungerer og et rom som selger ofte ligger i detaljene.",
+      "p1": "Boligstyling handler ikke om å fylle rommet med møbler. Det handler om å vise hva rommet kan brukes til, slik at den som kommer på visning ser seg selv bo der.",
+      "p2": "Jeg tar også interiørarkitektur og dekorasjon i samme område. Ta kontakt for en uforpliktende samtale."
+    },
+    "interiorarkitekt-polen": {
+      "metaTitle": "Interiørprosjekter i Polen – Gdynia og Gorlice",
+      "metaDescription": "Interiørarkitektur i Polen. Leiligheter i Gdynia og Gorlice, tegnet fra studioet i Eidsberg. Norsk, engelsk og polsk.",
+      "h1": "Interiørprosjekter i Polen",
+      "intro": "To av prosjektene mine ligger i Polen: en liten leilighet i Gdynia og en loftsleilighet i Gorlice. Jeg snakker polsk like godt som norsk, så avstand er sjelden det som avgjør om et oppdrag lar seg gjennomføre.",
+      "p1": "Begge oppgavene handlet om små flater der hver kvadratmeter måtte gjøre nytte for seg – et soverom skilt fra stuen uten å stenge lyset ute, og en loftsleilighet som fikk plass ved å rive én vegg.",
+      "p2": "Tegninger og visualiseringer fungerer uavhengig av hvor bygget står. Ta kontakt for en uforpliktende samtale."
+    }
+  }
+}

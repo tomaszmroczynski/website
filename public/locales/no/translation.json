@@ -369,25 +369,27 @@
   },
   "Omrader": {
     "title": "Områder vi dekker",
-    "intro": "Limes Interiør holder til i Eidsberg og tar oppdrag i Eidsberg, Akershus og Oslo.",
-    "body": "Som interiørarkitekt i Eidsberg hjelper jeg kunder i Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm og Oslo. Ta kontakt for en uforpliktende samtale.",
-    "eidsberg": "Eidsberg",
+    "intro": "Limes Interiør holder til i Eidsberg og tar oppdrag i Indre Østfold, Moss, Drammen, Sandvika og Oslo.",
+    "body": "Som interiørarkitekt i Eidsberg hjelper jeg kunder i Indre Østfold, Moss, Sarpsborg, Halden, Drammen, Mjøndalen, Sandvika, Bærum og Oslo. Ta kontakt for en uforpliktende samtale.",
+    "indreOstfold": "Indre Østfold",
+    "mysen": "Mysen",
     "askim": "Askim",
+    "eidsberg": "Eidsberg",
     "moss": "Moss",
-    "fredrikstad": "Fredrikstad",
     "sarpsborg": "Sarpsborg",
     "halden": "Halden",
-    "ski": "Ski",
-    "lillestrom": "Lillestrøm",
-    "oslo": "Oslo",
-    "akershus": "Akershus"
+    "drammen": "Drammen",
+    "mjondalen": "Mjøndalen",
+    "sandvika": "Sandvika",
+    "baerum": "Bærum",
+    "oslo": "Oslo"
   },
   "Faq": {
     "title": "Ofte stilte spørsmål",
     "q1": "Tilbyr du interiørdesign i Eidsberg og Askim?",
     "a1": "Ja, jeg tar oppdrag i Eidsberg, Askim og omegn.",
     "q2": "Jobber du i Akershus og Oslo?",
-    "a2": "Ja, jeg tar oppdrag i Akershus og Oslo, blant annet Ski, Lillestrøm, Moss, Fredrikstad, Sarpsborg og Halden.",
+    "a2": "Ja, jeg tar oppdrag i Indre Østfold, Moss, Sarpsborg, Halden, Drammen, Mjøndalen, Sandvika, Bærum og Oslo.",
     "q3": "Kan du hjelpe med kjøkken og bad?",
     "a3": "Ja, planlegging og styling av kjøkken og bad er en del av tilbudet mitt.",
     "q4": "Tilbyr du hjelp til private hjem og næringslokaler?",
@@ -410,16 +412,18 @@
   "1398": " Besøk profilen min",
   "1399": " Du kan kontakte meg via populære sosiale medier.",
   "1400": "Områder",
-  "1401": "Eidsberg",
-  "1402": "Askim",
-  "1403": "Moss",
-  "1404": "Fredrikstad",
-  "1405": "Sarpsborg",
-  "1406": "Halden",
-  "1407": "Ski",
-  "1408": "Lillestrøm",
-  "1409": "Oslo",
-  "1410": "Akershus",
+  "1401": "Indre Østfold",
+  "1402": "Mysen",
+  "1403": "Askim",
+  "1404": "Eidsberg",
+  "1405": "Moss",
+  "1406": "Sarpsborg",
+  "1407": "Halden",
+  "1408": "Drammen",
+  "1409": "Mjøndalen",
+  "1410": "Sandvika",
+  "1411": "Bærum",
+  "1412": "Oslo",
   "privacy": "Personvern"
 },
 "Nav": {
@@ -429,7 +433,7 @@
   "1499": "Kontakt",
   "1500": "Besøk min profil:",
   "1501": "Tlf",
-  "1502": "Bestill en konsultasjon test"
+  "1502": "Bestill en konsultasjon"
 },
 "Carouselprojects": {
   "1595": "Se prosjekt",
@@ -465,7 +469,7 @@
   "Home": {
 "1799": "Mine prosjekter",
     "1798": "Mitt tilbud",
-    "pageTitle": "Limes Interiør Anna Rasinska – interiørarkitekt i Eidsberg, Akershus og Oslo"
+    "pageTitle": "Limes Interiør Anna Rasinska – interiørarkitekt i Eidsberg, Østfold og Oslo"
    
   },
   "expertness": {
@@ -496,8 +500,8 @@
   },
   "Seo": {
     "home": {
-      "title": "Limes Interiør Anna Rasinska – interiørarkitekt Eidsberg, Akershus og Oslo",
-      "description": "Profesjonelt interiørdesignstudio i Eidsberg. Interiørarkitektur, boligstyling og dekorasjon i Askim, Moss, Ski, Lillestrøm, Oslo og Akershus."
+      "title": "Limes Interiør Anna Rasinska – interiørarkitekt Eidsberg, Østfold og Oslo",
+      "description": "Profesjonelt interiørdesignstudio i Eidsberg. Interiørarkitektur, boligstyling og dekorasjon i Indre Østfold, Moss, Drammen, Sandvika og Oslo."
     },
     "about": {
       "title": "Om meg – Limes Interiør Anna Rasinska",
@@ -505,7 +509,7 @@
     },
     "work": {
       "title": "Prosjekter – Limes Interiør Anna Rasinska",
-      "description": "Se utvalgte interiørprosjekter fra Limes Interiør: boliger, bad, stuer og hjem i Eidsberg, Akershus og Oslo."
+      "description": "Se utvalgte interiørprosjekter fra Limes Interiør: boliger, bad, stuer og hjem i Eidsberg, Østfold og Oslo."
     },
     "contact": {
       "title": "Kontakt – Limes Interiør Anna Rasinska",
@@ -513,7 +517,7 @@
     },
     "expertness": {
       "title": "Tjenester – Limes Interiør Anna Rasinska",
-      "description": "Interiørarkitektur, interiørdekorasjon, home staging og eventdekorasjon i Eidsberg, Akershus og Oslo."
+      "description": "Interiørarkitektur, interiørdekorasjon, home staging og eventdekorasjon i Eidsberg, Østfold og Oslo."
     },
     "studioGdynia": {
       "title": "Liten leilighet Gdynia – Limes Interiør",
@@ -549,15 +553,15 @@
     },
     "interiorArchitecture": {
       "title": "Interiørarkitektur – Limes Interiør Anna Rasinska",
-      "description": "Skreddersydd interiørarkitektur for boliger og næringslokaler i Eidsberg, Akershus og Oslo."
+      "description": "Skreddersydd interiørarkitektur for boliger og næringslokaler i Eidsberg, Østfold og Oslo."
     },
     "decoration": {
       "title": "Interiørdekorasjon – Limes Interiør Anna Rasinska",
-      "description": "Profesjonell interiørdekorasjon for hjem, kontor og butikker i Eidsberg og Akershus."
+      "description": "Profesjonell interiørdekorasjon for hjem, kontor og butikker i Eidsberg og Østfold."
     },
     "homeStaging": {
       "title": "Home staging – Limes Interiør Anna Rasinska",
-      "description": "Boligstyling for salg og utleie i Eidsberg, Akershus og Oslo. Øk verdien på boligen din."
+      "description": "Boligstyling for salg og utleie i Eidsberg, Østfold og Oslo. Øk verdien på boligen din."
     },
     "eventDecoration": {
       "title": "Dekorasjon av arrangementer – Limes Interiør",

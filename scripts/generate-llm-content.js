@@ -5,7 +5,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const SITE = "https://limes-interior.no";
+const SITE = "https://www.limes-interior.no";
 const ROOT = path.join(__dirname, "..");
 const LOCALES_DIR = path.join(ROOT, "public", "locales");
 const AI_DIR = path.join(ROOT, "public", "ai");
@@ -117,7 +117,7 @@ function generateOmMeg(t, lang) {
     no: {
       file: "om-meg-no.md",
       h1: "Anna Rasinska – Limes Interiør",
-      intro: "Originaltekster fra nettsiden (norsk). Interiørarkitekt i Eidsberg, Akershus og Oslo.",
+      intro: "Originaltekster fra nettsiden (norsk). Interiørarkitekt i Eidsberg, Indre Østfold og Oslo.",
       about: "Om meg",
       passion: "Min lidenskap",
       areas: "Områder",
@@ -128,7 +128,7 @@ function generateOmMeg(t, lang) {
     en: {
       file: "om-meg-en.md",
       h1: "Anna Rasinska – Limes Interior",
-      intro: "Original website texts (English). Interior architect in Eidsberg, Akershus and Oslo.",
+      intro: "Original website texts (English). Interior architect in Eidsberg, Indre Østfold and Oslo.",
       about: "About me",
       passion: "My passion",
       areas: "Areas",
@@ -139,7 +139,7 @@ function generateOmMeg(t, lang) {
     pl: {
       file: "om-meg-pl.md",
       h1: "Anna Rasinska – Limes Interior",
-      intro: "Oryginalne teksty ze strony (polski). Architekt wnętrz w Eidsberg, Akershus i Oslo.",
+      intro: "Oryginalne teksty ze strony (polski). Architekt wnętrz w Eidsberg, Indre Østfold i Oslo.",
       about: "O mnie",
       passion: "Pasja",
       areas: "Obszary",
@@ -182,7 +182,7 @@ function generateOmMeg(t, lang) {
   if (t.Footer) {
     md += `## ${labels.footer}\n\n`;
     md += sectionParagraphs(t.Footer)
-      .filter((p) => !["Eidsberg", "Askim", "Moss", "Fredrikstad", "Sarpsborg", "Halden", "Ski", "Lillestrøm", "Oslo", "Akershus", "Personvern"].includes(p))
+      .filter((p) => !["Indre Østfold", "Mysen", "Askim", "Eidsberg", "Moss", "Sarpsborg", "Halden", "Drammen", "Mjøndalen", "Sandvika", "Bærum", "Oslo", "Personvern"].includes(p))
       .join("\n\n") + "\n\n";
   }
 
@@ -235,7 +235,7 @@ function generateProsjekter(t, lang) {
 function generateLlmsTxt() {
   return `# Limes Interiør – Anna Rasinska
 
-> Anna Rasinska er utdannet sivilarkitekt og interiørarkitekt. Limes Interiør holder til i Eidsberg, Akershus, og tar oppdrag i Askim, Moss, Fredrikstad, Sarpsborg, Halden, Ski, Lillestrøm og Oslo.
+> Anna Rasinska er utdannet sivilarkitekt og interiørarkitekt. Limes Interiør holder til i Eidsberg, Østfold, og tar oppdrag i Indre Østfold, Moss, Sarpsborg, Halden, Drammen, Mjøndalen, Sandvika, Bærum og Oslo.
 
 Anna Rasinska spesialiserer seg på interiørarkitektur, interiørdekorasjon, home staging (boligstyling) og dekorasjon av arrangementer for private hjem og næringslokaler.
 
@@ -289,7 +289,7 @@ Polski:
 
 ## Søkeord
 
-interiørarkitekt Eidsberg, interiørarkitekt Askim, interiørarkitekt Akershus, interiørarkitekt Oslo, Anna Rasinska, Limes Interiør, boligstyling, home staging, interiørdesign, interiørdekorasjon
+interiørarkitekt Eidsberg, interiørarkitekt Indre Østfold, interiørarkitekt Askim, interiørarkitekt Oslo, Anna Rasinska, Limes Interiør, boligstyling, home staging, interiørdesign, interiørdekorasjon
 `;
 }
 

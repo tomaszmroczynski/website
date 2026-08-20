@@ -1,0 +1,27 @@
+/* Odwzorowanie Abouthome.js + .col-home z main.scss */
+.section { padding: var(--section-y) var(--container-pad) 0; max-width: var(--container-max); margin: 0 auto; }
+.passion { display: grid; grid-template-columns: 1fr 2fr; gap: var(--space-6); align-items: start; }
+@media (max-width: 860px) { .passion { grid-template-columns: 1fr; gap: var(--space-4); } }
+
+.words { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: center; }
+@media (max-width: 860px) { .words { grid-template-columns: 1fr; gap: var(--space-6); } }
+
+/* Ramka przesunieta wzgledem zdjecia — .col-home .thumb::before w oryginale */
+.thumb { position: relative; width: 80%; }
+.thumb img { height: auto; max-width: 80%; vertical-align: middle; }
+.thumb::before {
+  content: ""; width: 80%; height: 100%; position: absolute;
+  bottom: -10%; right: 10%; border: 10px solid var(--gray-200);
+}
+
+.list { list-style: none; padding: 0; margin: var(--space-4) 0 0; }
+.list li {
+  font-size: 1.1rem; font-weight: var(--weight-regular);
+  padding: 4px 0; margin-bottom: 10px;
+  display: flex; gap: 15px; align-items: baseline;
+  color: var(--text-secondary);
+}
+.list li::before {
+  content: "›"; flex: 0 0 auto;
+  color: var(--brand-accent); font-size: 1.1rem; line-height: 1;
+}
