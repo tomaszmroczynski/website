@@ -1,31 +1,54 @@
 .header {
-  position: sticky; top: 0; z-index: 50;
-  display: flex; align-items: center; justify-content: space-between;
-  gap: var(--space-5);
-  padding: var(--space-4) var(--space-5);
+  position: sticky; top: 0; z-index: var(--z-header);
   background: var(--surface-header);
   border-bottom: 1px solid var(--border-hairline);
+  padding: var(--space-3) var(--space-5);
 }
-.brand { display: flex; align-items: center; gap: var(--space-3); }
-/* width:auto obok height — inaczej next/image ostrzega o zerwanych proporcjach */
+
+/*
+  Skrajne elementy nie rozjezdzaja sie na krawedzie ekranu. Bez tego na
+  szerokim monitorze logo lezalo przy lewej krawedzi, a dane kontaktowe
+  przy prawej, z pustka posrodku.
+*/
+.inner {
+  max-width: 1400px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--space-5);
+}
+
+.brand { display: flex; align-items: center; gap: 10px; }
+/* maly portret obok sygnatury — .portret w oryginalnym Nav.js */
+.portrait { width: auto; height: 46px; }
 .signature { width: auto; height: 34px; }
+
 .nav { display: flex; align-items: center; gap: var(--space-6); }
 .link {
-  font-size: var(--text-sm); letter-spacing: 0.12em; text-transform: uppercase;
+  font-family: var(--font-ui);
+  font-size: var(--text-xs); letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
   padding-bottom: 2px; border-bottom: 1px solid transparent;
-  transition: border-color var(--dur-base) var(--ease-standard);
+  transition: border-color var(--dur-base) var(--ease-out);
 }
 .link:hover, .active { border-bottom-color: var(--brand-accent); }
 .active { color: var(--brand-accent); }
-.contact { display: flex; flex-direction: column; gap: 2px; font-size: var(--text-xs); color: var(--text-muted); }
+
+.contact {
+  display: flex; flex-direction: column; gap: 2px;
+  font-size: var(--text-xs); color: var(--text-muted);
+  text-align: right;
+}
+
 .toggle {
   display: none; background: none; border: 1px solid var(--border-hairline);
   color: inherit; padding: var(--space-2) var(--space-3); cursor: pointer;
-  font: inherit; font-size: var(--text-xs); letter-spacing: 0.12em; text-transform: uppercase;
+  font: inherit; font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wider); text-transform: uppercase;
 }
+
+@media (max-width: 1100px) { .contact { display: none; } }
+
 @media (max-width: 860px) {
   .toggle { display: block; }
-  .contact { display: none; }
   .nav {
     position: absolute; inset: 100% 0 auto 0;
     flex-direction: column; align-items: flex-start; gap: var(--space-4);
