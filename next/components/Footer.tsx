@@ -1,4 +1,5 @@
 import {useTranslations} from "next-intl";
+import Credit from "./Credit";
 import {Link} from "@/i18n/navigation";
 import {AREAS} from "@/lib/content";
 import {CONTACT} from "@/lib/site";
@@ -54,6 +55,7 @@ export default function Footer() {
           {CONTACT.name} · Org.nr {CONTACT.orgnr}
         </span>
         <Link href="/personvern">{t("privacy")}</Link>
+        <Credit />
       </div>
     </footer>
   );
