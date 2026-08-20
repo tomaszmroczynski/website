@@ -346,18 +346,26 @@ img { display: block; max-width: 100%; }
 
 /* ============================================================
    REVEAL — animacja wejscia sekcji
-   Tresc jest widoczna domyslnie. Ukrywa ja dopiero klasa .js na <html>,
-   dodawana skryptem przed pierwszym malowaniem. Dzieki temu brak JS,
-   zablokowany skrypt albo crawler zawsze widza tekst — wczesniej
-   startowal z opacity 0 i zalezal od tego, czy odpali IntersectionObserver.
+
+   Warunkiem jest @media (scripting: enabled), a nie klasa dokladana
+   skryptem. Skutek ten sam — tresc jest widoczna, gdy JavaScriptu nie
+   ma — ale bez znacznika <script> w layoucie, bez niezgodnosci
+   hydratacji na <html> i bez zaleznosci od kolejnosci wykonania.
+
+   Gdy przegladarka nie zna tej cechy, warunek nie jest spelniony
+   i tresc po prostu zostaje widoczna. Chrome 120+, Firefox 119+,
+   Safari 17+.
    ============================================================ */
 .reveal { transition: opacity 1s var(--ease-out), transform 1s var(--ease-out); }
-html.js .reveal { opacity: 0; will-change: opacity, transform; }
-html.js .reveal--up { transform: translateY(28px); }
-html.js .reveal.is-visible { opacity: 1; transform: none; }
+
+@media (scripting: enabled) {
+  .reveal { opacity: 0; will-change: opacity, transform; }
+  .reveal--up { transform: translateY(28px); }
+  .reveal.is-visible { opacity: 1; transform: none; }
+}
 
 @media (prefers-reduced-motion: reduce) {
-  html.js .reveal { opacity: 1; transform: none; }
+  .reveal { opacity: 1; transform: none; }
 }
 
 /* ============================================================
