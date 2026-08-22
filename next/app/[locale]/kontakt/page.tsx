@@ -1,5 +1,6 @@
 import {getTranslations, setRequestLocale} from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
+import Faq from "@/components/Faq";
 import Reveal from "@/components/Reveal";
 import {AREAS} from "@/lib/content";
 import {buildMetadata} from "@/lib/seo";
@@ -50,6 +51,10 @@ export default async function ContactPage({params}: {params: Promise<{locale: Lo
             </ul>
           </aside>
         </div>
+      </Reveal>
+
+      <Reveal effect="fadeInUp">
+        <Faq />
       </Reveal>
     </main>
   );
