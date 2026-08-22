@@ -11,4 +11,14 @@ export const CONTACT = {
   country: "NO",
   phone: "+4794712654",
   email: "studio@limes-interior.no",
+  /**
+   * Wspolrzedne z Kartverket (ws.geonorge.no, EPSG:4258 — dla tego
+   * zastosowania tozsame z WGS84). Nie szacowane z mapy.
+   */
+  lat: 59.511765,
+  lon: 11.310458,
 } as const;
+
+/** Link do map z dokladnym punktem, bez osadzania czegokolwiek obcego. */
+export const MAP_URL =
+  `https://www.google.com/maps/search/?api=1&query=${CONTACT.lat},${CONTACT.lon}`;

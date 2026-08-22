@@ -53,7 +53,9 @@
     "mjondalen": "Mjøndalen",
     "sandvika": "Sandvika",
     "baerum": "Bærum",
-    "oslo": "Oslo"
+    "oslo": "Oslo",
+    "directionsHeading": "Jak dojechać",
+    "directions": "Pokaż trasę w Google Maps"
   },
   "Faq": {
     "title": "Najczęściej zadawane pytania",

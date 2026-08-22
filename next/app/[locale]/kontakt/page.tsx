@@ -4,7 +4,7 @@ import Faq from "@/components/Faq";
 import Reveal from "@/components/Reveal";
 import {AREAS} from "@/lib/content";
 import {buildMetadata} from "@/lib/seo";
-import {CONTACT} from "@/lib/site";
+import {CONTACT, MAP_URL} from "@/lib/site";
 import type {Locale} from "@/i18n/routing";
 import styles from "./page.module.css";
 
@@ -41,6 +41,19 @@ export default async function ContactPage({params}: {params: Promise<{locale: Lo
               </span>
               <span>Org.nr {CONTACT.orgnr}</span>
             </div>
+
+            <div className={styles.blockHeading}>{o("directionsHeading")}</div>
+            <p className={styles.details}>
+              {/*
+                Link zamiast osadzonej mapy. Iframe Google Maps laduje skrypty
+                obcego hosta i ustawia ciasteczka, zanim ktokolwiek go dotknie —
+                zbedne obciazenie CWV i zbedny problem z RODO na stronie, ktora
+                pokazuje jeden punkt.
+              */}
+              <a href={MAP_URL} target="_blank" rel="noopener noreferrer" className="li-btn li-btn--text">
+                {o("directions")}
+              </a>
+            </p>
 
             <div className={styles.blockHeading}>{f("areasHeading")}</div>
             <p>{o("body")}</p>

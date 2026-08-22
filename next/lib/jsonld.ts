@@ -1,5 +1,5 @@
 import {AREAS} from "./content";
-import {CONTACT, SITE_URL} from "./site";
+import {CONTACT, MAP_URL, SITE_URL} from "./site";
 
 /**
  * Strukturerte data. Videreført fra public/index.html i CRA-versjonen,
@@ -31,6 +31,12 @@ export function buildJsonLd() {
           addressRegion: CONTACT.region,
           addressCountry: CONTACT.country,
         },
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: CONTACT.lat,
+          longitude: CONTACT.lon,
+        },
+        hasMap: MAP_URL,
         areaServed: AREAS.map((a) => ({"@type": a.type, name: a.name})),
         sameAs: [
           "https://www.facebook.com/limesinterior.annarasinska/",

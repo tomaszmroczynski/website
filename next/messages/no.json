@@ -53,7 +53,9 @@
     "mjondalen": "Mjøndalen",
     "sandvika": "Sandvika",
     "baerum": "Bærum",
-    "oslo": "Oslo"
+    "oslo": "Oslo",
+    "directionsHeading": "Slik finner du meg",
+    "directions": "Vis veibeskrivelse i Google Maps"
   },
   "Faq": {
     "title": "Ofte stilte spørsmål",
